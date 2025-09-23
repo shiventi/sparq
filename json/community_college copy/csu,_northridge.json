@@ -1,0 +1,2721 @@
+{
+    "output": [
+        {
+            "subject": "African American Studies",
+            "courses": [
+                {
+                    "sjsu_course": "AFAM 002A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AFAM 002B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AFAM 022",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AFAM 040",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Anthropology",
+            "courses": [
+                {
+                    "sjsu_course": "ANTH 011",
+                    "equivalents": [
+                        "ANTH 152"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANTH 012",
+                    "equivalents": [
+                        "ANTH 151"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANTH 013",
+                    "equivalents": [
+                        "ANTH 153"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANTH 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Art and Art History",
+            "courses": [
+                {
+                    "sjsu_course": "ART 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 013",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 014",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 024",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 026",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 039",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 046",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 047",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 061",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 068",
+                    "equivalents": [
+                        "Art 235"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 074",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ART 075",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ARTH 011",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ARTH 070A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ARTH 070B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ARTH 070C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ARTH 072",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHOT 040",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Aviation",
+            "courses": [
+                {
+                    "sjsu_course": "AVIA 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 002",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 031",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 042",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 043",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 062",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 068",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 073",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AVIA 091",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Biological Sciences",
+            "courses": [
+                {
+                    "sjsu_course": "BIOL 010",
+                    "equivalents": [
+                        "BIOL 100"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 021",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 030",
+                    "equivalents": [
+                        "&&BIOL 106",
+                        "BIOL 106L",
+                        "BIOL 107",
+                        "BIOL 107L"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 031",
+                    "equivalents": [
+                        "&&BIOL 106",
+                        "BIOL 106L",
+                        "BIOL 107",
+                        "BIOL 107L"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 055",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 065",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 065O",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BIOL 066",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MICR 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Business",
+            "courses": [
+                {
+                    "sjsu_course": "BUS1 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS1 020N",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS1 021",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS1 170",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS2 090",
+                    "equivalents": [
+                        "||MATH 140",
+                        "MATH 140BUS",
+                        "MATH 140SCI",
+                        "MATH 141L"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS2 130",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS3 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS3 080",
+                    "equivalents": [
+                        "BLAW 280"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS4 091L",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "BUS4 092",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Chemistry",
+            "courses": [
+                {
+                    "sjsu_course": "CHEM 001A",
+                    "equivalents": [
+                        "&&Chem 101",
+                        "Chem 101L"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 001B",
+                    "equivalents": [
+                        "&&Chem 102",
+                        "Chem 102L"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 008",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 009",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 030A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 030B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 55 and 55L",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHEM 112A, 112B and 113A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "Chemistry for Nursing Equivalent Transfer Course",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Chicano and Chicana Studies",
+            "courses": [
+                {
+                    "sjsu_course": "CCS 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CCS 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CCS 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Communication Studies",
+            "courses": [
+                {
+                    "sjsu_course": "COMM 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "COMM 020",
+                    "equivalents": [
+                        "||Coms 151",
+                        "AAS 151",
+                        "CHS 151",
+                        "AFRS 151",
+                        "CAS 151"
+                    ]
+                },
+                {
+                    "sjsu_course": "COMM 040",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "COMM 041",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "COMM 045",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "COMM 074",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Comparative Religious Studies",
+            "courses": [
+                {
+                    "sjsu_course": "RELS 070",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RELS 090",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RELS 099",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Computer Science",
+            "courses": [
+                {
+                    "sjsu_course": "CS 022A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 022B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 046A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 046B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 047",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 049C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CS 049J",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Design",
+            "courses": [
+                {
+                    "sjsu_course": "ANI 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 011",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 013",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 021",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 031",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 041",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 061",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ANI 071",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSGD 063",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSGD 083",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSGD 099",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 005",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 029",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 033",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 034",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DSIT 083",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Economics",
+            "courses": [
+                {
+                    "sjsu_course": "ECON 001A",
+                    "equivalents": [
+                        "ECON 161"
+                    ]
+                },
+                {
+                    "sjsu_course": "ECON 001B",
+                    "equivalents": [
+                        "ECON 160"
+                    ]
+                },
+                {
+                    "sjsu_course": "ECON 003",
+                    "equivalents": [
+                        "||MATH 140",
+                        "MATH 140BUS",
+                        "MATH 140SCI",
+                        "MATH 141L"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Education",
+            "courses": [
+                {
+                    "sjsu_course": "CHAD 060",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHAD 070",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHAD 080",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "EDSE 014A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "EDSE 014B",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Engineering",
+            "courses": [
+                {
+                    "sjsu_course": "AE 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "AE 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CE 008",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CE 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CE 095",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CE 099",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CMPE 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CMPE 050",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "EE 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "EE 097",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "EE 098",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGR 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATE 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ME 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ME 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ME 041",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "English and Comparative Literature",
+            "courses": [
+                {
+                    "sjsu_course": "ENGL 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 002",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 022",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 040",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 050",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 060",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 070",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 071",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENGL 078",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Environmental Studies",
+            "courses": [
+                {
+                    "sjsu_course": "ENVS 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ENVS 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Film and Theatre",
+            "courses": [
+                {
+                    "sjsu_course": "RTVF 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RTVF 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RTVF 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RTVF 031",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RTVF 080",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RTVF 082",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 005",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 011",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 017",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 048",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 051A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 051B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 051C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TA 064",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Geography",
+            "courses": [
+                {
+                    "sjsu_course": "GEOG 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOG 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOG 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Geology",
+            "courses": [
+                {
+                    "sjsu_course": "GEOL 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOL 002",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOL 003",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOL 004L",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOL 007",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GEOL 028",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Global Studies",
+            "courses": [
+                {
+                    "sjsu_course": "GLST 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "History",
+            "courses": [
+                {
+                    "sjsu_course": "HIST 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HIST 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HIST 010A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HIST 010B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HIST 020A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HIST 020B",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Hospitality Management",
+            "courses": [
+                {
+                    "sjsu_course": "HSPM 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HSPM 011",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HSPM 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HSPM 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "Hospitality Major Elective/s Equivalent Transfer Course/s",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Journalism and Mass Communications",
+            "courses": [
+                {
+                    "sjsu_course": "ADV 091",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JOUR 061",
+                    "equivalents": [
+                        "Jour 110"
+                    ]
+                },
+                {
+                    "sjsu_course": "JOUR 095",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MCOM 063",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MCOM 070",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MCOM 072",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PR 099",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Justice Studies",
+            "courses": [
+                {
+                    "sjsu_course": "FS 011",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JS 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JS 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JS 015",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JS 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Kinesiology",
+            "courses": [
+                {
+                    "sjsu_course": "KIN 001",
+                    "equivalents": [
+                        "KIN 115A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 002A",
+                    "equivalents": [
+                        "KIN 177A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 002B",
+                    "equivalents": [
+                        "KIN 178A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 002C",
+                    "equivalents": [
+                        "KIN 179A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 003",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 008",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 009A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 011A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 014A",
+                    "equivalents": [
+                        "KIN 195A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 014B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 014C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 015A",
+                    "equivalents": [
+                        "KIN 124A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 015B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 019A",
+                    "equivalents": [
+                        "KIN 152A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 019B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 020A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 020B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 020C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 021A",
+                    "equivalents": [
+                        "KIN 185A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 021B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 023A",
+                    "equivalents": [
+                        "KIN 123A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 023B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 024A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 024B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 027A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 027B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 028A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 029",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 030",
+                    "equivalents": [
+                        "KIN 147"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 031",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 032",
+                    "equivalents": [
+                        "KIN 135A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 034",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 035A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 035B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 037",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 038",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 040A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 041A",
+                    "equivalents": [
+                        "KIN 139A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 042A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 045A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 046A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 047A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 048A",
+                    "equivalents": [
+                        "KIN 142A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 049A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 050",
+                    "equivalents": [
+                        "KIN 133A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 051A",
+                    "equivalents": [
+                        "KIN 132A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 051B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 052A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 052B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 052C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 053A",
+                    "equivalents": [
+                        "KIN 130A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 053B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 054A",
+                    "equivalents": [
+                        "KIN 131A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 055A",
+                    "equivalents": [
+                        "KIN 151A"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 061A",
+                    "equivalents": [
+                        "KIN 149"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 061B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 063A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 069",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "KIN 070",
+                    "equivalents": [
+                        "KIN 200"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Linguistics and Language Development",
+            "courses": [
+                {
+                    "sjsu_course": "LING 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Mathematics",
+            "courses": [
+                {
+                    "sjsu_course": "MATH 012",
+                    "equivalents": [
+                        "MATH 210"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 018A",
+                    "equivalents": [
+                        "MATH 102"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 018B",
+                    "equivalents": [
+                        "MATH 105"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 019",
+                    "equivalents": [
+                        "&&MATH 102",
+                        "MATH 105"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 030",
+                    "equivalents": [
+                        "MATH 150A"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 031",
+                    "equivalents": [
+                        "MATH 150B"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 032",
+                    "equivalents": [
+                        "MATH 250"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 033A",
+                    "equivalents": [
+                        "MATH 280"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 033LA",
+                    "equivalents": [
+                        "&&MATH 262",
+                        "MATH 280"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 039",
+                    "equivalents": [
+                        "MATH 262"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 042",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 050",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 070",
+                    "equivalents": [
+                        "MATH 103"
+                    ]
+                },
+                {
+                    "sjsu_course": "MATH 071",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Meteorology",
+            "courses": [
+                {
+                    "sjsu_course": "METR 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "METR 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "METR 050",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "METR 051",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "METR 061",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Music and Dance",
+            "courses": [
+                {
+                    "sjsu_course": "DANC 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 040A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 042A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 043",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 048A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 049A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 051A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 051B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 053",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 054",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "DANC 075",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 002A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 002B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 003A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 003B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 004A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 004B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 006",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 009",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 010A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 010B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 013",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 019",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 025C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 026A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 027A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 027B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 028",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 033",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 034",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 035",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 036",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 037",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 039A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 040A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 050A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 051",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 052",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 053",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 054",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 055",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 057",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 059",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060D",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060E",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060F",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060H",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060I",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060J",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060K",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060L",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "MUSC 060M",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Nutrition and Food Science",
+            "courses": [
+                {
+                    "sjsu_course": "NUFS 008",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 009",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 012",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 020",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 021",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 022",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "NUFS 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Philosophy",
+            "courses": [
+                {
+                    "sjsu_course": "PHIL 009",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 057",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 061",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 066",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 070A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 070B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHIL 186",
+                    "equivalents": [
+                        "PHIL 305"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Physics",
+            "courses": [
+                {
+                    "sjsu_course": "PHYS 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHYS 002A",
+                    "equivalents": [
+                        "&&Phys 100A",
+                        "Phys 100AL"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHYS 002B",
+                    "equivalents": [
+                        "&&Phys 100B",
+                        "Phys 100BL"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHYS 050",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHYS 051",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PHYS 052",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Political Science",
+            "courses": [
+                {
+                    "sjsu_course": "POLS 001",
+                    "equivalents": [
+                        "Pols 155"
+                    ]
+                },
+                {
+                    "sjsu_course": "POLS 002",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "POLS 003",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "POLS 004",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Psychology and Statistics",
+            "courses": [
+                {
+                    "sjsu_course": "PSYC 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PSYC 018",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PSYC 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "STAT 095",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Public Health & Recreation",
+            "courses": [
+                {
+                    "sjsu_course": "PH 001",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PH 015",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PH 067",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PH 099",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RECL 090",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "RECL 097",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Social Work",
+            "courses": [
+                {
+                    "sjsu_course": "SCWK 010",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Sociology",
+            "courses": [
+                {
+                    "sjsu_course": "SOCI 001",
+                    "equivalents": [
+                        "Soc 150"
+                    ]
+                },
+                {
+                    "sjsu_course": "SOCI 015",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SOCI 080",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "Technology",
+            "courses": [
+                {
+                    "sjsu_course": "TECH 020A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 025",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 030",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 031",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 041",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 045",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 046",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 060",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 062",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 063",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 065",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 066",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 067",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "TECH 068",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "University Studies",
+            "courses": [
+                {
+                    "sjsu_course": "UNVS 015",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        },
+        {
+            "subject": "World Languages and Literatures",
+            "courses": [
+                {
+                    "sjsu_course": "CHIN 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHIN 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHIN 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "CHIN 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "FREN 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "FREN 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "FREN 025A, 025B, and 025C",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GERM 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GERM 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GERM 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "GERM 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HEBR 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HEBR 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HEBR 015A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "HEBR 015B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ITAL 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "ITAL 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JPN 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JPN 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JPN 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "JPN 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PORT 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "PORT 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 003",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 004A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 004B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 020A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 020B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 025A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "SPAN 025B",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "VIET 001A",
+                    "equivalents": [
+                        "None"
+                    ]
+                },
+                {
+                    "sjsu_course": "VIET 001B",
+                    "equivalents": [
+                        "None"
+                    ]
+                }
+            ]
+        }
+    ]
+}

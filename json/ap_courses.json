@@ -1,0 +1,331 @@
+[
+  {
+    "code": "African_American_Studies",
+    "name": "African American Studies",
+    "units": 6,
+    "sjsu_courses": [["AFAM 2A", "AFAM 2B"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Art_History",
+    "name": "Art History",
+    "units": 6,
+    "sjsu_courses": [["ARTH 70A", "ARTH 70B"]],
+    "satisfies": [["||Areas 3A", "3B"]]
+  },
+  {
+    "code": "Biology",
+    "name": "Biology",
+    "units": 6,
+    "sjsu_courses": [["BIOL 10"]],
+    "satisfies": [["Area 5B", "5C"]]
+  },
+  {
+    "code": "Calculus_AB",
+    "name": "Calculus AB",
+    "units": 3,
+    "sjsu_courses": [["MATH 30"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "Calculus_BC",
+    "name": "Calculus BC",
+    "units": 7,
+    "sjsu_courses": [["MATH 30", "MATH 31"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "Calculus_BC_AB_Subscore",
+    "name": "Calculus BC/AB Subscore",
+    "units": 3,
+    "sjsu_courses": [["MATH 30"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "Chemistry",
+    "name": "Chemistry",
+    "units": 6,
+    "sjsu_courses": [["CHEM 30A"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "Chinese_Language_Culture",
+    "name": "Chinese Language & Culture",
+    "units": 6,
+    "sjsu_courses": [["CHIN 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Comparative_Govt_Politics",
+    "name": "Comparative Govt & Politics",
+    "units": 3,
+    "sjsu_courses": [["POLS 2"]],
+    "satisfies": [["Area 4"]]
+  },
+  {
+    "code": "Computer_Science_A",
+    "name": "Computer Science A",
+    "units": 3,
+    "sjsu_courses": [["CS 46A"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Computer_Science_Principles",
+    "name": "Computer Science Principles",
+    "units": 3,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "English_Language_and_Composition_3",
+    "name": "English Language and Composition",
+    "units": 6,
+    "sjsu_courses": [["ENGL 1A"]],
+    "satisfies": [["Area 1A"]]
+  },
+  {
+    "code": "English_Language_and_Composition_4_5",
+    "name": "English Language and Composition",
+    "units": 6,
+    "sjsu_courses": [["ENGL 1A", "ENGL 1B"]],
+    "satisfies": [["Area 1A", "3B"]]
+  },
+  {
+    "code": "English_Literature_and_Composition_3",
+    "name": "English Literature and Composition",
+    "units": 6,
+    "sjsu_courses": [["ENGL 1A", "ENGL 10"]],
+    "satisfies": [["Area 1A", "3B"]]
+  },
+  {
+    "code": "English_Literature_and_Composition_4_5",
+    "name": "English Literature and Composition",
+    "units": 6,
+    "sjsu_courses": [["ENGL 1A", "ENGL 1B"]],
+    "satisfies": [["Area 1A", "3B"]]
+  },
+  {
+    "code": "English_Literature_and_Composition_4_5_request",
+    "name": "English Literature and Composition",
+    "units": 6,
+    "sjsu_courses": [["ENGL 1A", "ENGL 10"]],
+    "satisfies": [["Area 1A", "3B"]]
+  },
+  {
+    "code": "Environmental_Science",
+    "name": "Environmental Science",
+    "units": 4,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "European_History",
+    "name": "European History",
+    "units": 6,
+    "sjsu_courses": [["HIST 10A", "HIST 10B"]],
+    "satisfies": [["||Areas 3B", "4"]]
+  },
+  {
+    "code": "French_Language_Culture",
+    "name": "French Language & Culture",
+    "units": 6,
+    "sjsu_courses": [["FREN 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "German_Language_Culture",
+    "name": "German Language & Culture",
+    "units": 6,
+    "sjsu_courses": [["GERM 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Human_Geography",
+    "name": "Human Geography",
+    "units": 3,
+    "sjsu_courses": [["GEOG 10"]],
+    "satisfies": [["Area 4"]]
+  },
+  {
+    "code": "Italian_Language_Culture",
+    "name": "Italian Language & Culture",
+    "units": 6,
+    "sjsu_courses": [["ITAL 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Japanese_Language_Culture",
+    "name": "Japanese Language & Culture",
+    "units": 6,
+    "sjsu_courses": [["JPN 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Latin",
+    "name": "Latin",
+    "units": 6,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Macroeconomics",
+    "name": "Macroeconomics",
+    "units": 3,
+    "sjsu_courses": [["ECON 1A"]],
+    "satisfies": [["Area 4"]]
+  },
+  {
+    "code": "Microeconomics",
+    "name": "Microeconomics",
+    "units": 3,
+    "sjsu_courses": [["ECON 1B"]],
+    "satisfies": [["Area 4"]]
+  },
+  {
+    "code": "Music_Theory",
+    "name": "Music Theory",
+    "units": 6,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Music_Theory_Aural_Subscore",
+    "name": "Music Theory - Aural Subscore",
+    "units": 0,
+    "sjsu_courses": [["No Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Music_Theory_Non_Aural_Subscore",
+    "name": "Music Theory - Non Aural Subscore",
+    "units": 0,
+    "sjsu_courses": [["No Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Physics_1",
+    "name": "Physics 1",
+    "units": 4,
+    "sjsu_courses": [["PHYS 2A"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "Physics_2",
+    "name": "Physics 2",
+    "units": 4,
+    "sjsu_courses": [["PHYS 2B"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "Physics_C_Elec_Mag",
+    "name": "Physics C, Elec & Mag",
+    "units": 4,
+    "sjsu_courses": [["PHYS 51"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "Physics_C_Mechanics",
+    "name": "Physics C, Mechanics",
+    "units": 4,
+    "sjsu_courses": [["PHYS 50"]],
+    "satisfies": [["Area 5A", "5C"]]
+  },
+  {
+    "code": "Precalculus",
+    "name": "Precalculus",
+    "units": 5,
+    "sjsu_courses": [["MATH 19"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "Psychology",
+    "name": "Psychology",
+    "units": 3,
+    "sjsu_courses": [["PSYC 1"]],
+    "satisfies": [["Area 4"]]
+  },
+  {
+    "code": "Research",
+    "name": "Research",
+    "units": 0,
+    "sjsu_courses": [["No Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Seminar",
+    "name": "Seminar",
+    "units": 3,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Spanish_Language_Culture",
+    "name": "Spanish Language and Culture",
+    "units": 6,
+    "sjsu_courses": [["SPAN 1A"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Spanish_Literature_Culture",
+    "name": "Spanish Literature and Culture",
+    "units": 6,
+    "sjsu_courses": [["SPAN 1B"]],
+    "satisfies": [["Area 3B"]]
+  },
+  {
+    "code": "Statistics",
+    "name": "Statistics",
+    "units": 3,
+    "sjsu_courses": [["STAT 95"], ["SOCI 15"], ["PH 67"]],
+    "satisfies": [["Area 2"]]
+  },
+  {
+    "code": "Studio_Art_2D_Design",
+    "name": "Studio Art, 2D Design",
+    "units": 3,
+    "sjsu_courses": [["ART 12"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Studio_Art_3D_Design",
+    "name": "Studio Art, 3D Design",
+    "units": 3,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "Studio_Art_Drawing",
+    "name": "Studio Art, Drawing",
+    "units": 3,
+    "sjsu_courses": [["ART 24"]],
+    "satisfies": [[null]]
+  },
+  {
+    "code": "US_Govt_Politics",
+    "name": "U.S. Govt & Politics",
+    "units": 3,
+    "sjsu_courses": [["Elective Credit"]],
+    "satisfies": [["Area 4", "US 2"]]
+  },
+  {
+    "code": "US_History",
+    "name": "U.S. History",
+    "units": 6,
+    "sjsu_courses": [["HIST 20A", "HIST 20B"]],
+    "satisfies": [["||Areas 3B", "4"], ["US 1"]]
+  },
+  {
+    "code": "World_History",
+    "name": "World History",
+    "units": 6,
+    "sjsu_courses": [["HIST 1A", "HIST 1B"]],
+    "satisfies": [["||Areas 3B", "4"]]
+  },
+  {
+    "code": "World_History_Modern",
+    "name": "World History Modern",
+    "units": 3,
+    "sjsu_courses": [["HIST 1B"]],
+    "satisfies": [["||Areas 3B", "4"]]
+  }
+]

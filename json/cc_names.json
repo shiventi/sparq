@@ -1,0 +1,582 @@
+[
+    {
+        "name": "Allan Hancock Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/HANCOCK/course-to-course.html"
+    },
+    {
+        "name": "American River College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/AMRIVER/course-to-course.html"
+    },
+    {
+        "name": "Antelope Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/ANTELOPE/course-to-course.html"
+    },
+    {
+        "name": "Bakersfield College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/BAKERSFIELD/course-to-course.html"
+    },
+    {
+        "name": "Barstow College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/BARSTOW/course-to-course.html"
+    },
+    {
+        "name": "Berkeley City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/BCITY/course-to-course.html"
+    },
+    {
+        "name": "Butte College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/BUTTE/course-to-course.html"
+    },
+    {
+        "name": "Cabrillo College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CABRILLO/course-to-course.html"
+    },
+    {
+        "name": "California Polytechnic University, Humboldt",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/HUMBOLDT/course-to-course.html"
+    },
+    {
+        "name": "Canada College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CANADA/course-to-course.html"
+    },
+    {
+        "name": "Cerritos College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CERRITOS/course-to-course.html"
+    },
+    {
+        "name": "Cerro Coso College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CERRO/course-to-course.html"
+    },
+    {
+        "name": "Chabot College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CHABOT/course-to-course.html"
+    },
+    {
+        "name": "Chaffey College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CHAFFEY/course-to-course.html"
+    },
+    {
+        "name": "Citrus Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CITRUS/course-to-course.html"
+    },
+    {
+        "name": "City College of San Francisco",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SFCITY/course-to-course.html"
+    },
+    {
+        "name": "Clovis Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CLOVIS/course-to-course.html"
+    },
+    {
+        "name": "Coastline College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/COASTLINE/course-to-course.html"
+    },
+    {
+        "name": "College of Alameda",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/ALAMEDA/course-to-course.html"
+    },
+    {
+        "name": "College of Marin",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MARIN/course-to-course.html"
+    },
+    {
+        "name": "College of San Mateo",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SMATEO/course-to-course.html"
+    },
+    {
+        "name": "College of the Canyons",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CANYONS/course-to-course.html"
+    },
+    {
+        "name": "College of the Desert",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/DESERT/course-to-course.html"
+    },
+    {
+        "name": "College of the Redwoods",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/REDWOODS/course-to-course.html"
+    },
+    {
+        "name": "College of the Sequoias",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SEQUOIAS/course-to-course.html"
+    },
+    {
+        "name": "College of the Siskiyous",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SISKIYOUS/course-to-course.html"
+    },
+    {
+        "name": "Columbia College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/COLUMBIA/course-to-course.html"
+    },
+    {
+        "name": "Compton College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/COMPTON/course-to-course.html"
+    },
+    {
+        "name": "Contra Costa College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CCOSTA/course-to-course.html"
+    },
+    {
+        "name": "Copper Mountain College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/COPPER/course-to-course.html"
+    },
+    {
+        "name": "Cosumnes River College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/COSUMNES/course-to-course.html"
+    },
+    {
+        "name": "Crafton Hills College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CRAFTON/course-to-course.html"
+    },
+    {
+        "name": "CSU, Bakersfield",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUBAKERS/course-to-course.html"
+    },
+    {
+        "name": "CSU, Channel Islands",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUCHANNEL/course-to-course.html"
+    },
+    {
+        "name": "CSU, Chico",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUCHICO/course-to-course.html"
+    },
+    {
+        "name": "CSU, Dominguez Hills",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUDOMINGUEZ/course-to-course.html"
+    },
+    {
+        "name": "CSU, East Bay",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUHAYWARD/course-to-course.html"
+    },
+    {
+        "name": "CSU, Fresno",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUFRESNO/course-to-course.html"
+    },
+    {
+        "name": "CSU, Fullerton",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUFULLERTON/course-to-course.html"
+    },
+    {
+        "name": "CSU, Long Beach",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSULONGBEACH/course-to-course.html"
+    },
+    {
+        "name": "CSU, Los Angeles",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSULA/course-to-course.html"
+    },
+    {
+        "name": "CSU, Monterey Bay",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUMONTEREY/course-to-course.html"
+    },
+    {
+        "name": "CSU, Northridge",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUNRIDGE/course-to-course.html"
+    },
+    {
+        "name": "CSU, Pomona",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUPOMONA/course-to-course.html"
+    },
+    {
+        "name": "CSU, Sacramento",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUSACTO/course-to-course.html"
+    },
+    {
+        "name": "CSU, San Bernardino",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUSBERN/course-to-course.html"
+    },
+    {
+        "name": "CSU, San Luis Obispo",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUSLO/course-to-course.html"
+    },
+    {
+        "name": "CSU, San Marcos",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUSANMARCOS/course-to-course.html"
+    },
+    {
+        "name": "CSU, Stanislaus",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CSUSTANIS/course-to-course.html"
+    },
+    {
+        "name": "Cuesta College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CUESTA/course-to-course.html"
+    },
+    {
+        "name": "Cuyamaca College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CUYAMACA/course-to-course.html"
+    },
+    {
+        "name": "Cypress College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/CYPRESS/course-to-course.html"
+    },
+    {
+        "name": "DeAnza College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/DEANZA/course-to-course.html"
+    },
+    {
+        "name": "Diablo Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/DIABLO/course-to-course.html"
+    },
+    {
+        "name": "East Los Angeles College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/ELANGELES/course-to-course.html"
+    },
+    {
+        "name": "El Camino College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/ELCAMINO/course-to-course.html"
+    },
+    {
+        "name": "Evergreen Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/EVERGREEN/course-to-course.html"
+    },
+    {
+        "name": "Feather River College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/FEATHER/course-to-course.html"
+    },
+    {
+        "name": "Folsom Lake College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/FOLSOM/course-to-course.html"
+    },
+    {
+        "name": "Foothill College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/FOOTHILL/course-to-course.html"
+    },
+    {
+        "name": "Fresno City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/FRESNO/course-to-course.html"
+    },
+    {
+        "name": "Fullerton College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/FULLERTON/course-to-course.html"
+    },
+    {
+        "name": "Gavilan College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/GAVILAN/course-to-course.html"
+    },
+    {
+        "name": "Glendale Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/GLENDALE/course-to-course.html"
+    },
+    {
+        "name": "Golden West College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/GWEST/course-to-course.html"
+    },
+    {
+        "name": "Grossmont College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/GROSSMONT/course-to-course.html"
+    },
+    {
+        "name": "Hartnell College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/HARTNELL/course-to-course.html"
+    },
+    {
+        "name": "Imperial Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/IMPERIAL/course-to-course.html"
+    },
+    {
+        "name": "Irvine Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/IRVINE/course-to-course.html"
+    },
+    {
+        "name": "Lake Tahoe Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/TAHOE/course-to-course.html"
+    },
+    {
+        "name": "Laney College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LANEY/course-to-course.html"
+    },
+    {
+        "name": "Las Positas College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LPOSITAS/course-to-course.html"
+    },
+    {
+        "name": "Lassen College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LASSEN/course-to-course.html"
+    },
+    {
+        "name": "Long Beach City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LONGBEACH/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LACITY/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Harbor College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LAHARBOR/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Mission College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LAMISSION/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Pierce College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LAPIERCE/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Southwest College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LASOUTHWEST/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Trade Technical College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LATRADE/course-to-course.html"
+    },
+    {
+        "name": "Los Angeles Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LAVALLEY/course-to-course.html"
+    },
+    {
+        "name": "Los Medanos College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/LOSMEDANOS/course-to-course.html"
+    },
+    {
+        "name": "Madera Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MADERA/course-to-course.html"
+    },
+    {
+        "name": "Mendocino College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MENDOCINO/course-to-course.html"
+    },
+    {
+        "name": "Merced College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MERCED/course-to-course.html"
+    },
+    {
+        "name": "Merritt College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MERRITT/course-to-course.html"
+    },
+    {
+        "name": "Miracosta College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MIRACOSTA/course-to-course.html"
+    },
+    {
+        "name": "Mission College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MISSION/course-to-course.html"
+    },
+    {
+        "name": "Modesto Junior College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MODESTO/course-to-course.html"
+    },
+    {
+        "name": "Monterey Peninsula College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MPC/course-to-course.html"
+    },
+    {
+        "name": "Moorpark College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MOORPARK/course-to-course.html"
+    },
+    {
+        "name": "Moreno Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/MORENO/course-to-course.html"
+    },
+    {
+        "name": "Mount San Antonio College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SANANTONIO/course-to-course.html"
+    },
+    {
+        "name": "Mount San Jacinto College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SANJACINTO/course-to-course.html"
+    },
+    {
+        "name": "Napa Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/NAPA/course-to-course.html"
+    },
+    {
+        "name": "Norco College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/NORCO/course-to-course.html"
+    },
+    {
+        "name": "Ohlone College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/OHLONE/course-to-course.html"
+    },
+    {
+        "name": "Orange Coast College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/ORANGE/course-to-course.html"
+    },
+    {
+        "name": "Oxnard College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/OXNARD/course-to-course.html"
+    },
+    {
+        "name": "Palo Verde College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/PALOVERDE/course-to-course.html"
+    },
+    {
+        "name": "Palomar College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/PALOMAR/course-to-course.html"
+    },
+    {
+        "name": "Pasadena City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/PASADENA/course-to-course.html"
+    },
+    {
+        "name": "Porterville College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/PORTERVILLE/course-to-course.html"
+    },
+    {
+        "name": "Reedley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/REEDLEY/course-to-course.html"
+    },
+    {
+        "name": "Rio Hondo College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/RIOHONDO/course-to-course.html"
+    },
+    {
+        "name": "Riverside City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/RIVERSIDE/course-to-course.html"
+    },
+    {
+        "name": "Sacramento City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SACTO/course-to-course.html"
+    },
+    {
+        "name": "Saddleback College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SADDLEBACK/course-to-course.html"
+    },
+    {
+        "name": "San Bernardino Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SBERN/course-to-course.html"
+    },
+    {
+        "name": "San Diego City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SDCITY/course-to-course.html"
+    },
+    {
+        "name": "San Diego Mesa College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SDMESA/course-to-course.html"
+    },
+    {
+        "name": "San Diego Miramar College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SDMIRAMAR/course-to-course.html"
+    },
+    {
+        "name": "San Diego State University",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SDSTATE/course-to-course.html"
+    },
+    {
+        "name": "San Francisco State University",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SFSTATE/course-to-course.html"
+    },
+    {
+        "name": "San Joaquin Delta College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/DELTA/course-to-course.html"
+    },
+    {
+        "name": "San Jose City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SJCITY/course-to-course.html"
+    },
+    {
+        "name": "Santa Ana College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SANTAANA/course-to-course.html"
+    },
+    {
+        "name": "Santa Barbara City College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SBARBARA/course-to-course.html"
+    },
+    {
+        "name": "Santa Monica College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SMONICA/course-to-course.html"
+    },
+    {
+        "name": "Santa Rosa Junior College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SROSA/course-to-course.html"
+    },
+    {
+        "name": "Santiago Canyon College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SCANYON/course-to-course.html"
+    },
+    {
+        "name": "Shasta College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SHASTA/course-to-course.html"
+    },
+    {
+        "name": "Sierra College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SIERRA/course-to-course.html"
+    },
+    {
+        "name": "Skyline College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SKYLINE/course-to-course.html"
+    },
+    {
+        "name": "Solano Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SOLANO/course-to-course.html"
+    },
+    {
+        "name": "Sonoma State University",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SONOMA/course-to-course.html"
+    },
+    {
+        "name": "Southwestern College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/SOUTHWESTERN/course-to-course.html"
+    },
+    {
+        "name": "Taft College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/TAFT/course-to-course.html"
+    },
+    {
+        "name": "University of California, Berkeley",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCBERKELEY/course-to-course.html"
+    },
+    {
+        "name": "University of California, Davis",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCDAVIS/course-to-course.html"
+    },
+    {
+        "name": "University of California, Irvine",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCI/course-to-course.html"
+    },
+    {
+        "name": "University of California, Los Angeles",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCLA/course-to-course.html"
+    },
+    {
+        "name": "University of California, Merced",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCMERCED/course-to-course.html"
+    },
+    {
+        "name": "University of California, Riverside",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCR/course-to-course.html"
+    },
+    {
+        "name": "University of California, San Diego",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCSANDIEGO/course-to-course.html"
+    },
+    {
+        "name": "University of California, Santa Barbara",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCSB/course-to-course.html"
+    },
+    {
+        "name": "University of California, Santa Cruz",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/UCSANTACRUZ/course-to-course.html"
+    },
+    {
+        "name": "Ventura College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/VENTURA/course-to-course.html"
+    },
+    {
+        "name": "Victor Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/VICTOR/course-to-course.html"
+    },
+    {
+        "name": "West Hills College - Coalinga",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/WESTHILLSC/course-to-course.html"
+    },
+    {
+        "name": "West Hills College - Lemoore",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/WESTHILLSL/course-to-course.html"
+    },
+    {
+        "name": "West Los Angeles College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/WESTLA/course-to-course.html"
+    },
+    {
+        "name": "West Valley College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/WVALLEY/course-to-course.html"
+    },
+    {
+        "name": "Woodland Community College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/WOODLAND/course-to-course.html"
+    },
+    {
+        "name": "Yuba College",
+        "link": "https://transfer.sjsu.edu/web-dbgen/artic/YUBA/course-to-course.html"
+    }
+]

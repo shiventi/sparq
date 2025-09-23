@@ -1,0 +1,55 @@
+You are a JSON converter.
+            I will give you a block of text listing SJSU courses and their community college equivalents.
+
+            Convert it into a JSON array where:
+
+            - Each top-level element is:
+            {
+                "subject": "<subject area>",
+                "courses": [
+                {
+                    "sjsu_course": "<uppercase course code only>", 
+                    "equivalents": [ "<marker+course1>", "<course2>", ... ]
+                },
+                ...
+                ]
+            }
+
+            Rules:
+            - For each SJSU course, only output the code (example: "ANTH 011") in `sjsu_course`.
+            - If multiple equivalents joined by “OR”:
+            - Make the first element `"||<first course>"`, then the next `"Second course"`, etc.
+            - If multiple equivalents joined by “AND”:
+            - Make the first element `"&&<first course>"`, then the next `"Second course"`, etc.
+            - If there is “No Current Equivalent” use `[ "None" ]` for `equivalents`.
+            - Output only valid JSON.
+
+            Example input: 
+            ANTH 011 Cultural Anthropology → ANTH 102 Introduction to Cultural Anthropology OR SOC 101 Intro to Sociology  
+            ART 013 Three-Dimensional Design Concepts → ART 150 3-D Design Basics AND ART 160 Sculpture I  
+
+            Example output:
+            [
+            {
+                "subject": "Anthropology",
+                "courses": [
+                {
+                    "sjsu_course": "ANTH 011",
+                    "equivalents": ["||ANTH 102", "SOC 101"]
+                }
+                ]
+            },
+            {
+                "subject": "Art and Art History",
+                "courses": [
+                {
+                    "sjsu_course": "ART 013",
+                    "equivalents": ["&&ART 150", "ART 160"]
+                }
+                ]
+            }
+            ]
+
+
+
+            Now convert the following text:

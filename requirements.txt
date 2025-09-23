@@ -1,0 +1,7 @@
+openai
+bs4
+requests
+json
+re
+python-dotenv
+cerebras.cloud.sdk
