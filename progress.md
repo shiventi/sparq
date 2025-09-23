@@ -4,6 +4,7 @@
 - Found error in the community college course articulation scraper. 
   - Fix was as simple as changing the list index from 5 to 1
 - Ran the fixed script and generated all the JSON articalation files
+- Created Git Repo and pushed edits
 
 ## SEPT 21, 2025
 - Finished script on community college course articulation scraper and created a AI class for simple calling
