@@ -4,6 +4,7 @@
 - Updated the FourYearPlan class to get the url from the sjsu_majors.json
 - Use AI model to automatically parse the classes. 
 - Generated all the four year plans for all SJSU majors.
+- Created ge_courses.json that has a list of all SJSU GE courses
 
 ## SEPT 23, 2025
 - Added a new class (FourYearPlan) and method to get the 4 year roadmaps
