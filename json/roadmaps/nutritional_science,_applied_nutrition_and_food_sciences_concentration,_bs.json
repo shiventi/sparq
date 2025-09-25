@@ -1,0 +1,235 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CHEM_1A",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_OR_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "NUFS_21",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "NUFS_31",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CHEM_30B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "NUFS_8",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "NUFS_40",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": [
+                "||PH_67",
+                "STAT_95"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "PHYS_1",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3B_US_1_OR_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Concentration_Course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "BIOL_66",
+            "units": 5
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Concentration_Course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Concentration_Course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "NUFS_20",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NUFS_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NUFS_101A",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NUFS_103",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NUFS_106A",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "PKG_107",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "NUFS_106B",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "NUFS_111",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "NUFS_134",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "NUFS_151",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Concentration_Courses",
+            "units": 6
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "NUFS_144",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Concentration_Courses",
+            "units": 11
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "NUFS_139",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "NUFS_192",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Concentration_Courses",
+            "units": 9
+        }
+    ]
+}

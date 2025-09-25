@@ -1,0 +1,308 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ARTH_15",
+                "DANC_10",
+                "MUSC_10A"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "DANC_43",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "DANC_54",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "DANC_75",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "DANC_54",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "DANC_145A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": [
+                "||DANC_54",
+                "DANC_154A"
+            ],
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "DANC_145B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DANC_51A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DANC_51B",
+            "units": 0.5
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DANC_145C",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DANC_154A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": [
+                "||MUSC_100W",
+                "TA_100W"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DANC_12",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DANC_112",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DANC_144A",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": [
+                "||DANC_154A",
+                "DANC_154B"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "DANC_51B",
+            "units": 0.5
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "DANC_102",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||DANC_154A",
+                "DANC_154B"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Upper_Division_Humanities_Arts_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "DANC_150A",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "DANC_194",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "DANC_194",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_4",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "DANC_147A",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "DANC_150B",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "DANC_198",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        }
+    ]
+}

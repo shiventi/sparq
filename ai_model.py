@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class AIModel:
-    def call_model(self, system_prompt, message, output_mode = "json", filename=None, model="qwen-3-coder-480b", output_size=150000):
-        api_key = os.getenv("API_KEY")
+    def call_model(self, system_prompt, message, output_mode = "json", api_key_val = "API_KEY", filename=None, model="qwen-3-coder-480b", output_size=150000):
+        api_key = os.getenv(api_key_val)
         if not api_key:
             raise ValueError("API_KEY environment variable not set")
         client = Cerebras(api_key=api_key)

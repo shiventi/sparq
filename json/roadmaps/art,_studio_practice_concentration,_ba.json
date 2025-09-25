@@ -1,0 +1,285 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "ART_1",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "ART_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_12",
+                "ART_15"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "ART_13",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "ART_24",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "ART_74",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "PHOT_40",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "ART_68",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": [
+                "||ARTH_70A",
+                "ARTH_70B",
+                "ARTH_70C"
+            ],
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "ART_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_4",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Upper_Division_Humanities_Arts_Elective",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "ART_3",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||ARTH_193A",
+                "ARTH_193B"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Major_Area_Focus_Course_1",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": [
+                "||ARTH_110",
+                "ARTH_191A"
+            ],
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Major_Area_Focus_Course_2",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": [
+                "||ART_197",
+                "PHOT_120",
+                "PHOT_197"
+            ],
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Area_Focus_Course_3",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Area_Focus_Course_4",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        }
+    ]
+}

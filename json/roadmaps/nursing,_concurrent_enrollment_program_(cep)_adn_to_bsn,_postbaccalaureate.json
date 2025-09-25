@@ -1,0 +1,106 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "EVCC_Associate_Degree_in_Nursing_courses",
+            "units": 9
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "NURS_100WE",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "EVCC_Associate_Degree_in_Nursing_Courses",
+            "units": 9
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "NURS_171",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "EVCC_Associate_Degree_in_Nursing_courses",
+            "units": 9
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "NURS_112",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "University_Elective",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "EVCC_Associate_Degree_in_Nursing_courses",
+            "units": 9
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "NURS_178A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Graduate_from_EVCC",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate_from_SJSU",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NURS_113",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NURS_172R",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NURS_173",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "NURS_177A",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Winter",
+            "name": "Pass_NCLEX_RN",
+            "units": 20
+        }
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GEOG_3",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GEOG_4",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "STAT_95",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GEOG_70",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GEOG_171",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Recommend_SSCI_101",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GEOG_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GEOG_107",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_4",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GEOG_103",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GEOG_172",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GEOG_181",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||GEOG_187",
+                "URBP_148"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_3",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GEOG_173",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GEOG_178",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GEOG_182",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GEOG_199",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GEOG_175",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GEOG_195",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "RELS_70",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "HUM_80",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Thoughts_Texts_and_Images_Elective",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "HUM_95",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "University_Elective",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Religions_and_Cultures_Elective",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Comparative_Course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "HUM_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "HUM_101",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Thoughts_Texts_and_Images_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "American_Studies_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Comparative_Course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Comparative_Course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Traditions_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "HUM_160",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Religions_and_Cultures_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Upper_Division_Humanities_Arts_Elective",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "HUM_190",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Traditions_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_or_Minor_Course",
+            "units": 2
+        }
+    ]
+}

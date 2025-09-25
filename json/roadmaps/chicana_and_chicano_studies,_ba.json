@@ -1,0 +1,265 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CCS_1",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CCS_10A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CCS_40",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CCS_10B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_Course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CCS_135",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CCS_151",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": [
+                "||SOCI_100W",
+                "AFAM_100W"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "CCS_150",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_UD_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_UD_Area_4",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "CCS_125",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_UD_Area_3",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Upper_Division_Chicana_and_Chicano_Studies_course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "CCS_190",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        }
+    ]
+}

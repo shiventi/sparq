@@ -1,0 +1,387 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Applied_Lessons",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Ensemble_Course_Lower_Division",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MUSC_1A",
+            "units": 2
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MUSC_1B",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MUSC_13",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MUSC_25A",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Applied_Lessons",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Ensemble_Course_Lower_Division",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MUSC_2A",
+            "units": 2
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MUSC_2B",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MUSC_19",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MUSC_25B",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Applied_Course_Lesson",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Ensemble_Course",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MUSC_3A",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MUSC_3B",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MUSC_25C",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MUSC_40A",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Applied_Lesson",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Ensemble_Lower_Division",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "MUSC_4A",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "MUSC_4B",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "MUSC_6",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Ensemble_Course_Upper_Division",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_27A",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_106A",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_110",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_139A",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MUSC_170A",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Ensemble_Course_Upper_Division",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_12",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_27B",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_106B",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_111",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_139B",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "MUSC_140B",
+            "units": 2
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Ensemble_Course_Upper_Division",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "MUSC_104",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "MUSC_120",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "MUSC_139C",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "MUSC_167",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Ensemble_Course_Upper_Division",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_3",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "MUSC_102",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "MUSC_139D",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "MUSC_140C",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": [
+                "||MUSC_60F_ENS_Small_Jazz_Ensembles",
+                "MUSC_60I_ENS_Jazz_Ensemble",
+                "MUSC_160D_ENS_Collegium_Musicum",
+                "MUSC_160I_ENS_Jazz_Ensemble"
+            ],
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "MUSC_182",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 2
+        }
+    ]
+}

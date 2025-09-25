@@ -1,0 +1,259 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "EE_30",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "ENGR_10",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MATH_30",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CHEM_1A",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "ENGL_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MATH_31",
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "PHYS_50",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MATH_32",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "PHYS_51",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "EE_97",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "EE_98",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "MATH_33LA",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "PHYS_52",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "EE_110",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "EE_110L",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "EE_112",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "EE_118",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "MATE_153",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "EE_120",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "EE_122",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "EE_128",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "EE_140",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "ENGR_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "EE_102",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "EE_124",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": [
+                "||EE_132",
+                "EE_160"
+            ],
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "EE_198A",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "ENGR_195A",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Upper_Division_Technical_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "EE_198B",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "ENGR_195B",
+            "units": 1
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Technical_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Technical_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Technical_Elective",
+            "units": 3
+        }
+    ]
+}

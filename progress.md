@@ -1,5 +1,13 @@
 # sparq Progress
 
+## SEPT 24, 2025
+- Updated the FourYearPlan class to get the url from the sjsu_majors.json
+- Use AI model to automatically parse the classes. 
+- Generated all the four year plans for all SJSU majors.
+
+## SEPT 23, 2025
+- Added a new class (FourYearPlan) and method to get the 4 year roadmaps
+
 ## SEPT 22, 2025
 - Found error in the community college course articulation scraper. 
   - Fix was as simple as changing the list index from 5 to 1

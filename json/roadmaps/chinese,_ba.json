@@ -1,0 +1,247 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_1A",
+                "ENGL_1AS"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CHIN_25A",
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CHIN_25B",
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "CHIN_101A",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "CHIN_101B",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "FORL_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CHIN_140",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Major_Elective",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Second_Foreign_Language_Requirement",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_4",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Second_Foreign_Language_Requirement",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Major_Elective",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Second_Foreign_Language_Requirement",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Major_Elective",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Humanities_Arts_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        }
+    ]
+}

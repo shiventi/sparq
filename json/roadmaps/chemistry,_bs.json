@@ -1,0 +1,256 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "CHEM_1A",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "MATH_30",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CHEM_1B",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MATH_31",
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "PHYS_50",
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "ENGL_1B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "CHEM_55",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "CHEM_112A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "MATH_32",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "PHYS_51",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "CHEM_55L",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "CHEM_112B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "CHEM_113A",
+            "units": 2
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "CHEM_120S",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "PHYS_52",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CHEM_113B",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CHEM_145",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CHEM_161A",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "CHEM_191",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "CHEM_100W",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "CHEM_130A",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "CHEM_161B",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "CHEM_170A",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "CHEM_105",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "CHEM_162L",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "PHIL_133",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Science_Upper_Division_Electives",
+            "units": 5
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_UD_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "CHEM_146",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "CHEM_155",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Science_Upper_Division_Electives",
+            "units": 5
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GE_UD_Area_4",
+            "units": 3
+        }
+    ]
+}

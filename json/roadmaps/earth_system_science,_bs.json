@@ -1,0 +1,248 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||GEOL_1",
+                "GEOL_3_AND_GEOL_4L",
+                "GEOL_7",
+                "GEOL_9"
+            ],
+            "units": 4
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "University_Elective",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "CHEM_1A",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GEOL_5",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GEOL_28",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "MATH_19",
+            "units": 5
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_1B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "BIOL_10",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "STAT_95",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_3A",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GEOL_142",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": [
+                "||PHYS_2A",
+                "PHYS_50"
+            ],
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GEOL_130",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GEOL_134",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GEOL_137",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GEOL_111",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GEOL_138",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||Any_100W_METR_100W_ENVS_100W_PHYS_100W"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "University_Elective",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_3_4_METR_168A",
+            "units": 6
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GEOL_145",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Major_Elective_GEOL_124",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Major_Elective_METR_155",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Major_or_University_Elective",
+            "units": 3
+        }
+    ]
+}

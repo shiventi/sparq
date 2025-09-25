@@ -1,0 +1,298 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ARTH_70A",
+                "ARTH_70B",
+                "ARTH_70C"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "DSIT_10",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "DSIT_29",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1A",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "DSIT_5",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "DSIT_83",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": [
+                "||ENVS_1",
+                "PHIL_57"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_5A_/_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_-_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "ARTH_72",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "DSIT_33",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "DSIT_34",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DSIT_100",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DSIT_102",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "DSIT_103",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Any_100W_(Recommended_DSGN_100W_-_Writing_Workshop:_Design)",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DSIT_101",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DSIT_104",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "DSIT_106",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Complete_the_Upper_Division_Writing_-_Directed_-_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||ARTH_160",
+                "ARTH_161"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "DSIT_105",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||DSIT_107",
+                "DSIT_108",
+                "ART_168",
+                "ART_173"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "DSGN_127",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_Area_5B_/_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": [
+                "||DSIT_107",
+                "DSIT_108",
+                "ART_168",
+                "ART_173"
+            ],
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "DSIT_110",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_2/5",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "GE_Upper_Division_Area_4",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "Upper_Division_Humanities_&_Arts_Elective",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": [
+                "||DSIT_109",
+                "ART_147",
+                "ART_193"
+            ],
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "DSIT_111",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "DSIT_112",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_3",
+            "units": 3
+        }
+    ]
+}

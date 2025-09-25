@@ -1,0 +1,276 @@
+{
+    "output": [
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_1A",
+                "ENGL_1AF"
+            ],
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_1C",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_3B",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_4_US_1_or_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Fall",
+            "name": "GE_Area_5A_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "ENGL_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_2",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_4_US_2_3",
+            "units": 3
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": "GE_Area_5B_5C",
+            "units": "3-4"
+        },
+        {
+            "year": 1,
+            "semester": "Spring",
+            "name": [
+                "||ART_44HA",
+                "DSGN_44HA",
+                "ENGL_44HA",
+                "HUM_44HA",
+                "PHIL_44HA"
+            ],
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_50",
+                "ENGL_70"
+            ],
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "ENGL_71",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Foreign_Language_Major_Requirement",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "GE_Area_6",
+            "units": 3
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 2,
+            "semester": "Fall",
+            "name": "Complete_Upper_Division_Writing_Directed_Self_Placement",
+            "units": 0
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "ENGL_60",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "Foreign_language_major_requirement",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 4
+        },
+        {
+            "year": 2,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_130",
+                "ENGL_131",
+                "ENGL_133",
+                "ENGL_135"
+            ],
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_50",
+                "ENGL_70"
+            ],
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "ENGL_100W",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Upper_Division_Humanities_Arts_Elective",
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Fall",
+            "name": "Physical_Education",
+            "units": 1
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||ENGL_130",
+                "ENGL_131",
+                "ENGL_133",
+                "ENGL_135"
+            ],
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": [
+                "||ENGL_144",
+                "ENGL_145"
+            ],
+            "units": 4
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "GE_Upper_Division_Area_2_5",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Literature_for_Global_Understanding_Course",
+            "units": 3
+        },
+        {
+            "year": 3,
+            "semester": "Spring",
+            "name": "Apply_to_Graduate",
+            "units": 0
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "American_Literature_Ethnicity_Course",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": [
+                "||ENGL_130",
+                "ENGL_131",
+                "ENGL_133",
+                "ENGL_135"
+            ],
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "ENGL_125",
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Fall",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": [
+                "||ENGL_130",
+                "ENGL_131",
+                "ENGL_133",
+                "ENGL_135"
+            ],
+            "units": 4
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 3
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "University_Elective_Lower_or_Upper_Division",
+            "units": 2
+        },
+        {
+            "year": 4,
+            "semester": "Spring",
+            "name": "Upper_Division_Major_Elective",
+            "units": 4
+        }
+    ]
+}

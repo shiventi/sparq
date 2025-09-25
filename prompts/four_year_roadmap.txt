@@ -1,0 +1,169 @@
+SYSTEM INSTRUCTIONS
+
+You are given a four-year SJSU course roadmap in free-text form.
+Your task is to output only one valid JSON array.
+Do not include any explanations, notes, comments, or text outside the JSON array.
+If you are unsure about something, make the safest possible assumption following these rules.
+
+OUTPUT FORMAT
+
+Each element in the JSON array is one roadmap item:
+
+{
+  "year": 1,
+  "semester": "Fall",
+  "name": "ADV_91",
+  "units": 3
+}
+
+
+year: Integer 1, 2, 3, 4 based on roadmap header (“Year 1”, “Year 2” …).
+
+semester: "Fall" or "Spring" depending on roadmap header.
+
+name:
+
+Always uppercase course codes, replace spaces and special characters with underscores (e.g., “ADV 91” → "ADV_91", “GE Area 1A” → "GE_Area_1A").
+
+If the line is an elective, use "Art_Elective", "JMC_Elective", "Upper_Division_Humanities_Arts_Elective_Course", etc. Use underscores to join words.
+
+For “University Elective – Lower or Upper Division” write "University_Elective_Lower_or_Upper_Division".
+
+For generic non-course actions like “Apply for the Agency” or “Apply to Graduate” set "name" to "Apply_for_the_Agency" or "Apply_to_Graduate" and "units": 0.
+
+units:
+
+Integer unit count if a single number is shown.
+
+If a range appears (like “3-4 unit(s)”), store as a string "3-4" (be consistent for all ranges).
+
+If no units listed for an action item, always use "units": 0.
+
+MULTIPLE OPTIONS (“AND” / “OR”)
+
+If a course listing shows multiple options separated by “or”, return as an array.
+Prefix the first element with "||" to indicate OR:
+
+"name": ["||ART_44HA","DSGN_44HA","ENGL_44HA","HUM_44HA","PHIL_44HA"]
+
+
+If a course listing shows multiple options separated by “and”, return as an array.
+Prefix the first element with "&&" to indicate AND:
+
+"name": ["&&MATH_30","PHYS_50"]
+
+
+For “one course from:”, “choose from:”, “select one:” apply the same rule as for OR.
+
+GENERAL RULES
+
+Every course, elective, or action is its own object in the JSON array.
+
+Keep the original order (year by year, semester by semester).
+
+Ignore asterisks or notes unless they are part of the course name (“GE Area 3A*” still → "GE_Area_3A").
+
+Do not merge two different items into one.
+
+Never include comments, footnotes, roadmap notes, or explanations outside of "name" and "units".
+
+Never output anything except the JSON array. No headings, no “Here is your JSON”, no backticks.
+
+EXAMPLES
+
+Input snippet:
+
+Year 1
+Fall Semester (15 units)
+ADV 91 - Introduction to Advertising 3 unit(s)
+GE Area 1A 3 unit(s)
+GE Area 2 3 unit(s)*
+GE Area 4 + US 1 or US 2-3 3 unit(s)*
+One course from: ART 44HA , DSGN 44HA , ENGL 44HA , HUM 44HA , or PHIL 44HA - Design Your Life 3 unit(s)
+Spring Semester (16 units)
+GE Area 1B 3 unit(s)*
+Physical Education 1 unit*
+
+
+Output JSON:
+
+[
+  {
+    "year": 1,
+    "semester": "Fall",
+    "name": "ADV_91",
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Fall",
+    "name": "GE_Area_1A",
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Fall",
+    "name": "GE_Area_2",
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Fall",
+    "name": "GE_Area_4_US_1_or_US_2_3",
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Fall",
+    "name": ["||ART_44HA","DSGN_44HA","ENGL_44HA","HUM_44HA","PHIL_44HA"],
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Spring",
+    "name": "GE_Area_1B",
+    "units": 3
+  },
+  {
+    "year": 1,
+    "semester": "Spring",
+    "name": "Physical_Education",
+    "units": 1
+  }
+]
+
+
+Another Input snippet:
+
+Spring Semester (15 units)
+Apply to Graduate
+Apply for the Agency
+ADV 94 - Design Fundamentals for Advertising 2 3 unit(s)
+
+
+Output JSON:
+
+[
+  {
+    "year": 3,
+    "semester": "Spring",
+    "name": "Apply_to_Graduate",
+    "units": 0
+  },
+  {
+    "year": 3,
+    "semester": "Spring",
+    "name": "Apply_for_the_Agency",
+    "units": 0
+  },
+  {
+    "year": 3,
+    "semester": "Spring",
+    "name": "ADV_94",
+    "units": 3
+  }
+]
+
+
+Follow these rules exactly for every roadmap you are given.
+Return only the JSON array and nothing else.

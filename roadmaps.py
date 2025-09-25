@@ -6,20 +6,28 @@ import requests
 import time
 from scraper import *
 
-class CourseArticulationJSON:
+class Roadmap:
     def __init__(self, filename):
         with open(filename, "r") as f:
             self.data = json.load(f)
         
-    def course_aritculation_to_file(self):
-        CALL_AI_MODEL = AIModel()
+    def roadmaps_to_file(self):
+        GENERATE = AIModel()
         
         for i in range(0, len(self.data)):
             link_url = self.data[i]["link"]
-            lowercase_file_name = self.data[i]["name"].lower().replace(" ", "_")
-            scrape = CCCourseScraper()
-            output = scrape.find_articulation_table(link_url)
-            #print(output)
+            lowercase_file_name = self.data[i]["major"].lower().replace(" ", "_")
+            scrape = FourYearPlan()
+            output = scrape.find_four_year_plan(link_url)
+            
+            # print()
+            # print()
+            # print(lowercase_file_name.upper())
+            # print()
+            # print()
+            # print()
+            # print()
+            # print(output)
 
 
 
@@ -44,22 +52,18 @@ class CourseArticulationJSON:
 
             # #with open("json/"+str(lowercase_file_name)+".json", "w") as j:
 
-            with open("prompts/course_articulation_prompt.txt", "r") as txt:
+            with open("prompts/four_year_roadmap.txt", "r") as txt:
                 content = txt.read()
                 
-                
-            CALL_AI_MODEL.call_model(
+            GENERATE.call_model(
             system_prompt=str(content), 
             message=output, 
-            api_key="API_KEY",
-            filename="json/community_college/"+str(lowercase_file_name)+".json")
-
-                
-
+            api_key_val="SECOND_API_KEY",
+            filename="json/roadmaps/"+str(lowercase_file_name)+".json")
 
             
             print("FINISHED: " + "json/"+str(lowercase_file_name)+".json")
-            time.sleep(10)
+            time.sleep(2)
             # print(current_content_string)
             # print(lowercase_file_name)
             # print()
@@ -75,5 +79,5 @@ class CourseArticulationJSON:
 
 
 
-call = CourseArticulationJSON("json/cc_names.json")
-call.course_aritculation_to_file()
+call = Roadmap("json/sjsu_majors.json")
+call.roadmaps_to_file()
