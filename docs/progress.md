@@ -2,7 +2,7 @@
 
 ## SEPT 25, 2025
 - Fixed ge_courses.json to correctly include courses that satisfy multiple GE areas.
-  - Update ge_courses.json area key was all caps, changed to lowercase to keep consistency
+  - Updated the ge_courses.json file by changing the 'area' values from uppercase to lowercase for consistency.
 - Created unique_course_id.py to see what courses have not been mapped yet.
   - Made an update to unique_course_id.py to make sure it includes the areas key in ge_courses.json
 - Found all the courses that SJSU offers and saved it.
