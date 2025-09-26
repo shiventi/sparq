@@ -43,38 +43,52 @@ for i in range(0,len(data)):
 with open("json/ge_courses.json", "r") as ge:
     courses = json.load(ge)
 
-
 ge_courses_list = []
 
 
 for i in range(0, len(courses)):
-    if type(courses[i]["course"]) == list:
-        for z in courses[i]["course"]:
+    # check area instead of course
+    if type(courses[i]["area"]) == list:
+        for z in courses[i]["area"]:
             if z in ge_courses_list:
                 pass
             else:
                 ge_courses_list.append(z)
                 # print(z)
-    
     else:
-        if courses[i]["course"] in ge_courses_list:
+        if courses[i]["area"] in ge_courses_list:
             pass
         else:
-            ge_courses_list.append(courses[i]["course"])
-            # print(courses[i]["course"])
+            ge_courses_list.append(courses[i]["area"])
+            # print(courses[i]["area"])
 
-print()
-print()
 
 #print(ge_courses_list)
 
+
 final_unknown_areas = []
+
+
+with open("json/all_sjsu_courses.json", "r") as all_courses:
+    final_file = json.load(all_courses)
+
+
+all_sjsu_courses = []
+
+
+for i in range(0, len(final_file)):
+    all_sjsu_courses.append(final_file[i]["title"])
 
 
 for j in range(0, len(list_of_unique_words)):
     if list_of_unique_words[j] in ge_courses_list:
         pass
+    elif list_of_unique_words[j] in all_sjsu_courses:
+        pass
+    elif list_of_unique_words[j] in final_unknown_areas:
+        pass
     else:
         final_unknown_areas.append(list_of_unique_words[j])
+
 
 print(final_unknown_areas)

@@ -2,8 +2,11 @@
 
 ## SEPT 25, 2025
 - Fixed ge_courses.json to correctly include courses that satisfy multiple GE areas.
-- Created unique_course_id to see what courses have not been mapped yet.
+  - Update ge_courses.json area key was all caps, changed to lowercase to keep consistency
+- Created unique_course_id.py to see what courses have not been mapped yet.
+  - Made an update to unique_course_id.py to make sure it includes the areas key in ge_courses.json
 - Found all the courses that SJSU offers and saved it.
+- Created extra_scripts directory to hold all console logs for easy access. 
 
 ## SEPT 24, 2025
 - Updated the FourYearPlan class to get the url from the sjsu_majors.json
