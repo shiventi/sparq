@@ -1,1459 +1,1561 @@
 [
   {
-    "area": "GE_AREA_1A",
-    "title": "Written Communication I",
-    "course": "ENGL_1A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1A",
-    "title": "Written Communication I",
-    "course": "ENGL_1AS",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "ANTH_13",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "COMM_41",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "COMM_45",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "COMM_74",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "ENGL_2",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "ENVS_1",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "HIST_50",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "HUM_11",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "HUM_80",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "LING_21",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "LING_24",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "NUFS_40",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "PHIL_57",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1B",
-    "title": "Critical Thinking and Writing",
-    "course": "POLS_20",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_1C",
+    "area": ["GE_AREA_A1"],
     "title": "Oral Communication",
     "course": "CCS_74",
     "units": 3
   },
   {
-    "area": "GE_AREA_1C",
+    "area": ["GE_AREA_A1"],
     "title": "Oral Communication",
     "course": "COMM_20",
     "units": 3
   },
   {
-    "area": "GE_AREA_1C",
+    "area": ["GE_AREA_A1"],
     "title": "Oral Communication",
     "course": "COMM_20EL",
     "units": 3
   },
   {
-    "area": "GE_AREA_1C",
+    "area": ["GE_AREA_A1"],
     "title": "Oral Communication",
     "course": "COMM_40",
     "units": 3
   },
   {
-    "area": "GE_AREA_1C",
+    "area": ["GE_AREA_A1"],
     "title": "Oral Communication",
     "course": "HUM_10",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "CHAD_80",
+    "area": ["GE_AREA_A2"],
+    "title": "Written Communication I",
+    "course": "ENGL_1A",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "CS_22A",
+    "area": ["GE_AREA_A2"],
+    "title": "Written Communication I",
+    "course": "ENGL_1AS",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_1",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "ANTH_13",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_9",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "COMM_41",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_10A",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "COMM_45",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_10D",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "ENGL_2",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_10P",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "ENVS_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_15",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "HIST_50",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_18A",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "HUM_11",
     "units": 3
   },
   {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_19",
-    "units": 5
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "ESM_26",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "JS_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "LING_26",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_10A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_10D",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_10P",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_12",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_18A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_19",
-    "units": 5
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_30",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_31",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_32",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_70",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "MATH_71",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "NUFS_41",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "PH_67",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "PHIL_9",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "SOCI_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "SOCS_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "STAT_95",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_2",
-    "title": "Mathematics Concepts and Quantitative Reasoning",
-    "course": "UNVS_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "AMS_12",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ARTH_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ARTH_70A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ARTH_70B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ARTH_70C",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ARTH_72",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ASIA_19",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ASIA_30",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ASIA_70C",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "CA_95",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "DANC_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "ENGL_71",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "FORL_30",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "HUM_20",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "KIN_68",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_4A",
-    "units": 2
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_4B",
-    "units": 1
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_10A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_10B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_10C",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_10D",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "MUSC_19",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "PHIL_66",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "RTVF_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "TA_5",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "TA_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3A",
-    "title": "Arts",
-    "course": "TA_55",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "AMS_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "CHIN_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "CHIN_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "CHIN_25A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "CHIN_25B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_1B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_20",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_21",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_22",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_30",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_40",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ENGL_78",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "FREN_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "FREN_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "FREN_25A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "FREN_25B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "GERM_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "GERM_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "GERM_25A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "GERM_25B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "HEBR_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "HEBR_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "HUM_21",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "HUM_90",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ITAL_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "ITAL_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JPN_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JPN_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JPN_25A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JPN_25B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JWSS_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JWSS_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "JWSS_90",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "LSTP_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "MDES_90",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "MUSC_12",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PHIL_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PHIL_61",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PHIL_70A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PHIL_70B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PHIL_70E",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "POLS_3",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "POLS_16",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PORT_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "PORT_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RELS_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RELS_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RELS_70",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RELS_90",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RUSS_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "RUSS_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_20A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_20B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_25A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "SPAN_25B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "TA_13",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "TAG_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "TAG_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "VIET_1A",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_3B",
-    "title": "Humanities",
-    "course": "VIET_1B",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "AAS_33A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "AAS_33B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "AFAM_2A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "AFAM_2B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "AMS_11",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "ANTH_11",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CCS_10A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CCS_10B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CHAD_70",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CHAD_75",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CHAD_76",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "COMM_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "COMM_21",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "CS_25",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "ECON_1B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "ENGR_25",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "GEOG_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "GEOG_12",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "GERO_99",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HIST_1A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HIST_1B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HIST_10A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HIST_10B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HIST_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "HUM_99",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "JOUR_50",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "JS_25",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "HUM_80",
     "units": 3
   },
   {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "LING_20",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "LING_21",
     "units": 3
   },
   {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
     "course": "LING_24",
     "units": 3
   },
   {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "LING_25",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "PHIL_57",
     "units": 3
   },
   {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "PH_15",
+    "area": ["GE_AREA_A3"],
+    "title": "Critical Thinking and Writing",
+    "course": "POLS_20",
     "units": 3
   },
   {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "PH_21",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "PH_99",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "POLS_2",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "POLS_4",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "POLS_15",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "PSYC_1",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "RELS_99",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "SOCI_1",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "SOCI_80",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "WGSS_10",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "WGSS_16A",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "WGSS_16B",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_4",
-    "title": "Social and Behavioral Sciences",
-    "course": "WGSS_20",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_5A",
+    "area": ["GE_AREA_B1"],
     "title": "Physical Science",
     "course": "ASTR_10",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
-    "course": "CHE_1",
-    "units": 4
-  },
-  {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Chemistry",
     "course": "CHEM_1A",
     "units": 5
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Chemistry",
     "course": "CHEM_1B",
     "units": 5
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Introductory Chemistry",
     "course": "CHEM_30A",
-    "units": 4
+    "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Science of High Technology",
     "course": "ENGR_5",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Physical Geography",
     "course": "GEOG_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Geology",
     "course": "GEOL_1",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Planet Earth",
     "course": "GEOL_3",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
-    "course": "GEOL_5",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Geology of California",
     "course": "GEOL_6",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Earth, Time and Life",
+    "course": "GEOL_7",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Earth Disasters",
+    "course": "GEOL_9",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_B1"],
+    "title": "Weather and Climate",
     "course": "METR_10",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Global Warming: Science and Solutions",
     "course": "METR_12",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Physical Science of Food",
     "course": "NUFS_1A",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Elementary Physics",
     "course": "PHYS_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Fundamentals of Physics",
     "course": "PHYS_2A",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Fundamentals of Physics",
     "course": "PHYS_2B",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1"],
+    "title": "Animation Physics",
     "course": "PHYS_23",
     "units": 3
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Physics I: Mechanics",
     "course": "PHYS_50",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Physics II: Electricity and Magnetism",
     "course": "PHYS_51",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "General Physics III: Waves, Light, Heat",
     "course": "PHYS_52",
     "units": 4
   },
   {
-    "area": "GE_AREA_5A",
-    "title": "Physical Science",
-    "course": "SCED_5",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "Introduction to Human Evolution",
     "course": "ANTH_12",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "The Living World",
     "course": "BIOL_10",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Ecological Biology",
     "course": "BIOL_20",
-    "units": 4
+    "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Human Biology",
     "course": "BIOL_21",
-    "units": 4
+    "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Principles of Biology I",
     "course": "BIOL_30",
     "units": 4
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B1", "GE_AREA_B3"],
+    "title": "Principles of Biology II",
     "course": "BIOL_31",
     "units": 4
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Human Anatomy",
     "course": "BIOL_65",
     "units": 4
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Human Anatomy",
     "course": "BIOL_65O",
     "units": 4
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "Human Physiology",
     "course": "BIOL_66",
     "units": 5
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "Life on a Changing Planet",
     "course": "ENVS_10",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "The Age of the Dinosaurs",
     "course": "GEOL_8",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "Introduction to Global Studies",
     "course": "GLST_1B",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2", "GE_AREA_B3"],
+    "title": "General Bacteriology",
     "course": "MICR_20",
     "units": 5
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
+    "area": ["GE_AREA_B2"],
+    "title": "Science, Physiology, and Nutrition",
     "course": "NUFS_16",
     "units": 3
   },
   {
-    "area": "GE_AREA_5B",
-    "title": "Life Science",
-    "course": "PH_52",
-    "units": 3
-  },
-  {
-    "area": "GE_AREA_5C_LAB",
-    "title": "Laboratory",
-    "course": "ASTR_11L",
-    "units": 1
-  },
-  {
-    "area": "GE_AREA_5C_LAB",
-    "title": "Laboratory",
+    "area": ["GE_AREA_B3"],
+    "title": "Field Studies in Natural History",
     "course": "BIOL_150",
     "units": "1-2"
   },
   {
-    "area": "GE_AREA_5C_LAB",
-    "title": "Laboratory",
-    "course": "CHEM_5",
-    "units": 1
-  },
-  {
-    "area": "GE_AREA_5C_LAB",
-    "title": "Laboratory",
+    "area": ["GE_AREA_B3"],
+    "title": "Earth Systems Lab",
     "course": "GEOL_4L",
     "units": 1
   },
   {
-    "area": "GE_AREA_5C_LAB",
-    "title": "Laboratory",
+    "area": ["GE_AREA_B3"],
+    "title": "Field Studies in Natural History",
     "course": "GEOL_150",
     "units": "1-2"
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_B4"],
+    "title": "Quantitative Analysis in Developmental Science",
+    "course": "CHAD_80",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Python for Everyone",
+    "course": "CS_22A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematical Reasoning",
+    "course": "ESM_1",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics and Logic for General Education",
+    "course": "ESM_9",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics in Art and Music",
+    "course": "ESM_10A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Probability, Data Science, Ethics, and You",
+    "course": "ESM_10D",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics in Politics",
+    "course": "ESM_10P",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Statway: Statistics-Concepts & Methods",
+    "course": "ESM_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "College Algebra",
+    "course": "ESM_18A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Precalculus",
+    "course": "ESM_19",
+    "units": 5
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Introductory Statistics in Justice Studies",
+    "course": "JS_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Quantitative Reasoning in Linguistic Diversity",
+    "course": "LING_26",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematical Reasoning",
+    "course": "MATH_1",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics for General Education",
+    "course": "MATH_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics in Art and Music",
+    "course": "MATH_10A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Probability, Data Science, Ethics, and You",
+    "course": "MATH_10D",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics in Politics",
+    "course": "MATH_10P",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Number Systems",
+    "course": "MATH_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Statway: Statistics-Concepts & Methods",
+    "course": "MATH_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "College Algebra",
+    "course": "MATH_18A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Precalculus",
+    "course": "MATH_19",
+    "units": 5
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus I",
+    "course": "MATH_30",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus II",
+    "course": "MATH_31",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus II",
+    "course": "MATH_31X",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus III",
+    "course": "MATH_32",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus III",
+    "course": "MATH_32X",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics for Business",
+    "course": "MATH_70",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics for Business",
+    "course": "MATH_70X",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus for Business and Aviation",
+    "course": "MATH_71",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Calculus for Business and Aviation",
+    "course": "MATH_71X",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Introductory Health Statistics",
+    "course": "PH_67",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Mathematics and Logic for General Education",
+    "course": "PHIL_9",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Statistical Applications in the Social Sciences",
+    "course": "SOCI_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Statistical Applications in the Social Sciences",
+    "course": "SOCS_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Elementary Statistics",
+    "course": "STAT_95",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_B4"],
+    "title": "Statway: Statistics-Concepts & Methods",
+    "course": "UNVS_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "American Cultures to 1877",
+    "course": "AMS_1A",
+    "units": 6
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Intro to US Popular Culture: Serious Fun!",
+    "course": "AMS_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Intro to Visual Culture",
+    "course": "ARTH_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Art History, Prehistoric to Medieval",
+    "course": "ARTH_70A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Art History, Renaissance to Modern",
+    "course": "ARTH_70B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Arts of Asia",
+    "course": "ARTH_70C",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Design in Society",
+    "course": "ARTH_72",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Music in World Cultures",
+    "course": "ASIA_19",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Arts of Asia",
+    "course": "ASIA_70C",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Introduction to Queer Arts",
+    "course": "CA_95",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Dance Appreciation",
+    "course": "DANC_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Creative Writing",
+    "course": "ENGL_71",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Honors Global Material Cultures",
+    "course": "HUM_20",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Visual Representations of Sport in Popular Culture",
+    "course": "KIN_68",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Music Theory 4A",
+    "course": "MUSC_4A",
+    "units": 2
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Musicianship 4B",
+    "course": "MUSC_4B",
+    "units": 1
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Music Appreciation",
+    "course": "MUSC_10A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Introduction to Music",
+    "course": "MUSC_10B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Pop and Rock in the U.S.",
+    "course": "MUSC_10C",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Introduction to Hip Hop",
+    "course": "MUSC_10D",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Music in World Cultures",
+    "course": "MUSC_19",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Introduction to Aesthetics",
+    "course": "PHIL_66",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "The Art of Film",
+    "course": "RTVF_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Acting",
+    "course": "TA_5",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Theatre Appreciation",
+    "course": "TA_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C1"],
+    "title": "Intro to Design for Theatre",
+    "course": "TA_55",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "American Cultures 1877 to Present",
+    "course": "AMS_1B",
+    "units": 6
+  },
+  {
+    "area": ["GE_AREA_C2", "US1"],
+    "title": "Stories that Make America",
+    "course": "AMS_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Chinese",
+    "course": "CHIN_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Chinese",
+    "course": "CHIN_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Chinese",
+    "course": "CHIN_25A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Chinese",
+    "course": "CHIN_25B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Argument and Analysis",
+    "course": "ENGL_1B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Great Works of Literature",
+    "course": "ENGL_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "The Graphic Novel",
+    "course": "ENGL_20",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Mystery and Detective Fiction",
+    "course": "ENGL_21",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Fantasy and Science Fiction",
+    "course": "ENGL_22",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Literature and the Environment",
+    "course": "ENGL_30",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Contemporary World Fiction",
+    "course": "ENGL_40",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Introduction to Shakespeare’s Drama",
+    "course": "ENGL_78",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary French",
+    "course": "FREN_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary French",
+    "course": "FREN_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate French: Reading",
+    "course": "FREN_25A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate French: Writing",
+    "course": "FREN_25B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary German",
+    "course": "GERM_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary German",
+    "course": "GERM_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate German",
+    "course": "GERM_25A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate German",
+    "course": "GERM_25B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "HEBR_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "HEBR_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Honors Reading Difference across Global Cultures",
+    "course": "HUM_21",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Bible History and Literature",
+    "course": "HUM_90",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Italian",
+    "course": "ITAL_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Italian",
+    "course": "ITAL_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Japanese",
+    "course": "JPN_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Japanese",
+    "course": "JPN_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Japanese",
+    "course": "JPN_25A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Japanese",
+    "course": "JPN_25B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "JWSS_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "JWSS_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Bible History and Literature",
+    "course": "JWSS_90",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Bible History and Literature",
+    "course": "MDES_90",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Medieval and Renaissance Music",
+    "course": "MUSC_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Introduction to Philosophy",
+    "course": "PHIL_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Moral Issues",
+    "course": "PHIL_61",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Ancient Philosophy",
+    "course": "PHIL_70A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Early Modern Philosophy",
+    "course": "PHIL_70B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Introduction to Political Thought",
+    "course": "POLS_3",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2", "US2", "US3"],
+    "title": "Power and Ideas in American Politics",
+    "course": "POLS_16",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Portuguese I",
+    "course": "PORT_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Portuguese II",
+    "course": "PORT_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "RELS_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Hebrew",
+    "course": "RELS_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Gods, Guns, Gurus, Grails-World Religion",
+    "course": "RELS_70",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Bible History and Literature",
+    "course": "RELS_90",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Russian I",
+    "course": "RUSS_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Russian II",
+    "course": "RUSS_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Spanish",
+    "course": "SPAN_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Spanish",
+    "course": "SPAN_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Spanish for Heritage Speakers I",
+    "course": "SPAN_20A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Spanish for Heritage Speakers II",
+    "course": "SPAN_20B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Spanish",
+    "course": "SPAN_25A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Intermediate Spanish",
+    "course": "SPAN_25B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Great Comedies for Theatre",
+    "course": "TA_13",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Tagalog I",
+    "course": "TAG_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Tagalog II",
+    "course": "TAG_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Vietnamese",
+    "course": "VIET_1A",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_C2"],
+    "title": "Elementary Vietnamese",
+    "course": "VIET_1B",
+    "units": 4
+  },
+  {
+    "area": ["GE_AREA_D", "US123"],
+    "title": "Asian Americans in U.S. History I",
+    "sequence": true,
+    "course": ["AAS_33A", "AAS_33B"],
+    "units": [3, 3],
+    "notes": "Must complete the entire sequence (AAS 33A and AAS 33B) to satisfy American Institutions (US123)."
+  },
+  {
+    "area": ["GE_AREA_D", "US123"],
+    "title": "African Americans and the Development of America’s History and Government",
+    "sequence": true,
+    "course": ["AFAM_2A", "AFAM_2B"],
+    "units": [3, 3],
+    "notes": "Must complete the entire sequence (AFAM 2A and AFAM 2B) to satisfy American Institutions (US123)."
+  },
+  {
+    "area": ["GE_AREA_C1", "GE_AREA_D"],
+    "title": "American Cultures to 1877",
+    "course": "AMS_1A",
+    "units": 6
+  },
+  {
+    "area": ["GE_AREA_C2", "GE_AREA_D", "US123"],
+    "title": "American Cultures 1877 to Present",
+    "course": "AMS_1B",
+    "units": 6
+  },
+  {
+    "area": ["GE_AREA_D", "US2", "US3"],
+    "title": "Visions of Democracy",
+    "course": "AMS_11",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Cultural Anthropology",
+    "course": "ANTH_11",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D", "US123"],
+    "title": "Mexican Americans and the Development of U.S. History and Government",
+    "sequence": true,
+    "course": ["CCS_10A", "CCS_10B"],
+    "units": [3, 3],
+    "notes": "Must complete the entire sequence (CCS 10A and CCS 10B) to satisfy American Institutions (US123)."
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Imagination, Play and Adult Creativity",
+    "course": "CHAD_75",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Child Development Among Media and Emerging Technologies",
+    "course": "CHAD_76",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Communication and Human Relationships",
+    "course": "COMM_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Performing Culture and Society",
+    "course": "COMM_21",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "The Digital World and Society",
+    "course": "CS_25",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "The Digital World and Society",
+    "course": "ENGR_25",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Principles of Economics: Microeconomics",
+    "course": "ECON_1B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Cultural Geography",
+    "course": "GEOG_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "World Regional Geography",
+    "course": "GEOG_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "World History to 1500",
+    "course": "HIST_1A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "World History from 1500",
+    "course": "HIST_1B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Western Civilization",
+    "course": "HIST_10A",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Western Civilization",
+    "course": "HIST_10B",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D", "US1"],
+    "title": "Essentials of U.S. History",
+    "course": "HIST_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Navigating the News",
+    "course": "JOUR_50",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Introduction to Human Rights and Justice",
+    "course": "JS_25",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Nature of Language",
+    "course": "LING_20",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_A3", "GE_AREA_D"],
+    "title": "Language Variation in Space, Time, & Culture",
+    "course": "LING_24",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Languages of the World",
+    "course": "LING_25",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Mass Communication and Society",
+    "course": "MCOM_72",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Human Life Span",
+    "course": "PH_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Introduction to Comparative Politics",
+    "course": "POLS_2",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Introduction to International Relations",
+    "course": "POLS_4",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D", "US23"],
+    "title": "Essentials of U.S. & California Government",
+    "course": "POLS_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Introduction to Psychology",
+    "course": "PSYC_1",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Human Life Span",
+    "course": "RECL_15",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Introduction to Sociology",
+    "course": "SOCI_1",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Social Problems",
+    "course": "SOCI_80",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Women, Gender, and Sexuality Studies",
+    "course": "WGSS_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_D"],
+    "title": "Women of Color in the U.S.",
+    "course": "WGSS_20",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Human Lifecourse in Context",
+    "course": "ANTH_25",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Human Understanding",
+    "course": "BIOL_54",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Managing My life",
+    "course": "BUS3_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Creativity Matters",
+    "course": "CA_60",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Child Development",
+    "course": "CHAD_60",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Lifespan Development in a Global Context",
+    "course": "CHAD_70",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Fundamentals of Intercultural Communication",
+    "course": "COMM_74",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Fundamentals of Intercultural Communication",
+    "course": "COMM_74Q",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Personal, Academic and Career Exploration",
+    "course": "EDCO_4",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Personal, Academic and Career Exploration",
+    "course": "EDCO_4FY",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Introduction to Engineering",
+    "course": "ENGR_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Sustainability, Human Development, and the Earth",
+    "course": "GEOL_5",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Death, Dying and Religions",
+    "course": "GERO_99",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Death, Dying and Religions",
+    "course": "HUM_99",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Stress Management: A Multidisciplinary Perspective",
+    "course": "KIN_69",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Language across the Lifespan",
+    "course": "LING_22",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "The Artist’s Way",
+    "course": "MUSC_8",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Introduction to Human Nutrition",
+    "course": "NUFS_9",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Basic Life Skills",
+    "course": "NUFS_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Understanding Your Health",
+    "course": "PH_1",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Human Nature and the Meaning of Life",
+    "course": "PHIL_12",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Identity Development and Prejudice",
+    "course": "PSYC_2Q",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Creating a Meaningful Life",
+    "course": "RECL_10",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Death, Dying and Religions",
+    "course": "RELS_99",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Sustainability, Human Development, and the Earth",
+    "course": "SCED_5",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Success in Science",
+    "course": "SCI_2",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Community Involvement and Personal Growth",
+    "course": "SOCI_57",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_E"],
+    "title": "Voice & Movement for the Actor",
+    "course": "TA_48",
+    "units": 3
+  },
+  {
+    "area": ["GE_AREA_F"],
+    "title": "Introduction to Asian American Studies",
     "course": "AAS_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Changing Majority: Power and Ethnicity in America",
     "course": "AAS_25",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "Asian American Media Representation and Popular Culture",
     "course": "AAS_159",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Humanities in African American Culture",
     "course": "AFAM_22",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Changing Majority: Power and Ethnicity in America",
     "course": "AFAM_25",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Black Civil Rights Movements",
     "course": "AFAM_134",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "Race, Sport, Activism & Social Movements",
     "course": "AFAM_158",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Aesthetics of Hip-Hop",
     "course": "AFAM_162",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "Introduction to Chicana and Chicano Studies",
     "course": "CCS_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "The Changing Majority: Power and Ethnicity in America",
     "course": "CCS_25",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "Race and Ethnicity in Public Space",
     "course": "CCS_30",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "Intro to Native American and Indigenous Studies",
     "course": "NAIS_1",
     "units": 3
   },
   {
-    "area": "GE_AREA_6",
-    "title": "Ethnic Studies",
+    "area": ["GE_AREA_F"],
+    "title": "California Indigenous Peoples",
     "course": "NAIS_2",
     "units": 3
   }

@@ -1,5 +1,10 @@
 # sparq Progress
 
+## SEPT 25, 2025
+- Fixed ge_courses.json to correctly include courses that satisfy multiple GE areas.
+- Created unique_course_id to see what courses have not been mapped yet.
+- Found all the courses that SJSU offers and saved it.
+
 ## SEPT 24, 2025
 - Updated the FourYearPlan class to get the url from the sjsu_majors.json
 - Use AI model to automatically parse the classes. 
