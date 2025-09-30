@@ -10,6 +10,66 @@ PREREQUISITES:
     - ANIMATION_MAJOR --> Allowed declared Animation major only
     - DESIGN_STUDIES_MAJOR --> Allowed Declared Majors: Design Studies
     - UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION --> Upper-division standing in Animation/Illustration
+    - SENIOR_STANDING --> student is a senior
+    - BEHAVIORAL_SCIENCE --> student is a behavioral science major
+    - BEHAVIORAL_SCIENCE_DOUBLE_MAJOR --> student is a behavioral science double major
+    - COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER: student has completed GE Area 1A with a grade of C- or better.
+    - COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER: student has completed GE Area 1B or equivalent second semester composition course with a grade of C- or better.
+    - POSTBACCALAUREATE_STANDING: student is postbaccalaureate standing.
+    - LOWER_DIVISION_ANTH_COURSE: student has completed any lower division Anthropology course.
+    - LOWER_DIVISION_PSYC_COURSE: student has completed any lower division Psychology course.
+    - ANTHROPOLOGY_MAJOR: student is a declared Anthropology major.
+    - COMPLETION_OF_100W: student has completed 100W.
+    - ART_MAJOR: student is a declared Art major.
+    - ART_HISTORY_MAJOR: student is a declared Art History major.
+    - INTERIOR_DESIGN_MAJOR: student is a declared Interior Design major.
+    - INDUSTRIAL_DESIGN_MAJOR: student is a declared Industrial Design major.
+    - GRAPHIC_DESIGN_MAJOR: student is a declared Graphic Design major.
+    - FINE_ARTS_MAJOR: student is a declared Fine Arts major.
+    - UPPER_DIVISION_STANDING_IN_ART: student has upper division standing in art.
+    - DEPARTMENT_CHAIR_CONSENT: allowed as determined by department chair.
+    - PHYS_52_WITH_C_MINUS_OR_BETTER: student has completed PHYS 52 with a grade of C- or better.
+    - MATH_32_WITH_C_MINUS_OR_BETTER: student has completed MATH 32 with a grade of C- or better.
+    - MATH_31_WITH_C_MINUS_OR_BETTER: student has completed MATH 31 with a grade of C- or better.
+    - FAA_PRIVATE_PILOT_CERTIFICATE: student holds an FAA Private Pilot Certificate.
+    - AVIATION_MAJOR_OR_MINOR: student is an Aviation major or minor.
+    - ADVISOR_CONSULTATION: student has consulted with an advisor.
+    - DEPARTMENT_CHAIR_APPROVAL: student has approval from the department chair.
+    - ACCEPTANCE_INTO_AVIATION_HONORS_PROGRAM: student has been accepted into the Aviation Honors Program.
+    - GRADUATING_SENIOR: student is a graduating senior.
+    - MAJOR_FORM_COMPLETED: student has completed the major form.
+    - JUNIOR_STANDING: student has junior standing.
+    - WRITING_WI --> student is in Writing Enrollment Group W-I
+    - WRITING_WII --> student is in Writing Enrollment Group W-II
+    - ENGL_1AF_CR --> student has completed ENGL 1AF with a grade of CR
+    - MATH_MI --> student is in Math Enrollment Group M-I
+    - MATH_MII --> student is in Math Enrollment Group M-II
+    - COMPLETION_GE_AREA_2 --> student has completed a GE Area 2 course
+    - BIOLOGY_MAJOR --> student is a declared Biology major (all concentrations)
+    - BIOMEDICAL_ENG_MAJOR --> student is a Biomedical Engineering major
+    - BIOCHEMISTRY_MAJOR --> student is a Biochemistry major
+    - ENVS_MAJOR --> student is a declared Environmental Studies major (all concentrations)
+    - FORENSIC_SCIENCE_MAJOR --> student is a Forensic Science major (all concentrations)
+    - NUTRITIONAL_SCIENCE_MAJOR --> student is a Nutritional Science major
+    - METEOROLOGY_CS_MAJOR --> student is a Meteorology - Climate Science major
+    - KINESIOLOGY_MAJOR --> student is a Kinesiology major
+    - COMPUTER_SCIENCE_MAJOR --> student is a Computer Science major
+    - COMMUNICATIVE_DISORDERS_MAJOR --> student is a Communicative Disorders major
+    - SOPHOMORE_STANDING --> student has sophomore standing
+    - APPROPRIATE_ACADEMIC_BACKGROUND --> student has appropriate academic background
+    - WILDFIRE_SCIENCE_MINOR --> student is a Wildfire Science minor
+    - COMPLETION_GE_AREA_5A --> student has completed any GE Area 5A class
+    - COMPLETION_GE_AREA_5B --> student has completed any GE Area 5B class
+    - COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR --> student has completed 9 units of upper division major coursework
+    - BIOL_MOL_BIOL_MAJOR --> student is a declared Biological Sciences BS, Molecular Biology concentration major
+    - BIOL_OTHER_MAJOR --> student is a declared Biological Sciences major other than Molecular Biology concentration
+    - DATA_SCIENCE_MAJOR --> student is a Data Science major
+    - SOFTWARE_ENGINEERING_MAJOR --> student is a Software Engineering major
+    - CHEMISTRY_MAJOR --> student is a Chemistry major
+    - MS_BIOINFORMATICS --> student is in MS Bioinformatics
+    - FORENSIC_SCIENCE_BIOL_MAJOR --> student is a Forensic Science (Biology concentration) major
+    - UPPER_DIVISION_SYSTEMS_PHYSIOLOGY_ELECTIVE --> student has completed at least one upper division systems physiology elective
+
 
 
 

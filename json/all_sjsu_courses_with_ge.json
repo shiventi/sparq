@@ -1698,5 +1698,3993 @@
         "ANIMATION_MAJOR"
       ]
     ]
+  },
+  
+  {
+    "course_id": "ANTH 11",
+    "course_name": "Cultural Anthropology",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "ANTH 12",
+    "course_name": "Introduction to Human Evolution",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_5B"
+    ]
+  },
+  {
+    "course_id": "ANTH 13",
+    "course_name": "Archaeology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_1B"
+    ]
+  },
+  {
+    "course_id": "ANTH 25",
+    "course_name": "Human Lifecourse in Context",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "ANTH 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ANTH 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||GRADUATE_STANDING",
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 102",
+    "course_name": "Silicon Valley Connections",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 105",
+    "course_name": "Applied Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 107",
+    "course_name": "Eating Culture: The Anthropology of Food",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANTH 11",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 108",
+    "course_name": "Medical Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 114",
+    "course_name": "Legacy of Asia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ANTH 115",
+    "course_name": "The Emerging Global Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ANTH 122",
+    "course_name": "Magic, Science and Religion",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ANTH 125",
+    "course_name": "Urban Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 129",
+    "course_name": "Environmental Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ANTH 11"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 130",
+    "course_name": "Kin, Kith, and Community: The Anthropology of Social Organization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 131",
+    "course_name": "Theories of Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANTH 11",
+        "ANTH 12"
+      ],
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANTH 11",
+        "ANTH 13"
+      ],
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANTH 11",
+        "ANTHROPOLOGY_MAJOR"
+      ],
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 132",
+    "course_name": "Creating Built Worlds",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 133",
+    "course_name": "Organizational Cultures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 136",
+    "course_name": "Thought Control in Contemporary Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 140",
+    "course_name": "Human Sexuality",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "ANTH 142",
+    "course_name": "Culture in Mind",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANTH 11",
+        "ANTH 25"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 143",
+    "course_name": "Culture and Adaptation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 144",
+    "course_name": "Gifts, Markets, and Power",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 145",
+    "course_name": "Middle Eastern Traditions",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ANTH 146",
+    "course_name": "Culture and Conflict",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ANTH 148",
+    "course_name": "Religion and Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANTH 11",
+        "ANTH 25"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 149",
+    "course_name": "Ethnographic Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 151",
+    "course_name": "Modernity and Disease",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 12",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 152",
+    "course_name": "Becoming Human",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 12",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 154",
+    "course_name": "Monkeys, Apes and Humans",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||LOWER_DIVISION_ANTH_COURSE",
+        "LOWER_DIVISION_PSYC_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 155",
+    "course_name": "Forensic Osteology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 12",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 156",
+    "course_name": "Bioarchaeology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 157",
+    "course_name": "Forensic Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 12",
+        "BIOL 10",
+        "BIOL 21",
+        "BIOL 65"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 159",
+    "course_name": "Mummies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 160",
+    "course_name": "Mysteries of Ancient Civilizations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ]
+  },
+  {
+    "course_id": "ANTH 161",
+    "course_name": "Technology, Environment and Ancient Empires",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 162",
+    "course_name": "Inca, Aztec and Maya Civilization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 164",
+    "course_name": "North America before 1492",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 165",
+    "course_name": "Historical Archaeology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 168",
+    "course_name": "Archaeological Methodology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ANTH 13"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 169",
+    "course_name": "Archaeological Site Excavation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 13",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 173",
+    "course_name": "Multimedia Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 175",
+    "course_name": "Anthropology of Native America",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||LOWER_DIVISION_ANTH_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 176",
+    "course_name": "Native California: Past and Present",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANTH 11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 184",
+    "course_name": "Directed Reading",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 190",
+    "course_name": "Designing Research",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANTHROPOLOGY_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 11",
+        "ANTH 12"
+      ],
+      [
+        "&&ANTHROPOLOGY_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 11",
+        "ANTH 13"
+      ],
+      [
+        "&&ANTHROPOLOGY_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 12",
+        "ANTH 13"
+      ],
+      [
+        "&&ANTHROPOLOGY_MAJOR",
+        "COMPLETION_OF_100W",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&BEHAVIORAL_SCIENCE_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 11",
+        "ANTH 12"
+      ],
+      [
+        "&&BEHAVIORAL_SCIENCE_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 11",
+        "ANTH 13"
+      ],
+      [
+        "&&BEHAVIORAL_SCIENCE_MAJOR",
+        "COMPLETION_OF_100W",
+        "ANTH 12",
+        "ANTH 13"
+      ],
+      [
+        "&&BEHAVIORAL_SCIENCE_MAJOR",
+        "COMPLETION_OF_100W",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 191",
+    "course_name": "Frontiers of Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANTH 131",
+        "SENIOR_STANDING"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ANTH 193",
+    "course_name": "Behavioral Science in Practice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "SENIOR_STANDING"
+      ],
+      [
+        "||BEHAVIORAL_SCIENCE_MAJOR",
+        "BEHAVIORAL_SCIENCE_DOUBLE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 195",
+    "course_name": "Anthropology Practicum",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANTH 198",
+    "course_name": "Special Projects",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ARED 150",
+    "course_name": "Field Experience in the Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 138",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&ART 139",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARED 184Y",
+    "course_name": "Student Teaching II - Classroom Teaching",
+    "units": 4,
+    "prerequisites": "String: Major and Education Department joint approval."
+  },
+  {
+    "course_id": "ARED 184Z",
+    "course_name": "Student Teaching III - Classroom Teaching",
+    "units": 4
+  },
+
+  {
+    "course_id": "ART 1",
+    "course_name": "Professional Preparation in Art",
+    "units": 1
+  },
+  {
+    "course_id": "ART 2",
+    "course_name": "The Artist in Contemporary Culture",
+    "units": 3
+  },
+  {
+    "course_id": "ART 3",
+    "course_name": "Medium and Message",
+    "units": 3
+  },
+  {
+    "course_id": "ART 12",
+    "course_name": "Two-Dimensional Design and Color Concepts",
+    "units": 3
+  },
+  {
+    "course_id": "ART 13",
+    "course_name": "Three-Dimensional Design Concepts",
+    "units": 3
+  },
+  {
+    "course_id": "ART 14",
+    "course_name": "Color",
+    "units": 3
+  },
+  {
+    "course_id": "ART 15",
+    "course_name": "Digital 2D Foundations",
+    "units": 3
+  },
+  {
+    "course_id": "ART 24",
+    "course_name": "Drawing I",
+    "units": 3
+  },
+  {
+    "course_id": "ART 25",
+    "course_name": "Expressive Drawing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 24"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 26",
+    "course_name": "Drawing II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 24"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 39",
+    "course_name": "Multicultural Arts for Children",
+    "units": 3
+  },
+  {
+    "course_id": "ART 44HA",
+    "course_name": "Design Your Life, Design Your Semester, Design Your World",
+    "units": 3
+  },
+  {
+    "course_id": "ART 46",
+    "course_name": "Introduction to Ceramics",
+    "units": 3
+  },
+  {
+    "course_id": "ART 47",
+    "course_name": "Introduction to Metalsmithing",
+    "units": 3
+  },
+  {
+    "course_id": "ART 61",
+    "course_name": "Beginning Painting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 12",
+        "ART 24"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 68",
+    "course_name": "Beginning Sculpture: Object & Concept",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 13",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 74",
+    "course_name": "Introduction to Digital Media",
+    "units": 3
+  },
+  {
+    "course_id": "ART 75",
+    "course_name": "Introduction to Digital Video Art",
+    "units": 3
+  },
+  {
+    "course_id": "ART 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "ART 100W",
+    "course_name": "Writing Workshop: Fine Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "||ART_MAJOR",
+        "ART_HISTORY_MAJOR",
+        "INTERIOR_DESIGN_MAJOR",
+        "INDUSTRIAL_DESIGN_MAJOR",
+        "GRAPHIC_DESIGN_MAJOR",
+        "FINE_ARTS_MAJOR"
+      ],
+      [
+        "&&GRADUATE_STANDING",
+        "||ART_MAJOR",
+        "ART_HISTORY_MAJOR",
+        "INTERIOR_DESIGN_MAJOR",
+        "INDUSTRIAL_DESIGN_MAJOR",
+        "GRAPHIC_DESIGN_MAJOR",
+        "FINE_ARTS_MAJOR"
+      ],
+      [
+        "&&POSTBACCALAUREATE_STANDING",
+        "||ART_MAJOR",
+        "ART_HISTORY_MAJOR",
+        "INTERIOR_DESIGN_MAJOR",
+        "INDUSTRIAL_DESIGN_MAJOR",
+        "GRAPHIC_DESIGN_MAJOR",
+        "FINE_ARTS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 101",
+    "course_name": "Digital Media Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 74",
+        "ART 75",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 102",
+    "course_name": "3D Modeling and Printing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 75",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 103",
+    "course_name": "Art as System",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 75",
+        "ART 101"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 104",
+    "course_name": "Interdisciplinary Seminar in Digital Media Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 105",
+    "course_name": "Advanced Digital Video",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 75",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 106",
+    "course_name": "Topics in Human Machine Interface",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 75",
+        "ART 101"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 107",
+    "course_name": "Advanced Projects in Digital Media Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 75",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 108",
+    "course_name": "Introduction to Game Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 109",
+    "course_name": "Web Development in HTML, CSS and JavaScript",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 75",
+        "ART 101"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 110",
+    "course_name": "History and Theory of New Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "ARTH 72",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 111",
+    "course_name": "Introduction to Printmaking",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 12",
+        "ART 15",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 132",
+    "course_name": "Topics in Intermediate Ceramics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 46",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 133",
+    "course_name": "Topics in Ceramic Sculpture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 13",
+        "ART 46"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 134",
+    "course_name": "Topics in Advanced Ceramics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 132",
+        "ART 133"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 135",
+    "course_name": "Topics in Moldmaking for Artists",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 13",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 137",
+    "course_name": "Figure Modeling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 13",
+        "ART 55"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 138",
+    "course_name": "Elementary Art Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 139",
+    "course_name": "Teaching Diversity through Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 140",
+    "course_name": "Topics in Glass",
+    "units": 3
+  },
+  {
+    "course_id": "ART 141",
+    "course_name": "Topics in Advanced Glass",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 140",
+        "ART 13"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 147",
+    "course_name": "Topics in Metalsmithing and Jewelry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 47"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 149",
+    "course_name": "Topics in Jewelry and Small Sculpture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 150",
+    "course_name": "Topics in Relief Printmaking and Letterpress",
+    "units": 3
+  },
+  {
+    "course_id": "ART 151",
+    "course_name": "Topics in Screen-Printing",
+    "units": 3
+  },
+  {
+    "course_id": "ART 152",
+    "course_name": "Topics in Lithography",
+    "units": 3
+  },
+  {
+    "course_id": "ART 153",
+    "course_name": "Topics in Intaglio Processes",
+    "units": 3
+  },
+  {
+    "course_id": "ART 155",
+    "course_name": "Topics in Monotype",
+    "units": 3
+  },
+  {
+    "course_id": "ART 158",
+    "course_name": "Topics in Drawing III",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 25",
+        "ART 26"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 162",
+    "course_name": "Watercolor",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 12",
+        "ART 24"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 164",
+    "course_name": "Intermediate Painting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 61"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 165",
+    "course_name": "Topics in Figure Painting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 26",
+        "ART 61"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 166",
+    "course_name": "Topics in Advanced Painting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 61",
+        "ART 164",
+        "ART 164B",
+        "ART 165"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 168",
+    "course_name": "Topics in Woodworking",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 13",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 169",
+    "course_name": "Topics in Metal Sculpture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 13"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 170",
+    "course_name": "Topics in Fabricated Sculpture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ART 13"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 172",
+    "course_name": "Intermediate Sculpture: System/Structure",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 68",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 173",
+    "course_name": "Topics in Installation Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 13",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 174A",
+    "course_name": "Museum and Gallery Operations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 174B",
+    "course_name": "Museum and Gallery Operations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 174A",
+        "ART 174A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 175",
+    "course_name": "Special Topics in Studio Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING_IN_ART"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 176",
+    "course_name": "Advanced Printmaking",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 150",
+        "ART 151",
+        "ART 152",
+        "ART 153",
+        "ART 155",
+        "ART 181"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 177",
+    "course_name": "Professional & Business Practices",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 178",
+    "course_name": "Art Field Work",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "ART 179",
+    "course_name": "Special Problems in Art",
+    "units": 3
+  },
+  {
+    "course_id": "ART 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&STRING: Majors or minors with Department of Art & Art History consent."
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 181",
+    "course_name": "Digital Printmaking",
+    "units": 3
+  },
+  {
+    "course_id": "ART 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ART 193",
+    "course_name": "Digital Materials",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ART 74",
+        "ART 75"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 195",
+    "course_name": "BFA Group Exhibition",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&STRING: 30 units of upper division art",
+        "STRING: admission to the BFA program",
+        "ART 198"
+      ],
+      [
+        "&&STRING: 30 units of upper division art",
+        "STRING: admission to the BFA program",
+        "ART 210"
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 197",
+    "course_name": "BA Senior Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "STRING: 15 units of upper division work in the major."
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 198",
+    "course_name": "BFA Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "STRING: Prior acceptance in the B.F.A. program."
+      ]
+    ]
+  },
+  {
+    "course_id": "ART 199",
+    "course_name": "BFA Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&STRING: 30 units of upper division art",
+        "STRING: admission to the BFA program",
+        "ART 198"
+      ],
+      [
+        "&&STRING: 30 units of upper division art",
+        "STRING: admission to the BFA program",
+        "ART 178"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ARTH 11",
+    "course_name": "Modern Art History",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART 12",
+        "ART 13",
+        "PHOT 40",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 15",
+    "course_name": "Intro to Visual Culture",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ARTH 70A",
+    "course_name": "Art History, Prehistoric to Medieval",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ARTH 70B",
+    "course_name": "Art History, Renaissance to Modern",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ARTH 70C",
+    "course_name": "Arts of Asia",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ARTH 72",
+    "course_name": "Design in Society",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ARTH 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ARTH 101",
+    "course_name": "Introduction to Practice of Art History",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART_HISTORY_AND_VISUAL_CULTURE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 110",
+    "course_name": "History and Theory of New Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "ARTH 72",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 126",
+    "course_name": "History of Photography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 127",
+    "course_name": "Photography, Film, and Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 150",
+    "course_name": "Modern Textiles: A Global History of Art and Design",
+    "units": 3
+  },
+  {
+    "course_id": "ARTH 160",
+    "course_name": "Modern Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "ARTH 72",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 161",
+    "course_name": "Contemporary Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 162",
+    "course_name": "California Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 163",
+    "course_name": "Twentieth Century Urban Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "URBP 151",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 174A",
+    "course_name": "Exhibition and Curatorial Practices",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 174B",
+    "course_name": "Museum and Gallery Operations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 174A",
+        "ART 174A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 175",
+    "course_name": "Theories of Art History and Art Criticism",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||String: 6 units of ARTH 70A, ARTH 70B, and/or ARTH 70C",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 176A",
+    "course_name": "Graphic Design History and Theory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 72",
+        "COMPLETION_OF_AREA_Z",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 178",
+    "course_name": "Art History Field Work",
+    "units": "||1-3",
+    "prerequisites": "String: Application for assignment made preceding semester. Supervisor and department approval."
+  },
+  {
+    "course_id": "ARTH 180",
+    "course_name": "Individual Studies in Art History",
+    "units": "||1-4",
+    "prerequisites": "String: Majors or minors with Department of Art & Art History consent."
+  },
+  {
+    "course_id": "ARTH 181",
+    "course_name": "Special Topics in Art History",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ARTH 70A",
+        "ARTH 70B"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 182A",
+    "course_name": "Art of the Americas",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 183A",
+    "course_name": "Art of Egypt and Mesopotamia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 183D",
+    "course_name": "Art of Africa and the African Diaspora",
+    "units": 3
+  },
+  {
+    "course_id": "ARTH 185",
+    "course_name": "Art of the Classical World",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 187A",
+    "course_name": "Art of the Italian Renaissance, Fifteenth Century",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 187B",
+    "course_name": "Art of the Italian Renaissance, Sixteenth Century",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 187C",
+    "course_name": "The Art of Renaissance Venice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 189B",
+    "course_name": "Global Baroque Art and Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 190A",
+    "course_name": "Art of the Nineteenth Century",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 190B",
+    "course_name": "Early Modernist Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 190C",
+    "course_name": "20th Century Art: from Dada to Pop",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 190D",
+    "course_name": "German Art, 1800-2000",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "COMPLETION_OF_AREA_Z",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 191A",
+    "course_name": "Issues in Contemporary Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ARTH 70B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 191B",
+    "course_name": "Women in Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 191C",
+    "course_name": "Contemporary Art in Mexico, the U.S., and Latin America",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 70B",
+        "COMPLETION_OF_AREA_Z",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ARTH 192A",
+    "course_name": "Modern Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ARTH 72",
+        "COMPLETION_OF_WID_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 192C",
+    "course_name": "History of Interior Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||&&||ARTH 70B",
+        "ARTH 72",
+        "COMPLETION_OF_WID_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 193A",
+    "course_name": "Worlds of Art and Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ARTH 193B",
+    "course_name": "East Meets West in Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ARTH 194A",
+    "course_name": "Art of China",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 195",
+    "course_name": "Art of Japan",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ARTH 199",
+    "course_name": "Art History Capstone Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ARTH 70A",
+        "ARTH 70C",
+        "ARTH 70B",
+        "ART 100W"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "AS 1A",
+    "course_name": "Heritage and Values",
+    "units": 1
+  },
+  {
+    "course_id": "AS 1B",
+    "course_name": "Heritage and Values",
+    "units": 1
+  },
+  {
+    "course_id": "AS 2A",
+    "course_name": "Team Leadership Fundamentals",
+    "units": 1
+  },
+  {
+    "course_id": "AS 2B",
+    "course_name": "Team Leadership Fundamentals",
+    "units": 1
+  },
+  {
+    "course_id": "AS 131A",
+    "course_name": "Leading People and Effective Communication",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AS 1A",
+        "AS 1B",
+        "AS 2A",
+        "AS 2B"
+      ],
+      [
+        "DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AS 131B",
+    "course_name": "Leading People and Effective Communication",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AS 1A",
+        "AS 1B",
+        "AS 2A",
+        "AS 2B"
+      ],
+      [
+        "DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AS 141A",
+    "course_name": "National Security, Leadership & Commissioning Prep",
+    "units": 3,
+    "corequisites": [
+      [
+        "AS 131A"
+      ]
+    ]
+  },
+  {
+    "course_id": "AS 141B",
+    "course_name": "National Security, Leadership & Commissioning Prep",
+    "units": 3,
+    "corequisites": [
+      [
+        "AS 131B"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "ASIA 19",
+    "course_name": "Music in World Cultures",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ASIA 30",
+    "course_name": "From Chinese Traditions to Multicultural Paradigms: Martial Arts Films around the World",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ASIA 70C",
+    "course_name": "Arts of Asia",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "ASIA 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ASIA 102",
+    "course_name": "Chinese Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 104",
+    "course_name": "Asian Philosophy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 109A",
+    "course_name": "History of China",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 109B",
+    "course_name": "History of China",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 110A",
+    "course_name": "History of Japan",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 110B",
+    "course_name": "History of Japan",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 114",
+    "course_name": "Legacy of Asia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 115",
+    "course_name": "The Emerging Global Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 122",
+    "course_name": "English as a World Language",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 133B",
+    "course_name": "Relationship Marketing: Pacific Rim",
+    "units": 3,
+    "prerequisites": [
+      [
+        "BUS2 130"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 140",
+    "course_name": "Chinese Culture and Politics Through Literature",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 142",
+    "course_name": "Contemporary Buddhism and its Roots",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 144",
+    "course_name": "Chinese Traditions",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 145",
+    "course_name": "Asian Politics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 160",
+    "course_name": "East and South Asia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 177",
+    "course_name": "Anthropology of Asia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ASIA 193B",
+    "course_name": "East Meets West in Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "ASIA 194A",
+    "course_name": "Art of China",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASIA 195",
+    "course_name": "Art of Japan",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "ASTR 10",
+    "course_name": "Descriptive Astronomy",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_5A"
+    ]
+  },
+  {
+    "course_id": "ASTR 11L",
+    "course_name": "Introductory Astronomy Lab",
+    "units": 1,
+    "ge_areas": [
+      "GE_AREA_5C"
+    ]
+  },
+  {
+    "course_id": "ASTR 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ASTR 101",
+    "course_name": "Modern Astronomy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ]
+  },
+  {
+    "course_id": "ASTR 117A",
+    "course_name": "Astrophysics I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_52_WITH_C_MINUS_OR_BETTER",
+        "MATH_32_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASTR 117B",
+    "course_name": "Astrophysics II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_52_WITH_C_MINUS_OR_BETTER",
+        "MATH_31_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASTR 155",
+    "course_name": "Topics in Modern Astrophysics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||PHYS_52_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ASTR 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+
+  {
+    "course_id": "ATH 2I",
+    "course_name": "Men’s Baseball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 2S",
+    "course_name": "Men’s Skills Development, Baseball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 4I",
+    "course_name": "Men’s Basketball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 4S",
+    "course_name": "Men’s Skills Development, Basketball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 6I",
+    "course_name": "Women’s Basketball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 6S",
+    "course_name": "Women’s Skills Development, Basketball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 12I",
+    "course_name": "Football",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 12S",
+    "course_name": "Skills Development, Football",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 14I",
+    "course_name": "Men’s Golf",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 14S",
+    "course_name": "Men’s Skills Development, Golf",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 16I",
+    "course_name": "Women’s Golf",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 16S",
+    "course_name": "Women’s Skills Development, Golf",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 20I",
+    "course_name": "Women’s Gymnastics",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 20S",
+    "course_name": "Women’s Skills Development, Gymnastics",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 26I",
+    "course_name": "Women’s Tennis",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 26S",
+    "course_name": "Women’s Skills Development, Tennis",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 30I",
+    "course_name": "Men’s Soccer",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 30S",
+    "course_name": "Men’s Skills Development, Soccer",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 32I",
+    "course_name": "Softball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 32S",
+    "course_name": "Skills Development, Softball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 34I",
+    "course_name": "Women’s Swimming",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 34S",
+    "course_name": "Women’s Skills Development, Swimming",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 36I",
+    "course_name": "Women’s Volleyball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 36S",
+    "course_name": "Women’s Skills Development, Volleyball",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 42I",
+    "course_name": "Women’s Cross Country",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 42S",
+    "course_name": "Women’s Skill’s Development, Cross Country",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 44I",
+    "course_name": "Women’s Soccer",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 44S",
+    "course_name": "Women’s Skills Development, Soccer",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 46I",
+    "course_name": "Women’s Water Polo",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 46S",
+    "course_name": "Women’s Skills Development, Water Polo",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 48I",
+    "course_name": "Men’s Cross Country",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 48S",
+    "course_name": "Men’s Skills Development, Cross Country",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 50I",
+    "course_name": "Women’s Track & Field",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 50S",
+    "course_name": "Women’ Skills Development, Track & Field",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 52I",
+    "course_name": "Men’s Water Polo",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 52S",
+    "course_name": "Men’s Skills Development, Water Polo",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 54I",
+    "course_name": "Men’s Track & Field",
+    "units": 1
+  },
+  {
+    "course_id": "ATH 54S",
+    "course_name": "Men’ Skills Development, Track & Field",
+    "units": 1
+  },
+
+  {
+    "course_id": "AVIA 1",
+    "course_name": "Introduction to the Aviation Industry",
+    "units": 3
+  },
+  {
+    "course_id": "AVIA 2",
+    "course_name": "Private Pilot Ground",
+    "units": 3,
+    "corequisites": [
+      [
+        "AVIA 1"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 3",
+    "course_name": "Introduction to Private Pilot Part 141 Flight",
+    "units": 2,
+    "prerequisites": [
+      [
+        "AVIA 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 31",
+    "course_name": "Aircraft Theory and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 2",
+        "PHYS 2A",
+        "MATH 71"
+      ]
+    ],
+    "corequisites": [
+      [
+        "PHYS 2B"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 42",
+    "course_name": "Aircraft Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 1",
+        "AVIA 2"
+      ],
+      [
+        "PHYS 2A"
+      ]
+    ],
+    "corequisites": [
+      [
+        "PHYS 2B"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 43",
+    "course_name": "Propulsion Theory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 1",
+        "AVIA 2"
+      ],
+      [
+        "PHYS 2A"
+      ]
+    ],
+    "corequisites": [
+      [
+        "PHYS 2B"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 50",
+    "course_name": "Aviation Weather",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 1"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 62",
+    "course_name": "Instrument Pilot Ground",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 63",
+    "course_name": "Instrument Rating Part 141 Flight",
+    "units": 2,
+    "prerequisites": [
+      [
+        "||AVIA 3",
+        "FAA_PRIVATE_PILOT_CERTIFICATE"
+      ],
+      [
+        "AVIA 73"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 68",
+    "course_name": "Avionics and Airborne Communication",
+    "units": 3,
+    "corequisites": [
+      [
+        "AVIA 42"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 73",
+    "course_name": "Air Traffic Control",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 1",
+        "AVIA 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 78",
+    "course_name": "Introduction to Aviation Management",
+    "units": 3
+  },
+  {
+    "course_id": "AVIA 91",
+    "course_name": "Aircraft Turbine Engines",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 43"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 112",
+    "course_name": "Commercial Pilot Ground",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AVIA 31",
+        "AVIA 42",
+        "AVIA 91"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 113",
+    "course_name": "Commercial Professional Pilot Part 141 Flight",
+    "units": 2,
+    "prerequisites": [
+      [
+        "FAA_PRIVATE_PILOT_CERTIFICATE"
+      ]
+    ],
+    "corequisites": [
+      [
+        "AVIA 112"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 114",
+    "course_name": "Certified Flight Instructor Preparation",
+    "units": 3,
+    "corequisites": [
+      [
+        "AVIA 112"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 116",
+    "course_name": "Aircraft Multi-Engine Land Rating",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&AVIA 2",
+        "AVIA 62"
+      ]
+    ],
+    "corequisites": [
+      [
+        "AVIA 113"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 128",
+    "course_name": "Aviation Safety and Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 1",
+        "AVIA 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 129",
+    "course_name": "Aviation Cybersecurity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AVIA 78",
+        "AVIA 128"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 141",
+    "course_name": "Human Factors in Aviation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AVIA 73",
+        "AVIA 78"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 150",
+    "course_name": "Unmanned Aerial Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 31",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 160",
+    "course_name": "Aircraft Dispatch",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AVIA 73",
+        "AVIA 78"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 173",
+    "course_name": "Aviation Law",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 78"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 176",
+    "course_name": "Airline Operations and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 78"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 177",
+    "course_name": "General Aviation Operations and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||AVIA 1",
+        "AVIA 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 178",
+    "course_name": "Airport Planning and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 78"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 179",
+    "course_name": "Advanced Airport Planning and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AVIA 178"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 180",
+    "course_name": "Individual Research Study",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&AVIATION_MAJOR_OR_MINOR",
+        "ADVISOR_CONSULTATION",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 180H",
+    "course_name": "Individual Studies",
+    "units": "||1-2",
+    "prerequisites": [
+      [
+        "ACCEPTANCE_INTO_AVIATION_HONORS_PROGRAM"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 190",
+    "course_name": "Senior Capstone Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GRADUATING_SENIOR",
+        "MAJOR_FORM_COMPLETED"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 192I",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "AVIA 193",
+    "course_name": "Aerodynamics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS 2A",
+        "MATH 71",
+        "AVIA 31"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 194",
+    "course_name": "Advanced Aircraft Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AVIA 42",
+        "AVIA 43"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 195",
+    "course_name": "Internship with the Aviation Industry",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 198",
+    "course_name": "Aviation and Human Civilization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "AVIA 199A",
+    "course_name": "Special Topics in Aviation Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AVIA 199B",
+    "course_name": "Special Topics in Aviation Operations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "BIOL 10",
+    "course_name": "The Living World",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_5B"
+    ]
+  },
+  {
+    "course_id": "BIOL 20",
+    "course_name": "Ecological Biology",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ]
+  },
+  {
+    "course_id": "BIOL 21",
+    "course_name": "Human Biology",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ]
+  },
+  {
+    "course_id": "BIOL 30",
+    "course_name": "Principles of Biology I",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ],
+    "prerequisites": [
+      [
+        "||WRITING_WI",
+        "WRITING_WII",
+        "ENGL_1AF_CR",
+        "COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||MATH_MI",
+        "MATH_MII",
+        "COMPLETION_GE_AREA_2"
+      ],
+      [
+        "||BIOLOGY_MAJOR",
+        "BIOMEDICAL_ENG_MAJOR",
+        "BIOCHEMISTRY_MAJOR",
+        "ENVS_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "NUTRITIONAL_SCIENCE_MAJOR",
+        "METEOROLOGY_CS_MAJOR",
+        "KINESIOLOGY_MAJOR",
+        "COMPUTER_SCIENCE_MAJOR",
+        "COMMUNICATIVE_DISORDERS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 31",
+    "course_name": "Principles of Biology II",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL 30"
+      ],
+      [
+        "||BIOLOGY_MAJOR",
+        "BIOMEDICAL_ENG_MAJOR",
+        "BIOCHEMISTRY_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "ENVS_MAJOR",
+        "NUTRITIONAL_SCIENCE_MAJOR",
+        "METEOROLOGY_CS_MAJOR",
+        "KINESIOLOGY_MAJOR",
+        "COMPUTER_SCIENCE_MAJOR",
+        "COMMUNICATIVE_DISORDERS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 54",
+    "course_name": "Human Understanding",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "BIOL 55",
+    "course_name": "Biostatistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BIOL 30",
+        "BIOL 31",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "||BIOLOGY_MAJOR",
+        "ENVS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 65",
+    "course_name": "Human Anatomy",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ]
+  },
+  {
+    "course_id": "BIOL 65O",
+    "course_name": "Human Anatomy",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ]
+  },
+  {
+    "course_id": "BIOL 66",
+    "course_name": "Human Physiology",
+    "units": 5,
+    "ge_areas": [
+      "GE_AREA_5B_5C"
+    ],
+    "prerequisites": "String: High school algebra."
+  },
+  {
+    "course_id": "BIOL 100W",
+    "course_name": "Scientific Communication Workshop",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "BIOLOGY_MAJOR",
+        "||UPPER_DIVISION_STANDING",
+        "GRADUATE_STANDING",
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 101",
+    "course_name": "Origins of Life",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 105",
+    "course_name": "Principles of Developmental Biology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "BIOL 115",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOL 115",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 106",
+    "course_name": "Physiological Ecology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 100W",
+        "CHEM 8",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 115"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 8",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 118"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 112A",
+        "CHEM 112B",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 115"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 112A",
+        "CHEM 112B",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 118"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 106L",
+    "course_name": "Physiological Ecology Lab",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&BIOL 100W",
+        "CHEM 8",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 115"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 8",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 118"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 112A",
+        "CHEM 112B",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 115"
+      ],
+      [
+        "&&BIOL 100W",
+        "CHEM 112A",
+        "CHEM 112B",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR",
+        "BIOL 118"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BIOL 106"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 107",
+    "course_name": "Immunology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MICR 101",
+        "CHEM 112A",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&MICR 101",
+        "CHEM 8",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 107L",
+    "course_name": "Immunology Laboratory",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&BIOLOGY_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||BIOL 107",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 109",
+    "course_name": "Human Neuroanatomy and Physiology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||BIOL 65",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 110",
+    "course_name": "Biodiversity and Biopolitics",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 111",
+    "course_name": "Fire Ecology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||COMPLETION_GE_AREA_5A",
+        "COMPLETION_GE_AREA_5B",
+        "||BIOLOGY_MAJOR",
+        "WILDFIRE_SCIENCE_MINOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 113",
+    "course_name": "Principles of Systematics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOLOGY_MAJOR",
+        "||BIOL 115",
+        "BIOL 118",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 114",
+    "course_name": "Functional Morphology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOLOGY_MAJOR",
+        "||BIOL 115",
+        "BIOL 118",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 115",
+    "course_name": "General Genetics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "CHEM 1A",
+        "CHEM 1B",
+        "||BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "FORENSIC_SCIENCE_BIOL_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 116",
+    "course_name": "Molecular Genetics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||BIOL 115",
+        "MICR 166",
+        "CHEM 135",
+        "BIOL_MOL_BIOL_MAJOR"
+      ],
+      [
+        "&&||BIOL 115",
+        "MICR 166",
+        "CHEM 135",
+        "BIOL_OTHER_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BIOL 116L"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 116L",
+    "course_name": "Molecular Genetics Laboratory",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&BIOL 116"
+      ]
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL_MOL_BIOL_MAJOR"
+      ],
+      [
+        "&&BIOL_OTHER_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 117",
+    "course_name": "Human Genetics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 118",
+    "course_name": "Evolution",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "||BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 119",
+    "course_name": "Neurogenetics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 122",
+    "course_name": "Bacterial Diversity",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MICR 101",
+        "||CHEM 112A",
+        "CHEM 08",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 122L",
+    "course_name": "Bacterial Diversity Laboratory",
+    "units": 2,
+    "prerequisites": [
+      [
+        "||MICR 101",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 123A",
+    "course_name": "Bioinformatics I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CS 46B",
+        "BIOL 31",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 123B",
+    "course_name": "Bioinformatics II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS 123A",
+        "BIOL 123A",
+        "SE 123A"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 124",
+    "course_name": "Systems Physiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "PHYS 2A",
+        "PHYS 2B",
+        "CHEM 112A",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 125",
+    "course_name": "Systems Physiology Laboratory",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&BIOLOGY_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||BIOL 124",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 129",
+    "course_name": "Neuroscience",
+    "units": 3,
+    "prerequisites": "String: Either PSYC 30 and 3 units of biology, or 9 units of biology."
+  },
+  {
+    "course_id": "BIOL 131",
+    "course_name": "Endocrine Physiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 134",
+    "course_name": "Vertebrate Histology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 135A",
+    "course_name": "Eukaryotic Cell and Molecular Biology I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "CHEM 112A",
+        "CHEM 112B",
+        "CHEM 135",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 135B",
+    "course_name": "Eukaryotic Cell and Molecular Biology II",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "BIOL 135A",
+        "BIOL 100W",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 135L",
+    "course_name": "Molecular Cell Biology Lab",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 135A",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 136",
+    "course_name": "Vertebrate Neurophysiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 136L",
+    "course_name": "Vertebrate Neurophysiology Laboratory",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BIOL 136"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 137",
+    "course_name": "Introduction to Principles of Toxicology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "CHEM 112B",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 138",
+    "course_name": "Stem Cell Biology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 139",
+    "course_name": "Cancer Biology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 115",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 140",
+    "course_name": "Human Sexuality",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 142",
+    "course_name": "Paleontology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL 1",
+        "GEOL 7"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 143",
+    "course_name": "Biogeography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOLOGY_MAJOR",
+        "||BIOL 31",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 145",
+    "course_name": "Advanced Undergraduate Biology Seminar",
+    "units": "1-3",
+    "prerequisites": [
+      [
+        "&&COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 145L",
+    "course_name": "Advanced Undergraduate Biology Lab",
+    "units": "1-2",
+    "prerequisites": [
+      [
+        "&&COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 148",
+    "course_name": "Molecular Ecology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 118",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 150",
+    "course_name": "Field Studies in Natural History",
+    "units": "1-2",
+    "ge_areas": [
+      "GE_AREA_5C"
+    ]
+  },
+  {
+    "course_id": "BIOL 155",
+    "course_name": "Hypothesis Testing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL 30",
+        "BIOL 31",
+        "INSTRUCTOR_CONSENT",
+        "||BIOLOGY_MAJOR",
+        "ENVS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 156",
+    "course_name": "Ecological Sampling Design and Analyses",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 31",
+        "||BIOLOGY_MAJOR",
+        "ENVS_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 159",
+    "course_name": "Integrative Biology",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "||BIOL 115",
+        "BIOL 118",
+        "||BIOL 55",
+        "BIOL 155",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 160",
+    "course_name": "Ecology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||BIOL 115",
+        "BIOL 118",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 161",
+    "course_name": "Introduction to Marine Ecology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 118",
+        "||BIOL 155",
+        "BIOL 156",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 162",
+    "course_name": "Marine Biology and Oceanography",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 31",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||BIOL 115",
+        "BIOL 118"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 163",
+    "course_name": "Conservation Biology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "||BIOL 115",
+        "BIOL 118",
+        "BIOL 160",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 164",
+    "course_name": "Ecological Field Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL 113",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 165",
+    "course_name": "Advanced Human Anatomy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "BIOL 31",
+        "BIOL 115",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 167",
+    "course_name": "Cardiorespiratory Physiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 168",
+    "course_name": "Reproductive Physiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 170",
+    "course_name": "Cellular and Molecular Physiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 124",
+        "BIOLOGY_MAJOR"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 177",
+    "course_name": "Physiology for Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL 30",
+        "CHEM 1B",
+        "PHYS 50"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 178",
+    "course_name": "Integrative Physiology",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL 100W",
+        "BIOL 115",
+        "BIOL 124",
+        "UPPER_DIVISION_SYSTEMS_PHYSIOLOGY_ELECTIVE",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 180",
+    "course_name": "Individual Studies",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 181",
+    "course_name": "Introduction to Health Care",
+    "units": "1-3",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 182",
+    "course_name": "Tutor Assistant in Biology",
+    "units": "1-2",
+    "prerequisites": [
+      [
+        "||SOPHOMORE_STANDING",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "APPROPRIATE_ACADEMIC_BACKGROUND",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 184",
+    "course_name": "Directed Reading",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 186",
+    "course_name": "Senior Thesis",
+    "units": "2-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 190",
+    "course_name": "Field Studies in Biology",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BIOL 198",
+    "course_name": "Undergraduate Research",
+    "units": "0.5-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
   }
+
 ]
