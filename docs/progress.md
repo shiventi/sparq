@@ -1,5 +1,9 @@
 # sparq Progress
 
+## SEPT 29, 2025
+- Created all_sjsu_courses_with_ge.json to create a list of all SJSU course with what prereq's and GE's are needed along with what credit it fills.
+- Created notes.txt to have a simple list of all requirements needed for taking course. (work-in progress)
+
 ## SEPT 27, 2025
 - Created american_institutions.json to add additional courses and their requirments.
 - Added more courses to ge_courses.json and /roadmaps.

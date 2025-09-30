@@ -1,0 +1,17 @@
+PREREQUISITES:
+    - ADV_COURSE1 --> ADV is the course and then _COURSE1 means that student needs to take 1 course of ADV
+    - INSTRUCTOR_CONSENT --> allowed if the instructor consents
+    - UPPER_DIVISION_STANDING --> student should be upper division 
+    - GRADUATE_STANDING --> student should be a graduate student irregadless of lower or upper division
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> core general education classes should be done
+    - BFA_ANIMATION_ILLUSTRATION_MAJOR --> BFA Animation/Illustration majors only
+    - BA_DESIGN_STUDIES_MAJOR --> BA Design Studies majors only
+    - ANIMATION_ILLUSTRATION_MAJOR --> Allowed Declared Majors: Animation/Illustration
+    - ANIMATION_MAJOR --> Allowed declared Animation major only
+    - DESIGN_STUDIES_MAJOR --> Allowed Declared Majors: Design Studies
+    - UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION --> Upper-division standing in Animation/Illustration
+
+
+
+UNITS:
+    - ||1-4 = 1-4 UNITS

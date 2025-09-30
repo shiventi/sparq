@@ -1,0 +1,1702 @@
+[
+  {
+    "course_id": "AAS 1",
+    "course_name": "Introduction to Asian American Studies",
+    "units": 3,
+    "ge_areas": ["GE_AREA_6"]
+  },
+  {
+    "course_id": "AAS 25",
+    "course_name": "The Changing Majority: Power and Ethnicity in America",
+    "units": 3,
+    "ge_areas": ["GE_AREA_6"]
+  },
+  {
+    "course_id": "AAS 33A",
+    "course_name": "Asian Americans in U.S. History I",
+    "units": 3,
+    "ge_areas": ["GE_AREA_4"]
+  },
+  {
+    "course_id": "AAS 33B",
+    "course_name": "Asian Americans in U.S. History II",
+    "units": 3,
+    "ge_areas": ["GE_AREA_4_US123"]
+  },
+  {
+    "course_id": "AAS 125",
+    "course_name": "Filipino Experience in the United States",
+    "units": 3
+  },
+  {
+    "course_id": "AAS 158",
+    "course_name": "Asian American Intersections",
+    "units": 3,
+    "prerequisites": [
+      ["||AAS 1", "AAS 33B"],
+      ["||UPPER_DIVISION_STANDING", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "AAS 159",
+    "course_name": "Asian American Media Representation and Popular Culture",
+    "units": 3,
+    "ge_areas": ["GE_AREA_6"]
+  },
+  {
+    "course_id": "AAS 170",
+    "course_name": "Special Topics in Asian American Studies",
+    "units": 3
+  },
+  {
+    "course_id": "AAS 175",
+    "course_name": "Asian American Communities",
+    "units": 3,
+    "ge_areas": ["UD_AREA_4"],
+    "prerequisites": ["&&COMPLETION_OF_CORE_GENERAL_EDUCATION", "UPPER_DIVISION_STANDING"]
+  },
+  {
+    "course_id": "AAS 184",
+    "course_name": "Ethnic Studies Theory",
+    "units": 3,
+    "prerequisites": ["&&AAS 1", "AAS 33B"]
+  },
+  {
+    "course_id": "AAS 185",
+    "course_name": "Ethnic Studies Methodologies",
+    "units": 3,
+    "prerequisites": ["||UPPER_DIVISION_STANDING", "GRADUATE_STANDING"]
+  },
+  {
+    "course_id": "AAS 186",
+    "course_name": "Southeast Asian Diaspora in the US",
+    "units": 3,
+    "prerequisites": "UPPER_DIVISION_STANDING"
+  },
+  {
+    "course_id": "AAS 190",
+    "course_name": "Internship",
+    "prerequisites": [
+      ["||AAS 33B", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "AAS 192",
+    "course_name": "History of Japanese Americans",
+    "units": 3
+  },
+  
+  {
+    "course_id": "ADV 91",
+    "course_name": "Introduction to Advertising",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 92",
+    "course_name": "International Program Studies",
+    "prerequisites": "String: None listed"
+  },
+  {
+    "course_id": "ADV 93",
+    "course_name": "Design Fundamentals for Advertising 1",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 94",
+    "course_name": "Design Fundamentals for Advertising 2",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 95",
+    "course_name": "Working With Type",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 97",
+    "course_name": "Art of Marketing Innovations",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 116",
+    "course_name": "Spartan Daily Advertising Staff",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ADV 91",
+        "String: instructor consent"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 121",
+    "course_name": "Strategic Planning/Communications",
+    "units": 3
+  },
+  {
+    "course_id": "ADV 122",
+    "course_name": "Business-to-Business Advertising",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 123",
+    "course_name": "Introduction to Branded Content",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 124",
+    "course_name": "Copywriting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "MCOM 100W",
+        "ENGL 71"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 126",
+    "course_name": "Media Planning and Buying",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "BUS2 130"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 127",
+    "course_name": "Practical Qualitative Research in Advertising",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "ADV 121"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 128",
+    "course_name": "Integrated Marketing Communications (IMC)",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV_COURSE1",
+        "ADV_COURSE2",
+        "ADV_COURSE3",
+        "BUS2 130"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 129",
+    "course_name": "Advertising Campaign Planning and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MCOM 111",
+        "ADV 116"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 130",
+    "course_name": "Advertising Portfolio 1",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "ADV 93",
+        "ADV 94"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 131",
+    "course_name": "Advertising Portfolio 2",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "ADV 93",
+        "ADV 94",
+        "ADV 130"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 132",
+    "course_name": "UX UI Design for Advertising",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ADV 91",
+        "ADV 93",
+        "ADV 94"
+      ]
+    ]
+  },
+  {
+    "course_id": "ADV 192",
+    "course_name": "International Program Studies",
+    "prerequisites": "String: None listed"
+  },
+
+   {
+      "course_id":"AE 15",
+      "course_name":"Air & Space Flight: Past, Present, and Future",
+      "units":1
+   },
+   {
+      "course_id":"AE 20",
+      "course_name":"Computer-Aided Design for Aerospace Engineers",
+      "units":2
+   },
+   {
+      "course_id":"AE 30",
+      "course_name":"Computer Programming for Aerospace Engineers",
+      "units":2
+   },
+   {
+      "course_id":"AE 92",
+      "course_name":"International Program Studies",
+      "units":"||1-12"
+   },
+   {
+      "course_id":"AE 100",
+      "course_name":"Fundamentals of Aerospace Engineering",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&MATH 30",
+            "PHYS 50"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 105",
+      "course_name":"Mathematical Methods for Aerospace Engineers",
+      "units":3,
+      "prerequisites":[
+         [
+            "MATH 32"
+         ]
+      ],
+      "corequisites":[
+         [
+            "MATH 33A"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 107",
+      "course_name":"Programming & AI for Aerospace Applications",
+      "units":2,
+      "prerequisites":[
+         [
+            "||Math 31",
+            "31X"
+         ],
+         [
+            "&&AE 30",
+            "AE105"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 110",
+      "course_name":"Space Systems Engineering",
+      "units":3,
+      "prerequisites":[
+         [
+            "||AE 100",
+            "AE165"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 112",
+      "course_name":"Aerospace Structures and Materials I",
+      "units":5,
+      "prerequisites":[
+         [
+            "&&PHYS 50",
+            "MATH 31"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 112W",
+      "course_name":"AE Structural Analysis I Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 112"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 114",
+      "course_name":"Aerospace Structures and Materials II",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&AE 112"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 114W",
+      "course_name":"AE Structural Analysis II Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 114"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 119",
+      "course_name":"Finite Element Analysis for Aerospace Applications",
+      "units":3,
+      "prerequisites":[
+         [
+            "AE 114"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 138",
+      "course_name":"Vector-Based Dynamics for Aerospace Applications",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&MATH 32",
+            "PHYS 50"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "AE 112"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 138W",
+      "course_name":"Vector-Based Dynamics Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 138"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 140",
+      "course_name":"Rigid Body Dynamics",
+      "units":3,
+      "prerequisites":[
+         [
+            "AE 138"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 140W",
+      "course_name":"Rigid Body Dynamics Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 140"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 142",
+      "course_name":"Astrodynamics",
+      "units":3,
+      "prerequisites":[
+         [
+            "AE 138"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 149",
+      "course_name":"Advanced Dynamics and Simulation",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&AE 30",
+            "AE 140"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 157",
+      "course_name":"Aerospace Automatic Control Systems Design",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&MATH 33A",
+            "AE 105",
+            "AE 138"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 160",
+      "course_name":"Aerodynamics I",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&MATH 31",
+            "PHYS 50"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "ENGR 100W"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 160W",
+      "course_name":"Aerodynamics I Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 160"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 162",
+      "course_name":"Aerodynamics II",
+      "units":3,
+      "prerequisites":[
+         [
+            "||AE 160",
+            "ME 111"
+         ],
+         [
+            "&&ENGR 100W",
+            "MATH 33A"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 162W",
+      "course_name":"Aerodynamics II Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 162"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 164",
+      "course_name":"Aerothermodynamics",
+      "units":5,
+      "prerequisites":[
+         [
+            "&&PHYS 52",
+            "AE 160"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 164W",
+      "course_name":"Aerothermodynamics Problem-Solving Workshop",
+      "units":1,
+      "corequisites":[
+         [
+            "AE 164"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 165",
+      "course_name":"Aerospace Flight Mechanics",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&MATH 31",
+            "PHYS 50"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 166",
+      "course_name":"Rocketry",
+      "units":3,
+      "prerequisites":[
+         [
+            "||AE 100",
+            "AE165"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 167",
+      "course_name":"Aerospace Propulsion",
+      "units":3,
+      "prerequisites":[
+         [
+            "AE 164"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 168",
+      "course_name":"Aerospace Vehicle Dynamics and Control",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&AE 140",
+            "AE 157",
+            "AE 165"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 169",
+      "course_name":"Computational Fluid Dynamics",
+      "units":3,
+      "prerequisites":[
+         [
+            "&&AE 105",
+            "AE 160"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 171A",
+      "course_name":"Aircraft Design I",
+      "units":3,
+      "ge_areas":[
+         "GE_AREA_4"
+      ],
+      "prerequisites":[
+         [
+            "&&AE 20",
+            "AE 162",
+            "AE 165",
+            "ENGR 100W"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "AE 164",
+            "AE 168",
+            "ENGR 195A"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 171B",
+      "course_name":"Aircraft Design II",
+      "units":3,
+      "ge_areas":[
+         "GE_AREA_3"
+      ],
+      "prerequisites":[
+         [
+            "&&AE 171A",
+            "ENGR 195A"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "ENGR 195B"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 172A",
+      "course_name":"Spacecraft Design I",
+      "units":3,
+      "ge_areas":[
+         "GE_AREA_4"
+      ],
+      "prerequisites":[
+         [
+            "&&AE 20",
+            "AE 162",
+            "AE 165",
+            "ENGR 100W"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "AE 164",
+            "AE 168",
+            "ENGR 195A"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 172B",
+      "course_name":"Spacecraft Design II",
+      "units":3,
+      "ge_areas":[
+         "GE_AREA_3"
+      ],
+      "prerequisites":[
+         [
+            "&&AE 172A",
+            "ENGR 195A"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "ENGR 195B"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 173",
+      "course_name":"Uncrewed Air Vehicle Design",
+      "units":3,
+      "prerequisites":[
+         [
+            "AE 30"
+         ],
+         [
+            "GRADUATE_STANDING"
+         ]
+      ],
+      "corequisites":[
+         [
+            "AE 168",
+            "GRADUATE_STANDING"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 180",
+      "course_name":"Individual Studies",
+      "units":"||1-3",
+      "prerequisites":[
+         [
+            "UPPER_DIVISION_STANDING",
+            "INSTRUCTOR_CONSENT"
+         ]
+      ]
+   },
+   {
+      "course_id":"AE 192",
+      "course_name":"International Program Studies",
+      "units":"||1-12"
+   },
+   {
+      "course_id":"AE 199",
+      "course_name":"Special Topics in Aerospace Engineering",
+      "units":"||1-4",
+      "prerequisites":[
+         [
+            "||UPPER_DIVISION_STANDING",
+            "INSTRUCTOR_CONSENT"
+         ]
+      ]
+   },
+   
+  {
+    "course_id": "AFAM 2A",
+    "course_name": "African Americans and the Development of America’s History and Government",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "AFAM 2B",
+    "course_name": "African Americans and the Development of America’s History and Government",
+    "units": 3,
+    "prerequisites": [
+      [
+        "AFAM 2A"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4_US123"
+    ]
+  },
+  {
+    "course_id": "AFAM 22",
+    "course_name": "The Humanities in African American Culture",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "AFAM 25",
+    "course_name": "The Changing Majority: Power and Ethnicity in America",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "AFAM 40",
+    "course_name": "African Origins",
+    "units": 3
+  },
+  {
+    "course_id": "AFAM 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&1B",
+        "CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 102",
+    "course_name": "Black Music",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 105",
+    "course_name": "Race and Health Inequities in the US",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 106",
+    "course_name": "Black Diasporas",
+    "units": 3
+  },
+  {
+    "course_id": "AFAM 110",
+    "course_name": "Race and Education in the US",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 111",
+    "course_name": "African Nations: History, Politics, and Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 112",
+    "course_name": "Black Immigrant Communities",
+    "units": 3
+  },
+  {
+    "course_id": "AFAM 115",
+    "course_name": "The Great Migration and Black Communities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 119",
+    "course_name": "Africana Philosophy and Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||String: 3 units of philosophy",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 120",
+    "course_name": "Sociology of Black Communities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 125",
+    "course_name": "Black Kinship in the US - Black Families Past and Present",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 130",
+    "course_name": "Black Perspectives in Psychology - Black Psychology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 133",
+    "course_name": "Introduction to Social Issues in Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 134",
+    "course_name": "The Black Civil Rights Movements",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "AFAM 137",
+    "course_name": "Introduction to Black Religion",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 142",
+    "course_name": "Race, Justice, and the Legal System",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 145",
+    "course_name": "Race, Policy, and Urban Cities",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 151",
+    "course_name": "Race, Class and the Environment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2_5"
+    ]
+  },
+  {
+    "course_id": "AFAM 152",
+    "course_name": "Black Feminisms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "AFAM 155A",
+    "course_name": "Triumphs and Trials of the Black Athlete in the U.S., 1850-1999",
+    "units": 3
+  },
+  {
+    "course_id": "AFAM 155B",
+    "course_name": "Triumphs and Trials of the Black Athlete in the U.S., 2000-Present",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 156",
+    "course_name": "Black Women’s Writing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 157",
+    "course_name": "Race, Tech, and Global Futures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 158",
+    "course_name": "Race, Sport, Activism & Social Movements",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "AFAM 159",
+    "course_name": "The Racial Wealth Gap in America",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "AFAM 160",
+    "course_name": "Black Political Power in the US",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 161",
+    "course_name": "Black Representations in Media and New Technology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 162",
+    "course_name": "The Aesthetics of Hip-Hop",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "AFAM 164",
+    "course_name": "Black Entrepreneurship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 165",
+    "course_name": "Topics in Ethnic American Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 166",
+    "course_name": "Black Women’s Histories",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 170",
+    "course_name": "Interracial Intimacies and Mixed Race Identity in the U.S.",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "AFAM 180",
+    "course_name": "Individual Studies",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 184",
+    "course_name": "Directed Reading",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 185",
+    "course_name": "Special Topics in African American Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 190",
+    "course_name": "Internship in Community Development",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFAM 192",
+    "course_name": "International Program Studies",
+    "units": "1-6"
+  },
+  {
+    "course_id": "AFAM 198",
+    "course_name": "Senior Seminar in African American Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&AFAM 2A",
+        "AFAM 2B",
+        "SENIOR_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFRS 142",
+    "course_name": "African Politics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AFRS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "AMS 10",
+    "course_name": "Stories that Make America",
+    "units": 3,
+    "corequisites": [
+      [
+        "ENGL 1A"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3B_US1"
+    ]
+  },
+  {
+    "course_id": "AMS 11",
+    "course_name": "Visions of Democracy",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4_US2_US3"
+    ]
+  },
+  {
+    "course_id": "AMS 12",
+    "course_name": "Intro to US Popular Culture: Serious Fun!",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "AMS 92",
+    "course_name": "International Program Studies",
+    "units": "1-12"
+  },
+  {
+    "course_id": "AMS 100W",
+    "course_name": "Writing in the Humanities & Interdisciplinary Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&1B",
+        "CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||GRADUATE_STANDING",
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 129",
+    "course_name": "The U.S. in a Global Context",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 139",
+    "course_name": "Animals and Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2_5"
+    ]
+  },
+  {
+    "course_id": "AMS 159",
+    "course_name": "Nature and World Cultures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3C"
+    ]
+  },
+  {
+    "course_id": "AMS 160",
+    "course_name": "Special Topics in Humanities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 169",
+    "course_name": "The American Dream",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CORE_GE_COMPLETED",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "AMS 179",
+    "course_name": "Issues in US Popular Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 180",
+    "course_name": "Individual Studies",
+    "units": "1-4",
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 190",
+    "course_name": "Senior Seminar in Humanities",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "AMS 192",
+    "course_name": "International Program Studies",
+    "units": "1-12"
+  },
+
+  {
+    "course_id": "ANI 1A",
+    "course_name": "Animation Foundations Bridge 1A",
+    "units": 3
+  },
+  {
+    "course_id": "ANI 1B",
+    "course_name": "Animation Foundations Bridge 1B",
+    "units": 3
+  },
+  {
+    "course_id": "ANI 10",
+    "course_name": "Light and Optics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 11",
+    "course_name": "Illustration Fundamentals I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BA_DESIGN_STUDIES_MAJOR",
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 13",
+    "course_name": "Drawing for Animation/Illustration I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 11",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 15",
+    "course_name": "Visual Storytelling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 10",
+        "ANI 11",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 16",
+    "course_name": "Drawing for Animation/Illustration II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 13",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 21",
+    "course_name": "Color Principles for Screen Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 22",
+    "course_name": "Illustration Fundamentals II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 21",
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 23",
+    "course_name": "Illustration Fundamentals III",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 22",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 31",
+    "course_name": "2D Animation I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANIMATION_ILLUSTRATION_MAJOR",
+        "DESIGN_STUDIES_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 32",
+    "course_name": "2D Animation II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 31",
+        "String: Passage of Mid-Program Portfolio Review",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 41",
+    "course_name": "Introduction to 3D Modeling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 11",
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 61",
+    "course_name": "Introduction to 3D Animation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 71",
+    "course_name": "Visual Principles",
+    "units": 3,
+    "prerequisites": [
+      [
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 112",
+    "course_name": "Conceptual Illustration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 23",
+        "String: passage of Mid-Program Review",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 123",
+    "course_name": "Visual Development I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 22",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 124",
+    "course_name": "Visual Development II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 123",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 132",
+    "course_name": "2D Animation III",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 32",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 133",
+    "course_name": "Animation Production - Storyboarding",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&ANI 132",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 134",
+    "course_name": "Animation Production - Storyboarding II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ANI 133"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 141",
+    "course_name": "Digital Modeling I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 41",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 142",
+    "course_name": "Digital Modeling II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 141",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 161",
+    "course_name": "Digital Animation I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 61",
+        "String: Passage of Mid-Program Portfolio Review",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 162",
+    "course_name": "Digital Animation II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 161",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 175",
+    "course_name": "Professional Practices in Entertainment Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 179",
+    "course_name": "Special Topics in Animation/Illustration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "String: Passage of Mid-Program Portfolio Review",
+        "ANIMATION_ILLUSTRATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 180",
+    "course_name": "Individual Studies",
+    "units": "3-6",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 192",
+    "course_name": "International Program Studies",
+    "units": "1-9"
+  },
+  {
+    "course_id": "ANI 198",
+    "course_name": "Senior Seminar Animation/Illustration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANI 134",
+        "ANI 142",
+        "ANI 175"
+      ],
+      [
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ANI 199",
+    "course_name": "Senior Project Animation/Illustration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANI 198",
+        "ANIMATION_MAJOR"
+      ]
+    ]
+  }
+]
