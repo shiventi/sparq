@@ -294,6 +294,8 @@
       "HIST_10A",
       "HIST_10B",
       "HIST_15",
+      "HIST_20A",
+      "HIST_20B",
       "HUM_99",
       "JOUR_50",
       "JS_25",
@@ -311,6 +313,57 @@
       "SOCI_80",
       "WGSS_10",
       "WGSS_20"
+    ],
+    "units": 3
+  },
+  {
+    "area": [
+      "GE_Area_4",
+      "US1"
+    ],
+    "title": "Social and Behavioral Sciences with U.S. History",
+    "course": [
+      "HIST_15",
+      "HIST_20A",
+      "HIST_20B",
+      "HIST_170S",
+      "HIST_188"
+    ],
+    "units": 3
+  },
+  {
+    "area": [
+      "GE_Area_4", 
+      "US2",
+      "US3"
+    ],
+    "title": "Social and Behavioral Sciences with U.S. Constitution and California Government",
+    "course": [
+      "POLS_15",
+      "POLS_170V"
+    ],
+    "units": 3
+  },
+  {
+    "area": [
+      "GE_Area_3B",
+      "US2",
+      "US3" 
+    ],
+    "title": "Humanities with U.S. Constitution and California Government",
+    "course": [
+      "POLS_16"
+    ],
+    "units": 3
+  },
+  {
+    "area": [
+      "GE_Area_3B",
+      "US1"
+    ],
+    "title": "Humanities with U.S. History",
+    "course": [
+      "AMS_10"
     ],
     "units": 3
   },

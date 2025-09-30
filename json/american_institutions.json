@@ -1,0 +1,82 @@
+[
+  {
+    "code": "US1",
+    "title": "U.S. History",
+    "description": "American Institutions requirement for U.S. History",
+    "courses": [
+      "AMS_10",
+      "HIST_15",
+      "HIST_20A", 
+      "HIST_20B",
+      "HIST_170",
+      "HIST_170S",
+      "HIST_188"
+    ]
+  },
+  {
+    "code": "US2", 
+    "title": "U.S. Constitution",
+    "description": "American Institutions requirement for U.S. Constitution",
+    "courses": [
+      "AMS_11",
+      "POLS_15",
+      "POLS_16",
+      "POLS_170V",
+      "POLS_1"
+    ]
+  },
+  {
+    "code": "US3",
+    "title": "California Government", 
+    "description": "American Institutions requirement for California Government",
+    "courses": [
+      "AMS_11",
+      "POLS_15", 
+      "POLS_16",
+      "POLS_170V",
+      "POLS_1",
+      "HIST_189A",
+      "HIST_189B", 
+      "POLS_102"
+    ]
+  },
+  {
+    "code": "US23",
+    "title": "U.S. Constitution + California Government",
+    "description": "Combined American Institutions requirement for US Constitution and California Government",
+    "courses": [
+      "AMS_11",
+      "POLS_15",
+      "POLS_16", 
+      "POLS_170V",
+      "POLS_1"
+    ]
+  },
+  {
+    "code": "US123_SEQUENCES",
+    "title": "U.S. History + U.S. Constitution + California Government Sequences",
+    "description": "Course sequences that satisfy all three American Institutions requirements",
+    "sequences": [
+      {
+        "name": "African American Studies Sequence",
+        "courses": ["AFAM_2A", "AFAM_2B"],
+        "satisfies": ["GE_Area_4", "US1", "US2", "US3"]
+      },
+      {
+        "name": "Asian American History Sequence", 
+        "courses": ["AAS_33A", "AAS_33B"],
+        "satisfies": ["GE_Area_4", "US1", "US2", "US3"]
+      },
+      {
+        "name": "Chicana and Chicano Studies Sequence",
+        "courses": ["CCS_10A", "CCS_10B"], 
+        "satisfies": ["GE_Area_4", "US1", "US2", "US3"]
+      },
+      {
+        "name": "Women, Gender, and Sexuality Studies Sequence",
+        "courses": ["WGSS_16A", "WGSS_16B"],
+        "satisfies": ["GE_Area_4", "US1", "US2", "US3"] 
+      }
+    ]
+  }
+]

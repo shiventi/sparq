@@ -1,5 +1,10 @@
 # sparq Progress
 
+## SEPT 27, 2025
+- Created american_institutions.json to add additional courses and their requirments.
+- Added more courses to ge_courses.json and /roadmaps.
+- Fixed the unique_course_id.py to make sure it properly fetches all classes and their names
+
 ## SEPT 25, 2025
 - Fixed ge_courses.json to correctly include courses that satisfy multiple GE areas.
   - Updated the ge_courses.json file by changing the 'area' values from uppercase to lowercase for consistency.
