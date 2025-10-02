@@ -1153,7 +1153,7 @@
   {
     "course_id": "AFAM 180",
     "course_name": "Individual Studies",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "UPPER_DIVISION_STANDING"
@@ -1163,7 +1163,7 @@
   {
     "course_id": "AFAM 184",
     "course_name": "Directed Reading",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "UPPER_DIVISION_STANDING"
@@ -1183,7 +1183,7 @@
   {
     "course_id": "AFAM 190",
     "course_name": "Internship in Community Development",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "||UPPER_DIVISION_STANDING",
@@ -1194,7 +1194,7 @@
   {
     "course_id": "AFAM 192",
     "course_name": "International Program Studies",
-    "units": "1-6"
+    "units": "||1-6"
   },
   {
     "course_id": "AFAM 198",
@@ -1256,7 +1256,7 @@
   {
     "course_id": "AMS 92",
     "course_name": "International Program Studies",
-    "units": "1-12"
+    "units": "||1-12"
   },
   {
     "course_id": "AMS 100W",
@@ -1349,7 +1349,7 @@
   {
     "course_id": "AMS 180",
     "course_name": "Individual Studies",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "INSTRUCTOR_CONSENT"
@@ -1370,7 +1370,7 @@
   {
     "course_id": "AMS 192",
     "course_name": "International Program Studies",
-    "units": "1-12"
+    "units": "||1-12"
   },
 
   {
@@ -1660,7 +1660,7 @@
   {
     "course_id": "ANI 180",
     "course_name": "Individual Studies",
-    "units": "3-6",
+    "units": "||3-6",
     "prerequisites": [
       [
         "&&UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION",
@@ -1671,7 +1671,7 @@
   {
     "course_id": "ANI 192",
     "course_name": "International Program Studies",
-    "units": "1-9"
+    "units": "||1-9"
   },
   {
     "course_id": "ANI 198",
@@ -5333,7 +5333,7 @@
   {
     "course_id": "BIOL 145",
     "course_name": "Advanced Undergraduate Biology Seminar",
-    "units": "1-3",
+    "units": "||1-3",
     "prerequisites": [
       [
         "&&COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR",
@@ -5348,7 +5348,7 @@
   {
     "course_id": "BIOL 145L",
     "course_name": "Advanced Undergraduate Biology Lab",
-    "units": "1-2",
+    "units": "||1-2",
     "prerequisites": [
       [
         "&&COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR",
@@ -5374,7 +5374,7 @@
   {
     "course_id": "BIOL 150",
     "course_name": "Field Studies in Natural History",
-    "units": "1-2",
+    "units": "||1-2",
     "ge_areas": [
       "GE_AREA_5C"
     ]
@@ -5607,7 +5607,7 @@
   {
     "course_id": "BIOL 180",
     "course_name": "Individual Studies",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
@@ -5618,7 +5618,7 @@
   {
     "course_id": "BIOL 181",
     "course_name": "Introduction to Health Care",
-    "units": "1-3",
+    "units": "||1-3",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
@@ -5629,7 +5629,7 @@
   {
     "course_id": "BIOL 182",
     "course_name": "Tutor Assistant in Biology",
-    "units": "1-2",
+    "units": "||1-2",
     "prerequisites": [
       [
         "||SOPHOMORE_STANDING",
@@ -5645,7 +5645,7 @@
   {
     "course_id": "BIOL 184",
     "course_name": "Directed Reading",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
@@ -5656,7 +5656,7 @@
   {
     "course_id": "BIOL 186",
     "course_name": "Senior Thesis",
-    "units": "2-4",
+    "units": "||2-4",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
@@ -5667,7 +5667,7 @@
   {
     "course_id": "BIOL 190",
     "course_name": "Field Studies in Biology",
-    "units": "1-4",
+    "units": "||1-4",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
@@ -5678,13 +5678,8891 @@
   {
     "course_id": "BIOL 198",
     "course_name": "Undergraduate Research",
-    "units": "0.5-4",
+    "units": "||0.5-4",
     "prerequisites": [
       [
         "&&INSTRUCTOR_CONSENT",
         "BIOLOGY_MAJOR"
       ]
     ]
+  },
+
+  {
+    "course_id": "BME 25",
+    "course_name": "Introduction to Biomedical Engineering Design",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ENGL_1B_WITH_C_MINUS_OR_BETTER",
+        "ENGR_10_WITH_C_MINUS_OR_BETTER",
+        "||MATH_30_WITH_C_MINUS_OR_BETTER",
+        "MATH_30X_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 65",
+    "course_name": "Biomedical Applications of Statics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_31",
+        "PHYS_50"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 68",
+    "course_name": "Biomedical Applications of Metals and Ceramics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_1B",
+        "||MATH_31",
+        "MATH_31X",
+        "PHYS_50"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 115",
+    "course_name": "Foundations of Biomedical Engineering",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL_30",
+        "CHEM_1B",
+        "PHYS_50",
+        "ENGR_10",
+        "MATH_31"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 116",
+    "course_name": "Biosensors and Bioinstrumentation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_51",
+        "BME_115",
+        "BME_177"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 117",
+    "course_name": "Biotransport Phenomena",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_115_WITH_C_MINUS_OR_BETTER",
+        "||MATH_33LA_WITH_C_MINUS_OR_BETTER",
+        "MATH_33A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BME_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 130",
+    "course_name": "Numerical Methods in Biomedical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_32_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||MATH_33A",
+        "MATH_33LA"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 133",
+    "course_name": "Programming for Biomedical Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH_30",
+        "MATH_30X"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 135",
+    "course_name": "Biomedical Engineering Design Methods",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ENGR_10"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 147",
+    "course_name": "Quantitative and Statistical Methods for Biomedical Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH_32_WITH_C_MINUS_OR_BETTER",
+        "MATH_32H_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 165",
+    "course_name": "Applied Engineering Biomechanics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_65",
+        "BME_68",
+        "BME_130",
+        "||MATH_33A",
+        "MATH_33LA"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 168",
+    "course_name": "Medical and Biological Polymers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_68_WITH_C_MINUS_OR_BETTER",
+        "CHEM_8_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 174",
+    "course_name": "Biomedical Regulatory Requirements",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_25"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ENGR_100W",
+        "BME_177"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 177",
+    "course_name": "Physiology for Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL_30",
+        "CHEM_1B",
+        "PHYS_50"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 178",
+    "course_name": "Biomedical Product Realization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_147_WITH_C_MINUS_OR_BETTER",
+        "BME_174_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 182",
+    "course_name": "Orthotics and Prosthetics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_65",
+        "BME_68",
+        "BME_115",
+        "BME_177"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 185",
+    "course_name": "Digital Health",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_115",
+        "BME_133"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 187",
+    "course_name": "Medical Device Quality Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_174"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BME_147"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 188",
+    "course_name": "Biomedical Device Manufacturing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BME_25_WITH_C_MINUS_OR_BETTER",
+        "BME_65_WITH_C_MINUS_OR_BETTER",
+        "BME_115_WITH_C_MINUS_OR_BETTER",
+        "BME_177_WITH_C_MINUS_OR_BETTER",
+        "CHEM_1B_WITH_C_MINUS_OR_BETTER",
+        "MATE_25_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "BME 198A",
+    "course_name": "Senior Design Project I",
+    "units": 2,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&MATH_32_WITH_C_MINUS_OR_BETTER",
+        "BME_115_WITH_C_MINUS_OR_BETTER",
+        "BME_177_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "||BIOMEDICAL_ENG_MAJOR",
+        "GRADUATE_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ENGR_195A",
+        "BME_147"
+      ]
+    ]
+  },
+  {
+    "course_id": "BME 198B",
+    "course_name": "Senior Design Project II",
+    "units": 2,
+    "ge_areas": [
+      "GE_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&BME_198A_WITH_C_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ENGR_195B"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "BUS1 20",
+    "course_name": "Financial Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH_70",
+        "MATH_30_WITH_C_OR_BETTER",
+        "MATH_30X_WITH_C_OR_BETTER",
+        "MATH_31_WITH_C_OR_BETTER",
+        "MATH_31X_WITH_C_OR_BETTER",
+        "MATH_32_WITH_C_OR_BETTER",
+        "MATH_32X_WITH_C_OR_BETTER",
+        "MATH_70X_WITH_C_OR_BETTER",
+        "MATH_71_WITH_C_OR_BETTER",
+        "MATH_71X_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 20N",
+    "course_name": "Survey of Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&NON_BUSINESS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 21",
+    "course_name": "Managerial Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS1 20",
+        "BUS1 20N"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 92",
+    "course_name": "International Program Studies",
+    "units": "1-12"
+  },
+  {
+    "course_id": "BUS1 120A",
+    "course_name": "Accounting Information Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||ACCOUNTING_MAJOR",
+        "AIS_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 120B",
+    "course_name": "Advanced AIS and IS Risk Assessment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_120A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||COMM_100W_WITH_C_OR_BETTER",
+        "ENGL_100WB_WITH_C_OR_BETTER",
+        "LLD_100WB_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 120C",
+    "course_name": "Network Environment and Accounting Controls",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_120A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 120D",
+    "course_name": "Accounting Topics in IT Audit",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_120B_WITH_C_OR_BETTER",
+        "BUS1_120C_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 120G",
+    "course_name": "Programming and Systems Development in AIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 121A",
+    "course_name": "Intermediate Accounting I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||ACCOUNTING_MAJOR",
+        "AIS_MAJOR",
+        "FINANCE_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 121B",
+    "course_name": "Intermediate Accounting II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_121A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 122A",
+    "course_name": "Management Accounting and Control Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||ACCOUNTING_MAJOR",
+        "AIS_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 123A",
+    "course_name": "Taxation of Businesses and Investments",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||ACCOUNTING_MAJOR",
+        "AIS_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 123C",
+    "course_name": "Taxation of Individuals",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_123A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||BUSINESS_MINOR",
+        "ACCOUNTING_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 124",
+    "course_name": "Forensic Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_20_WITH_C_OR_BETTER",
+        "||COMM_100W_WITH_C_OR_BETTER",
+        "ENGL_100W_WITH_C_OR_BETTER",
+        "LLD_100W_WITH_C_OR_BETTER",
+        "BUS1_121A_WITH_C_OR_BETTER",
+        "BUS1_121B_WITH_C_OR_BETTER",
+        "||ACCOUNTING_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 125A",
+    "course_name": "Advanced Writing for Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_121A"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 126",
+    "course_name": "Advanced Accounting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_121A_WITH_C_OR_BETTER",
+        "BUS1_121B_WITH_C_OR_BETTER",
+        "||ACCOUNTING_MAJOR",
+        "CORP_ACC_FIN_MAJOR",
+        "BUSINESS_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 127A",
+    "course_name": "Honors Practicum in Corporate Financial Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_121A_WITH_C_OR_BETTER",
+        "BUS1_121B_WITH_C_OR_BETTER",
+        "BUS1_122A_WITH_C_OR_BETTER",
+        "BUS1_170_WITH_C_OR_BETTER",
+        "INSTRUCTOR_CONSENT",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 127B",
+    "course_name": "Advanced Honors Practicum",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ACCOUNTING_MAJOR",
+        "FINANCE_MAJOR",
+        "AIS_MAJOR",
+        "CORP_ACC_FIN_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 128",
+    "course_name": "Accounting for Nonprofit Organizations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_121A_WITH_C_OR_BETTER",
+        "||ACCOUNTING_MAJOR",
+        "CORP_ACC_FIN_MAJOR",
+        "BUSINESS_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 129A",
+    "course_name": "Financial Auditing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_120A_WITH_C_OR_BETTER",
+        "BUS1_121A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 129B",
+    "course_name": "Operational Auditing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_120A_WITH_C_OR_BETTER",
+        "BUS1_121A_WITH_C_OR_BETTER",
+        "BUS1_121B_WITH_C_OR_BETTER",
+        "BUS1_122A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 170",
+    "course_name": "Fundamentals of Finance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS1_21",
+        "BUS1_122A",
+        "ECON_1A",
+        "ECON_1B",
+        "BUS2_90"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 171A",
+    "course_name": "Financial Institutions and Markets",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||FINANCE_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 171B",
+    "course_name": "Commercial Banking",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_171A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 172A",
+    "course_name": "Investment Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||FINANCE_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 172B",
+    "course_name": "Portfolio Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_172A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 172C",
+    "course_name": "Futures and Options",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_172A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 172D",
+    "course_name": "Student Managed Investment Fund",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 173A",
+    "course_name": "Financial Management: Theory and Policy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING",
+        "||FINANCE_MAJOR",
+        "CORP_ACC_FIN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 173B",
+    "course_name": "Problems in Financial Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS1_173A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 173C",
+    "course_name": "Entrepreneurial Finance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 175",
+    "course_name": "Real Estate Finance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 176",
+    "course_name": "Business Valuation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS1_173A_WITH_C_OR_BETTER",
+        "BUS1_172A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 177",
+    "course_name": "International Business Finance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_170_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 179B",
+    "course_name": "Selected Topics in Business Finance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS1_173A_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS1 180A",
+    "course_name": "Individual Study Accounting",
+    "units": "||1-4"
+  },
+  {
+    "course_id": "BUS1 180C",
+    "course_name": "Individual Study Finance",
+    "units": "||1-4"
+  },
+  {
+    "course_id": "BUS1 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+
+  {
+    "course_id": "BUS2 90",
+    "course_name": "Business Statistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_70"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "BUS2 130",
+    "course_name": "Introduction to Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 131A",
+    "course_name": "Business to Business Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 131B",
+    "course_name": "Retail Marketing Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 131C",
+    "course_name": "Marketing of High Technology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 131D",
+    "course_name": "Marketing in New Ventures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 132B",
+    "course_name": "Supply Chain Analytics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "BUS2_190",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 133A",
+    "course_name": "International Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 133B",
+    "course_name": "Relationship Marketing: Pacific Rim",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 133C",
+    "course_name": "International Marketing: Developing Nations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 133E",
+    "course_name": "Marketing to Eastern/Western Europe",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 134A",
+    "course_name": "Consumer Behavior",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "ANY_100W",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 134B",
+    "course_name": "Integrated Marketing Communications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "ANY_100W",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 134C",
+    "course_name": "Social Media Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 135",
+    "course_name": "Sales Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 135B",
+    "course_name": "Services Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 135C",
+    "course_name": "Entertainment Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 135D",
+    "course_name": "Sports Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 136",
+    "course_name": "Product Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 137A",
+    "course_name": "Soft Skills",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 137D",
+    "course_name": "Special Topics in Business Analytics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_90"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 137H",
+    "course_name": "Marketing and Business Analytics Honors Practicum",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS2_130",
+        "BUS2_190",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 137S",
+    "course_name": "Special Topics in Marketing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 138",
+    "course_name": "Marketing Research",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_90",
+        "BUS2_130",
+        "ANY_100W",
+        "SENIOR_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 139",
+    "course_name": "Marketing Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_130",
+        "BUS2_134A",
+        "BUS2_134B",
+        "BUS2_138",
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "SENIOR_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 180F",
+    "course_name": "Individual Study Marketing",
+    "units": "||1-4"
+  },
+  {
+    "course_id": "BUS2 190",
+    "course_name": "Fundamentals of Business Analytics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_90",
+        "||MATH_70",
+        "EQUIVALENT_MATH_70",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 192A",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+  {
+    "course_id": "BUS2 193",
+    "course_name": "Data Mining",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS2_90",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 194A",
+    "course_name": "Statistical Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_90"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 194B",
+    "course_name": "Prescriptive Analytics in Business",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_190"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 195A",
+    "course_name": "Spreadsheet Modeling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_190"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 195B",
+    "course_name": "Data Visualization and Exploration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_90"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 195C",
+    "course_name": "Simulation Modeling and Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_190"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS2 195D",
+    "course_name": "Analytic Strategy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS2_194A",
+        "BUS2_194B"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "BUS3 10",
+    "course_name": "Discovering Business",
+    "units": 3
+  },
+  {
+    "course_id": "BUS3 12",
+    "course_name": "Business First Year Experience",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "BUS3 80",
+    "course_name": "Legal Environment of Business",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOPHOMORE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "BUS3 149",
+    "course_name": "Negotiation and Conflict Resolution",
+    "units": 3
+  },
+  {
+    "course_id": "BUS3 150",
+    "course_name": "Fundamentals of Human Resource Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 151",
+    "course_name": "Labor Relations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 152",
+    "course_name": "Human Resources Analytics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 153",
+    "course_name": "Management of Diversity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS3_150",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 154",
+    "course_name": "Workforce Planning, Staffing and Training",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB"
+      ],
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS3_150"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 155",
+    "course_name": "Performance Management and Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_150",
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 157",
+    "course_name": "Employment Law",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_80",
+        "BUS3_150",
+        "||BUS_100W",
+        "COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "UPPER_DIVISION_STANDING",
+        "||BUS_ADMIN_HRM_MAJOR",
+        "BUSINESS_MINOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS3_150"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 158",
+    "course_name": "Compensation and Reward Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_91L",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS3_150"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 159",
+    "course_name": "Senior Seminar in Human Resource Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS3_150",
+        "BUS3_154",
+        "BUS3_157",
+        "BUS3_158",
+        "BUS_ADMIN_HRM_MAJOR",
+        "GRADUATING_SENIOR_STATUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 160",
+    "course_name": "Fundamentals of Management and Organizational Behavior",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 161A",
+    "course_name": "Applied Organizational Behavior",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_160",
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 161B",
+    "course_name": "Organization Theory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_160",
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 165",
+    "course_name": "Analysis and Design of Teams",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 166",
+    "course_name": "Business, Government, & Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 169A",
+    "course_name": "Honors Practicum I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS3_160",
+        "BUS3_161B",
+        "ACCEPTANCE_HONORS_PROGRAM"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 169B",
+    "course_name": "Honors Practicum II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_160",
+        "BUS3_161B",
+        "ACCEPTANCE_HONORS_PROGRAM"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 171",
+    "course_name": "Real Estate Principles",
+    "units": 3
+  },
+  {
+    "course_id": "BUS3 172",
+    "course_name": "Real Estate Law",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_80"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 180D",
+    "course_name": "Individual Studies Organizational Mgmt",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "BUS3 184N",
+    "course_name": "Business Network Experience",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS3_160",
+        "BUS3_150"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS3_189"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 186",
+    "course_name": "Professional and Business Ethics",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 189",
+    "course_name": "Strategic Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GRADUATION_APPLICATION",
+        "ANY_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS3 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+
+  {
+    "course_id": "BUS4 91A",
+    "course_name": "Advanced Computer Tools for Business",
+    "units": 1,
+    "prerequisites": "String: Basic Excel and PowerPoint skill proficiency"
+  },
+  {
+    "course_id": "BUS4 91L",
+    "course_name": "Computer Tools for Business",
+    "units": 1
+  },
+  {
+    "course_id": "BUS4 92",
+    "course_name": "Introduction to Business Programming",
+    "units": 3
+  },
+  {
+    "course_id": "BUS4 92I",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "BUS4 110A",
+    "course_name": "Fundamentals of Management Information Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_92",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 110B",
+    "course_name": "Systems Analysis and Design",
+    "units": 3
+  },
+  {
+    "course_id": "BUS4 111",
+    "course_name": "Networking and Data Communications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 112",
+    "course_name": "Database Management Systems",
+    "units": 3
+  },
+  {
+    "course_id": "BUS4 116",
+    "course_name": "Advanced Database Management Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_112"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118A",
+    "course_name": "Cloud Computing for Data Professionals",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_92",
+        "BUS4_112"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118B",
+    "course_name": "Business Intelligence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_112"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118D",
+    "course_name": "Big Data",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_112"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS4_110A"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118H",
+    "course_name": "Honors Practicum in MIS I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_110A",
+        "BUS4_110B",
+        "ANY_100W",
+        "MIS_HONORS_PROGRAM"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&BUS4_112"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118I",
+    "course_name": "Artificial Intelligence (AI) for Social Good",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_110A"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118S",
+    "course_name": "Special Topics in MIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_111",
+        "BUS4_112",
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 118W",
+    "course_name": "Web Based Computing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_110A_WITH_C_OR_BETTER",
+        "BUS4_112_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 119A",
+    "course_name": "Practicum in MIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W",
+        "BUS4_110A_WITH_C_OR_BETTER",
+        "BUS4_110B_WITH_C_OR_BETTER",
+        "BUS4_111_WITH_C_OR_BETTER",
+        "BUS4_112_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 119B",
+    "course_name": "Business Strategy and Information Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W",
+        "BUS4_110A",
+        "BUS4_110B",
+        "BUS4_111",
+        "BUS4_112"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 119H",
+    "course_name": "Honors Practicum in MIS II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BUS4_118H"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS4 180I",
+    "course_name": "Individual Studies MIS",
+    "units": "||1-4"
+  },
+  {
+    "course_id": "BUS4 188",
+    "course_name": "Business Systems and Policy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB"
+      ]
+    ],
+    "corequisites": "String: Fundamental courses"
+  },
+  {
+    "course_id": "BUS4 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "BUS5 16",
+    "course_name": "Introduction to Leadership & Innovation",
+    "units": 3
+  },
+  {
+    "course_id": "BUS5 92",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+  {
+    "course_id": "BUS5 140",
+    "course_name": "Fundamentals of Operations Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 141",
+    "course_name": "Procurement and Supply Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 141B",
+    "course_name": "Transportation & Supply Chain Logistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 142",
+    "course_name": "Total Quality Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 142B",
+    "course_name": "Business Process Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 144",
+    "course_name": "Supply Chain Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 144B",
+    "course_name": "Operations & Supply Chain Analytics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS5_140",
+        "INSTRUCTOR_CONSENT",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 145",
+    "course_name": "Operations & Supply Chain Strategy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 145B",
+    "course_name": "Healthcare Operations Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 146",
+    "course_name": "Fundamentals of Project Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 147",
+    "course_name": "Service Operations Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT",
+        "BUSINESS_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 148",
+    "course_name": "Sustainable Operations Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 162",
+    "course_name": "International and Comparative Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ANY_100W",
+        "BUS5_187",
+        "INSTRUCTOR_CONSENT",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 162A",
+    "course_name": "International Business Strategy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "BUS5_187",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 163A",
+    "course_name": "Negotiating Globally",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 163B",
+    "course_name": "Business and Innovation in Emerging Economies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANY_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 164",
+    "course_name": "Doing Business Globally",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "ANY_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 164A",
+    "course_name": "Doing Business in Japan",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 164B",
+    "course_name": "Doing Business in India",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 164C",
+    "course_name": "Doing Business in China",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 165A",
+    "course_name": "Global Leadership",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 167",
+    "course_name": "Managing Environmental Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 169A",
+    "course_name": "Honors Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMM_100W",
+        "ENGL_100WB",
+        "LLD_100WB",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 169B",
+    "course_name": "Honors Practicum in Organization and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS3_160",
+        "BUS3_161A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 180D",
+    "course_name": "Individual Study",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "BUS5 181",
+    "course_name": "Introduction to Entrepreneurship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 182",
+    "course_name": "Business Plans for New Ventures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS5_181",
+        "INSTRUCTOR_CONSENT",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 182A",
+    "course_name": "Startup Founders & Funders",
+    "units": 3
+  },
+  {
+    "course_id": "BUS5 183",
+    "course_name": "Global Entrepreneurship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 184A",
+    "course_name": "Management of Innovation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 185",
+    "course_name": "Family Business Dynamics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS5_181",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 186H",
+    "course_name": "Entrepreneurship Laboratory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 186V",
+    "course_name": "Venture Lab",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 187",
+    "course_name": "Global Dimensions of Business",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+  {
+    "course_id": "BUS5 194",
+    "course_name": "Business Organization and Management of Technology Enterprise",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS2_193",
+        "ENGR_193"
+      ]
+    ]
+  },
+  {
+    "course_id": "BUS5 196E",
+    "course_name": "Startup Founders and Funders",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||BUS5_181",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CA 60",
+    "course_name": "Creativity Matters",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "CA 70",
+    "course_name": "Visual & Media Arts for K-8 Teachers",
+    "units": 3
+  },
+  {
+    "course_id": "CA 75",
+    "course_name": "Performing Arts for K-8 Teachers",
+    "units": 3
+  },
+  {
+    "course_id": "CA 95",
+    "course_name": "Introduction to Queer Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "CA 134",
+    "course_name": "Religion Film & Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 139",
+    "course_name": "Teaching Diversity through Art",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 148",
+    "course_name": "Voice & Movement for Performance",
+    "units": 3,
+    "corequisites": [
+      [
+        "||TA_48",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 150",
+    "course_name": "Field Experience in the Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ART_138",
+        "ART_139",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 172",
+    "course_name": "The Arts in U.S. Society",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 173",
+    "course_name": "Thinking About Contemporary World Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 175",
+    "course_name": "Seminar in Creative Process",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CA_60",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 176",
+    "course_name": "Creativity and Creative Leadership",
+    "units": 3
+  },
+  {
+    "course_id": "CA 177",
+    "course_name": "Interdisciplinary Arts for Teaching",
+    "units": 3
+  },
+  {
+    "course_id": "CA 178",
+    "course_name": "Senior Seminar in Creative Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CA_172",
+        "CA_173"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&COORDINATOR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 190",
+    "course_name": "Field Work/Internship",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&COORDINATOR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "CA 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CA 194",
+    "course_name": "Community Building through Arts Orgs",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CCS 1",
+    "course_name": "Introduction to Chicana and Chicano Studies",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "CCS 2",
+    "course_name": "Library Studies",
+    "units": 1
+  },
+  {
+    "course_id": "CCS 7",
+    "course_name": "Mexican Folklorico Dance",
+    "units": 1,
+    "ge_areas": [
+      "GE_AREA_PE"
+    ]
+  },
+  {
+    "course_id": "CCS 10A",
+    "course_name": "Mexican Americans and the Development of U.S. History and Government",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CCS 10B",
+    "course_name": "Mexican Americans and the Development of U.S. History and Government",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CCS 10A"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4_US123"
+    ]
+  },
+  {
+    "course_id": "CCS 25",
+    "course_name": "The Changing Majority: Power and Ethnicity in America",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "CCS 30",
+    "course_name": "Race and Ethnicity in Public Space",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_6"
+    ]
+  },
+  {
+    "course_id": "CCS 40",
+    "course_name": "Chicana/o Theater: Social Justice Performance Art",
+    "units": 3
+  },
+  {
+    "course_id": "CCS 74",
+    "course_name": "Public Address",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1C"
+    ]
+  },
+  {
+    "course_id": "CCS 105",
+    "course_name": "Colonial Impacts & Modern Relations: Chicana/os & Americas",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 115",
+    "course_name": "Chicana/o Families",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 120",
+    "course_name": "Political Economy and Chicana/o Communities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 125",
+    "course_name": "Barrio Service Learning",
+    "units": 4
+  },
+  {
+    "course_id": "CCS 126",
+    "course_name": "Chicana/os and the Criminal Justice System",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 130",
+    "course_name": "Chicanas and Chicanos in American Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CCS 135",
+    "course_name": "Contemporary Chicana/o Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ENGL 1A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 144",
+    "course_name": "Chicana/o Literature",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ENGL 1A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 145",
+    "course_name": "Chicana/o Art Histories",
+    "units": 3
+  },
+  {
+    "course_id": "CCS 147",
+    "course_name": "Music in Mexican America",
+    "units": 3
+  },
+  {
+    "course_id": "CCS 150",
+    "course_name": "Research Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CCS 2",
+        "CCS 151"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 151",
+    "course_name": "Theory in Chicana/o Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CCS 1",
+        "CCS 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 152",
+    "course_name": "The Story of Chicano Spanish",
+    "units": 3
+  },
+  {
+    "course_id": "CCS 160",
+    "course_name": "Gender and Sexuality in the Chicana/o Community",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CCS 170",
+    "course_name": "Chicana/Chicano Film",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ENGL 1A",
+        "ENGL 2"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 175",
+    "course_name": "Human Migrations: Global Reach",
+    "units": 3,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 185",
+    "course_name": "Teaching in a Diverse Society",
+    "units": 3
+  },
+  {
+    "course_id": "CCS 190",
+    "course_name": "Chicana and Chicano Studies Capstone",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CCS 125",
+        "CCS 150",
+        "CCS 151",
+        "SENIOR_STANDING",
+        "ALLOWED_MAJOR_OR_MINOR_CHICANA_O_STUDIES"
+      ]
+    ]
+  },
+  {
+    "course_id": "CCS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  
+  {
+    "course_id": "CE 8",
+    "course_name": "Plane Surveying",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH 19",
+        "ELIGIBILITY_FOR_MATH_30"
+      ],
+      [
+        "||ALLOWED_MAJOR_CIVIL_ENGINEERING",
+        "ALLOWED_MAJOR_GEOLOGY"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 20",
+    "course_name": "Engineering Graphics, CAD and Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH 19",
+        "ELIGIBILITY_FOR_MATH_30"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 95",
+    "course_name": "Theory and Application of Statics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH 31",
+        "PHYS 50"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 99",
+    "course_name": "Introductory Statics",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MATH 31",
+        "PHYS 50"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 104",
+    "course_name": "Introduction to GIS in Civil Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 8",
+        "CE 20",
+        "MATH 33A",
+        "CE 192"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 112",
+    "course_name": "Mechanics of Materials",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CE 95",
+        "CE 99",
+        "MATH 33A"
+      ],
+      [
+        "ALLOWED_MAJOR_ANY_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 120",
+    "course_name": "Construction Materials Laboratory",
+    "units": 1,
+    "prerequisites": [
+      [
+        "CE 112"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 121",
+    "course_name": "Transportation Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 8",
+        "CE 20",
+        "MATH 32",
+        "PHYS 50"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 122",
+    "course_name": "Traffic Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH 32",
+        "GRADUATE_STANDING"
+      ],
+      [
+        "JUNIOR_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 123",
+    "course_name": "Highway and Street Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 121",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 130",
+    "course_name": "Civil Engineering Economic Analysis",
+    "units": 2,
+    "prerequisites": [
+      [
+        "MATH 32"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 131",
+    "course_name": "Introduction to Construction Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CE 130"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 132",
+    "course_name": "Construction Methods and Equipment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||&&CE 130",
+        "CE 140",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 134",
+    "course_name": "Project Management for Construction",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 131",
+        "GRADUATE_STANDING"
+      ],
+      [
+        "JUNIOR_STANDING_IN_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 140",
+    "course_name": "Geotechnical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 20",
+        "CE 112",
+        "ME 111",
+        "ENGR 100W"
+      ],
+      [
+        "||ALLOWED_MAJOR_CIVIL_ENGINEERING",
+        "ALLOWED_MAJOR_GEOLOGY"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 144",
+    "course_name": "Groundwater and Filtration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||&&CE 140",
+        "CE 150",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 145",
+    "course_name": "Foundation Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 140",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 150",
+    "course_name": "Introduction to Hydrology and Hydraulics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 20",
+        "ME 111",
+        "ENGR 100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 152",
+    "course_name": "Engineering Hydrology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 150",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 154",
+    "course_name": "Hydraulic Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 150",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 160",
+    "course_name": "Structural Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 20",
+        "CE 112",
+        "ME 101"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 162",
+    "course_name": "Structural Concrete Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 120",
+        "CE 160",
+        "ENGR 100W"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 163",
+    "course_name": "Design of Steel Structures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 160",
+        "GRADUATE_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 164",
+    "course_name": "Design of Wood Structures",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 160",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 165",
+    "course_name": "Earthquake Resistant Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 160",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 170",
+    "course_name": "Principles of Environmental Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 20",
+        "ME 111",
+        "CHEM 1A",
+        "ENGR 100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 172",
+    "course_name": "Solid Waste Management Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CE 170",
+        "GRADUATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 174",
+    "course_name": "Design of Water Distribution and Wastewater Collection Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 150",
+        "CE 170"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ],
+      [
+        "NOT_AVAILABLE_TO_OPEN_UNIVERSITY"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 181",
+    "course_name": "Civil Engineering Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CE 121",
+        "CE 130",
+        "CE 131",
+        "CE 140",
+        "CE 150",
+        "CE 160",
+        "CE 170",
+        "CE 192"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 182",
+    "course_name": "Engineering Failures and Social Vulnerability",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGR 100W",
+        "SENIOR_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ],
+      [
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CE 185",
+    "course_name": "Undergraduate Curricular Practical Training",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "GOOD_STANDING",
+        "COMPLETED_TWO_SEMESTERS_BACHELORS_AT_SJSU"
+      ],
+      [
+        "ALLOWED_MAJOR_CIVIL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 190",
+    "course_name": "Numerical Solutions of Civil Engineering Problems",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MATH 33A",
+        "ENGR 10"
+      ],
+      [
+        "ALLOWED_MAJOR_ANY_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 192",
+    "course_name": "Probabilistic Models for Civil Engineering Decisions",
+    "units": 2,
+    "prerequisites": [
+      [
+        "MATH 32"
+      ]
+    ]
+  },
+  {
+    "course_id": "CE 192I",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+
+  {
+    "course_id": "CHAD 60",
+    "course_name": "Child Development",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "CHAD 70",
+    "course_name": "Lifespan Development in a Global Context",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CHAD 75",
+    "course_name": "Imagination, Play and Adult Creativity",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CHAD 76",
+    "course_name": "Child Development Among Media and Emerging Technologies",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CHAD 80",
+    "course_name": "Quantitative Analysis in Developmental Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "COMPLETION_OF_GE_AREA_2_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2"
+    ]
+  },
+  {
+    "course_id": "CHAD 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "CHAD 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "||COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "ENGL_1B_WITH_C_MINUS_OR_BETTER",
+        "HUM_2B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "GRADUATE_STANDING"
+      ],
+      [
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 101",
+    "course_name": "Research Methods in Developmental Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 102",
+    "course_name": "Development of Self in a Culturally Diverse Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CHAD 104",
+    "course_name": "Program Evaluation and Assessment in Community-Based Programs",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 106",
+    "course_name": "Concepts of Childhood",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "CHAD 130",
+    "course_name": "Coding for Scientific Discovery",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ]
+  },
+  {
+    "course_id": "CHAD 131",
+    "course_name": "Equity, Resilience, and Risk in Public Schools",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CHAD 132",
+    "course_name": "Education from a Global Perspective",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "CHAD 135",
+    "course_name": "Development of Language & Literacy in Children",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 138",
+    "course_name": "K-8 Student Teaching and Seminar",
+    "units": 12,
+    "prerequisites": [
+      [
+        "&&ADMISSION_TO_CHAD_CREDENTIAL_PROGRAM",
+        "CERTIFICATE_OF_CLEARANCE",
+        "PASSAGE_OF_CSET",
+        "PROGRAM_DIRECTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 149",
+    "course_name": "Child Health and Activity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 150",
+    "course_name": "Development of Language and Communicative Competence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 151",
+    "course_name": "Developing Literacy in a Diverse Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 152",
+    "course_name": "Foundations for Early Childhood Curriculum",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 156",
+    "course_name": "Social Media and Youth Civic Engagement",
+    "units": 3
+  },
+  {
+    "course_id": "CHAD 157",
+    "course_name": "Program Management in Community Organizations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 158",
+    "course_name": "Practicum in Community Organizations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CHAD 60",
+        "CHAD 70",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 159",
+    "course_name": "Practicum in K-8 Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CHAD 60",
+        "CHAD 70",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 160",
+    "course_name": "Practicum in Early Childhood Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CHAD 60",
+        "CHAD 70",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 161",
+    "course_name": "Administration of Early Childhood Programs",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 162",
+    "course_name": "Cultural Influences in Childhood and Adolescence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 163",
+    "course_name": "Critical Issues in Adolescent Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 164",
+    "course_name": "Contemporary Parenting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 165",
+    "course_name": "Risk and Resilience in a Community Context",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 168",
+    "course_name": "Social and Emotional Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 169",
+    "course_name": "Motivating Children and Adolescents in Educational Settings",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 170",
+    "course_name": "Cognitive Development in Context",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 173",
+    "course_name": "Critical Issues in Infant/Toddler Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHAD 60",
+        "CHAD 70"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHAD 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "CHAD 195",
+    "course_name": "Senior Seminar in Child & Adolescent Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ALLOWED_MAJOR_CHAD",
+        "COMPLETED_12_UNITS_IN_CHAD",
+        "SENIOR_STANDING",
+        "||CHAD_100W_WITH_C_OR_BETTER",
+        "LLD_100W_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CHE 1",
+    "course_name": "Design of Coffee",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5A",
+      "GE_AREA_5C"
+    ]
+  },
+  {
+    "course_id": "CHE 110A",
+    "course_name": "Mathematical Methods in Chemical and Materials Engineering",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MATH_32_WITH_C_OR_BETTER",
+        "MATH_32H_WITH_C_OR_BETTER",
+        "PHYS_51_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 110B",
+    "course_name": "Computational Methods in Chemical Engineering",
+    "units": 2,
+    "prerequisites": [
+      [
+        "||CHE_110A_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CHE_115_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 114",
+    "course_name": "Data Science in Chemical and Materials Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHE_110B",
+        "BASIC_KNOWLEDGE_IN_PYTHON"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 115",
+    "course_name": "Industrial Chemical Calculations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "PHYS_51_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||MATH_33A",
+        "CHE_110A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 131",
+    "course_name": "Air Pollution Meteorology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||METR_121B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 133",
+    "course_name": "Sustainable Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHE_110A_WITH_C_MINUS_OR_BETTER",
+        "MATH_33LA_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 137",
+    "course_name": "Pollution Control Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHE_110A_WITH_C_MINUS_OR_BETTER",
+        "MATH_33LA_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 142",
+    "course_name": "Principles of Thermal Analysis",
+    "units": 1,
+    "prerequisites": [
+      [
+        "||SENIOR_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 151",
+    "course_name": "Process Engineering Thermodynamics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHE_115",
+        "ENGR_10"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 158",
+    "course_name": "Kinetics and Reactor Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHE_115",
+        "CHE_151",
+        "CHE_160A",
+        "CHE_162",
+        "CHE_190"
+      ],
+      [
+        "ENGR_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 160A",
+    "course_name": "Unit Operations I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHE_110B_WITH_C_MINUS_OR_BETTER",
+        "CHE_115_WITH_C_MINUS_OR_BETTER",
+        "CHE_190_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 160B",
+    "course_name": "Unit Operations II",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHE_115",
+        "CHE_151",
+        "CHE_160A",
+        "CHE_162",
+        "CHE_190"
+      ],
+      [
+        "ENGR_100W"
+      ],
+      [
+        "ALLOWED_MAJOR_CHEMICAL_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 161",
+    "course_name": "Process Safety and Engineering Ethics",
+    "units": 1,
+    "prerequisites": [
+      [
+        "CHEM_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 161L",
+    "course_name": "Undergraduate Chemical Engineering Laboratory",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&CHE_115",
+        "CHE_162",
+        "CHE_190"
+      ],
+      [
+        "ENGR_100W"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&CHE_151",
+        "CHE_160A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 162",
+    "course_name": "Engineering Statistics and Analysis",
+    "units": 2,
+    "prerequisites": [
+      [
+        "MATH_33A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 163L",
+    "course_name": "Undergraduate Chemical Engineering Laboratory II",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ENGR_100W",
+        "CHE_161L",
+        "CHE_190",
+        "CHE_160A"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&CHE_158",
+        "CHE_160B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 165A",
+    "course_name": "Plant Design I",
+    "units": 2,
+    "corequisites": [
+      [
+        "&&CHE_158",
+        "CHE_160B"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 165B",
+    "course_name": "Plant Design II",
+    "units": 2,
+    "prerequisites": [
+      [
+        "CHE_165A"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 172",
+    "course_name": "Biofuels Process Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_32_WITH_C_MINUS_OR_BETTER",
+        "MATH_32H_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "JUNIOR_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_ENGINEERING_SCIENCE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 174",
+    "course_name": "Hazardous Materials",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||&&PHYS_51",
+        "CHEM_1A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 176",
+    "course_name": "Energy Storage Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "JUNIOR_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_ENGINEERING_SCIENCE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 178",
+    "course_name": "Smart Sensors and Biosensors",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_JUNIOR_CORE_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "notes": [
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "CHE 180R",
+    "course_name": "Undergraduate Research and Projects",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "CHE 185",
+    "course_name": "Chemical Process Dynamics and Control",
+    "units": 2,
+    "prerequisites": [
+      [
+        "CHE_160B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 190",
+    "course_name": "Introduction to Transport Phenomena",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHE_110A_WITH_C_MINUS_OR_BETTER",
+        "MATH_33LA_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "PHYS_51_WITH_C_OR_BETTER"
+      ],
+      [
+        "||CE_95",
+        "CE_99"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 191",
+    "course_name": "Bioseparations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHE_192",
+        "BIOCHEMISTRY",
+        "RELEVANT_INDUSTRIAL_EXPERIENCE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 192",
+    "course_name": "Introduction to Biochemical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHEM_112A",
+        "&&CHEM_130A_WITH_C_OR_BETTER",
+        "CHEM_130B_WITH_C_OR_BETTER"
+      ],
+      [
+        "||CHEM_135",
+        "CHE_158"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 194",
+    "course_name": "Biochemical Engineering Lab",
+    "units": 3,
+    "corequisites": [
+      [
+        "||CHEM_130A",
+        "CHEM_135",
+        "CHE_192"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHE 199",
+    "course_name": "Special Topics in Chemical and Materials Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CHEM 1A",
+    "course_name": "General Chemistry",
+    "units": 5,
+    "ge_areas": [
+      "GE_AREA_5A",
+      "GE_AREA_5C"
+    ],
+    "prerequisites": [
+      [
+        "||PROFICIENCY_IN_HIGH_SCHOOL_CHEMISTRY",
+        "CHEM_010_WITH_C_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&PROFICIENCY_IN_HIGH_SCHOOL_ALGEBRA",
+        "||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "MATH_ENROLLMENT_CATEGORY_M-III"
+      ],
+      [
+        "||WRITING_ENROLLMENT_GROUP_W-I",
+        "WRITING_ENROLLMENT_GROUP_W-II",
+        "ENGL_1AF_WITH_CR",
+        "ENGL_1A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 1B",
+    "course_name": "General Chemistry",
+    "units": 5,
+    "ge_areas": [
+      "GE_AREA_5A",
+      "GE_AREA_5C"
+    ],
+    "prerequisites": [
+      [
+        "CHEM_1A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 2",
+    "course_name": "Academic Excellence Workshop",
+    "units": "||1-2",
+    "corequisites": [
+      [
+        "STRING: Enrollment in course and section accompanying workshop."
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 5",
+    "course_name": "Dinner Party Chemistry",
+    "units": 1,
+    "ge_areas": [
+      "GE_AREA_5C"
+    ]
+  },
+  {
+    "course_id": "CHEM 8",
+    "course_name": "Organic Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_1B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 9",
+    "course_name": "Organic Chemistry Lab",
+    "units": 1,
+    "corequisites": [
+      [
+        "CHEM 8"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 10",
+    "course_name": "Chemical Calculations and Concepts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ONE_YEAR_HIGH_SCHOOL_ALGEBRA"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 30A",
+    "course_name": "Introductory Chemistry",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_5A",
+      "GE_AREA_5C"
+    ]
+  },
+  {
+    "course_id": "CHEM 30B",
+    "course_name": "Introductory Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CHEM_30A_WITH_C_OR_BETTER",
+        "CHEM_1A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 55",
+    "course_name": "Quantitative Analysis",
+    "units": 2,
+    "prerequisites": [
+      [
+        "CHEM_1B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 55L",
+    "course_name": "Quantitative Analysis Laboratory",
+    "units": 2,
+    "corequisites": [
+      [
+        "CHEM 55"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CHEM 100W",
+    "course_name": "Writing Workshop: Chemical Communications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CHEM_55_WITH_C_OR_BETTER",
+        "CHEM_112A_WITH_C_OR_BETTER"
+      ],
+      [
+        "||ENGL_1B_WITH_C_MINUS_OR_BETTER",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||ALLOWED_MAJOR_CHEMISTRY",
+        "ALLOWED_MAJOR_BIOCHEMISTRY"
+      ],
+      [
+        "GRADUATE_STANDING"
+      ],
+      [
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 105",
+    "course_name": "Computational Data Analysis in Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_55_WITH_C_OR_BETTER",
+        "MATH_30_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 112A",
+    "course_name": "Organic Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_1B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 112B",
+    "course_name": "Organic Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_112A_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 113A",
+    "course_name": "Organic Chemistry Lab",
+    "units": 2,
+    "prerequisites": [
+      [
+        "CHEM_112A_WITH_C_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_CHEMISTRY",
+        "ALLOWED_MAJOR_BIOLOGY",
+        "ALLOWED_MAJOR_FORENSIC_SCIENCE_CHEMISTRY",
+        "ALLOWED_MAJOR_FORENSIC_SCIENCE_BIOLOGY",
+        "ALLOWED_MAJOR_CHEMICAL_ENGINEERING"
+      ],
+      [
+        "DEPARTMENT_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 113B",
+    "course_name": "Organic Chemistry Lab",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_113A_WITH_C_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_CHEMISTRY",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CHEM_112B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 114",
+    "course_name": "Advanced Organic Chemistry Lab",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_55",
+        "CHEM_100W",
+        "CHEM_112B",
+        "CHEM_113B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 118",
+    "course_name": "Special Topics in Organic Chemistry",
+    "units": 1,
+    "prerequisites": [
+      [
+        "CHEM_112B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 120S",
+    "course_name": "Chemical Safety Seminar",
+    "units": 1,
+    "prerequisites": [
+      [
+        "COLLEGE_LEVEL_CHEMISTRY_COURSE"
+      ],
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 121S",
+    "course_name": "Radiation Safety",
+    "units": "||1-2",
+    "prerequisites": [
+      [
+        "LOWER_DIVISION_CALCULUS_CHEMISTRY_PHYSICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 126",
+    "course_name": "Introduction to Nuclear Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "LOWER_DIVISION_CALCULUS_CHEMISTRY_PHYSICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 127",
+    "course_name": "Nuclear Science Lab",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_121S_WITH_C_OR_BETTER",
+        "CHEM_100W_WITH_C_OR_BETTER",
+        "CHEM_126_WITH_C_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 130A",
+    "course_name": "Biochemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "CHEM_112B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 130B",
+    "course_name": "Biochemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHEM_130A_WITH_C_OR_BETTER",
+        "BIOL_30_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 130C",
+    "course_name": "Biochemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_130A_WITH_C_OR_BETTER",
+        "BIOL_30_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 131A",
+    "course_name": "Biochemistry Lab",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&CHEM_55_WITH_C_OR_BETTER",
+        "CHEM_113A_WITH_C_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CHEM_130A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 131B",
+    "course_name": "Biochemistry Lab II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_100W_WITH_C_OR_BETTER",
+        "CHEM_130A_WITH_C_OR_BETTER",
+        "CHEM_131A_WITH_C_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||CHEM_130B",
+        "CHEM_130C"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ]
+  },
+  {
+    "course_id": "CHEM 132",
+    "course_name": "Introductory Biochemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||CHEM_30B_WITH_C_OR_BETTER",
+        "CHEM_8_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 132L",
+    "course_name": "Introductory Biochemistry Lab",
+    "units": 1,
+    "prerequisites": [
+      [
+        "||CHEM_30B_WITH_C_OR_BETTER",
+        "CHEM_8_WITH_C_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CHEM_132"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 135",
+    "course_name": "General Biochemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL_30_WITH_C_MINUS_OR_BETTER",
+        "CHEM_112B_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 145",
+    "course_name": "Inorganic Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_112B_WITH_C_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CHEM_113A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 146",
+    "course_name": "Physical-Inorganic Techniques",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHEM_100W_WITH_C_OR_BETTER",
+        "CHEM_113A_WITH_C_OR_BETTER",
+        "CHEM_145_WITH_C_OR_BETTER"
+      ],
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 155",
+    "course_name": "Instrumental Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHEM_55_WITH_C_OR_BETTER",
+        "CHEM_55L_WITH_C_OR_BETTER",
+        "||CHEM_100W_WITH_C_OR_BETTER",
+        "JS_100W_WITH_C_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER",
+        "FS_100W_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 159",
+    "course_name": "Advanced Analytical Chemistry",
+    "units": "||1-2",
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 160",
+    "course_name": "Physical Chemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHEM_55_WITH_C_OR_BETTER",
+        "PHYS_2B_WITH_C_OR_BETTER",
+        "MATH_30_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 161A",
+    "course_name": "Physical Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||&&CHEM_55_WITH_C_OR_BETTER",
+        "CHEM_1B_WITH_C_OR_BETTER",
+        "UPPER_DIVISION_STANDING_FOR_ENGINEERING_MAJORS"
+      ],
+      [
+        "&&PHYS_50_WITH_C_OR_BETTER",
+        "MATH_32_WITH_C_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 161B",
+    "course_name": "Physical Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CHEM_161A_WITH_C_OR_BETTER"
+      ],
+      [
+        "PHYS_52_WITH_C_OR_BETTER"
+      ],
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 162L",
+    "course_name": "Physical Chemistry Lab",
+    "units": 2,
+    "prerequisites": [
+      [
+        "||CHEM_100W_WITH_C_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER"
+      ],
+      [
+        "||CHEM_161A_WITH_C_OR_BETTER",
+        "CHEM_160_WITH_C_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "||CHEM_161B",
+        "CHE_158"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 170A",
+    "course_name": "Macromolecular, Supramolecular & Nanoscale Systems",
+    "units": 1,
+    "prerequisites": [
+      [
+        "||CHEM_112B_WITH_C_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 172",
+    "course_name": "Chemistry of Wine",
+    "units": 1,
+    "prerequisites": [
+      [
+        "||CHEM_1B_WITH_C_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 181",
+    "course_name": "Advanced Undergraduate Research",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&CHEM_180_WITH_CR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 184",
+    "course_name": "Directed Reading",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "CHEM_55"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHEM 190",
+    "course_name": "Introduction to Research",
+    "units": 1
+  },
+  {
+    "course_id": "CHEM 191",
+    "course_name": "Undergraduate Seminar",
+    "units": 1
+  },
+  {
+    "course_id": "CHEM 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CHEM 199",
+    "course_name": "Senior Thesis or Project",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&MINIMUM_2_UNITS_CHEM_180_OR_184",
+        "INSTRUCTOR_CONSENT",
+        "CHEM_100W"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CHHS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "CHHS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CHHS 198ITL",
+    "course_name": "International Experience Seminar",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "CHIN 1A",
+    "course_name": "Elementary Chinese",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ]
+  },
+  {
+    "course_id": "CHIN 1B",
+    "course_name": "Elementary Chinese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "CHIN 1A"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3B"
+    ]
+  },
+  {
+    "course_id": "CHIN 25A",
+    "course_name": "Intermediate Chinese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "8_UNITS_COLLEGE_CHINESE"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3B"
+    ]
+  },
+  {
+    "course_id": "CHIN 25B",
+    "course_name": "Intermediate Chinese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "12_UNITS_COLLEGE_CHINESE"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3B"
+    ]
+  },
+  {
+    "course_id": "CHIN 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "CHIN 101A",
+    "course_name": "Advanced Chinese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "4_SEMESTERS_COLLEGE_CHINESE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 101B",
+    "course_name": "Advanced Chinese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "20_UNITS_COLLEGE_CHINESE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 102",
+    "course_name": "Chinese Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 110",
+    "course_name": "Structure of the Chinese Language",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||CHIN 25B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 130",
+    "course_name": "Readings in Chinese Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||CHIN 101B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 132",
+    "course_name": "Special Topics in Chinese for Careers",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||CHIN 25B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 140",
+    "course_name": "Chinese Culture and Politics Through Literature",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "CHIN 180",
+    "course_name": "Individual Studies in Chinese",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING_IN_CHINESE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CHIN 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "CMPE 30",
+    "course_name": "Programming Concepts and Methodology",
+    "units": 3,
+    "corequisites": [
+      [
+        "||MATH 30",
+        "EQUIVALENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 50",
+    "course_name": "Object-Oriented Concepts and Methodology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_30_WITH_C_MINUS_OR_BETTER",
+        "ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CMPE 102",
+    "course_name": "Assembly Language Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_50_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||SOPHOMORE_STANDING",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 110",
+    "course_name": "Electronics for Computing Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_97_WITH_C_MINUS_OR_BETTER",
+        "EE_98_WITH_C_MINUS_OR_BETTER",
+        "||MATH_33LA_WITH_C_MINUS_OR_BETTER",
+        "&&MATH_39_WITH_C_MINUS_OR_BETTER",
+        "MATH_33A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 120",
+    "course_name": "Computer Organization and Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_50_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 124",
+    "course_name": "Digital Design I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_97_WITH_C_MINUS_OR_BETTER",
+        "EE_98_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 125",
+    "course_name": "Digital Design II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_124_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 126",
+    "course_name": "Algorithms and Data Structure Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGR_10_WITH_C_MINUS_OR_BETTER",
+        "CMPE_50_WITH_C_MINUS_OR_BETTER",
+        "MATH_42_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 127",
+    "course_name": "Microprocessor Design I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_124_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 130",
+    "course_name": "Advanced Algorithm Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_126_WITH_C_MINUS_OR_BETTER",
+        "||ISE_130_WITH_C_MINUS_OR_BETTER",
+        "MATH_161A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 131",
+    "course_name": "Software Engineering I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE:CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "SE:CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "ELSE:&&CMPE_30_WITH_C_MINUS_OR_BETTER",
+        "||MATH_32_WITH_C_MINUS_OR_BETTER",
+        "MATH_32H_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 132",
+    "course_name": "Information Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 133",
+    "course_name": "Software Engineering II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_131_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 135",
+    "course_name": "Object-Oriented Analysis and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "SE:CS_46B"
+      ],
+      [
+        "ELSE:CMPE_126"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 137",
+    "course_name": "Wireless Mobile Software Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_131_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 138",
+    "course_name": "Database Systems I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 139",
+    "course_name": "Fundamentals of Data Mining",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_126_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 140",
+    "course_name": "Computer Architecture and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_125_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 142",
+    "course_name": "Operating Systems Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_102_WITH_C_MINUS_OR_BETTER",
+        "CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "CMPE_130_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 146",
+    "course_name": "Real-Time Embedded System Co-Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_110_WITH_C_MINUS_OR_BETTER",
+        "CMPE_127_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 148",
+    "course_name": "Digital Networks I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE:&&CMPE_124_WITH_C_MINUS_OR_BETTER",
+        "CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "SE:&&CMPE_120_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 152",
+    "course_name": "Compiler Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_126_WITH_C_MINUS_OR_BETTER",
+        "CMPE_102_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 163",
+    "course_name": "Introduction to Computer Graphics and Augmented Reality",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_127_WITH_C_MINUS_OR_BETTER",
+        "||MATH_33LA_WITH_C_MINUS_OR_BETTER",
+        "MATH_39_WITH_C_MINUS_OR_BETTER",
+        "EE_112_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "ENGR_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 165",
+    "course_name": "Software Engineering Process Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_131_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 172",
+    "course_name": "Enterprise Software Platforms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_142_WITH_C_MINUS_OR_BETTER",
+        "CS_149_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 180A",
+    "course_name": "Data Structures and Algorithms in C++",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ALLOWED_MAJOR_MS_ARTIFICIAL_INTELLIGENCE",
+        "ALLOWED_MAJOR_MS_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_MS_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 180B",
+    "course_name": "Database Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ALLOWED_MAJOR_MS_ARTIFICIAL_INTELLIGENCE",
+        "ALLOWED_MAJOR_MS_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_MS_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 180C",
+    "course_name": "Operating Systems Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ALLOWED_MAJOR_MS_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_MS_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 180D",
+    "course_name": "Digital Design and Microprocessors",
+    "units": 3,
+    "prerequisites": [
+      [
+        "ALLOWED_MAJOR_MS_COMPUTER_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 181",
+    "course_name": "Internet of Things Platforms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE:&&CMPE_124_WITH_C_MINUS_OR_BETTER",
+        "CMPE_126_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "SE: &&CMPE_120_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 182",
+    "course_name": "Internet of Things Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_126",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 183",
+    "course_name": "Cryptocurrencies and Blockchains",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_126",
+        "CS_146"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 184",
+    "course_name": "Human-Centric Cybersecurity Clinics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_126",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 185",
+    "course_name": "Autonomous Mobile Robots",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ISE_130",
+        "MATH_161A",
+        "MATH_33LA",
+        "||CMPE_126",
+        "CS_146"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 187",
+    "course_name": "Software Quality Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_131_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 188",
+    "course_name": "Machine Learning for Big Data",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||CMPE_126",
+        "CS_146"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 189",
+    "course_name": "Special Topics in Computer Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 192",
+    "course_name": "International Program Studies",
+    "units": 1
+  },
+  {
+    "course_id": "CMPE 195A",
+    "course_name": "Senior Design Project I",
+    "units": 2,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "CMPE:&&CMPE_125_WITH_C_MINUS_OR_BETTER",
+        "CMPE_127_WITH_C_MINUS_OR_BETTER",
+        "CMPE_130_WITH_C_MINUS_OR_BETTER",
+        "CMPE_131_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER",
+        "GOOD_ACADEMIC_MAJOR_STANDINGS",
+        "GRADUATION_APPLICATION_ON_FILE"
+      ],
+      [
+        "SE:&&CMPE_133_WITH_C_MINUS_OR_BETTER",
+        "||ISE_130_WITH_C_MINUS_OR_BETTER",
+        "MATH_161A_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER",
+        "GOOD_STANDING_IN_MAJOR",
+        "GRADUATION_APPLICATION_ON_FILE"
+      ]
+    ],
+    "corequisites": [
+      [
+        "ENGR_195A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 195B",
+    "course_name": "Senior Design Project II",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "CMPE_195A_WITH_C_OR_BETTER"
+      ],
+      [
+        "||JUNIOR_STANDING",
+        "SENIOR_STANDING"
+      ],
+      [
+        "||ALLOWED_MAJOR_COMPUTER_ENGINEERING",
+        "ALLOWED_MAJOR_ENGINEERING",
+        "ALLOWED_MAJOR_SOFTWARE_ENGINEERING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "ENGR_195B"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 195E",
+    "course_name": "Senior Design Project I",
+    "units": 1,
+    "prerequisites": [
+      [
+        "CMPE:&&CMPE_125_WITH_C_MINUS_OR_BETTER",
+        "CMPE_127_WITH_C_MINUS_OR_BETTER",
+        "CMPE_130_WITH_C_MINUS_OR_BETTER",
+        "CMPE_131_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER",
+        "GOOD_ACADEMIC_MAJOR_STANDINGS",
+        "GRADUATION_APPLICATION_ON_FILE"
+      ],
+      [
+        "SE:&&CMPE_133_WITH_C_MINUS_OR_BETTER",
+        "||ISE_130_WITH_C_MINUS_OR_BETTER",
+        "MATH_161A_WITH_C_MINUS_OR_BETTER",
+        "ENGR_100W_WITH_C_OR_BETTER",
+        "GOOD_STANDING_IN_MAJOR",
+        "GRADUATION_APPLICATION_ON_FILE"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 195F",
+    "course_name": "Senior Design Project II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "CMPE_195A_WITH_C_OR_BETTER"
+      ],
+      [
+        "GOOD_ACADEMIC_MAJOR_STANDINGS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CMPE 198",
+    "course_name": "Technology and Civilization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+
+  {
+    "course_id": "COLT 122",
+    "course_name": "Topics in Comparative World Literature",
+    "units": 4
+  },
+  {
+    "course_id": "COLT 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "COMM 10",
+    "course_name": "Communication and Human Relationships",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "COMM 20",
+    "course_name": "Public Speaking",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1C"
+    ]
+  },
+  {
+    "course_id": "COMM 20EL",
+    "course_name": "Public Speaking for English Language Learners",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1C"
+    ],
+    "prerequisites": "String: Intended for English language learners/nonnative speakers."
+  },
+  {
+    "course_id": "COMM 21",
+    "course_name": "Performing Culture and Society",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "COMM 40",
+    "course_name": "Argumentation and Advocacy",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1C"
+    ]
+  },
+  {
+    "course_id": "COMM 41",
+    "course_name": "Critical Decision Making",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1B"
+    ],
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 45",
+    "course_name": "Media and Culture",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1B"
+    ],
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 74",
+    "course_name": "Intercultural Communication and Critical Thinking",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_1B"
+    ],
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 74Q",
+    "course_name": "Fundamentals of Intercultural Communication",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "COMM 80",
+    "course_name": "Communication Workshop",
+    "units": 1
+  },
+  {
+    "course_id": "COMM 91A",
+    "course_name": "Activity Project in Forensics: Intramural Debate",
+    "units": 1
+  },
+  {
+    "course_id": "COMM 91J",
+    "course_name": "Judge Training",
+    "units": 1
+  },
+  {
+    "course_id": "COMM 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "COMM 100W",
+    "course_name": "Writing Workshop: Writing for Influence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "ALLOWED_MAJOR_COMMUNICATION_STUDIES",
+        "ALLOWED_MAJOR_COMMUNICATION_DISORDERS",
+        "ALLOWED_MAJOR_SPEECH_PATHOLOGY",
+        "ALLOWED_MAJOR_BUSINESS"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 101C",
+    "course_name": "Junior Seminar: Theorizing Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_ORAL_COMMUNICATION"
+      ],
+      [
+        "DECLARED_COMMUNICATION_STUDIES_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 105P",
+    "course_name": "Communication, Self, and Society",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||COMPLETION_OF_GE_AREA_1C",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 110F",
+    "course_name": "Interpersonal Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 111P",
+    "course_name": "Interviewing",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 112P",
+    "course_name": "Communicating at Work",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1A_ORAL_COMMUNICATION"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 113P",
+    "course_name": "Games in Everyday Life",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 114P",
+    "course_name": "Business and Professional Speaking",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 115P",
+    "course_name": "Communication and Conflict",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 116P",
+    "course_name": "Mediation: Theory and Practice",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 117F",
+    "course_name": "Understanding Play & Games",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 119I",
+    "course_name": "Researching Games",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 120P",
+    "course_name": "Persuasive & Presentation Skills",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 121P",
+    "course_name": "Performance as Practice",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 122F",
+    "course_name": "Performance Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 123I",
+    "course_name": "Performance of Ethnodrama",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 124P",
+    "course_name": "Communication Training and Development",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 125P",
+    "course_name": "Ensemble Performance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 126F",
+    "course_name": "Race and Performance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 130F",
+    "course_name": "Activism, Action, and Resistance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 131P",
+    "course_name": "New Media/You Media",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 132F",
+    "course_name": "Dis/Ability Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 133F",
+    "course_name": "Ethical Problems in Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 140P",
+    "course_name": "Argumentation and Debate",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 141P",
+    "course_name": "Small Group Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 144F",
+    "course_name": "Organizational Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 145I",
+    "course_name": "Rhetorical and Cultural Criticism",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 146F",
+    "course_name": "Communication and the Environment",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 147P",
+    "course_name": "Argumentation and Persuasion in Courts of Law",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 149F",
+    "course_name": "Rhetoric and Public Life",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 150I",
+    "course_name": "Inquiry in Organizational Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 151I",
+    "course_name": "New Media/New Methods",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 152I",
+    "course_name": "Communication in World Cultures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 153I",
+    "course_name": "Discourse Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 154I",
+    "course_name": "Ethnography for Communication Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 155I",
+    "course_name": "Quantitative Communication Inquiry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 156I",
+    "course_name": "Observation and Interviewing Methods",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 157SL",
+    "course_name": "Community Action/Community Service",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "COMM 160F",
+    "course_name": "Language, Meaning, and Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 161F",
+    "course_name": "Communication and Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 164F",
+    "course_name": "Communication and Global Organizations",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 165P",
+    "course_name": "Communication and Organizational Philanthropy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 168A",
+    "course_name": "Climate Action and Leadership I",
+    "units": 6,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4",
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "COMM 168B",
+    "course_name": "Climate Action and Leadership II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_COMM_168A_ENVS_168A_METR_168A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_2/5"
+    ]
+  },
+  {
+    "course_id": "COMM 169I",
+    "course_name": "The Media: Response and Criticism",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 170F",
+    "course_name": "Persuasion",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 172F",
+    "course_name": "Multicultural Communication in the United States",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 173F",
+    "course_name": "Intercultural Communication and Global Understanding",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 174",
+    "course_name": "Intercultural Comm and Structural Inequalities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "COMM 175F",
+    "course_name": "Nonverbal Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 176P",
+    "course_name": "Communication and Gender",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_1C_CORE_GE_REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 178F",
+    "course_name": "Critical Intercultural Communication Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 179",
+    "course_name": "Global Media and Resistance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "ge_areas": [
+      "GE_AREA_3"
+    ]
+  },
+  {
+    "course_id": "COMM 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 181F",
+    "course_name": "New Media/New World",
+    "units": 4,
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 182P",
+    "course_name": "Communication in the Classroom",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1C"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 184",
+    "course_name": "Directed Reading",
+    "units": "||1-2",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_OR_GRADUATE_STANDING_AND_DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 185F",
+    "course_name": "Health Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING_60_UNITS_COMPLETED",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 186I",
+    "course_name": "Research Methods in Health Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING_60_UNITS_COMPLETED",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 187P",
+    "course_name": "Communication and Community Wellness",
+    "units": 4,
+    "prerequisites": [
+      [
+        "COMPLETION_OF_GE_AREA_1_ORAL_COMMUNICATION"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 190",
+    "course_name": "Activity Projects in Speech",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "UPPER_DIVISION_OR_GRADUATE_STANDING_AND_DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 190I",
+    "course_name": "Activity Proj in Speech International",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_OR_GRADUATE_STANDING",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 191A",
+    "course_name": "Activity Projects in Forensics",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "COMM 191B",
+    "course_name": "Activity Projects in Forensics",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "COMM 191C",
+    "course_name": "Activity Projects in Forensics",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "COMM 191J",
+    "course_name": "Activity Projects in Forensics",
+    "units": 1
+  },
+  {
+    "course_id": "COMM 191M",
+    "course_name": "Activity Projects in Forensics",
+    "units": 1
+  },
+  {
+    "course_id": "COMM 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "COMM 193",
+    "course_name": "Activity Projects in Intercultural/International Communication",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "COMM 195",
+    "course_name": "Special Topics in Communication Studies",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "COMM 198",
+    "course_name": "Applied Activity in Communication",
+    "units": "||1-2",
+    "prerequisites": [
+      [
+        "&&COMM_101C",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "COMM 199C",
+    "course_name": "Senior Seminar: Synthesis & Application",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&COMM_101C",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "CS 22A",
+    "course_name": "Python for Everyone",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2"
+    ],
+    "corequisites": [
+      [
+        "&&CS_1022AS",
+        "||MATH_ENROLLMENT_CATEGORY_M-III",
+        "MATH_ENROLLMENT_CATEGORY_M-IV"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 22B",
+    "course_name": "Python Programming for Data Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_22A_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&||DATA_SCIENCE_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 25",
+    "course_name": "The Digital World and Society",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "CS 42",
+    "course_name": "Discrete Mathematics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "PRECALCULUS_PROFICIENCY_ASSESSMENT",
+        "AP_CALCULUS_AB_3-5",
+        "AP_CALCULUS_BC_3-5",
+        "AP_PRECALCULUS_3-5",
+        "MATH_19_WITH_C_MINUS_OR_BETTER",
+        "MATH_18A_AND_18B_WITH_C_MINUS_OR_BETTER"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&MATH_42W",
+        "||PRECALCULUS_PROFICIENCY_ASSESSMENT",
+        "AP_CALCULUS_AB_3",
+        "AP_CALCULUS_BC_3",
+        "AP_PRECALCULUS_3",
+        "MATH_19_WITH_B_MINUS_OR_LOWER",
+        "MATH_18A_AND_18B_WITH_B_MINUS_OR_LOWER",
+        "REPEATING_MATH_42"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 46A",
+    "course_name": "Introduction to Programming",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "MATH_ENROLLMENT_CATEGORY_M-III",
+        "MATH_1_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "MATHEMATICS_MAJOR",
+        "STATISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "UNDECLARED_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 46AW",
+    "course_name": "Introduction to Programming Workshop",
+    "units": 1,
+    "prerequisites": [
+      [
+        "||CS_46A",
+        "CS_46AX",
+        "CURRENT_ENROLLMENT_CS_46AX"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 46AX",
+    "course_name": "Introduction to Programming",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "MATH_ENROLLMENT_CATEGORY_M-III",
+        "MATH_1_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "MATHEMATICS_MAJOR",
+        "STATISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "UNDECLARED_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&CS_46AW"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 46B",
+    "course_name": "Introduction to Data Structures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CS_46A_OR_CS_46AX_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||CS_46AW",
+        "CS_46A_IN_JAVA"
+      ],
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M-I",
+        "MATH_ENROLLMENT_CATEGORY_M-II",
+        "PRECALCULUS_PROFICIENCY_ASSESSMENT_70_OR_HIGHER",
+        "MATH_19_WITH_C_MINUS_OR_BETTER",
+        "MATH_18A_AND_18B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "STATISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 47",
+    "course_name": "Introduction to Computer Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_42_OR_MATH_42_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 48",
+    "course_name": "Applied Algorithms",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&CS_46B_WITH_C_MINUS_OR_BETTER",
+        "ONE_JAVA_COURSE_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 49C",
+    "course_name": "Programming in C",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PREVIOUS_PROGRAMMING_EXPERIENCE",
+        "MATH_GE_COMPLETED"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "MATHEMATICS_MAJOR",
+        "MATHEMATICS_ITEP_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 49J",
+    "course_name": "Programming in Java",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_46B",
+        "EQUIVALENT_NON_JAVA_PROGRAMMING"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "MATHEMATICS_MAJOR",
+        "MATHEMATICS_ITEP_MAJOR",
+        "STATISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "UNDECLARED_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 50",
+    "course_name": "Scientific Computing I",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MATH_30"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||METR_MAJOR_MATH_31",
+        "METR_MAJOR_METR_60",
+        "METR_MAJOR_PHYS_50",
+        "CLIMATE_SCIENCE_MAJOR_METR_60",
+        "CLIMATE_SCIENCE_MAJOR_CHEM_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 85A",
+    "course_name": "Practical Computing Topics",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&VARIES_WITH_TOPIC"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "CS 100W",
+    "course_name": "Technical Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&A3_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "MATHEMATICS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 108",
+    "course_name": "Introduction to Game Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 116A",
+    "course_name": "Introduction to Computer Graphics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_31_WITH_C_MINUS_OR_BETTER",
+        "MATH_39_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER",
+        "PREVIOUS_C_CPP_EXPERIENCE"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 116B",
+    "course_name": "Computer Graphics Algorithms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_116A_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 122",
+    "course_name": "Advanced Programming with Python",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 123A",
+    "course_name": "Bioinformatics I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_46B",
+        "BIOL_31",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 123B",
+    "course_name": "Bioinformatics II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_123A_BIOL_123A_SE_123A"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 131",
+    "course_name": "Processing Big Data - Tools and Techniques",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_46B_WITH_C_MINUS_OR_BETTER",
+        "CS_22B_WITH_C_MINUS_OR_BETTER_AND_GRADUATE_STANDING"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_BS",
+        "DATA_SCIENCE_BS",
+        "MS_BIOINFORMATICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 133",
+    "course_name": "Introduction to Data Visualization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_146_WITH_C_MINUS_OR_BETTER",
+        "CS_22B_AND_GRADUATE_STANDING"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 134",
+    "course_name": "Computer Game Design and Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "||CS_151_WITH_C_MINUS_OR_BETTER",
+        "CMPE_135_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 136",
+    "course_name": "Introduction to Computer Vision",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "MATH_39_WITH_C_MINUS_OR_BETTER",
+        "CS_49C_OR_EQUIVALENT_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 143C",
+    "course_name": "Numerical Analysis and Scientific Computing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_32_WITH_C_MINUS_OR_BETTER",
+        "||CS_22A",
+        "MATH_50",
+        "CS_46A",
+        "CS_49C",
+        "CS_49J",
+        "||MATH_33A",
+        "MATH_33LA",
+        "MATH_34"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 143M",
+    "course_name": "Numerical Analysis and Scientific Computing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_39_WITH_C_MINUS_OR_BETTER",
+        "||CS_22A",
+        "MATH_50",
+        "CS_46A",
+        "CS_49C"
+      ],
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 144",
+    "course_name": "Advanced C++ Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_46B_WITH_C_MINUS_OR_BETTER",
+        "CS_49C_WITH_C_MINUS_OR_BETTER",
+        "EQUIVALENT_OOP_AND_C_KNOWLEDGE"
+      ],
+      [
+        "&&COMPUTER_SCIENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 146",
+    "course_name": "Data Structures and Algorithms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_30_WITH_C_MINUS_OR_BETTER",
+        "MATH_42_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER",
+        "||CS_48",
+        "CS_49J_IF_CS_46B_NOT_IN_JAVA"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 147",
+    "course_name": "Computer Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_47_WITH_C_MINUS_OR_BETTER",
+        "CMPE_102_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 148",
+    "course_name": "Applied Algorithms II",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 149",
+    "course_name": "Operating Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_47_WITH_C_MINUS_OR_BETTER",
+        "CMPE_102_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 151",
+    "course_name": "Object-Oriented Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_42_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER",
+        "||CS_48",
+        "CS_49J_IF_CS_46B_NOT_IN_JAVA"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 152",
+    "course_name": "Programming Paradigms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_151_WITH_C_MINUS_OR_BETTER",
+        "CMPE_135_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 153",
+    "course_name": "Concepts of Compiler Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_47_OR_CMPE_102_WITH_C_MINUS_OR_BETTER",
+        "CS_146_WITH_C_MINUS_OR_BETTER",
+        "CS_154_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 154",
+    "course_name": "Formal Languages and Computability",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_42_WITH_C_MINUS_OR_BETTER",
+        "CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 155",
+    "course_name": "Introduction to the Design and Analysis of Algorithms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATHEMATICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 156",
+    "course_name": "Introduction to Artificial Intelligence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATHEMATICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 157A",
+    "course_name": "Introduction to Database Management Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 157B",
+    "course_name": "Database Management Systems II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_157A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 157C",
+    "course_name": "NoSQL Database Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_157A_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 158A",
+    "course_name": "Computer Networks",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "CS_47_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 158B",
+    "course_name": "Computer Network Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_158A_WITH_C_MINUS_OR_BETTER",
+        "CMPE_148_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 159",
+    "course_name": "Introduction to Parallel Processing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 160",
+    "course_name": "Software Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "CS_151_WITH_C_MINUS_OR_BETTER",
+        "CS_100W_WITH_C_OR_BETTER"
+      ],
+      [
+        "&&COMPUTER_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 161",
+    "course_name": "Software Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_160_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 163",
+    "course_name": "Data Science Senior Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_100W",
+        "CS_131",
+        "||CS_156",
+        "CS_171"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 166",
+    "course_name": "Information Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "||CS_47_WITH_C_MINUS_OR_BETTER",
+        "CMPE_102_WITH_C_MINUS_OR_BETTER",
+        "CMPE_120_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "APPLIED_AND_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 168",
+    "course_name": "Blockchain and Cryptocurrencies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_166_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 171",
+    "course_name": "Introduction to Machine Learning",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 174",
+    "course_name": "Server-side Web Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_46B_WITH_C_MINUS_OR_BETTER"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 175",
+    "course_name": "Mobile Device Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_47",
+        "||CS_46A",
+        "CS_49J"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 176",
+    "course_name": "Introduction to Social Network Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_WITH_C_MINUS_OR_BETTER",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 180H",
+    "course_name": "Individual Studies for Honors",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING_COMPUTER_SCIENCE_MAJOR",
+        "GPA_3.5_OR_HIGHER_IN_MAJOR",
+        "DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 185A",
+    "course_name": "Advanced Practical Computing Topics",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&VARIES_WITH_TOPIC"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 185C",
+    "course_name": "Advanced Practical Computing Topics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&VARIES_WITH_TOPIC"
+      ],
+      [
+        "&&||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 190",
+    "course_name": "Internship Project",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||CS_146_WITH_C_MINUS_OR_BETTER",
+        "GRADUATE_STANDING",
+        "COMPANY_SELECTION",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 190I",
+    "course_name": "Internship Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_146_WITH_C_MINUS_OR_BETTER",
+        "GRADUATE_STANDING",
+        "COMPANY_SELECTION",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "CS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "DANC 10",
+    "course_name": "Dance Appreciation",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ]
+  },
+  {
+    "course_id": "DANC 12",
+    "course_name": "Ensemble Dance Rehearsal and Performance",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&AUDITION",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 40A",
+    "course_name": "Topics in Modern Dance I",
+    "units": 2,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 41A",
+    "course_name": "Topics in Ballet I",
+    "units": 2,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 42A",
+    "course_name": "Topics in Jazz Dance I",
+    "units": 2,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 43",
+    "course_name": "Dance Improvisation",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 45A",
+    "course_name": "Beginning Lindy Hop and Night Club Swing",
+    "units": 1,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 46A",
+    "course_name": "Beginning Social Dance",
+    "units": 1,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 48A",
+    "course_name": "Beginning Latin Dance",
+    "units": 1,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 49A",
+    "course_name": "Topics in Tap Dance I",
+    "units": 1,
+    "ge_areas": [
+      "PE"
+    ]
+  },
+  {
+    "course_id": "DANC 51A",
+    "course_name": "Dance Production",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 51B",
+    "course_name": "Topics in Dance Crewing",
+    "units": 0.5
+  },
+  {
+    "course_id": "DANC 53",
+    "course_name": "World Dance",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&LEVEL_II_TECHNIQUE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 54",
+    "course_name": "Topics in Dance Technique II",
+    "units": 3,
+    "ge_areas": [
+      "PE"
+    ],
+    "prerequisites": [
+      [
+        "&&||AUDITION",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 75",
+    "course_name": "Rhythm and Dynamics in Dance",
+    "units": 1
+  },
+  {
+    "course_id": "DANC 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "DANC 102",
+    "course_name": "Dance in World Cultures",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 112",
+    "course_name": "ENS: Dance Rehearsal and Performance",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&AUDITION",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 144A",
+    "course_name": "Dance History and Repertory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 145A",
+    "course_name": "Choreography I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DANC_43",
+        "AUDITION"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 145B",
+    "course_name": "Choreography II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DANC_145A",
+        "AUDITION"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 145C",
+    "course_name": "Choreography III",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DANC_145B",
+        "AUDITION"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 147A",
+    "course_name": "Dance Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "||DANC_144A",
+        "CONCURRENT_ENROLLMENT_DANC_144A",
+        "DANC_144B",
+        "CONCURRENT_ENROLLMENT_DANC_144B"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 148",
+    "course_name": "Children’s Dance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 150A",
+    "course_name": "Kinesiology I",
+    "units": 3
+  },
+  {
+    "course_id": "DANC 150B",
+    "course_name": "Kinesiology II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DANC_150A"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 151",
+    "course_name": "Introduction to Dance Pedagogy",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&DANC_54",
+        "INSTRUCTOR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 154A",
+    "course_name": "Topics in Dance Technique III",
+    "units": 3,
+    "ge_areas": [
+      "PE"
+    ],
+    "prerequisites": [
+      [
+        "&&||TWO_SEMESTERS_DANC_54",
+        "AUDITION"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 154B",
+    "course_name": "Topics in Dance Technique IV",
+    "units": 3,
+    "ge_areas": [
+      "PE"
+    ],
+    "prerequisites": [
+      [
+        "&&||TWO_SEMESTERS_DANC_154A",
+        "AUDITION"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "DANC 194",
+    "course_name": "Dance Repertory Activity",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||DANC_51A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DANC 198",
+    "course_name": "Internship in Dance",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "DSGD 63",
+    "course_name": "Fundamental Graphic Visualization",
+    "units": 3
+  },
+  {
+    "course_id": "DSGD 83",
+    "course_name": "Digital Applications: Basics",
+    "units": 3
+  },
+  {
+    "course_id": "DSGD 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "DSGD 100",
+    "course_name": "Visual Communication & Process",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANI_11",
+        "ART_24",
+        "DSID_21",
+        "DSIT_10"
+      ],
+      [
+        "||DSGD_63",
+        "ART_12",
+        "ANI_10",
+        "DSID_22",
+        "DSIT_5"
+      ],
+      [
+        "||DSGD_83",
+        "ANI_71",
+        "DSID_32",
+        "DSIT_83"
+      ],
+      [
+        "&&DSGD_100A"
+      ],
+      [
+        "&&||BA_DESIGN_STUDIES_MAJOR",
+        "BS_INDUSTRIAL_DESIGN_MAJOR",
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR",
+        "BFA_INTERIOR_DESIGN_MAJOR",
+        "GRAPHIC_DESIGN_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 100A",
+    "course_name": "Typography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GRAPHIC_DESIGN_MAJOR",
+        "ANI_11",
+        "ART_24",
+        "DSGD_83"
+      ],
+      [
+        "&&||ANIMATION_MAJOR",
+        "ANI_11",
+        "ANI_71"
+      ],
+      [
+        "&&||IT_MAJOR",
+        "DSIT_33",
+        "DSIT_10",
+        "DSIT_83"
+      ],
+      [
+        "&&||INDUSTRIAL_DESIGN_MAJOR",
+        "DSID_22_COMPLETION",
+        "||DSGD_83_COMPLETION",
+        "CONCURRENT_ENROLLMENT_DSID_22"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 102",
+    "course_name": "Intermediate Typography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_104"
+      ],
+      [
+        "&&BFA_GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 103A",
+    "course_name": "Advanced Typography I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_104"
+      ],
+      [
+        "&&GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 104",
+    "course_name": "Introduction to Graphic Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSGD_100",
+        "DSGD_100A"
+      ],
+      [
+        "&&||BA_DESIGN_STUDIES_MAJOR",
+        "BS_INDUSTRIAL_DESIGN_MAJOR",
+        "BFA_ANIMATION_ILLUSTRATION_MAJOR",
+        "BFA_INTERIOR_DESIGN_MAJOR",
+        "GRAPHIC_DESIGN_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 105",
+    "course_name": "Intermediate Graphic Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_104"
+      ],
+      [
+        "&&GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 106",
+    "course_name": "Advanced Graphic Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_102",
+        "DSGD_186",
+        "DSGD_110"
+      ],
+      [
+        "&&GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 107A",
+    "course_name": "Special Topics in Graphic Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 107B",
+    "course_name": "Special Topics in Experience Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 108",
+    "course_name": "Graphic Design Portfolio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_105",
+        "DSGD_186"
+      ],
+      [
+        "&&GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 109",
+    "course_name": "Digital Apps: Motion & Interaction Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "||ANI_11",
+        "ART_24"
+      ],
+      [
+        "&&DSGD_63"
+      ],
+      [
+        "&&DSGD_83"
+      ],
+      [
+        "&&DSGD_100A"
+      ],
+      [
+        "&&||BA_DESIGN_STUDIES_MAJOR",
+        "BFA_GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 110",
+    "course_name": "Visual Literacy: Image Making",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_104"
+      ],
+      [
+        "&&BFA_GRAPHIC_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 111",
+    "course_name": "Design Values and Professional Practices",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ANIMATION_MAJOR_ANI_50",
+        "GRAPHIC_DESIGN_MAJOR_DSGD_63",
+        "GRAPHIC_DESIGN_MAJOR_DSGD_83",
+        "IT_MAJOR_DSIT_33",
+        "IT_MAJOR_DSIT_83",
+        "INDUSTRIAL_DESIGN_MAJOR_DSID_22",
+        "INDUSTRIAL_DESIGN_MAJOR_DSGD_83"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&DSID_22"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 120",
+    "course_name": "Exhibition Design & Info Graphics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_110",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 127",
+    "course_name": "Design Practicum",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_110",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 131",
+    "course_name": "Motion Graphics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_102",
+        "DSGD_110",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 132",
+    "course_name": "User Interface & Interaction Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_102",
+        "DSGD_110",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 141",
+    "course_name": "3D Branding & Promotion Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_102",
+        "DSGD_110",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 150",
+    "course_name": "Degree Project: Senior Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_PORTFOLIO_REVIEW",
+        "DSGD_105",
+        "DSGD_186"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 173",
+    "course_name": "3D Computer Imaging and Digital Painting",
+    "units": 3
+  },
+  {
+    "course_id": "DSGD 176A",
+    "course_name": "Graphic Design History and Theory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ARTH_72",
+        "COMPLETION_AREA_Z",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 186",
+    "course_name": "Digital Applications: Methodology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BFA_GRAPHIC_DESIGN_MAJOR"
+      ],
+      [
+        "&&INTERACTION_DESIGN_MINOR",
+        "DSID_126"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGD 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+
+  {
+    "course_id": "DSGN 44HA",
+    "course_name": "Design Your Life, Design Your Semester, Design Your World",
+    "units": 3
+  },
+  {
+    "course_id": "DSGN 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "ge_areas": [
+      "GE_AREA_D"
+    ]
+  },
+  {
+    "course_id": "DSGN 100W",
+    "course_name": "Writing Workshop: Design",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&||GRADUATE_STANDING",
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGN 101",
+    "course_name": "Design Thinking Studio",
+    "units": 3
+  },
+  {
+    "course_id": "DSGN 127",
+    "course_name": "Internship",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||COMPLETION_3_UNITS_DSIT_104",
+        "DSGD_186",
+        "DSID_123",
+        "GPA_3.0_IN_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGN 148",
+    "course_name": "Introduction to Spatial Visualization Technology in Urban Planning",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGN 150",
+    "course_name": "Modern Textiles: A Global History of Art and Design",
+    "units": 3
+  },
+  {
+    "course_id": "DSGN 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&ART_AND_DESIGN_MAJOR",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGN 183",
+    "course_name": "Design Elective",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSGN 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+  {
+    "course_id": "DSGN 197",
+    "course_name": "BA Senior Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSGD_100A",
+        "DSGD_100"
+      ],
+      [
+        "&&BA_DESIGN_STUDIES_GRAPHIC_DESIGN_CONCENTRATION"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "DSID 21",
+    "course_name": "Visualization I",
+    "units": 3,
+    "prerequisites": [
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ],
+    "corequisites": [
+      ["&&DSID_31"]
+    ]
+  },
+  {
+    "course_id": "DSID 22",
+    "course_name": "Visualization II",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_21"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ],
+    "corequisites": [
+      ["&&DSID_32"]
+    ]
+  },
+  {
+    "course_id": "DSID 31",
+    "course_name": "Industrial Design Foundation I",
+    "units": 3,
+    "prerequisites": [
+      ["&&||BS_INDUSTRIAL_DESIGN_MAJOR", "BA_DESIGN_STUDIES_MAJOR"]
+    ],
+    "corequisites": [
+      ["&&DSID_21"]
+    ]
+  },
+  {
+    "course_id": "DSID 32",
+    "course_name": "Industrial Design Foundation II",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_31"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ],
+    "corequisites": [
+      ["&&DSID_22"]
+    ]
+  },
+  {
+    "course_id": "DSID 32A",
+    "course_name": "ID Portfolio Project I",
+    "units": 1,
+    "prerequisites": [
+      ["&&DSID_21", "DSID_31"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ],
+    "corequisites": [
+      ["&&DSID_22", "DSID_32"]
+    ]
+  },
+  {
+    "course_id": "DSID 41",
+    "course_name": "Materials and Processes I",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_22", "DSID_32"],
+      ["&&||BS_INDUSTRIAL_DESIGN_MAJOR", "BA_DESIGN_STUDIES_MAJOR_WITH_DEPARTMENT_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "DSID 121",
+    "course_name": "Industrial Design Process",
+    "units": 3,
+    "prerequisites": [
+      ["&&||DSID_125A", "BS_INDUSTRIAL_DESIGN_MAJOR", "HFS_GRADUATE_MAJOR", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 122",
+    "course_name": "Cont. & Crit. Studies: Industrial Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSGN_100W"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 123",
+    "course_name": "Intermediate Industrial Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_32A"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 123A",
+    "course_name": "ID Portfolio Project 2",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_32A"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 124",
+    "course_name": "Design for All",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 125",
+    "course_name": "Advanced Industrial Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123A"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 125A",
+    "course_name": "ID Portfolio Project 3",
+    "units": 2,
+    "prerequisites": [
+      ["&&DSID_123A"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 126",
+    "course_name": "Ergonomics for Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&||BS_INDUSTRIAL_DESIGN_MAJOR", "DSID_22", "DSID_32"],
+      ["&&||INTERACTION_DESIGN_MINOR", "||ANI_11", "DSID_22", "DSIT_10", "||DSID_32", "DSGD_83"]
+    ]
+  },
+  {
+    "course_id": "DSID 128",
+    "course_name": "Advanced Projects in Industrial Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_125A"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 128A",
+    "course_name": "ID Portfolio Project 4",
+    "units": 1,
+    "prerequisites": [
+      ["&&DSID_128"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 129",
+    "course_name": "Visualization III",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_22", "DSID_32"],
+      ["&&||BS_INDUSTRIAL_DESIGN_MAJOR", "BA_DESIGN_STUDIES_MAJOR_WITH_DEPARTMENT_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 130",
+    "course_name": "Sustainable Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 131",
+    "course_name": "Interaction Design",
+    "units": 3,
+    "prerequisites": [
+      ["&&||BS_INDUSTRIAL_DESIGN_MAJOR", "DSID_123"],
+      ["&&||INTERACTION_DESIGN_MINOR", "DSID_126"],
+      ["&&||MS_HUMAN_FACTORS_ERGONOMICS", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 132",
+    "course_name": "Softgoods",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 133",
+    "course_name": "Design Projects: Making It",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 134",
+    "course_name": "Design and Meaning",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 135",
+    "course_name": "Design, Entrepreneurship, Intellectual Property and Professional Practice",
+    "units": 3,
+    "prerequisites": [
+      ["&&||DSID_123A", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 136",
+    "course_name": "Advanced Digital Workshop",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_129"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 137",
+    "course_name": "Advanced Physical Prototyping",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_32"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 143",
+    "course_name": "Advanced Materials, Process & Technology",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_32", "DSID_41"],
+      ["&&||BA_DESIGN_STUDIES_MAJOR", "BS_INDUSTRIAL_DESIGN_MAJOR", "INSTRUCTOR_CONSENT"]
+    ]
+  },
+  {
+    "course_id": "DSID 144",
+    "course_name": "Design for Healthcare",
+    "units": 3,
+    "prerequisites": [
+      ["&&DSID_123"],
+      ["&&BS_INDUSTRIAL_DESIGN_MAJOR"]
+    ]
+  },
+  {
+    "course_id": "DSID 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14"
+  },
+
+  {
+    "course_id": "DSIT 5",
+    "course_name": "Introduction of Interior Design and Architecture",
+    "units": 3
+  },
+  {
+    "course_id": "DSIT 10",
+    "course_name": "Sketching, Drawing + Modeling",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&DSIT_5"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 29",
+    "course_name": "Design Process",
+    "units": 3
+  },
+  {
+    "course_id": "DSIT 33",
+    "course_name": "Architectural Presentation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_29"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&DSIT_34"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 34",
+    "course_name": "Interior Architecture Foundation Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_29"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&DSIT_33"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 83",
+    "course_name": "Visual Communication I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_5",
+        "DSIT_10"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&DSIT_015",
+        "DSIT_29"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 100",
+    "course_name": "Building Codes",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_34"
+      ],
+      [
+        "&&||BA_DESIGN_STUDIES_MAJOR",
+        "BFA_INTERIOR_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 101",
+    "course_name": "Architectural Systems and Materials + Adv Modeling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_33",
+        "DSIT_34",
+        "DSIT_100"
+      ],
+      [
+        "&&BFA_INTERIOR_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 102",
+    "course_name": "Computer Graphics for Interior Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_34"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 103",
+    "course_name": "Interior Architecture Conceptual Design Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_33",
+        "DSIT_34"
+      ],
+      [
+        "&&||BFA_INTERIOR_DESIGN_MAJOR",
+        "ART_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&DSIT_102"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 104",
+    "course_name": "Interior Architecture Space Planning Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_103",
+        "PORTFOLIO_REVIEW"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 105",
+    "course_name": "Interior Architecture Advanced Design Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_103",
+        "PORTFOLIO_REVIEW"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 106",
+    "course_name": "Architectural Project Materials",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_34"
+      ],
+      [
+        "&&||BFA_INTERIOR_DESIGN_MAJOR",
+        "ART_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 107",
+    "course_name": "Furniture Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||DSIT_34",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 108",
+    "course_name": "Architectural Lighting Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||DSIT_103",
+        "DSIT_104",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 109",
+    "course_name": "Object Design for Interiors",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_105",
+        "DSIT_106",
+        "DSIT_108"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 110",
+    "course_name": "Capstone Thesis Studio",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_104",
+        "DSIT_105"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 111",
+    "course_name": "Interior Architecture Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_105",
+        "ENROLLMENT_IN_GRADUATION_SEMESTER"
+      ],
+      [
+        "&&BFA_INTERIOR_DESIGN_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 112",
+    "course_name": "Professional Practice of Interior Archit",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DSIT_100"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 116",
+    "course_name": "Solar Energy Analysis",
+    "units": 3
+  },
+  {
+    "course_id": "DSIT 132",
+    "course_name": "Solar Home Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 151",
+    "course_name": "Introduction to Urban Design",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 152",
+    "course_name": "Introduction to Urban Design Studio",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||URBP_151",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "DSIT 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "DSIT 192C",
+    "course_name": "History of Interior Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ARTH_70B",
+        "ARTH_72",
+        "COMPLETION_AREA_Z",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "ECON 1A",
+    "course_name": "Principles of Economics: Macroeconomics",
+    "units": 3
+  },
+  {
+    "course_id": "ECON 1B",
+    "course_name": "Principles of Economics: Microeconomics",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ]
+  },
+  {
+    "course_id": "ECON 2A",
+    "course_name": "Principles of Macroeconomics Online Lab",
+    "units": 1
+  },
+  {
+    "course_id": "ECON 2B",
+    "course_name": "Principles of Microeconomics Online Lab",
+    "units": 1
+  },
+  {
+    "course_id": "ECON 2C",
+    "course_name": "Statistics Lab",
+    "units": 1
+  },
+  {
+    "course_id": "ECON 3",
+    "course_name": "Economic Statistics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ECON 100W",
+    "course_name": "Writing Workshop: Economic Reports",
+    "units": 4,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B",
+        "COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&||GRADUATE_STANDING",
+        "POSTBACCALAUREATE_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 101",
+    "course_name": "Microeconomic Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B",
+        "||MATH_30",
+        "MATH_71"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 102",
+    "course_name": "Macroeconomic Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 103",
+    "course_name": "Intro to Econometrics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_3"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 103A",
+    "course_name": "Introduction to Econometrics and Research Methods",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SOCI_15",
+        "STAT_95",
+        "UNVS_15",
+        "EQUIVALENT_STATISTICS"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 103B",
+    "course_name": "Econometric Methods",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_100W",
+        "ECON_103A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 104",
+    "course_name": "Mathematical Methods for Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B",
+        "||MATH_30_C",
+        "MATH_71_C"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 106",
+    "course_name": "Managerial Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 107",
+    "course_name": "Introduction to Environmental Economics and Policy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_1B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 108",
+    "course_name": "Cost-Benefit Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B",
+        "||ECON_3",
+        "STAT_95",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 109",
+    "course_name": "Analysis of Economic Issues for Teachers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 112",
+    "course_name": "Economic Development",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 113A",
+    "course_name": "Economic History of the United States",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 113B",
+    "course_name": "Economic History of Europe",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 121",
+    "course_name": "Industrial Organization",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 132",
+    "course_name": "Public Finance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 133",
+    "course_name": "Public Choice",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 135",
+    "course_name": "Money and Banking",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 136",
+    "course_name": "International Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 137A",
+    "course_name": "Fundamentals of Corporate Finance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 137B",
+    "course_name": "Topics in Corporate Finance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_137A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 138",
+    "course_name": "Business and Economic Forecasting",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B",
+        "ECON_103A",
+        "STATISTICS_COURSE"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 139",
+    "course_name": "Principles of Investments",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 141",
+    "course_name": "Law and Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 151",
+    "course_name": "Labor Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 155",
+    "course_name": "Principles of Austrian Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 158",
+    "course_name": "Economics of Entrepreneurship",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 165",
+    "course_name": "Regional Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_1A",
+        "ECON_1B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 166",
+    "course_name": "Urban Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 170",
+    "course_name": "Health Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 185",
+    "course_name": "Applied Economics Internship",
+    "units": "||1-8",
+    "prerequisites": [
+      [
+        "&&||JUNIOR_STANDING",
+        "SENIOR_STANDING",
+        "INTERNSHIP_COORDINATOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 190",
+    "course_name": "History of Economic Thought",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_101",
+        "ECON_102",
+        "ECON_100W",
+        "ECON_103A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 191",
+    "course_name": "Economic Thought of Nobel Prize Winners",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_101",
+        "ECON_102",
+        "ECON_100W",
+        "ECON_103A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ECON 195",
+    "course_name": "Computational Methods for Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1A",
+        "ECON_1B",
+        "STATISTICS_COURSE"
+      ]
+    ]
+  },
+  {
+    "course_id": "ECON 197",
+    "course_name": "Experimental Economics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B",
+        "STATISTICS_COURSE"
+      ]
+    ]
   }
+
 
 ]
