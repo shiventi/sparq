@@ -1,243 +1,248 @@
 PREREQUISITES:
     - ADV_COURSE1: Student must take one course in the ADV subject area.
-    - ADV_COURSE1 --> Student must take one course in the ADV subject area.
-    - INSTRUCTOR_CONSENT --> instructor consent.
-    - UPPER_DIVISION_STANDING --> Upper division standing.
-    - GRADUATE_STANDING --> student is a graduate student.
-    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> Completion of Core General Education.
-    - BFA_ANIMATION_ILLUSTRATION_MAJOR --> Student must be a BFA Animation/Illustration major.
-    - BA_DESIGN_STUDIES_MAJOR --> Student must be a BA Design Studies major.
-    - ANIMATION_ILLUSTRATION_MAJOR --> Student must be a declared Animation/Illustration major.
-    - ANIMATION_MAJOR --> Student must be a declared Animation major.
-    - DESIGN_STUDIES_MAJOR --> Student must be a declared Design Studies major.
-    - UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION --> Student must have upper division standing in Animation/Illustration.
-    - SENIOR_STANDING --> Student must have senior standing.
-    - BEHAVIORAL_SCIENCE --> Student must be a Behavioral Science major.
-    - BEHAVIORAL_SCIENCE_DOUBLE_MAJOR --> Student must be a double major in Behavioral Science.
-    - COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER --> Completion of GE Area 1A with a grade of C- or better.
-    - COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER --> Student must have completed GE Area 1B or equivalent with a grade of C- or better.
-    - POSTBACCALAUREATE_STANDING --> student is postbaccalaureate level.
-    - LOWER_DIVISION_ANTH_COURSE --> Student must have completed a lower division Anthropology course.
-    - LOWER_DIVISION_PSYC_COURSE --> Student must have completed a lower division Psychology course.
-    - ANTHROPOLOGY_MAJOR --> Student must be a declared Anthropology major.
-    - COMPLETION_OF_100W --> Student must have completed course 100W.
-    - ART_MAJOR --> Student must be a declared Art major.
-    - ART_HISTORY_MAJOR --> Student must be a declared Art History major.
-    - INTERIOR_DESIGN_MAJOR --> Student must be a declared Interior Design major.
-    - INDUSTRIAL_DESIGN_MAJOR --> Student must be a declared Industrial Design major.
-    - GRAPHIC_DESIGN_MAJOR --> Student must be a declared Graphic Design major.
-    - FINE_ARTS_MAJOR --> Student must be a declared Fine Arts major.
-    - UPPER_DIVISION_STANDING_IN_ART --> Student must have upper division standing in Art.
-    - DEPARTMENT_CHAIR_CONSENT --> department chair consent.
-    - PHYS_52_WITH_C_MINUS_OR_BETTER --> Student must have completed PHYS 52 with a grade of C- or better.
-    - MATH_32_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 32 with a grade of C- or better.
-    - MATH_31_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 31 with a grade of C- or better.
-    - FAA_PRIVATE_PILOT_CERTIFICATE --> Student must hold an FAA Private Pilot Certificate.
-    - AVIATION_MAJOR_OR_MINOR --> Student must be an Aviation major or minor.
-    - ADVISOR_CONSULTATION --> Student must have consulted with an advisor.
-    - DEPARTMENT_CHAIR_APPROVAL --> Student must have approval from the department chair.
-    - ACCEPTANCE_INTO_AVIATION_HONORS_PROGRAM --> Student must be accepted into the Aviation Honors Program.
-    - GRADUATING_SENIOR --> Student must be a graduating senior.
-    - MAJOR_FORM_COMPLETED --> Student must have completed the major form.
-    - JUNIOR_STANDING --> Student must have junior standing.
-    - WRITING_WI --> Student must be in Writing Enrollment Group W-I.
-    - WRITING_WII --> Student must be in Writing Enrollment Group W-II.
-    - ENGL_1AF_CR --> Student must have completed ENGL 1AF with a grade of CR.
-    - MATH_MI --> Student must be in Math Enrollment Group M-I.
-    - MATH_MII --> Student must be in Math Enrollment Group M-II.
-    - COMPLETION_GE_AREA_2 --> Student must have completed a GE Area 2 course.
-    - BIOLOGY_MAJOR --> Student must be a declared Biology major (any concentration).
-    - BIOMEDICAL_ENG_MAJOR --> Student must be a Biomedical Engineering major.
-    - BIOCHEMISTRY_MAJOR --> Student must be a Biochemistry major.
-    - ENVS_MAJOR --> Student must be a declared Environmental Studies major.
-    - FORENSIC_SCIENCE_MAJOR --> Student must be a declared Forensic Science major.
-    - NUTRITIONAL_SCIENCE_MAJOR --> Student must be a Nutritional Science major.
-    - METEOROLOGY_CS_MAJOR --> Student must be a Meteorology - Climate Science major.
-    - KINESIOLOGY_MAJOR --> Student must be a Kinesiology major.
-    - COMPUTER_SCIENCE_MAJOR --> Student must be a Computer Science major.
-    - COMMUNICATIVE_DISORDERS_MAJOR --> Student must be a Communicative Disorders major.
-    - SOPHOMORE_STANDING --> Student must have sophomore standing.
-    - APPROPRIATE_ACADEMIC_BACKGROUND --> Student must have appropriate academic background.
-    - WILDFIRE_SCIENCE_MINOR --> Student must be a Wildfire Science minor.
-    - COMPLETION_GE_AREA_5A --> Student must have completed a GE Area 5A course.
-    - COMPLETION_GE_AREA_5B --> Student must have completed a GE Area 5B course.
-    - COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR --> Student must have completed 9 units of upper division major coursework.
-    - BIOL_MOL_BIOL_MAJOR --> Student must be a declared Biological Sciences BS, Molecular Biology concentration major.
-    - BIOL_OTHER_MAJOR --> Student must be a declared Biological Sciences major other than Molecular Biology.
-    - DATA_SCIENCE_MAJOR --> Student must be a Data Science major.
-    - SOFTWARE_ENGINEERING_MAJOR --> Student must be a Software Engineering major.
-    - CHEMISTRY_MAJOR --> Student must be a Chemistry major.
-    - MS_BIOINFORMATICS --> Student must be enrolled in the MS Bioinformatics program.
-    - FORENSIC_SCIENCE_BIOL_MAJOR --> Student must be a Forensic Science (Biology concentration) major.
-    - UPPER_DIVISION_SYSTEMS_PHYSIOLOGY_ELECTIVE --> Student must have completed at least one upper division systems physiology elective.
-    - ENGL_1B_WITH_C_MINUS_OR_BETTER --> Student must have completed ENGL 1B with a grade of C- or better.
-    - ENGR_10_WITH_C_MINUS_OR_BETTER --> Student must have completed ENGR 10 with a grade of C- or better.
-    - MATH_30_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 30 with a grade of C- or better.
-    - MATH_30X_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 30X with a grade of C- or better.
-    - MATH_31X --> Student must have completed MATH 31X.
-    - BME_115_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 115 with a grade of C- or better.
-    - MATH_33LA_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 33LA with a grade of C- or better.
-    - MATH_33A_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 33A with a grade of C- or better.
-    - MATH_32H_WITH_C_MINUS_OR_BETTER --> Student must have completed MATH 32H with a grade of C- or better.
-    - BME_68_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 68 with a grade of C- or better.
-    - CHEM_8_WITH_C_MINUS_OR_BETTER --> Student must have completed CHEM 8 with a grade of C- or better.
-    - ENGR_100W_WITH_C_MINUS_OR_BETTER --> Student must have completed ENGR 100W with a grade of C- or better.
-    - BME_147_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 147 with a grade of C- or better.
-    - BME_174_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 174 with a grade of C- or better.
-    - BME_25_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 25 with a grade of C- or better.
-    - BME_65_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 65 with a grade of C- or better.
-    - BME_177_WITH_C_MINUS_OR_BETTER --> Student must have completed BME 177 with a grade of C- or better.
-    - CHEM_1B_WITH_C_MINUS_OR_BETTER --> Student must have completed CHEM 1B with a grade of C- or better.
-    - MATE_25_WITH_C_MINUS_OR_BETTER --> Student must have completed MATE 25 with a grade of C- or better.
-    - BME_198A_WITH_C_OR_BETTER --> Student must have completed BME 198A with a grade of C or better.
-    - MATH_30_WITH_C_OR_BETTER --> MATH 30 with a grade of C or better.
-    - MATH_30X_WITH_C_OR_BETTER --> Student has completed MATH 30X with a grade of C or better.
-    - MATH_31_WITH_C_OR_BETTER --> Student has completed MATH 31 with a grade of C or better.
-    - MATH_31X_WITH_C_OR_BETTER --> Student has completed MATH 31X with a grade of C or better.
-    - MATH_32_WITH_C_OR_BETTER --> MATH 32 with a grade of C or better.
-    - MATH_32X_WITH_C_OR_BETTER --> Student has completed MATH 32X with a grade of C or better.
-    - MATH_70X_WITH_C_OR_BETTER --> Student has completed MATH 70X with a grade of C or better.
-    - MATH_71_WITH_C_OR_BETTER --> Student has completed MATH 71 with a grade of C or better.
-    - MATH_71X_WITH_C_OR_BETTER --> Student has completed MATH 71X with a grade of C or better.
-    - NON_BUSINESS_MAJOR --> Student is a non-business major.
-    - BUS1_20_WITH_C_OR_BETTER --> Student has completed BUS1 20 with a grade of C or better.
-    - ACCOUNTING_MAJOR --> Student is a declared Accounting major.
-    - AIS_MAJOR --> Student is a declared Accounting Information Systems major.
-    - CORP_ACC_FIN_MAJOR --> Student is a declared Corporate Accounting and Finance major.
-    - BUS1_120A_WITH_C_OR_BETTER --> Student has completed BUS1 120A with a grade of C or better.
-    - COMM_100W_WITH_C_OR_BETTER --> Student has completed COMM 100W with a grade of C or better.
-    - ENGL_100WB_WITH_C_OR_BETTER --> Student has completed ENGL 100WB with a grade of C or better.
-    - LLD_100WB_WITH_C_OR_BETTER --> Student has completed LLD 100WB with a grade of C or better.
-    - BUS1_120B_WITH_C_OR_BETTER --> Student has completed BUS1 120B with a grade of C or better.
-    - BUS1_120C_WITH_C_OR_BETTER --> Student has completed BUS1 120C with a grade of C or better.
-    - FINANCE_MAJOR --> Student is a declared Finance major.
-    - BUS1_121A_WITH_C_OR_BETTER --> Student has completed BUS1 121A with a grade of C or better.
-    - BUS1_121B_WITH_C_OR_BETTER --> Student has completed BUS1 121B with a grade of C or better.
-    - BUS1_122A_WITH_C_OR_BETTER --> Student has completed BUS1 122A with a grade of C or better.
-    - BUS1_123A_WITH_C_OR_BETTER --> Student has completed BUS1 123A with a grade of C or better.
-    - BUSINESS_MINOR --> Student is a Business minor.
-    - ENGL_100W_WITH_C_OR_BETTER --> Student has completed ENGL 100W with a grade of C or better.
-    - LLD_100W_WITH_C_OR_BETTER --> Student has completed LLD 100W with a grade of C or better.
-    - BUS1_170_WITH_C_OR_BETTER --> Student has completed BUS1 170 with a grade of C or better.
-    - BUS1_171A_WITH_C_OR_BETTER --> Student has completed BUS1 171A with a grade of C or better.
-    - BUS1_172A_WITH_C_OR_BETTER --> Student has completed BUS1 172A with a grade of C or better.
-    - BUS1_173A_WITH_C_OR_BETTER --> Student has completed BUS1 173A with a grade of C or better.
-    - ANY_100W --> Student has completed any 100W course.
-    - EQUIVALENT_MATH_70 --> Student has completed equivalent to MATH 70.
-    - BUS_ADMIN_HRM_MAJOR --> Student is a declared Bus Admin/Human Resource Mgmt major.
-    - GRADUATING_SENIOR_STATUS --> Student has graduating senior status.
-    - BUS_100W --> Student has completed BUS 100W.
-    - BUS4_91L --> Student has completed BUS4 91L.
-    - ACCEPTANCE_HONORS_PROGRAM --> Student has acceptance into the Honors Program.
-    - GRADUATION_APPLICATION --> Student has completed the Jack Holland Student Success Center graduation application process.
-    - BUS4_92 --> Student has completed BUS4 92.
-    - BUS4_112 --> Student has completed BUS4 112.
-    - BUS4_110A --> Student has completed BUS4 110A.
-    - MIS_HONORS_PROGRAM --> Student has admission to MIS Honors Program.
-    - BUS4_111 --> Student has completed BUS4 111.
-    - BUS4_110A_WITH_C_OR_BETTER --> Student has completed BUS4 110A with a grade of C or better.
-    - BUS4_112_WITH_C_OR_BETTER --> Student has completed BUS4 112 with a grade of C or better.
-    - BUS4_110B_WITH_C_OR_BETTER --> Student has completed BUS4 110B with a grade of C or better.
-    - BUS4_111_WITH_C_OR_BETTER --> Student has completed BUS4 111 with a grade of C or better.
-    - BUS4_118H --> Student has completed BUS4 118H.
-    - BUS4_110B --> Student has completed BUS4 110B.
-    - BUS5_140 --> Student has completed BUS5 140.
-    - BUS5_181 --> Student has completed BUS5 181.
-    - BUS5_187 --> Student has completed BUS5 187.
-    - BUS2_193 --> Student has completed BUS2 193.
-    - ENGR_193 --> Student has completed ENGR 193.
-    - BUS3_161A --> Student has completed BUS3 161A.
-    - TA_48 --> Student has completed TA 48.
-    - ART_138 --> Student has completed ART 138.
-    - ART_139 --> Student has completed ART 139.
-    - COORDINATOR_APPROVAL --> Student has approval from the coordinator.
-    - CA_60 --> Student has completed CA 60.
-    - CA_172 --> Student has completed CA 172.
-    - CA_173 --> Student has completed CA 173.
-    - GE_AREA_PE --> Satisfies PE: Physical Education.
-    - GE_AREA_1C --> Satisfies 1C. Oral Communication.
-    - GE_AREA_4_US123 --> Satisfies GE Area 4. Social and Behavioral Sciences, and US123. American Institutions.
-    - ALLOWED_MAJOR_OR_MINOR_CHICANA_O_STUDIES --> Allowed Declared Major or Minor: Chicana/o Studies.
-    - ELIGIBILITY_FOR_MATH_30 --> eligibility for MATH 30.
-    - ALLOWED_MAJOR_CIVIL_ENGINEERING --> Allowed Declared Major: Civil Engineering.
-    - ALLOWED_MAJOR_GEOLOGY --> Allowed Declared Major: Geology.
-    - ALLOWED_MAJOR_ANY_ENGINEERING --> Allowed Declared Majors: Any Engineering.
-    - ALLOWED_MAJOR_COMPUTER_ENGINEERING --> Allowed Declared Major: Computer Engineering.
-    - ALLOWED_MAJOR_SOFTWARE_ENGINEERING --> Allowed Declared Major: Software Engineering.
-    - JUNIOR_STANDING_IN_ENGINEERING --> Junior Standing in Engineering.
-    - GOOD_STANDING --> Student is in good standing.
-    - COMPLETED_TWO_SEMESTERS_BACHELORS_AT_SJSU --> Completed at least two semesters of bachelor’s level work at SJSU.
-    - NOT_AVAILABLE_TO_OPEN_UNIVERSITY --> Not available to Open University Students.
-    - MATH_ENROLLMENT_CATEGORY_M-I --> Math Enrollment Category M-I.
-    - MATH_ENROLLMENT_CATEGORY_M-II --> Math Enrollment Category M-II.
-    - MATH_ENROLLMENT_CATEGORY_M-III --> Math Enrollment Category M-III.
-    - WRITING_ENROLLMENT_GROUP_W-I --> Writing Enrollment Group W-I.
-    - WRITING_ENROLLMENT_GROUP_W-II --> Writing Enrollment Group W-II.
-    - ENGL_1AF_WITH_CR --> ENGL 1AF with a grade of CR.
-    - ENGL_1A_WITH_C_MINUS_OR_BETTER --> ENGL 1A with a grade of C- or better.
-    - CHEM_1A_WITH_C_OR_BETTER --> CHEM 1A with a grade of C or better.
-    - STRING --> Enrollment in course and section accompanying workshop.
-    - ONE_YEAR_HIGH_SCHOOL_ALGEBRA --> One year high school algebra.
-    - PROFICIENCY_IN_HIGH_SCHOOL_ALGEBRA --> proficiency in high school algebra.
-    - PROFICIENCY_IN_HIGH_SCHOOL_CHEMISTRY --> Proficiency in high school chemistry.
-    - CHEM_010_WITH_C_OR_BETTER --> CHEM 010 with a grade of C or better.
-    - CHEM_1B_WITH_C_OR_BETTER --> CHEM 1B with a grade of C or better.
-    - CHEM_30A_WITH_C_OR_BETTER --> CHEM 30A with a grade of C or better.
-    - CHEM_55_WITH_C_OR_BETTER --> CHEM 55 with a grade of C or better.
-    - CHEM_55L_WITH_C_OR_BETTER --> CHEM 55L with a grade of C or better.
-    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_WITH_C_MINUS_OR_BETTER --> equivalent second semester composition course with a grade of C- or better.
-    - ALLOWED_MAJOR_CHEMISTRY --> Allowed Declared Majors: Chemistry.
-    - ALLOWED_MAJOR_BIOCHEMISTRY --> Allowed Declared Majors: Biochemistry.
-    - ALLOWED_MAJOR_BIOLOGY --> Allowed Declared Majors: Biology.
-    - ALLOWED_MAJOR_FORENSIC_SCIENCE_CHEMISTRY --> Allowed Declared Majors: Forensic Science-Chemistry.
-    - ALLOWED_MAJOR_FORENSIC_SCIENCE_BIOLOGY --> Allowed Declared Majors: Forensic Science-Biology.
-    - ALLOWED_MAJOR_CHEMICAL_ENGINEERING --> Allowed Declared Majors: Chemical Engineering.
-    - DEPARTMENT_CONSENT --> department consent.
-    - CHEM_112A_WITH_C_OR_BETTER --> CHEM 112A with a grade of C or better.
-    - CHEM_113A_WITH_C_OR_BETTER --> CHEM 113A with a grade of C or better.
-    - CHEM_112B --> CHEM 112B.
-    - CHEM_112B_WITH_C_OR_BETTER --> CHEM 112B with a grade of C or better.
-    - CHEM_100W_WITH_C_OR_BETTER --> CHEM 100W with a grade of C or better.
-    - CHEM_113B_WITH_C_OR_BETTER --> CHEM 113B with a grade of C or better.
-    - CHEM_145_WITH_C_OR_BETTER --> CHEM 145 with a grade of C or better.
-    - JS_100W_WITH_C_OR_BETTER --> JS 100W with a grade of C or better.
-    - FS_100W_WITH_C_OR_BETTER --> FS 100W with a grade of C or better.
-    - LOWER_DIVISION_CALCULUS_CHEMISTRY_PHYSICS --> Lower division calculus, chemistry and physics.
-    - CHEM_121S_WITH_C_OR_BETTER --> CHEM 121S with a grade of C or better.
-    - CHEM_126_WITH_C_OR_BETTER --> CHEM 126 with a grade of C or better.
-    - BIOL_30_WITH_C_OR_BETTER --> BIOL 30 with a grade of C or better.
-    - BIOL_30_WITH_C_MINUS_OR_BETTER --> BIOL 30 with a grade of C- or better.
-    - CHEM_131A_WITH_C_OR_BETTER --> CHEM 131A with a grade of C or better.
-    - CHEM_30B_WITH_C_OR_BETTER --> CHEM 30B with a grade of C or better.
-    - CHEM_8_WITH_C_OR_BETTER --> CHEM 8 with a grade of C or better.
-    - PHYS_2B_WITH_C_OR_BETTER --> PHYS 2B with a grade of C or better.
-    - PHYS_50_WITH_C_OR_BETTER --> PHYS 50 with a grade of C or better.
-    - CHEM_161A_WITH_C_OR_BETTER --> CHEM 161A with a grade of C or better.
-    - CHEM_160_WITH_C_OR_BETTER --> CHEM 160 with a grade of C or better.
-    - CHEM_180_WITH_CR --> CHEM 180 with CR.
-    - MINIMUM_2_UNITS_CHEM_180_OR_184 --> Minimum of 2 units of CHEM 180 or CHEM 184.
-    - CHEM_100W --> CHEM 100W.
-    - 8_UNITS_COLLEGE_CHINESE --> 8 units of college Chinese (or equivalent).
-    - 12_UNITS_COLLEGE_CHINESE --> 12 units of college Chinese (or equivalent).
-    - 4_SEMESTERS_COLLEGE_CHINESE --> Four semesters of college Chinese (or equivalent).
-    - 20_UNITS_COLLEGE_CHINESE --> 20 units of college Chinese (or equivalent).
-    - UPPER_DIVISION_STANDING_IN_CHINESE --> Upper division standing in Chinese (or equivalent).
-    - GE_AREA_1A_ORAL_COMMUNICATION --> GE Area A1 Oral Communication.
-    - GE_AREA_1B --> Satisfies 1B. Critical Thinking and Writing.
-    - GE_AREA_E --> Satisfies E: Human Understanding &amp; Development.
-    - COMPLETION_OF_GE_ORAL_COMMUNICATION --> Completion of GE oral communication.
-    - DECLARED_COMMUNICATION_STUDIES_MAJOR --> declared Communication Studies major.
-    - COMPLETION_OF_GE_AREA_A1_ORAL_COMMUNICATION --> Completion of GE Area A1 Oral Communication.
-    - COMPLETION_OF_1C_CORE_GE_REQUIREMENT --> Completion of 1C Core GE requirement.
-    - COMPLETION_OF_1C_OF_CORE_GE_REQUIREMENT --> Completion of 1C of Core GE requirement.
-    - UPPER_DIVISION_OR_GRADUATE_STANDING --> Upper division or graduate standing.
-    - UPPER_DIVISION_OR_GRADUATE_STANDING_AND_DEPARTMENT_CHAIR_APPROVAL --> Upper division or graduate standing and department chair approval.
-    - UPPER_DIVISION_STANDING_60_UNITS_COMPLETED --> Upper division standing (60 units completed).
-    - COMM_101C --> COMM 101C.
-    - COMPLETION_OF_COMM_168A_ENVS_168A_METR_168A_WITH_C_MINUS_OR_BETTER --> Completion of COMM 168A / ENVS 168A / METR 168A with a C- or better.
+    - INSTRUCTOR_CONSENT: instructor consent.
+    - UPPER_DIVISION_STANDING: Upper division standing.
+    - GRADUATE_STANDING: student is a graduate student.
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION: Completion of Core General Education.
+    - BFA_ANIMATION_ILLUSTRATION_MAJOR: Student must be a BFA Animation/Illustration major.
+    - BA_DESIGN_STUDIES_MAJOR: Student must be a BA Design Studies major.
+    - ANIMATION_ILLUSTRATION_MAJOR: Student must be a declared Animation/Illustration major.
+    - ANIMATION_MAJOR: Student must be a declared Animation major.
+    - DESIGN_STUDIES_MAJOR: Student must be a declared Design Studies major.
+    - UPPER_DIVISION_STANDING_IN_ANIMATION_ILLUSTRATION: Student must have upper division standing in Animation/Illustration.
+    - SENIOR_STANDING: Student must have senior standing.
+    - BEHAVIORAL_SCIENCE: Student must be a Behavioral Science major.
+    - BEHAVIORAL_SCIENCE_DOUBLE_MAJOR: Student must be a double major in Behavioral Science.
+    - COMPLETION_OF_GE_AREA_1A_WITH_C_MINUS_OR_BETTER: Completion of GE Area 1A with a grade of C- or better.
+    - COMPLETION_OF_GE_AREA_1B_WITH_C_MINUS_OR_BETTER: Student must have completed GE Area 1B or equivalent with a grade of C- or better.
+    - POSTBACCALAUREATE_STANDING: student is postbaccalaureate level.
+    - LOWER_DIVISION_ANTH_COURSE: Student must have completed a lower division Anthropology course.
+    - LOWER_DIVISION_PSYC_COURSE: Student must have completed a lower division Psychology course.
+    - ANTHROPOLOGY_MAJOR: Student must be a declared Anthropology major.
+    - COMPLETION_OF_100W: Student must have completed course 100W.
+    - ART_MAJOR: Student must be a declared Art major.
+    - ART_HISTORY_MAJOR: Student must be a declared Art History major.
+    - INTERIOR_DESIGN_MAJOR: Student must be a declared Interior Design major.
+    - INDUSTRIAL_DESIGN_MAJOR: Student must be a declared Industrial Design major.
+    - GRAPHIC_DESIGN_MAJOR: Student must be a declared Graphic Design major.
+    - FINE_ARTS_MAJOR: Student must be a declared Fine Arts major.
+    - UPPER_DIVISION_STANDING_IN_ART: Student must have upper division standing in Art.
+    - DEPARTMENT_CHAIR_CONSENT: department chair consent.
+    - PHYS_52_WITH_C_MINUS_OR_BETTER: Student must have completed PHYS 52 with a grade of C- or better.
+    - MATH_32_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 32 with a grade of C- or better.
+    - MATH_31_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 31 with a grade of C- or better.
+    - FAA_PRIVATE_PILOT_CERTIFICATE: Student must hold an FAA Private Pilot Certificate.
+    - AVIATION_MAJOR_OR_MINOR: Student must be an Aviation major or minor.
+    - ADVISOR_CONSULTATION: Student must have consulted with an advisor.
+    - DEPARTMENT_CHAIR_APPROVAL: Student must have approval from the department chair.
+    - ACCEPTANCE_INTO_AVIATION_HONORS_PROGRAM: Student must be accepted into the Aviation Honors Program.
+    - GRADUATING_SENIOR: Student must be a graduating senior.
+    - MAJOR_FORM_COMPLETED: Student must have completed the major form.
+    - JUNIOR_STANDING: Student must have junior standing.
+    - WRITING_WI: Student must be in Writing Enrollment Group W-I.
+    - WRITING_WII: Student must be in Writing Enrollment Group W-II.
+    - ENGL_1AF_CR: Student must have completed ENGL 1AF with a grade of CR.
+    - MATH_MI: Student must be in Math Enrollment Group M-I.
+    - MATH_MII: Student must be in Math Enrollment Group M-II.
+    - COMPLETION_GE_AREA_2: Student must have completed a GE Area 2 course.
+    - BIOLOGY_MAJOR: Student must be a declared Biology major (any concentration).
+    - BIOMEDICAL_ENG_MAJOR: Student must be a Biomedical Engineering major.
+    - BIOCHEMISTRY_MAJOR: Student must be a Biochemistry major.
+    - ENVS_MAJOR: Student must be a declared Environmental Studies major.
+    - FORENSIC_SCIENCE_MAJOR: Student must be a declared Forensic Science major.
+    - NUTRITIONAL_SCIENCE_MAJOR: Student must be a Nutritional Science major.
+    - METEOROLOGY_CS_MAJOR: Student must be a Meteorology - Climate Science major.
+    - KINESIOLOGY_MAJOR: Student must be a Kinesiology major.
+    - COMPUTER_SCIENCE_MAJOR: Student must be a Computer Science major.
+    - COMMUNICATIVE_DISORDERS_MAJOR: Student must be a Communicative Disorders major.
+    - SOPHOMORE_STANDING: Student must have sophomore standing.
+    - APPROPRIATE_ACADEMIC_BACKGROUND: Student must have appropriate academic background.
+    - WILDFIRE_SCIENCE_MINOR: Student must be a Wildfire Science minor.
+    - COMPLETION_GE_AREA_5A: Student must have completed a GE Area 5A course.
+    - COMPLETION_GE_AREA_5B: Student must have completed a GE Area 5B course.
+    - COMPLETION_9_UNITS_UPPER_DIVISION_MAJOR: Student must have completed 9 units of upper division major coursework.
+    - BIOL_MOL_BIOL_MAJOR: Student must be a declared Biological Sciences BS, Molecular Biology concentration major.
+    - BIOL_OTHER_MAJOR: Student must be a declared Biological Sciences major other than Molecular Biology.
+    - DATA_SCIENCE_MAJOR: Student must be a Data Science major.
+    - SOFTWARE_ENGINEERING_MAJOR: Student must be a Software Engineering major.
+    - CHEMISTRY_MAJOR: Student must be a Chemistry major.
+    - MS_BIOINFORMATICS: Student must be enrolled in the MS Bioinformatics program.
+    - FORENSIC_SCIENCE_BIOL_MAJOR: Student must be a Forensic Science (Biology concentration) major.
+    - UPPER_DIVISION_SYSTEMS_PHYSIOLOGY_ELECTIVE: Student must have completed at least one upper division systems physiology elective.
+    - ENGL_1B_WITH_C_MINUS_OR_BETTER: Student must have completed ENGL 1B with a grade of C- or better.
+    - ENGR_10_WITH_C_MINUS_OR_BETTER: Student must have completed ENGR 10 with a grade of C- or better.
+    - MATH_30_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 30 with a grade of C- or better.
+    - MATH_30X_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 30X with a grade of C- or better.
+    - MATH_31X: Student must have completed MATH 31X.
+    - BME_115_WITH_C_MINUS_OR_BETTER: Student must have completed BME 115 with a grade of C- or better.
+    - MATH_33LA_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 33LA with a grade of C- or better.
+    - MATH_33A_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 33A with a grade of C- or better.
+    - MATH_32H_WITH_C_MINUS_OR_BETTER: Student must have completed MATH 32H with a grade of C- or better.
+    - BME_68_WITH_C_MINUS_OR_BETTER: Student must have completed BME 68 with a grade of C- or better.
+    - CHEM_8_WITH_C_MINUS_OR_BETTER: Student must have completed CHEM 8 with a grade of C- or better.
+    - ENGR_100W_WITH_C_MINUS_OR_BETTER: Student must have completed ENGR 100W with a grade of C- or better.
+    - BME_147_WITH_C_MINUS_OR_BETTER: Student must have completed BME 147 with a grade of C- or better.
+    - BME_174_WITH_C_MINUS_OR_BETTER: Student must have completed BME 174 with a grade of C- or better.
+    - BME_25_WITH_C_MINUS_OR_BETTER: Student must have completed BME 25 with a grade of C- or better.
+    - BME_65_WITH_C_MINUS_OR_BETTER: Student must have completed BME 65 with a grade of C- or better.
+    - BME_177_WITH_C_MINUS_OR_BETTER: Student must have completed BME 177 with a grade of C- or better.
+    - CHEM_1B_WITH_C_MINUS_OR_BETTER: Student must have completed CHEM 1B with a grade of C- or better.
+    - MATE_25_WITH_C_MINUS_OR_BETTER: Student must have completed MATE 25 with a grade of C- or better.
+    - BME_198A_WITH_C_OR_BETTER: Student must have completed BME 198A with a grade of C or better.
+    - MATH_30_WITH_C_OR_BETTER: MATH 30 with a grade of C or better.
+    - MATH_30X_WITH_C_OR_BETTER: Student has completed MATH 30X with a grade of C or better.
+    - MATH_31_WITH_C_OR_BETTER: Student has completed MATH 31 with a grade of C or better.
+    - MATH_31X_WITH_C_OR_BETTER: Student has completed MATH 31X with a grade of C or better.
+    - MATH_32_WITH_C_OR_BETTER: MATH 32 with a grade of C or better.
+    - MATH_32X_WITH_C_OR_BETTER: Student has completed MATH 32X with a grade of C or better.
+    - MATH_70X_WITH_C_OR_BETTER: Student has completed MATH 70X with a grade of C or better.
+    - MATH_71_WITH_C_OR_BETTER: Student has completed MATH 71 with a grade of C or better.
+    - MATH_71X_WITH_C_OR_BETTER: Student has completed MATH 71X with a grade of C or better.
+    - NON_BUSINESS_MAJOR: Student is a non-business major.
+    - BUS1_20_WITH_C_OR_BETTER: Student has completed BUS1 20 with a grade of C or better.
+    - ACCOUNTING_MAJOR: Student is a declared Accounting major.
+    - AIS_MAJOR: Student is a declared Accounting Information Systems major.
+    - CORP_ACC_FIN_MAJOR: Student is a declared Corporate Accounting and Finance major.
+    - BUS1_120A_WITH_C_OR_BETTER: Student has completed BUS1 120A with a grade of C or better.
+    - COMM_100W_WITH_C_OR_BETTER: Student has completed COMM 100W with a grade of C or better.
+    - ENGL_100WB_WITH_C_OR_BETTER: Student has completed ENGL 100WB with a grade of C or better.
+    - LLD_100WB_WITH_C_OR_BETTER: Student has completed LLD 100WB with a grade of C or better.
+    - BUS1_120B_WITH_C_OR_BETTER: Student has completed BUS1 120B with a grade of C or better.
+    - BUS1_120C_WITH_C_OR_BETTER: Student has completed BUS1 120C with a grade of C or better.
+    - FINANCE_MAJOR: Student is a declared Finance major.
+    - BUS1_121A_WITH_C_OR_BETTER: Student has completed BUS1 121A with a grade of C or better.
+    - BUS1_121B_WITH_C_OR_BETTER: Student has completed BUS1 121B with a grade of C or better.
+    - BUS1_122A_WITH_C_OR_BETTER: Student has completed BUS1 122A with a grade of C or better.
+    - BUS1_123A_WITH_C_OR_BETTER: Student has completed BUS1 123A with a grade of C or better.
+    - BUSINESS_MINOR: Student is a Business minor.
+    - ENGL_100W_WITH_C_OR_BETTER: Student has completed ENGL 100W with a grade of C or better.
+    - LLD_100W_WITH_C_OR_BETTER: Student has completed LLD 100W with a grade of C or better.
+    - BUS1_170_WITH_C_OR_BETTER: Student has completed BUS1 170 with a grade of C or better.
+    - BUS1_171A_WITH_C_OR_BETTER: Student has completed BUS1 171A with a grade of C or better.
+    - BUS1_172A_WITH_C_OR_BETTER: Student has completed BUS1 172A with a grade of C or better.
+    - BUS1_173A_WITH_C_OR_BETTER: Student has completed BUS1 173A with a grade of C or better.
+    - ANY_100W: Student has completed any 100W course.
+    - EQUIVALENT_MATH_70: Student has completed equivalent to MATH 70.
+    - BUS_ADMIN_HRM_MAJOR: Student is a declared Bus Admin/Human Resource Mgmt major.
+    - GRADUATING_SENIOR_STATUS: Student has graduating senior status.
+    - BUS_100W: Student has completed BUS 100W.
+    - BUS4_91L: Student has completed BUS4 91L.
+    - ACCEPTANCE_HONORS_PROGRAM: Student has acceptance into the Honors Program.
+    - GRADUATION_APPLICATION: Student has completed the Jack Holland Student Success Center graduation application process.
+    - BUS4_92: Student has completed BUS4 92.
+    - BUS4_112: Student has completed BUS4 112.
+    - BUS4_110A: Student has completed BUS4 110A.
+    - MIS_HONORS_PROGRAM: Student has admission to MIS Honors Program.
+    - BUS4_111: Student has completed BUS4 111.
+    - BUS4_110A_WITH_C_OR_BETTER: Student has completed BUS4 110A with a grade of C or better.
+    - BUS4_112_WITH_C_OR_BETTER: Student has completed BUS4 112 with a grade of C or better.
+    - BUS4_110B_WITH_C_OR_BETTER: Student has completed BUS4 110B with a grade of C or better.
+    - BUS4_111_WITH_C_OR_BETTER: Student has completed BUS4 111 with a grade of C or better.
+    - BUS4_118H: Student has completed BUS4 118H.
+    - BUS4_110B: Student has completed BUS4 110B.
+    - BUS5_140: Student has completed BUS5 140.
+    - BUS5_181: Student has completed BUS5 181.
+    - BUS5_187: Student has completed BUS5 187.
+    - BUS2_193: Student has completed BUS2 193.
+    - ENGR_193: Student has completed ENGR 193.
+    - BUS3_161A: Student has completed BUS3 161A.
+    - TA_48: Student has completed TA 48.
+    - ART_138: Student has completed ART 138.
+    - ART_139: Student has completed ART 139.
+    - COORDINATOR_APPROVAL: Student has approval from the coordinator.
+    - CA_60: Student has completed CA 60.
+    - CA_172: Student has completed CA 172.
+    - CA_173: Student has completed CA 173.
+    - GE_AREA_PE: Satisfies PE: Physical Education.
+    - GE_AREA_1C: Satisfies 1C. Oral Communication.
+    - GE_AREA_4_US123: Satisfies GE Area 4. Social and Behavioral Sciences, and US123. American Institutions.
+    - ALLOWED_MAJOR_OR_MINOR_CHICANA_O_STUDIES: Allowed Declared Major or Minor: Chicana/o Studies.
+    - ELIGIBILITY_FOR_MATH_30: eligibility for MATH 30.
+    - ALLOWED_MAJOR_CIVIL_ENGINEERING: Allowed Declared Major: Civil Engineering.
+    - ALLOWED_MAJOR_GEOLOGY: Allowed Declared Major: Geology.
+    - ALLOWED_MAJOR_ANY_ENGINEERING: Allowed Declared Majors: Any Engineering.
+    - ALLOWED_MAJOR_COMPUTER_ENGINEERING: Allowed Declared Major: Computer Engineering.
+    - ALLOWED_MAJOR_SOFTWARE_ENGINEERING: Allowed Declared Major: Software Engineering.
+    - JUNIOR_STANDING_IN_ENGINEERING: Junior Standing in Engineering.
+    - GOOD_STANDING: Student is in good standing.
+    - COMPLETED_TWO_SEMESTERS_BACHELORS_AT_SJSU: Completed at least two semesters of bachelor’s level work at SJSU.
+    - NOT_AVAILABLE_TO_OPEN_UNIVERSITY: Not available to Open University Students.
+    - MATH_ENROLLMENT_CATEGORY_M-I: Math Enrollment Category M-I.
+    - MATH_ENROLLMENT_CATEGORY_M-II: Math Enrollment Category M-II.
+    - MATH_ENROLLMENT_CATEGORY_M-III: Math Enrollment Category M-III.
+    - WRITING_ENROLLMENT_GROUP_W-I: Writing Enrollment Group W-I.
+    - WRITING_ENROLLMENT_GROUP_W-II: Writing Enrollment Group W-II.
+    - ENGL_1AF_WITH_CR: ENGL 1AF with a grade of CR.
+    - ENGL_1A_WITH_C_MINUS_OR_BETTER: ENGL 1A with a grade of C- or better.
+    - CHEM_1A_WITH_C_OR_BETTER: CHEM 1A with a grade of C or better.
+    - STRING: Enrollment in course and section accompanying workshop.
+    - ONE_YEAR_HIGH_SCHOOL_ALGEBRA: One year high school algebra.
+    - PROFICIENCY_IN_HIGH_SCHOOL_ALGEBRA: proficiency in high school algebra.
+    - PROFICIENCY_IN_HIGH_SCHOOL_CHEMISTRY: Proficiency in high school chemistry.
+    - CHEM_010_WITH_C_OR_BETTER: CHEM 010 with a grade of C or better.
+    - CHEM_1B_WITH_C_OR_BETTER: CHEM 1B with a grade of C or better.
+    - CHEM_30A_WITH_C_OR_BETTER: CHEM 30A with a grade of C or better.
+    - CHEM_55_WITH_C_OR_BETTER: CHEM 55 with a grade of C or better.
+    - CHEM_55L_WITH_C_OR_BETTER: CHEM 55L with a grade of C or better.
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_WITH_C_MINUS_OR_BETTER: equivalent second semester composition course with a grade of C- or better.
+    - ALLOWED_MAJOR_CHEMISTRY: Allowed Declared Majors: Chemistry.
+    - ALLOWED_MAJOR_BIOCHEMISTRY: Allowed Declared Majors: Biochemistry.
+    - ALLOWED_MAJOR_BIOLOGY: Allowed Declared Majors: Biology.
+    - ALLOWED_MAJOR_FORENSIC_SCIENCE_CHEMISTRY: Allowed Declared Majors: Forensic Science-Chemistry.
+    - ALLOWED_MAJOR_FORENSIC_SCIENCE_BIOLOGY: Allowed Declared Majors: Forensic Science-Biology.
+    - ALLOWED_MAJOR_CHEMICAL_ENGINEERING: Allowed Declared Majors: Chemical Engineering.
+    - DEPARTMENT_CONSENT: department consent.
+    - CHEM_112A_WITH_C_OR_BETTER: CHEM 112A with a grade of C or better.
+    - CHEM_113A_WITH_C_OR_BETTER: CHEM 113A with a grade of C or better.
+    - CHEM_112B: CHEM 112B.
+    - CHEM_112B_WITH_C_OR_BETTER: CHEM 112B with a grade of C or better.
+    - CHEM_100W_WITH_C_OR_BETTER: CHEM 100W with a grade of C or better.
+    - CHEM_113B_WITH_C_OR_BETTER: CHEM 113B with a grade of C or better.
+    - CHEM_145_WITH_C_OR_BETTER: CHEM 145 with a grade of C or better.
+    - JS_100W_WITH_C_OR_BETTER: JS 100W with a grade of C or better.
+    - FS_100W_WITH_C_OR_BETTER: FS 100W with a grade of C or better.
+    - LOWER_DIVISION_CALCULUS_CHEMISTRY_PHYSICS: Lower division calculus, chemistry and physics.
+    - CHEM_121S_WITH_C_OR_BETTER: CHEM 121S with a grade of C or better.
+    - CHEM_126_WITH_C_OR_BETTER: CHEM 126 with a grade of C or better.
+    - BIOL_30_WITH_C_OR_BETTER: BIOL 30 with a grade of C or better.
+    - BIOL_30_WITH_C_MINUS_OR_BETTER: BIOL 30 with a grade of C- or better.
+    - CHEM_131A_WITH_C_OR_BETTER: CHEM 131A with a grade of C or better.
+    - CHEM_30B_WITH_C_OR_BETTER: CHEM 30B with a grade of C or better.
+    - CHEM_8_WITH_C_OR_BETTER: CHEM 8 with a grade of C or better.
+    - PHYS_2B_WITH_C_OR_BETTER: PHYS 2B with a grade of C or better.
+    - PHYS_50_WITH_C_OR_BETTER: PHYS 50 with a grade of C or better.
+    - CHEM_161A_WITH_C_OR_BETTER: CHEM 161A with a grade of C or better.
+    - CHEM_160_WITH_C_OR_BETTER: CHEM 160 with a grade of C or better.
+    - CHEM_180_WITH_CR: CHEM 180 with CR.
+    - MINIMUM_2_UNITS_CHEM_180_OR_184: Minimum of 2 units of CHEM 180 or CHEM 184.
+    - CHEM_100W: CHEM 100W.
+    - 8_UNITS_COLLEGE_CHINESE: 8 units of college Chinese (or equivalent).
+    - 12_UNITS_COLLEGE_CHINESE: 12 units of college Chinese (or equivalent).
+    - 4_SEMESTERS_COLLEGE_CHINESE: Four semesters of college Chinese (or equivalent).
+    - 20_UNITS_COLLEGE_CHINESE: 20 units of college Chinese (or equivalent).
+    - UPPER_DIVISION_STANDING_IN_CHINESE: Upper division standing in Chinese (or equivalent).
+    - GE_AREA_1A_ORAL_COMMUNICATION: GE Area A1 Oral Communication.
+    - GE_AREA_1B: Satisfies 1B. Critical Thinking and Writing.
+    - GE_AREA_E: Satisfies E: Human Understanding &amp; Development.
+    - COMPLETION_OF_GE_ORAL_COMMUNICATION: Completion of GE oral communication.
+    - DECLARED_COMMUNICATION_STUDIES_MAJOR: declared Communication Studies major.
+    - COMPLETION_OF_GE_AREA_A1_ORAL_COMMUNICATION: Completion of GE Area A1 Oral Communication.
+    - COMPLETION_OF_1C_CORE_GE_REQUIREMENT: Completion of 1C Core GE requirement.
+    - COMPLETION_OF_1C_OF_CORE_GE_REQUIREMENT: Completion of 1C of Core GE requirement.
+    - UPPER_DIVISION_OR_GRADUATE_STANDING: Upper division or graduate standing.
+    - UPPER_DIVISION_OR_GRADUATE_STANDING_AND_DEPARTMENT_CHAIR_APPROVAL: Upper division or graduate standing and department chair approval.
+    - UPPER_DIVISION_STANDING_60_UNITS_COMPLETED: Upper division standing (60 units completed).
+    - COMM_101C: COMM 101C.
+    - COMPLETION_OF_COMM_168A_ENVS_168A_METR_168A_WITH_C_MINUS_OR_BETTER: Completion of COMM 168A / ENVS 168A / METR 168A with a C- or better.
     - CS_1022AS --> student is enrolled in CS 1022AS
+    - MATH_ENROLLMENT_CATEGORY_M-III --> student is in Math Enrollment Category M-III
     - MATH_ENROLLMENT_CATEGORY_M-IV --> student is in Math Enrollment Category M-IV
     - CS_22A_WITH_C_MINUS_OR_BETTER --> student has completed CS 22A with a grade of C- or better
+    - DATA_SCIENCE_MAJOR --> student is a declared Data Science major
+    - BIOLOGY_MAJOR --> student is a declared Biology major
+    - CHEMISTRY_MAJOR --> student is a declared Chemistry major
+    - MATH_ENROLLMENT_CATEGORY_M-I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_CATEGORY_M-II --> student is in Math Enrollment Category M-II
     - PRECALCULUS_PROFICIENCY_ASSESSMENT --> student has a satisfactory score on the Precalculus Proficiency Assessment
     - AP_CALCULUS_AB_3-5 --> student has an AP Calculus AB score of 3 to 5
     - AP_CALCULUS_BC_3-5 --> student has an AP Calculus BC score of 3 to 5
@@ -252,10 +257,12 @@ PREREQUISITES:
     - MATH_18A_AND_18B_WITH_B_MINUS_OR_LOWER --> student has completed MATH 18A and MATH 18B with a grade of B- or lower
     - REPEATING_MATH_42 --> student is repeating MATH 42
     - MATH_1_WITH_C_MINUS_OR_BETTER --> student has completed MATH 1 with a grade of C- or better
+    - COMPUTER_SCIENCE_MAJOR --> student is a declared Computer Science major
     - COMPUTER_SCIENCE_AND_LINGUISTICS_MAJOR --> student is a declared Computer Science and Linguistics major
     - MATHEMATICS_MAJOR --> student is a declared Mathematics major
     - STATISTICS_MAJOR --> student is a declared Statistics major
     - APPLIED_AND_COMPUTATIONAL_MATH_MAJOR --> student is a declared Applied and Computational Math major
+    - SOFTWARE_ENGINEERING_MAJOR --> student is a declared Software Engineering major
     - FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR --> student is a declared Forensic Science: Digital Evidence major
     - UNDECLARED_MAJOR --> student is undeclared
     - CS_46A --> student has completed CS 46A
@@ -279,17 +286,20 @@ PREREQUISITES:
     - CLIMATE_SCIENCE_MAJOR_CHEM_1A --> student is a Climate Science major and has completed CHEM 1A
     - VARIES_WITH_TOPIC --> prerequisites vary with topic
     - A3_WITH_C_MINUS_OR_BETTER --> student has completed an A3 course with a grade of C- or better
+    - MATH_31_WITH_C_MINUS_OR_BETTER --> student has completed MATH 31 with a grade of C- or better
     - MATH_39_WITH_C_MINUS_OR_BETTER --> student has completed MATH 39 with a grade of C- or better
     - CS_146_WITH_C_MINUS_OR_BETTER --> student has completed CS 146 with a grade of C- or better
     - PREVIOUS_C_CPP_EXPERIENCE --> student has previous programming experience in C/C++
     - CS_116A_WITH_C_MINUS_OR_BETTER --> student has completed CS 116A with a grade of C- or better
     - BIOL_31 --> student has completed BIOL 31
+    - MS_BIOINFORMATICS --> student is in the MS Bioinformatics program
     - CS_123A_BIOL_123A_SE_123A --> student has completed CS 123A, BIOL 123A, or SE 123A
     - CS_22B_AND_GRADUATE_STANDING --> student has completed CS 22B with a grade of C- or better and has graduate standing
     - COMPUTER_SCIENCE_BS --> student is a declared Computer Science BS major
     - DATA_SCIENCE_BS --> student is a declared Data Science BS major
     - CS_151_WITH_C_MINUS_OR_BETTER --> student has completed CS 151 with a grade of C- or better
     - CMPE_135_WITH_C_MINUS_OR_BETTER --> student has completed CMPE 135 with a grade of C- or better
+    - MATH_32_WITH_C_MINUS_OR_BETTER --> student has completed MATH 32 with a grade of C- or better
     - MATH_33A --> student has completed MATH 33A
     - MATH_33LA --> student has completed MATH 33LA
     - MATH_34 --> student has completed MATH 34
@@ -313,6 +323,7 @@ PREREQUISITES:
     - CS_171 --> student has completed CS 171
     - CMPE_120_WITH_C_MINUS_OR_BETTER --> student has completed CMPE 120 with a grade of C- or better
     - CS_166_WITH_C_MINUS_OR_BETTER --> student has completed CS 166 with a grade of C- or better
+    - DEPARTMENT_CHAIR_CONSENT --> student has department chair consent
     - JUNIOR_STANDING_COMPUTER_SCIENCE_MAJOR --> student has at least junior standing as a Computer Science major
     - GPA_3.5_OR_HIGHER_IN_MAJOR --> student has a GPA of 3.5 or higher in the major
     - COMPANY_SELECTION --> student has been selected by a company
@@ -321,6 +332,7 @@ PREREQUISITES:
     - DANC_43 --> student has completed DANC 43
     - DANC_145A --> student has completed DANC 145A
     - DANC_145B --> student has completed DANC 145B
+    - SENIOR_STANDING --> student has senior standing
     - DANC_144A --> student has completed DANC 144A
     - CONCURRENT_ENROLLMENT_DANC_144A --> student is concurrently enrolled in DANC 144A
     - DANC_144B --> student has completed DANC 144B
@@ -343,11 +355,16 @@ PREREQUISITES:
     - DSID_32 --> student has completed DSID 32
     - DSIT_83 --> student has completed DSIT 83
     - DSGD_100A --> student has completed DSGD 100A
+    - BA_DESIGN_STUDIES_MAJOR --> student is a declared BA Design Studies major
     - BS_INDUSTRIAL_DESIGN_MAJOR --> student is a declared BS Industrial Design major
+    - BFA_ANIMATION_ILLUSTRATION_MAJOR --> student is a declared BFA Animation/Illustration major
     - BFA_INTERIOR_DESIGN_MAJOR --> student is a declared BFA Interior Design major
     - GRAPHIC_DESIGN_MINOR --> student is a declared Graphic Design minor
+    - GRAPHIC_DESIGN_MAJOR --> student is a declared Graphic Design major
+    - ANIMATION_MAJOR --> student is a declared Animation major
     - IT_MAJOR --> student is a declared IT major
     - DSIT_33 --> student has completed DSIT 33
+    - INDUSTRIAL_DESIGN_MAJOR --> student is a declared Industrial Design major
     - DSID_22_COMPLETION --> student has completed DSID 22
     - DSGD_83_COMPLETION --> student has completed DSGD 83
     - CONCURRENT_ENROLLMENT_DSID_22 --> student is concurrently enrolled in DSID 22
@@ -356,6 +373,7 @@ PREREQUISITES:
     - BFA_GRAPHIC_DESIGN_MAJOR --> student is a declared BFA Graphic Design major
     - DSGD_100 --> student has completed DSGD 100
     - ANI_50 --> student has completed ANI 50
+    - DSIT_83 --> student has completed DSIT 83 (repeated)
     - DSGD_102 --> student has completed DSGD 102
     - DSGD_186 --> student has completed DSGD 186
     - DSGD_110 --> student has completed DSGD 110
@@ -368,7 +386,10 @@ PREREQUISITES:
     - GPA_3.0_IN_MAJOR --> student has a GPA of at least 3.0 in the major
     - ART_AND_DESIGN_MAJOR --> student is an Art and Design major
     - BA_DESIGN_STUDIES_GRAPHIC_DESIGN_CONCENTRATION --> student is a declared BA Design Studies major with Concentration in Graphic Design
+    - DSID_21 --> student has completed DSID 21
     - DSID_31 --> student has completed DSID 31
+    - DSID_32 --> student has completed DSID 32
+    - DSID_22 --> student has completed DSID 22
     - DSID_32A --> student has completed DSID 32A
     - BA_DESIGN_STUDIES_MAJOR_WITH_DEPARTMENT_CONSENT --> student is a declared BA Design Studies major with department consent
     - DSID_125A --> student has completed DSID 125A
@@ -380,9 +401,13 @@ PREREQUISITES:
     - DSID_41 --> student has completed DSID 41
     - DSID_129 --> student has completed DSID 129
     - DSID_128 --> student has completed DSID 1285
+    - DSIT_5 --> student has completed DSIT 5
+    - DSIT_10 --> student has completed DSIT 10
     - DSIT_29 --> student has completed DSIT 29
     - DSIT_015 --> student has completed DSIT 015
+    - DSIT_33 --> student has completed DSIT 33
     - DSIT_34 --> student has completed DSIT 34
+    - ART_MAJOR --> student is a declared Art major
     - PORTFOLIO_REVIEW --> student has passed portfolio review
     - DSIT_103 --> student has completed DSIT 103
     - DSIT_100 --> student has completed DSIT 100
@@ -397,6 +422,7 @@ PREREQUISITES:
     - ARTH_70B --> student has completed ARTH 70B
     - ECON_1A --> student has completed ECON 1A
     - ECON_1B --> student has completed ECON 1B
+    - MATH_30 --> student has completed MATH 30
     - MATH_71 --> student has completed MATH 71
     - ECON_3 --> student has completed ECON 3
     - SOCI_15 --> student has completed SOCI 15
@@ -410,6 +436,9 @@ PREREQUISITES:
     - STATISTICS_COURSE --> student has completed a semester of statistics
     - ECON_101 --> student has completed ECON 101
     - ECON_102 --> student has completed ECON 102
+    - DEPARTMENT_CHAIR_APPROVAL --> student has department chair approval
+    - JUNIOR_STANDING --> student has junior standing
+    - SENIOR_STANDING --> student has senior standing
     - INTERNSHIP_COORDINATOR_CONSENT --> student has consent of the internship coordinator
     - COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR --> student is a declared Communicative Disorders and Sciences major
     - EDAU_115 --> student has completed EDAU 115
@@ -431,6 +460,7 @@ PREREQUISITES:
     - EDSE_14A --> student has completed EDSE 14A
     - EDSE_102 --> student has completed EDSE 102
     - CHAD_60 --> student has completed CHAD 60
+    - DEPARTMENT_CONSENT --> student has department consent
     - SPECIAL_EDUCATION_MINOR --> student is enrolled in the Special Education Minor
     - EDSP_102 --> student has completed EDSP 102
     - EDSP_111 --> student has completed EDSP 111
@@ -445,6 +475,8 @@ PREREQUISITES:
     - PHYS_51_C_MINUS --> student has completed PHYS 51 with a grade of C- or better
     - PHYS_51_B --> student has completed PHYS 51 with a grade of B or better
     - PHYS_52_C_MINUS --> student has completed PHYS 52 with a grade of C- or better
+    - MATH_33A --> student has completed MATH 33A
+    - MATH_33LA --> student has completed MATH 33LA
     - MATH_33A_C_MINUS --> student has completed MATH 33A with a grade of C- or better
     - MATH_33LA_C_MINUS --> student has completed MATH 33LA with a grade of C- or better
     - EE_98 --> student has completed EE 98
@@ -514,19 +546,33 @@ PREREQUISITES:
     - HONORS_PROGRAM_ADMISSION --> student has been admitted to the departmental honors program
     - GPA_3_0 --> student has a 3.0 GPA both overall and in English
     - MATH_19_ELIGIBLE --> student is eligible for MATH 19
+    - ENGL_1AF_CR --> student has completed ENGL 1AF with a grade of CR
+    - ENGL_1A_C_MINUS --> student has completed ENGL 1A with a grade of C- or better
     - ENGINEERING_MAJOR --> student is a declared Engineering major
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - AVIATION_MAJOR --> student is a declared Aviation major
     - ENGINEERING_TECH_MAJOR --> student is a declared Engineering Technology major
+    - MATHEMATICS_MAJOR --> student is a declared Mathematics major
     - APPLIED_MATHEMATICS_MAJOR --> student is a declared Applied Mathematics major
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
     - GENERAL_ENGINEERING_MAJOR --> student is a declared General Engineering major
     - COLLEGE_CALCULUS --> student has completed college-level calculus
     - COLLEGE_PHYSICS --> student has completed college-level physics
     - COLLEGE_CHEMISTRY --> student has completed college-level chemistry
+    - STAT_95 --> student has completed STAT 95
+    - MATH_30 --> student has completed MATH 30
+    - MATH_71 --> student has completed MATH 71
     - ENGR_120_C_MINUS --> student has completed ENGR 120 with a grade of C- or better
     - ENGR_120 --> student has completed ENGR 120
     - ANY_100W_C --> student has completed any 100W course with a grade of C or better
     - ENGR_130 --> student has completed ENGR 130
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - BUS_193 --> student has completed BUS 193
+    - ENGR_193 --> student has completed ENGR 193
+    - ENGR_100W_C --> student has completed ENGR 100W with a grade of C or better
     - MAJOR_CAPSTONE_COURSE --> student is enrolled in their major capstone course or equivalent
     - ENGR_195A_C --> student has completed ENGR 195A with a grade of C or better
     - ENGR_195C_C --> student has completed ENGR 195C with a grade of C or better
@@ -538,11 +584,26 @@ PREREQUISITES:
     - BIOL_31_C --> student has completed BIOL 31 with a grade of C or better
     - BIOLOGICAL_SCIENCES_MAJOR --> student is a declared Biological Sciences major
     - FORENSIC_SCIENCES_MAJOR --> student is a declared Forensic Sciences major
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - BIOL_118_C --> student has completed BIOL 118 with a grade of C or better
     - BIOL_30_C_MINUS --> student has completed BIOL 30 with a grade of C- or better
     - BIOL_31_C_MINUS --> student has completed BIOL 31 with a grade of C- or better
+    - BIOLOGY_MAJOR --> student is a declared Biology major
+    - FORENSIC_SCIENCE_MAJOR --> student is a declared Forensic Science major
     - BIOL_115_C --> student has completed BIOL 115 with a grade of C or better
+    - BIOL_118_C --> student has completed BIOL 118 with a grade of C or better
+    - GE_AREA_1A_C_MINUS --> student has completed GE Area 1A with a grade of C- or better
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - ENVS_1 --> student has completed ENVS 1
     - ENVS_100W --> student has completed ENVS 100W
+    - ECON_1B --> student has completed ECON 1B
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - ECON_3 --> student has completed ECON 3
+    - STAT_95 --> student has completed STAT 95
     - ENVS_10 --> student has completed ENVS 10
     - PHILOSOPHY_3_UNITS --> student has completed 3 units of philosophy
     - ENVS_129 --> student has completed ENVS 129
@@ -551,6 +612,8 @@ PREREQUISITES:
     - ENVS_107 --> student has completed ENVS 107
     - ENVS_124 --> student has completed ENVS 124
     - GE_AREA_5B --> student has completed a GE Area 5B course
+    - ENGL_1A --> student has completed ENGL 1A
+    - ENGL_2 --> student has completed ENGL 2
     - PHOTO_EXPERIENCE --> student has photography experience
     - ENVS_168A_C_MINUS --> student has completed ENVS 168A with a grade of C- or better
     - COMM_168A_C_MINUS --> student has completed COMM 168A with a grade of C- or better
@@ -559,8 +622,11 @@ PREREQUISITES:
     - ENVS_185 --> student has completed ENVS 185
     - ENVS_187 --> student has completed ENVS 187
     - SENIOR_STANDING_ENVS --> student has senior standing in Environmental Studies
+    - SENIOR_STANDING --> student has senior standing
+    - APPROPRIATE_ACADEMIC_BACKGROUND --> student has an appropriate academic background
     - FILED_FOR_GRADUATION --> student has filed for graduation
     - ENVS_CORE_COMPLETED --> student has completed all Environmental Studies core requirements
+    - ANY_100W --> student has completed any 100W course
     - ESM_1001S --> student is enrolled in ESM 1001S
     - MATH_ENROLLMENT_CATEGORY_M_III --> student is in Math Enrollment Category M-III
     - MATH_ENROLLMENT_CATEGORY_M_IV --> student is in Math Enrollment Category M-IV
@@ -575,23 +641,33 @@ PREREQUISITES:
     - GE_AREA_2_C_MINUS --> student has completed a GE Area 2 course with a grade of C- or better
     - LING_26W --> student is enrolled in LING 26W
     - JOINT_APPROVAL_MAJOR_EDUCATION --> student has joint approval of major and Education departments
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - INSTRUCTOR_APPROVAL --> student has obtained instructor approval
     - FREN_1A --> student has completed FREN 1A
     - EQUIVALENT_FRENCH_1A --> student has completed an equivalent to FREN 1A
     - ONE_YEAR_COLLEGE_FRENCH --> student has completed one year of college-level French
     - EQUIVALENT_FRENCH_1A_1B --> student has completed an equivalent to FREN 1A and FREN 1B
     - SJSU_PLACEMENT_EXAM --> student has passed the SJSU placement exam for French
     - TWO_SEMESTERS_COLLEGE_FRENCH --> student has completed two semesters of college-level French
+    - EQUIVALENT_FRENCH_1A_1B --> student has completed an equivalent to FREN 1A and FREN 1B
     - TWO_YEARS_COLLEGE_FRENCH --> student has completed two years of college-level French
     - EQUIVALENT_FRENCH_101A --> student has completed an equivalent to FREN 101A
     - EQUIVALENT_FRENCH_101B --> student has completed an equivalent to FREN 101B
     - EQUIVALENT_FRENCH_101C --> student has completed an equivalent to FREN 101C
     - TWENTY_UNITS_COLLEGE_FRENCH --> student has completed 20 units of college-level French
     - EQUIVALENT_FRENCH_102A --> student has completed an equivalent to FREN 102A
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - EQUIVALENT_FRENCH_102C --> student has completed an equivalent to FREN 102C
     - FOUR_SEMESTERS_COLLEGE_FRENCH --> student has completed four semesters of college-level French
     - EQUIVALENT_FRENCH_105 --> student has completed an equivalent to FREN 105
     - FREN_101B --> student has completed FREN 101B
     - EQUIVALENT_FRENCH_110 --> student has completed an equivalent to FREN 110
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - EQUIVALENT_FRENCH_120B --> student has completed an equivalent to FREN 120B
     - EQUIVALENT_FRENCH_140B --> student has completed an equivalent to FREN 140B
     - TWO_COURSES_120_140_SERIES --> student has completed two courses from the FREN 120 or FREN 140 series
@@ -601,9 +677,21 @@ PREREQUISITES:
     - UPPER_DIVISION_STANDING_FRENCH_B --> student has upper division standing in French with a grade of B or better
     - FS_11 --> student has completed FS 11
     - BIOL_30 --> student has completed BIOL 30
+    - BIOL_31 --> student has completed BIOL 31
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - JS_10 --> student has completed JS 10
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
     - JS_100W --> student has completed JS 100W
     - FS_100W --> student has completed FS 100W
+    - BIOL_30_C_MINUS --> student has completed BIOL 30 with a grade of C- or better
+    - BIOL_31_C_MINUS --> student has completed BIOL 31 with a grade of C- or better
+    - BIOLOGY_MAJOR --> student is a declared Biology major
+    - FORENSIC_SCIENCE_MAJOR --> student is a declared Forensic Science major
+    - ANY_100W --> student has completed any 100W course
     - FS_12 --> student has completed FS 12
     - FS_130 --> student has completed FS 130
     - JUSTICE_STUDIES_MAJOR --> student is a declared Justice Studies major
@@ -616,12 +704,22 @@ PREREQUISITES:
     - BIOL_115 --> student has completed BIOL 115
     - FS_167 --> student has completed FS 167
     - JS_25 --> student has completed JS 25
+    - SENIOR_STANDING --> student has senior standing
     - JS_114 --> student has completed JS 114
     - FS_161 --> student has completed FS 161
     - FS_162 --> student has completed FS 162
     - GRADUATION_APPLICATION_FILED --> student has filed for graduation
     - SIGNED_MAJOR_FORM --> student has a signed major form
+    - INSTRUCTOR_APPROVAL --> student has obtained instructor approval
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - ANY_100W --> student has completed any 100W course
     - GEOG_1 --> student has completed GEOG 1
+    - ENGL_2 --> student has completed ENGL 2
     - GEOG_70 --> student has completed GEOG 70
     - GEOG_171 --> student has completed GEOG 171
     - GEOG_172 --> student has completed GEOG 172
@@ -630,13 +728,18 @@ PREREQUISITES:
     - GEOG_181 --> student has completed GEOG 181
     - GEOG_182 --> student has completed GEOG 182
     - SUPERVISOR_APPROVAL --> student has obtained supervisor approval
+    - DEPARTMENT_CHAIR_APPROVAL --> student has obtained department chair approval
     - SIX_UNITS_UPPER_DIVISION_GEOGRAPHY --> student has completed 6 units of upper division geography courses
     - TWELVE_UNITS_GEOGRAPHY --> student has completed 12 units of geography courses
     - SENIOR_STANDING_GEOGRAPHY --> student has senior standing in geography
     - GEOL_1 --> student has completed GEOL 1
     - GEOL_7 --> student has completed GEOL 7
     - CIVIL_ENGINEERING_MAJOR --> student is enrolled as a Civil Engineering major
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - PHYS_1 --> student has completed PHYS 1
+    - CHEM_30A --> student has completed CHEM 30A
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - TEACHING_CREDENTIAL --> student has a teaching credential
     - GEOL_28 --> student has completed GEOL 28
     - GEOL_3 --> student has completed GEOL 3
@@ -644,9 +747,11 @@ PREREQUISITES:
     - GEOL_9 --> student has completed GEOL 9
     - MATH_19 --> student has completed MATH 19
     - GEOL_120 --> student has completed GEOL 120
+    - CHEM_1A --> student has completed CHEM 1A
     - GEOL_122 --> student has completed GEOL 122
     - GEOL_124 --> student has completed GEOL 124
     - GEOL_125 --> student has completed GEOL 125
+    - ANY_100W --> student has completed any 100W course
     - GEOL_137 --> student has completed GEOL 137
     - GIS_COURSE_ARCGIS --> student has completed a GIS course preferably with ArcGIS
     - MATH_19_C --> student has completed MATH 19 with a grade of C or better
@@ -655,6 +760,7 @@ PREREQUISITES:
     - GEOL_135 --> student has completed GEOL 135
     - PHYS_2A --> student has completed PHYS 2A
     - PHYS_50 --> student has completed PHYS 50
+    - MATH_30 --> student has completed MATH 30
     - ONE_SEMESTER_CHEMISTRY --> student has completed one semester of chemistry
     - PHYS_2B --> student has completed PHYS 2B
     - PHYS_51 --> student has completed PHYS 51
@@ -662,16 +768,31 @@ PREREQUISITES:
     - EQUIVALENT_GERM_1A --> student has completed an equivalent to GERM 1A
     - ONE_YEAR_COLLEGE_GERMAN --> student has completed one year of college-level German
     - EQUIVALENT_GERM_1A_1B --> student has completed an equivalent to GERM 1A and GERM 1B
+    - SJSU_PLACEMENT_EXAM --> student has passed the SJSU placement exam for German
     - THREE_SEMESTERS_COLLEGE_GERMAN --> student has completed three semesters of college-level German
     - EQUIVALENT_GERM_25A --> student has completed an equivalent to GERM 25A
     - UPPER_DIVISION_STANDING_GERMAN_B --> student has upper division standing in German with a grade of B or better
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - THREE_UNITS_PHILOSOPHY --> student has completed 3 units of philosophy
     - PSYC_1 --> student has completed PSYC 1
     - ONE_COLLEGE_NUTRITION_COURSE --> student has completed one college nutrition course
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - NINE_UNITS_GERONTOLOGY --> student has completed 9 units in gerontology
     - SOCI_1 --> student has completed SOCI 1
     - EQUIVALENT_SOCI_1 --> student has completed an equivalent to SOCI 1
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - GLST_1A --> student has completed GLST 1A
+    - SENIOR_STANDING --> student has senior standing
+    - JUNIOR_STANDING --> student has junior standing
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division 
     - HEBR_1A --> student has completed HEBR 1A
     - EQUIVALENT_HEBR_1A --> student has completed an equivalent to HEBR 1A
     - HEBR_1B --> student has completed HEBR 1B
@@ -684,20 +805,44 @@ PREREQUISITES:
     - HISTORY_MAJOR --> student is a History major
     - SOCIAL_SCIENCE_TEACHER_PREP_MAJOR --> student is a Social Science Teacher Preparation major
     - HIST_99 --> student has completed HIST 99
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
     - HIST_100W --> student has completed HIST 100W
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - DEPARTMENTAL_CONSENT --> student has obtained departmental consent
     - HISTORY_MINOR --> student is a History minor
+    - DEPARTMENT_CHAIR_CONSENT --> student has obtained department chair consent
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - NUFS_20 --> student has completed NUFS 20
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - HSPM_1 --> student has completed HSPM 1
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - SENIOR_STANDING --> student has senior standing
+    - DEPARTMENT_CONSENT --> student has obtained department consent
     - COMPLETION_OF_GE_AREA_1A --> student has completed GE Area 1A
     - CONCURRENT_REGISTRATION_IN_GE_AREA_1A --> student is concurrently registered in GE Area 1A
+    - GE_AREA_A2_C_MINUS --> student has completed GE Area A2 with a grade of C- or better
     - GE_AREA_A1_C_MINUS --> student has completed GE Area A1 with a grade of C- or better
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - ALL_COLLEGE_GPA_3_0 --> student has an all-college GPA of 3.0 or higher
+    - COMPLETION_OF_100W --> student has completed any 100W course
     - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
     - HUM_177A --> student has completed HUM 177A
+    - DEPARTMENT_CHAIR_CONSENT --> student has obtained department chair consent
+    - ANY_100W --> student has completed or is co-registered in any 100W course
+    - GE_AREA_A1_C_MINUS --> student has completed GE Area A1 with a grade of C- or better
     - GE_AREA_A3_C_MINUS --> student has completed GE Area A3 with a grade of C- or better
     - LLD_100WB --> student has completed LLD 100WB
     - COMM_100W --> student has completed COMM 100W
+    - ENGL_100W --> student has completed ENGL 100W
     - ENGL_100WB --> student has completed ENGL 100WB
     - ENGR_100W --> student has completed ENGR 100W
     - MCOM_100W --> student has completed MCOM 100W
@@ -713,35 +858,57 @@ PREREQUISITES:
     - ISDA_122 --> student has completed ISDA 122
     - ISDA_130 --> student has completed ISDA 130
     - ISDA_140 --> student has completed ISDA 140
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - MATH_31 --> student has completed MATH 31
     - ENGR_10 --> student has completed ENGR 10
+    - UPPER_DIVISION_STANDING --> student has upper division standing
     - ME_20_C_MINUS --> student has completed ME 20 with a grade of C- or better
+    - MATE_25 --> student has completed or is co-registered in MATE 25
+    - JUNIOR_STANDING --> student has junior standing
     - ISE_120 --> student has completed ISE 120
     - CMPE_30 --> student has completed CMPE 30
     - EQUIVALENT --> student has completed an equivalent course
+    - MATH_32 --> student has completed MATH 32
     - ISE_130 --> student has completed ISE 130
     - ISE_130_C_MINUS --> student has completed ISE 130 with a grade of C- or better
     - ISE_194 --> student has completed ISE 194
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - ISE_102 --> student has completed ISE 102
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
     - ISE_140 --> student has completed ISE 140
+    - MATH_33A --> student has completed MATH 33A
+    - MATH_33LA --> student has completed or is co-registered in MATH 33LA
     - ISE_105 --> student has completed ISE 105
+    - ENGR_100W --> student has completed ENGR 100W
     - MAJOR_FORM_ON_FILE --> student has a major form on file
     - GOOD_STANDING_IN_MAJOR --> student is in good standing in the major
     - ISE_195A_C --> student has completed ISE 195A with a grade of C or better
+    - SENIOR_STANDING --> student has senior standing
     - EQUIVALENT_COURSE_WITH_PROGRAMMING --> student has completed an equivalent course with programming background based on instructor consent
     - ITAL_1A --> student has completed ITAL 1A
+    - ENGL_1A --> student has completed ENGL 1A
+    - ENGL_2 --> student has completed ENGL 2
+    - ENGL_1AF_CR --> student has completed ENGL 1AF with a grade of CR
     - WRITING_ENROLLMENT_CATEGORY_W_I --> student is in Writing Enrollment Category W-I
     - WRITING_ENROLLMENT_CATEGORY_W_II --> student is in Writing Enrollment Category W-II
     - JOUR_61 --> student has completed JOUR 61
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
     - JOUR_133 --> student has completed JOUR 133
     - JOUR_132 --> student has completed JOUR 132
     - JOUR_140A --> student has completed JOUR 140A
     - JOUR_140B --> student has completed JOUR 140B
     - JOUR_140C --> student has completed JOUR 140C
     - JOUR_140D --> student has completed JOUR 140D
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
     - JPN_1A --> student has completed JPN 1A
     - ONE_YEAR_COLLEGE_JAPANESE --> student has completed one year of college-level Japanese
     - EQUIVALENT_JPN_1A_1B --> student has completed an equivalent to JPN 1A and JPN 1B
+    - SJSU_PLACEMENT_EXAM --> student has passed the SJSU placement exam for Japanese
     - THREE_SEMESTERS_COLLEGE_JAPANESE --> student has completed three semesters of college-level Japanese
     - EQUIVALENT_JPN_25A --> student has completed an equivalent to JPN 25A
     - FOUR_SEMESTERS_COLLEGE_JAPANESE --> student has completed four semesters of college-level Japanese
@@ -759,6 +926,7 @@ PREREQUISITES:
     - EQUIVALENT_JPN_150 --> student has completed an equivalent to JPN 150
     - JPN_101A --> student has completed JPN 101A
     - ELEVEN_UNITS_UPPER_DIVISION_JAPANESE_B --> student has completed 11 units of upper division Japanese with a grade of B or better
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
 
 
 

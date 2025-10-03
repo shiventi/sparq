@@ -1,5 +1,10 @@
 # sparq Progress
 
+# OCT 2, 2025
+- Added even more courses to all_sjsu_courses_with_ge.json
+- Added more pre-req codes to notes.txt
+
+
 # OCT 1, 2025
 - Added more courses to all_sjsu_courses_with_ge.json
 - Added more pre-req codes to notes.txt

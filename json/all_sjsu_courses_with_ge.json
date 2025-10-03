@@ -14562,7 +14562,8810 @@
         "STATISTICS_COURSE"
       ]
     ]
+  },
+
+  {
+    "course_id": "EDAU 115",
+    "course_name": "Hearing Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDAU 170",
+    "course_name": "Introduction to Audiology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDAU_115",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDAU 172",
+    "course_name": "Principles of Aural Rehabilitation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EDAU_115",
+        "EDAU_170"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDAU 177",
+    "course_name": "Practicum in Audiology",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&||EDAU_170",
+        "EDAU_172",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "EDCO 1",
+    "course_name": "Career Readiness: Explore Major and Career Options",
+    "units": null
+  },
+  {
+    "course_id": "EDCO 4",
+    "course_name": "Personal, Academic and Career Exploration",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "EDCO 4FY",
+    "course_name": "Personal, Academic and Career Exploration",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ]
+  },
+  {
+    "course_id": "EDCO 5",
+    "course_name": "Skills for Thriving: Self-Management and Wellness",
+    "units": 1
+  },
+  {
+    "course_id": "EDCO 6",
+    "course_name": "Skills for Thriving: Health and Wellbeing",
+    "units": 1
+  },
+  {
+    "course_id": "EDCO 10",
+    "course_name": "Adjunct Learning",
+    "units": "||1-2"
+  },
+  {
+    "course_id": "EDCO 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "EDCO 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&PROGRAM_DIRECTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "EDEL 102",
+    "course_name": "Psychological Foundations of Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 108A",
+    "course_name": "Curriculum: Reading/Language Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 108B",
+    "course_name": "Curriculum: Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 108C",
+    "course_name": "Curriculum: Social Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 108D",
+    "course_name": "Curriculum: Mathematics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 108E",
+    "course_name": "Teaching Reading in Linguistically and Culturally Diverse Classrooms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||LING_108",
+        "ENGL_103",
+        "LING_107"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 143A",
+    "course_name": "Beginning Student-Teaching (Phase I)",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "&&||EDTE_162",
+        "EDTE_262"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 143B",
+    "course_name": "Advanced Student-Teaching (Phase II)",
+    "units": "||1-10",
+    "prerequisites": [
+      [
+        "&&EDEL_143A"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 143P",
+    "course_name": "Introduction to Student Teaching",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&MULTIPLE_SUBJECT_CREDENTIAL_PROGRAM"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDEL 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "EDLD 10",
+    "course_name": "Talking Back to Research: Critical Skills for Leaders",
+    "units": 3
+  },
+  {
+    "course_id": "EDLD 11",
+    "course_name": "Making Research Work: Explorations in Career Pathways",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&EDLD_10"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 101",
+    "course_name": "Rediscovering Disability Studies at the Intersections",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 110",
+    "course_name": "Introduction to Educational and Community Leadership",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 120",
+    "course_name": "The Right to Learn: Language, Dignity, and Education",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 130",
+    "course_name": "Antiracist Leadership: Cases, Frameworks, and Praxis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 140",
+    "course_name": "Identity, Solidarity, and Social Justice Leadership",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDLD 160",
+    "course_name": "1st Generation College Students Pathways",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "EDSC 153",
+    "course_name": "Student Teaching/Seminar for Interns",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&EDSC_152"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSC 162",
+    "course_name": "Language/Literacy Development of L2 Learners",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PROGRAM_DIRECTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSC 184P",
+    "course_name": "Introduction to Student Teaching",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&SINGLE_SUBJECT_CREDENTIAL_PROGRAM"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSC 184X",
+    "course_name": "Student Teaching I",
+    "units": 6,
+    "prerequisites": [
+      [
+        "&&PROGRAM_DIRECTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSC 184Z",
+    "course_name": "Student Teaching III",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "&&MAJOR_ADVISOR_APPROVAL",
+        "PROGRAM_DIRECTOR_CONSENT",
+        "FIELD_PLACEMENT_COORDINATOR_APPROVAL"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSC 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "EDSE 14A",
+    "course_name": "American Sign Language I",
+    "units": 3
+  },
+  {
+    "course_id": "EDSE 14B",
+    "course_name": "American Sign Language II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDSE_14A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 102",
+    "course_name": "Intro to Language Development and Disability",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 104",
+    "course_name": "Early Intervention for Children with Disabilities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CHAD_60"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 105",
+    "course_name": "Supervision Induction Plan Evaluation",
+    "units": "||3-6",
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 108",
+    "course_name": "Assessing Young Children",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 110",
+    "course_name": "Students with Autism Spectrum Disorders",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SPECIAL_EDUCATION_MINOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 115",
+    "course_name": "Introduction to Deaf Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDSE_14A",
+        "EDSE_102"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 124",
+    "course_name": "Teach for Social Justice: Language & Disability",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 154",
+    "course_name": "Advanced Fieldwork in ESN and ECSE",
+    "units": 6,
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 192A",
+    "course_name": "Including and Supporting Students",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSE 192B",
+    "course_name": "All Learners: An Introduction to Disabilities",
+    "units": 1
+  },
+  {
+    "course_id": "EDSE 192C",
+    "course_name": "Inclusive Strategies for Educating Students with Disabilities",
+    "units": 1
+  },
+  {
+    "course_id": "EDSE 192D",
+    "course_name": "Introduction to Special Education Policy and Law",
+    "units": 1
+  },
+  
+  {
+    "course_id": "EDSP 102",
+    "course_name": "Communication Development in Children",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 110",
+    "course_name": "Survey of Communication Disorders",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 111",
+    "course_name": "Introduction to Clinical Phonetics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 112",
+    "course_name": "Fundamentals of Clinical Practice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDSP_102",
+        "EDSP_111",
+        "EDSP_113",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 113",
+    "course_name": "Anatomy and Physiology of Communication Disorders",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||COMMUNICATIVE_DISORDERS_SCIENCES_MAJOR",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 120",
+    "course_name": "Communicative Disorders in Children",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDSP_102",
+        "EDSP_111",
+        "EDSP_113",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 150",
+    "course_name": "Communication, Leadership, and Social Justice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 161",
+    "course_name": "Neuroanatomy and Neurophysiology of Communication Disorders",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "EDSP_113",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 162",
+    "course_name": "Communicative Disorders in Adults",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||EDSP_102",
+        "EDSP_111",
+        "EDSP_113",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 176",
+    "course_name": "Guided Professional Clinical Observations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EDSP_102",
+        "EDSP_111"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 177",
+    "course_name": "Practicum in Speech Pathology",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&||EDSP_112",
+        "EDSP_120",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 178",
+    "course_name": "Service Delivery for Speech-Language Pathology Assistants",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EDSP_112",
+        "EDSP_176"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDSP 180",
+    "course_name": "Independent Study in Communicative Disorders and Sciences",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "EDTE 166",
+    "course_name": "Pre-Professional Experience",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDTE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&DIVISION_HEAD_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDTE 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "EDTE 193",
+    "course_name": "Introduction to Emancipatory Approaches to Computing",
+    "units": 1
+  },
+  {
+    "course_id": "EDTE 194",
+    "course_name": "Computer Practice and Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EDTE_193"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDTE 195",
+    "course_name": "Connecting Communities Through Computational Thinking and Computing Systems",
+    "units": 3
+  },
+  {
+    "course_id": "EDTE 197",
+    "course_name": "Computer Science Education: Pedagogical Practices for Community Impact",
+    "units": 3
+  },
+
+  {
+    "course_id": "EDUC 80",
+    "course_name": "Independent Study",
+    "units": "||1-3"
+  },
+  {
+    "course_id": "EDUC 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "EDUC 157SL",
+    "course_name": "Community Action/Community Service",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDUC 186",
+    "course_name": "Using Instructional Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EDUC 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+
+  {
+    "course_id": "EE 30",
+    "course_name": "Introduction to Programming Micro-Controllers for Electrical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "EE 97",
+    "course_name": "Introductory Electrical Engineering Laboratory",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&ANY_ENGINEERING_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&EE_98"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 98",
+    "course_name": "Introduction to Circuit Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_51_C_MINUS"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||MATH_33A",
+        "MATH_33LA"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 98H",
+    "course_name": "Honors Introduction to Circuit Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_51_B"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||MATH_33A",
+        "MATH_33LA"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 98W",
+    "course_name": "Introduction to Circuit Analysis Workshop",
+    "units": 1,
+    "corequisites": [
+      [
+        "&&||EE_98",
+        "EE_98H"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 102",
+    "course_name": "Probability and Statistics in Electrical",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_112_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 104",
+    "course_name": "Applied Programming in Electrical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_112_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 106",
+    "course_name": "Fundamentals of Mechatronics Engineering",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "||ME_30_C_MINUS",
+        "CS_49C_C_MINUS",
+        "EE_30_C_MINUS",
+        "CMPE_30_C_MINUS"
+      ],
+      [
+        "&&TECH_60_C_MINUS",
+        "MATH_71_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 110",
+    "course_name": "Circuits and Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "||MATH_33A_C_MINUS",
+        "MATH_33LA_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&EE_110L"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 110L",
+    "course_name": "Continuous and Discrete Time Systems Lab",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "||MATH_33A_C_MINUS",
+        "MATH_33LA_C_MINUS"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&EE_110"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 110W",
+    "course_name": "Circuits and Systems Workshop",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "||MATH_33A_C_MINUS",
+        "MATH_33LA_C_MINUS"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&EE_110",
+        "EE_110L"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 112",
+    "course_name": "Introduction to Signal Processing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "MATH_33A_C_MINUS",
+        "CIRCUIT_CONCEPTS_EXAM",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 118",
+    "course_name": "Digital Logic Circuit Design",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&EE_97_C_MINUS",
+        "EE_98_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 120",
+    "course_name": "Microprocessor Based System Design",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&EE_118_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 122",
+    "course_name": "Electronic Design I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_97_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 124",
+    "course_name": "Electronic Design II",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&EE_122_C_MINUS",
+        "EE_128_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 127",
+    "course_name": "Electronics for Biomedical Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_97_C_MINUS",
+        "EE_110_C_MINUS",
+        "EE_112_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 128",
+    "course_name": "Physical Electronics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATE_153_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 129",
+    "course_name": "Introduction to Integrated Circuits Processing and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||MATE_25_C_MINUS",
+        "MATE_153_C_MINUS",
+        "||ANY_ENGINEERING_MAJOR",
+        "GRADUATE_PBAC"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 130",
+    "course_name": "Electric Machines and Drives",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_112_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 132",
+    "course_name": "Theory of Automatic Controls",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_112_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 134",
+    "course_name": "Power Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_112_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 136",
+    "course_name": "Semiconductor Power Electronics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_122_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 138",
+    "course_name": "Embedded Control System Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_112_C_MINUS",
+        "EE_120_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 140",
+    "course_name": "Principles of Electromagnetic Fields",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_52_C_MINUS",
+        "EE_110_C_MINUS",
+        "EE_110L_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 160",
+    "course_name": "Principles of Communication Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_112_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 161",
+    "course_name": "Digital Communication Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_102_C_MINUS",
+        "EE_112_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 165",
+    "course_name": "Photovoltaic Fabrication/Testing Lab",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||MATE_25_C_MINUS",
+        "MATE_153_C_MINUS"
+      ],
+      [
+        "&&MATE_129"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 168",
+    "course_name": "Microfluid Fabrication and Design",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||MATE_25",
+        "MATE_153",
+        "||MATE_129",
+        "EE_129"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 169",
+    "course_name": "Microelectromechanical Systems Fabrication and Design",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||MATE_25",
+        "MATE_153",
+        "||MATE_129",
+        "EE_129"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 171",
+    "course_name": "Introduction to Machine Learning for Electrical Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_118_C_MINUS"
+      ],
+      [
+        "&&EE_102"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 172",
+    "course_name": "Introduction to Microwave Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_98_C_MINUS",
+        "PHYS_52_C_MINUS",
+        "||MATH_33A_C_MINUS",
+        "MATH_33LA_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&EE_140"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 174",
+    "course_name": "Analog Peripheral for Embedded Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_110_C_MINUS",
+        "EE_112_C_MINUS",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 176",
+    "course_name": "Computer Architecture and Organization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_120_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 178",
+    "course_name": "Digital Design with FPGAs",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_118_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&ELECTRICAL_ENGINEERING_SENIOR",
+        "ELECTRICAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 181",
+    "course_name": "Fundamentals of Internetworking",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_118_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 182",
+    "course_name": "Analog and Mixed-Signal IC Test Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_112_C_MINUS",
+        "EE_118_C_MINUS",
+        "EE_122_C_MINUS"
+      ],
+      [
+        "&&EE_102"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 183",
+    "course_name": "Electronics Test Design Engineering II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&EE_182_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 189",
+    "course_name": "Special Topics in Electrical Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||INSTRUCTOR_CONSENT",
+        "SENIOR_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "EE 198A",
+    "course_name": "Senior Design Project I",
+    "units": 1,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&ELECTRICAL_ENGINEERING_SENIOR",
+        "ENGR_100W_C",
+        "EE_120_C_MINUS",
+        "EE_122_C_MINUS",
+        "EE_128_C_MINUS"
+      ],
+      [
+        "&&||ENGR_195A",
+        "ENGR_195A_COMPLETED",
+        "UD_GE_AREA_4_COMPLETED"
+      ]
+    ]
+  },
+  {
+    "course_id": "EE 198B",
+    "course_name": "Senior Design Project II",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&ELECTRICAL_ENGINEERING_SENIOR",
+        "EE_198A_C_MINUS",
+        "ENGR_100W_C",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "&&||ENGR_195B",
+        "ENGR_195B_COMPLETED",
+        "GE_AREA_V_COMPLETED"
+      ]
+    ]
+  },
+  
+  {
+    "course_id": "ENED 184Y",
+    "course_name": "Student Teaching II - Classroom Teaching",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENED_353"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENED 184Z",
+    "course_name": "Student Teaching III - Classroom Teaching",
+    "units": 4
+  },
+
+  {
+    "course_id": "ENGL 1A",
+    "course_name": "First Year Writing",
+    "units": 3,
+    "ge_areas": [
+      "1A"
+    ],
+    "prerequisites": [
+      [
+        "&&REFLECTION_ON_COLLEGE_WRITING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 1AF",
+    "course_name": "First-Year Writing: Stretch English I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&REFLECTION_ON_COLLEGE_WRITING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 1AS",
+    "course_name": "First-Year Writing: Stretch English II",
+    "units": 3,
+    "ge_areas": [
+      "1A"
+    ],
+    "prerequisites": [
+      [
+        "&&ENGL_1AF"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 1B",
+    "course_name": "Argument and Analysis",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1A_C_MINUS",
+        "ENGL_1AS_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 2",
+    "course_name": "Critical Thinking and Writing",
+    "units": 3,
+    "ge_areas": [
+      "1B"
+    ],
+    "prerequisites": [
+      [
+        "&&GE_AREA_1A_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 10",
+    "course_name": "Great Works of Literature",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 20",
+    "course_name": "Introduction to Comics",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 21",
+    "course_name": "Mystery and Detective Fiction",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 22",
+    "course_name": "Fantasy and Science Fiction",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 30",
+    "course_name": "Literature and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 40",
+    "course_name": "Contemporary World Fiction",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 44HA",
+    "course_name": "Design Your Life, Design Your Semester, Design Your World",
+    "units": 3
+  },
+  {
+    "course_id": "ENGL 50",
+    "course_name": "Beginnings to the American Experiment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGL_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 60",
+    "course_name": "Literatures of the Atlantic World, 1680-1860",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENGL_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 70",
+    "course_name": "Emerging Modernisms and Beyond",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGL_1A"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 71",
+    "course_name": "Creative Writing",
+    "units": 3,
+    "ge_areas": [
+      "3A"
+    ]
+  },
+  {
+    "course_id": "ENGL 78",
+    "course_name": "Introduction to Shakespeare’s Drama",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ]
+  },
+  {
+    "course_id": "ENGL 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ENGL 100A",
+    "course_name": "Writing Competency Through Genres",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 100W",
+    "course_name": "Writing Workshop",
+    "units": 4,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "||ENGLISH_MAJOR",
+        "HUMANITIES_ARTS_MAJOR_WITH_CONSENT",
+        "GRADUATE_PBAC"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 100WB",
+    "course_name": "Written Communication: Business",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "||BUSINESS_ADMIN_MAJOR",
+        "INDUSTRIAL_ARTS_MAJOR",
+        "INDUSTRIAL_TECH_MAJOR",
+        "PROF_TECH_WRITING_MAJOR",
+        "PUBLIC_RELATIONS_MAJOR",
+        "HOSPITALITY_MANAGEMENT_MAJOR",
+        "ORGANIZATIONAL_STUDIES_MAJOR",
+        "INFO_SCIENCE_DATA_ANALYTICS_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 101",
+    "course_name": "Introduction to Literary Criticism",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENGL_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 103",
+    "course_name": "Modern English",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 105",
+    "course_name": "Seminar in Advanced Composition",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 106",
+    "course_name": "Professional and Technical Editing",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_2",
+        "ENGL_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 107",
+    "course_name": "Professional and Technical Writing",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_2",
+        "ENGL_1B"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 108",
+    "course_name": "Gaming and Narrative",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 109",
+    "course_name": "Writing and the Young Writer",
+    "units": 4
+  },
+  {
+    "course_id": "ENGL 110",
+    "course_name": "UX Design and Visual Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENGL_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 111",
+    "course_name": "Strategic Digital Content and Social Media Writing",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 112A",
+    "course_name": "Children’s Literature",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 112B",
+    "course_name": "Literature for Young Adults",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 113",
+    "course_name": "Gothic and Horror Fiction",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 115",
+    "course_name": "The Bible as Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 116",
+    "course_name": "Myth in Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 117A",
+    "course_name": "American Literature, Film, & Culture",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 117B",
+    "course_name": "Global Film, Literature, and Cultures",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 120",
+    "course_name": "World Theatre I",
+    "units": 3
+  },
+  {
+    "course_id": "ENGL 122",
+    "course_name": "Topics in Comparative World Literature",
+    "units": 4
+  },
+  {
+    "course_id": "ENGL 123A",
+    "course_name": "Literatures of the Americas",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 123B",
+    "course_name": "Literatures of Africa",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 123C",
+    "course_name": "Literatures of the Pacific",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 123D",
+    "course_name": "Literatures of Asia",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 125",
+    "course_name": "Ancient Literatures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 126",
+    "course_name": "Holocaust Literature",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 127",
+    "course_name": "Contemporary Theatre and Performance Arts",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 128",
+    "course_name": "Introduction to Playwriting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 129",
+    "course_name": "Writing for Professional Publications",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 130",
+    "course_name": "Writing Fiction",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_71",
+        "EQUIVALENT_CREATIVE_WRITING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 131",
+    "course_name": "Writing Poetry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_71",
+        "EQUIVALENT_CREATIVE_WRITING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 133",
+    "course_name": "Reed Magazine",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 135",
+    "course_name": "Writing Nonfiction",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_71",
+        "ENGL_100W",
+        "ENGL_105",
+        "ENGL_129",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 140A",
+    "course_name": "Old English",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 140B",
+    "course_name": "Beowulf",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENGL_140A",
+        "EQUIVALENT_OLD_ENGLISH"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 141",
+    "course_name": "Medieval Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 142",
+    "course_name": "Chaucer",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 144",
+    "course_name": "Shakespeare I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 145",
+    "course_name": "Shakespeare and Performance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 146",
+    "course_name": "Studies-Early Modern British Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 151",
+    "course_name": "20th and 21st Century Poetry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 153",
+    "course_name": "Studies in the British Novel Before 1900",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 156",
+    "course_name": "Black Women’s Writing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 157",
+    "course_name": "Topics in Rhetorical Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 158",
+    "course_name": "Global Rhetorics",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 160",
+    "course_name": "Topics in American Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 162",
+    "course_name": "Indigenous American Literatures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 163",
+    "course_name": "Asian American Literatures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 165",
+    "course_name": "Black American Literatures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 166",
+    "course_name": "Latinx Literatures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 167",
+    "course_name": "Steinbeck",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 168",
+    "course_name": "The American Novel",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 169",
+    "course_name": "Ethnicity in American Literature",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 171",
+    "course_name": "Pop Cultures",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 172",
+    "course_name": "The Arts in U.S. Society",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 173",
+    "course_name": "Thinking About Contemporary World Arts",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 176",
+    "course_name": "The Short Story",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 177",
+    "course_name": "Topics in Fiction Since 1900",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 178",
+    "course_name": "Creative Nonfiction",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 181",
+    "course_name": "Special Topics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 182",
+    "course_name": "Women, Gender, and Sexuality in Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 183",
+    "course_name": "Major Authors",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 184",
+    "course_name": "Queer Literary Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 190",
+    "course_name": "Honors Colloquium",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&HONORS_PROGRAM_ADMISSION"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGL 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ENGL 199",
+    "course_name": "Writing Internship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GPA_3_0"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ENGR 5",
+    "course_name": "Science of High Technology",
+    "units": 3,
+    "ge_areas": [
+      "5A"
+    ]
+  },
+  {
+    "course_id": "ENGR 10",
+    "course_name": "Introduction to Engineering",
+    "units": 3,
+    "ge_areas": [
+      "E"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_19_ELIGIBLE",
+        "ENGL_1AF_CR",
+        "ENGL_1A_C_MINUS",
+        "ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 25",
+    "course_name": "The Digital World and Society",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ]
+  },
+  {
+    "course_id": "ENGR 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "ENGR 100W",
+    "course_name": "Engineering Reports",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "||ENGINEERING_MAJOR",
+        "AVIATION_MAJOR",
+        "ENGINEERING_TECH_MAJOR",
+        "MATHEMATICS_MAJOR",
+        "APPLIED_MATHEMATICS_MAJOR",
+        "GRADUATE_PBAC"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 101",
+    "course_name": "Engineering Seminar",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "GENERAL_ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 102",
+    "course_name": "Renewable Energy Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COLLEGE_CALCULUS",
+        "COLLEGE_PHYSICS",
+        "COLLEGE_CHEMISTRY"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 119",
+    "course_name": "Energy and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 120",
+    "course_name": "Programming Concepts for Behavioral and Social Science Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||STAT_95",
+        "MATH_30",
+        "MATH_71"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 121",
+    "course_name": "Data Structures and Algorithms for Behavioral and Social Science Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENGR_120_C_MINUS",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 122",
+    "course_name": "Data Technology for Behavioral and Social Science Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGR_120"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 130",
+    "course_name": "Introduction to Intellectual Property for Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W_C"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 131",
+    "course_name": "Introduction to Patents for Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGR_130"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 157SL",
+    "course_name": "Community Action/Community Service",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 160SL",
+    "course_name": "Engineering Projects in Community Service UD",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&ENGINEERING_MAJOR",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT",
+        "ENGINEERING_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 189",
+    "course_name": "Special Topics in Interdisciplinary Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ENGR 194",
+    "course_name": "Business Organization and Management of Technology Enterprise",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS_193",
+        "ENGR_193"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 195A",
+    "course_name": "Global and Social Issues in Engineering",
+    "units": 1,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&ENGR_100W_C",
+        "ENGINEERING_MAJOR",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&MAJOR_CAPSTONE_COURSE"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 195B",
+    "course_name": "Global and Social Issues in Engineering",
+    "units": 1,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&ENGR_195A_C",
+        "ENGINEERING_MAJOR",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&MAJOR_CAPSTONE_COURSE"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 195D",
+    "course_name": "Interdisciplinary Senior Project II",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&ENGR_195C_C"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 195E",
+    "course_name": "Interdisciplinary Computing Project",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENGR_120",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 197",
+    "course_name": "Cooperative Education Project",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&COOP_INTERNSHIP_SECURED",
+        "WRITTEN_PROPOSAL_SIGNED"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 198",
+    "course_name": "Technology and Civilization",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 199A",
+    "course_name": "Senior Design Project I",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&ENGR_100W_C",
+        "SENIOR_STANDING_INTERDISCIPLINARY_ENGINEERING",
+        "NINE_UPPER_DIVISION_COURSES_COMPLETED"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENGR 199B",
+    "course_name": "Senior Design Project II",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ENGR_199A_C"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ENT 101",
+    "course_name": "Insect Diversity",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL_31_C",
+        "||BIOLOGICAL_SCIENCES_MAJOR",
+        "FORENSIC_SCIENCES_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||BIOL_118_C",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 106",
+    "course_name": "Forensic Entomology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL_30_C_MINUS",
+        "BIOL_31_C_MINUS",
+        "||BIOLOGY_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 113",
+    "course_name": "Principles of Systematics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL_115_C",
+        "BIOL_118_C",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 114",
+    "course_name": "Functional Morphology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL_115_C",
+        "BIOL_118_C",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 143",
+    "course_name": "Biogeography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL_31_C_MINUS",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENT 186",
+    "course_name": "Senior Thesis",
+    "units": "||2-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ENVS 1",
+    "course_name": "Introduction to Environmental Issues",
+    "units": 3,
+    "ge_areas": [
+      "1B"
+    ],
+    "prerequisites": [
+      [
+        "&&GE_AREA_1A_C_MINUS"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 10",
+    "course_name": "Life on a Changing Planet",
+    "units": 3,
+    "ge_areas": [
+      "5B"
+    ]
+  },
+  {
+    "course_id": "ENVS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12"
+  },
+  {
+    "course_id": "ENVS 100W",
+    "course_name": "Environmental Research and Writing",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 105",
+    "course_name": "Environmental Change and Problems, San Francisco Bay Area",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "ENVS_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 106",
+    "course_name": "Exploring Ocean Environments",
+    "units": 3
+  },
+  {
+    "course_id": "ENVS 107",
+    "course_name": "Introduction to Environmental Economics and Policy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ECON_1B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 108",
+    "course_name": "Cost-Benefit Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ECON_1B",
+        "||ECON_3",
+        "STAT_95",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 110",
+    "course_name": "Resource Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "ENVS_10",
+        "STAT_95"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 111",
+    "course_name": "Geology and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 113",
+    "course_name": "Atmospheric Pollution",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 116",
+    "course_name": "Solar Energy Analysis",
+    "units": 3
+  },
+  {
+    "course_id": "ENVS 117",
+    "course_name": "Human Ecology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "ENVS_10",
+        "ENVS_100W",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 119",
+    "course_name": "Energy and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 121",
+    "course_name": "Population and Global Change",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 122",
+    "course_name": "Borderlands and the Environment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 124",
+    "course_name": "Introduction to Environmental Law",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 126",
+    "course_name": "Environmental Ethics and Philosophy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||PHILOSOPHY_3_UNITS",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 127",
+    "course_name": "Community-Based Participatory Research",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 128",
+    "course_name": "Water Resource Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_129",
+        "STAT_95",
+        "APPROPRIATE_MATH_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 129",
+    "course_name": "Water Policy in the Western U.S.",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 130",
+    "course_name": "Energy Policy Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 131",
+    "course_name": "Air Pollution Meteorology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||METR_121B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 132",
+    "course_name": "Solar Home Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 133",
+    "course_name": "Sustainable Energy Strategies",
+    "units": 3
+  },
+  {
+    "course_id": "ENVS 135",
+    "course_name": "U.S. Environmental Policy",
+    "units": 3
+  },
+  {
+    "course_id": "ENVS 136",
+    "course_name": "Introduction to Land Use Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 137",
+    "course_name": "Green Building Design Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 140",
+    "course_name": "Politics and the Environment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "ENVS_107",
+        "ENVS_124",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 142",
+    "course_name": "Introduction to Environmental Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 144",
+    "course_name": "California Wetland Controversies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 146F",
+    "course_name": "Communication and the Environment",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 148",
+    "course_name": "Sustainable Materials Management",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 150",
+    "course_name": "Introduction to Environmental Thought",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 151",
+    "course_name": "Race, Class and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 152",
+    "course_name": "Globalization and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 154",
+    "course_name": "Sustainable Agriculture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "GE_AREA_5B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 156",
+    "course_name": "Introduction to Local Transportation Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 158",
+    "course_name": "Environmental Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGL_1A",
+        "ENGL_2",
+        "||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 159",
+    "course_name": "Nature and World Cultures",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 161",
+    "course_name": "California Wildlands",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "ENVS_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 165",
+    "course_name": "National Parks",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 166",
+    "course_name": "Nature and Conservation Photography",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||PHOTO_EXPERIENCE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 167",
+    "course_name": "Managing Environmental Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 168A",
+    "course_name": "Climate Action and Leadership I",
+    "units": 6,
+    "ge_areas": [
+      "UD_AREA_4",
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 168B",
+    "course_name": "Climate Action and Leadership II",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENVS_168A_C_MINUS",
+        "COMM_168A_C_MINUS",
+        "METR_168A_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 169",
+    "course_name": "Introduction to Social Media in Planning",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 173",
+    "course_name": "Forest Ecology and Conservation",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "ENVS_10",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 175",
+    "course_name": "Wildfire Policy and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GE_AREA_1A",
+        "GE_AREA_4",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 178",
+    "course_name": "Intro to Regional Transport Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 179A",
+    "course_name": "Fundamentals of GIS for Urban Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 181",
+    "course_name": "Environmental Resource Center",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 185",
+    "course_name": "Environmental Impact Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_1",
+        "ENVS_124",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 187",
+    "course_name": "Environmental Restoration",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "GE_AREA_5B",
+        "ANY_100W",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 189",
+    "course_name": "Coastal Field Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENVS_1"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 190",
+    "course_name": "Advanced Environmental Impact Assessment",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||ENVS_185",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 191",
+    "course_name": "Advanced Environmental Restoration",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&ENVS_187"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6"
+  },
+  {
+    "course_id": "ENVS 193",
+    "course_name": "Supervised Projects and Research",
+    "units": "||1-15",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 194",
+    "course_name": "Environmental Internship",
+    "units": "||1-9",
+    "prerequisites": [
+      [
+        "&&||SENIOR_STANDING_ENVS",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 195",
+    "course_name": "Instructor Assistant in Environmental Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "ENGL_1A",
+        "INSTRUCTOR_CONSENT",
+        "APPROPRIATE_ACADEMIC_BACKGROUND"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 198",
+    "course_name": "Senior Seminar",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&FILED_FOR_GRADUATION",
+        "ENVS_CORE_COMPLETED",
+        "ENVS_100W"
+      ]
+    ]
+  },
+  {
+    "course_id": "ENVS 199",
+    "course_name": "Senior Thesis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING_ENVS",
+        "ENVS_CORE_COMPLETED",
+        "ANY_100W"
+      ]
+    ]
+  },
+
+  {
+    "course_id": "ESM 1",
+    "course_name": "Mathematical Reasoning",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_1001S",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 1"
+    ]
+  },
+  {
+    "course_id": "ESM 9",
+    "course_name": "Mathematics and Logic for General Education",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_9W",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to PHIL 9"
+    ]
+  },
+  {
+    "course_id": "ESM 9W",
+    "course_name": "Mathematics & Logic for General Education Workshop",
+    "units": 1,
+    "corequisites": [
+      [
+        "&&ESM_9"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to PHIL 9W"
+    ]
+  },
+  {
+    "course_id": "ESM 10A",
+    "course_name": "Mathematics in Art and Music",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_1010AS",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 10A"
+    ]
+  },
+  {
+    "course_id": "ESM 10D",
+    "course_name": "Probability, Data Science, Ethics, and You",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_1010DS",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 10D"
+    ]
+  },
+  {
+    "course_id": "ESM 10P",
+    "course_name": "Mathematics in Politics",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_1010PS",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 10P"
+    ]
+  },
+  {
+    "course_id": "ESM 15",
+    "course_name": "Statway: Statistics-Concepts & Methods",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to UNVS 15"
+    ]
+  },
+  {
+    "course_id": "ESM 18A",
+    "course_name": "College Algebra",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "corequisites": [
+      [
+        "&&ESM_1018AS"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 18A"
+    ]
+  },
+  {
+    "course_id": "ESM 19",
+    "course_name": "Precalculus",
+    "units": 5,
+    "ge_areas": [
+      "2"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M_I",
+        "MATH_ENROLLMENT_CATEGORY_M_II",
+        "MATH_ENROLLMENT_CATEGORY_M_III"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&MATH_1019S",
+        "||MATH_ENROLLMENT_CATEGORY_M_III"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to MATH 19",
+      "A grade of C- (1.7) or better is required to satisfy GE Area 2"
+    ]
+  },
+  {
+    "course_id": "ESM 26",
+    "course_name": "Quantitative Reasoning in Linguistic Diversity",
+    "units": 3,
+    "ge_areas": [
+      "2"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_CATEGORY_M_I",
+        "MATH_ENROLLMENT_CATEGORY_M_II",
+        "GE_AREA_2_C_MINUS"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&LING_26W",
+        "||MATH_ENROLLMENT_CATEGORY_M_III",
+        "MATH_ENROLLMENT_CATEGORY_M_IV"
+      ]
+    ],
+    "notes": [
+      "Early Start students only",
+      "Equivalent to LING 26",
+      "A grade of C- or better is required to satisfy GE Area 2"
+    ]
+  },
+  
+  {
+    "course_id": "FLED 184Y",
+    "course_name": "Student Teaching II - Classroom Teaching",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&JOINT_APPROVAL_MAJOR_EDUCATION"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "FLED 184Z",
+    "course_name": "Student Teaching III - Classroom Teaching",
+    "units": 4,
+    "grading": "Credit/No Credit",
+    "notes": [
+      "May be in different subject/school and will be at a different grade level"
+    ]
+  },
+  {
+    "course_id": "FLED 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "FORL 30",
+    "course_name": "From Chinese Traditions to Multicultural Paradigms: Martial Arts Films around the World",
+    "units": 3,
+    "ge_areas": [
+      "3A"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 30",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "FORL 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "FORL 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)"
+    ]
+  },
+  {
+    "course_id": "FORL 122",
+    "course_name": "Topics in Comparative World Literature",
+    "units": 4,
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with COLT 122 / ENGL 122 / HUM 122",
+      "English and Comparative Literature is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "FORL 126",
+    "course_name": "Holocaust Literature",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENGL 126 / HUM 126 / JWSS 126",
+      "English and Comparative Literature is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "FORL 150",
+    "course_name": "Learning a World Language",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FORL 180",
+    "course_name": "Individual Studies in World Languages and Literatures",
+    "units": "||3-6",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_APPROVAL"
+      ]
+    ],
+    "grading": "Mandatory Credit/No Credit/RP",
+    "notes": [
+      "Course may be repeated for credit for up to 9 units"
+    ]
+  },
+  {
+    "course_id": "FORL 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "FREN 1A",
+    "course_name": "Elementary French",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 1B",
+    "course_name": "Elementary French",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||FREN_1A",
+        "EQUIVALENT_FRENCH_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 25A",
+    "course_name": "Intermediate French: Reading",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||ONE_YEAR_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_1A_1B",
+        "SJSU_PLACEMENT_EXAM"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 25B",
+    "course_name": "Intermediate French: Writing",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 25C",
+    "course_name": "Intermediate French: Oral Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWO_SEMESTERS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_1A_1B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "FREN 101A",
+    "course_name": "Advanced French: Reading and Writing",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWO_YEARS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_101A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 101B",
+    "course_name": "Advanced French: Written Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWO_YEARS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_101B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 101C",
+    "course_name": "Advanced French: Oral Communication",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWO_YEARS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_101C"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit up to 8 units, but only 4 units apply to major or minor"
+    ]
+  },
+  {
+    "course_id": "FREN 102A",
+    "course_name": "French Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWENTY_UNITS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_102A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 102B",
+    "course_name": "Francophone Cultures: Through Literature and Cinema",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Online - taught in English"
+    ]
+  },
+  {
+    "course_id": "FREN 102C",
+    "course_name": "French Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWENTY_UNITS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_102C"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FREN 105",
+    "course_name": "Advanced Grammar: Phonetic Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_FRENCH",
+        "EQUIVALENT_FRENCH_105"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 110",
+    "course_name": "Advanced Grammar: Grammatical Analysis",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FREN_101B",
+        "EQUIVALENT_FRENCH_110"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course is repeatable for a total of 6 units"
+    ]
+  },
+  {
+    "course_id": "FREN 120A",
+    "course_name": "French Literature from the Middle Ages to 1600",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FREN_101B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 120B",
+    "course_name": "French Literature of the Seventeenth through the Eighteenth Centuries",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FREN_101B",
+        "EQUIVALENT_FRENCH_120B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "May be repeated for credit when content changes"
+    ]
+  },
+  {
+    "course_id": "FREN 132",
+    "course_name": "Special Topics in French for Careers",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_FRENCH",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 140B",
+    "course_name": "French Literature 20th-21st Centuries",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FREN_101B",
+        "EQUIVALENT_FRENCH_140B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 160",
+    "course_name": "Masters of French Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&TWO_COURSES_120_140_SERIES",
+        "EQUIVALENT_FRENCH_160"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 12 units"
+    ]
+  },
+  {
+    "course_id": "FREN 170",
+    "course_name": "Translation and Comparative Stylistics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FREN_110",
+        "EQUIVALENT_FRENCH_170"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "FREN 180",
+    "course_name": "Individual Studies in French",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING_FRENCH_B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "FREN 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "FS 11",
+    "course_name": "Survey of Forensic Science",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 12",
+    "course_name": "Introduction to Digital Evidence Investigations",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 57",
+    "course_name": "Biological Criminalistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "||BIOL_30",
+        "BIOL_31",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 100W",
+    "course_name": "Forensic Science Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||FS_11",
+        "JS_10",
+        "ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)"
+    ]
+  },
+  {
+    "course_id": "FS 101",
+    "course_name": "Expert Witness Testimony",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||JS_100W",
+        "FS_100W",
+        "FS_11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 106",
+    "course_name": "Forensic Entomology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&BIOL_30_C_MINUS",
+        "BIOL_31_C_MINUS",
+        "||BIOLOGY_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENT 106",
+      "Biological Sciences is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "FS 130",
+    "course_name": "Digital Forensic Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W",
+        "FS_12"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Strongly recommend FS 100W or JS 100W; FS 11 or JS 10; and CS 147"
+    ]
+  },
+  {
+    "course_id": "FS 131",
+    "course_name": "Digital Forensic Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_130"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 160",
+    "course_name": "Special Topics in Forensic Science",
+    "units": "||1-5",
+    "prerequisites": [
+      [
+        "&&||JS_10",
+        "FS_11",
+        "INSTRUCTOR_CONSENT",
+        "||JUSTICE_STUDIES_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "FORENSIC_STUDIES_MINOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for up to 9 units credit when content changes"
+    ]
+  },
+  {
+    "course_id": "FS 161",
+    "course_name": "Crime Scene Investigation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "||JUSTICE_STUDIES_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "FORENSIC_STUDIES_MINOR",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 162",
+    "course_name": "Forensic Science Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "||JUSTICE_STUDIES_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "FORENSIC_STUDIES_MINOR",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 163",
+    "course_name": "Fingerprint Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "||FS_11",
+        "JS_10"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Recommended for anyone who plans to pursue a career in investigations or latent fingerprint identification"
+    ]
+  },
+  {
+    "course_id": "FS 164",
+    "course_name": "Crime Scene and Evidence Photography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "||JUSTICE_STUDIES_MAJOR",
+        "FORENSIC_SCIENCE_MAJOR",
+        "FORENSIC_STUDIES_MINOR",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "JS Students may substitute JS 10 for FS 11"
+    ]
+  },
+  {
+    "course_id": "FS 166",
+    "course_name": "Forensic Chemistry",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CHEM_1A",
+        "CHEM_1B",
+        "CHEM_30A",
+        "CHEM_30B",
+        "FS_11"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 167",
+    "course_name": "Forensic Molecular Biology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&FS_57",
+        "BIOL_31",
+        "CHEM_1A",
+        "CHEM_1B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 169",
+    "course_name": "FS Senior Seminar: Studies in Contemporary FS Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "||JS_100W",
+        "FS_100W",
+        "||JS_114",
+        "FS_161",
+        "FS_162",
+        "BIOL_30",
+        "INSTRUCTOR_CONSENT",
+        "GRADUATION_APPLICATION_FILED",
+        "SIGNED_MAJOR_FORM"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "JS 114 is waived as a prerequisite for Forensic Science majors",
+      "Department consent required to obtain an add code"
+    ]
+  },
+  {
+    "course_id": "FS 170",
+    "course_name": "Forensic Science in Human Rights Investigations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||JS_10",
+        "JS_25",
+        "FS_11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 171",
+    "course_name": "Forensic Criminology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 172",
+    "course_name": "Practical Forensic Microscopy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 173",
+    "course_name": "Death Scene Investigation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||FS_11",
+        "JS_10",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 174",
+    "course_name": "Forensic Taphonomy and the Depositional Environment",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "FS_162",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "High Impact Practice: Research"
+    ]
+  },
+  {
+    "course_id": "FS 175",
+    "course_name": "Firearm and Toolmark Evidence Analysis",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 176",
+    "course_name": "Introduction to Fire and Explosion Investigations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FS_11",
+        "||CHEM_1A",
+        "CHEM_1B",
+        "CHEM_30A",
+        "CHEM_30B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "FS 177",
+    "course_name": "Forensic Genotyping Technologies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&BIOL_115",
+        "FS_11",
+        "FS_167",
+        "INSTRUCTOR_APPROVAL"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "GEOG 1",
+    "course_name": "Physical Geography",
+    "units": 3,
+    "ge_areas": [
+      "5A"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOG 3",
+    "course_name": "Spatial Data Literacy",
+    "units": 1,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 4",
+    "course_name": "Geospatial Ethics & Privacy",
+    "units": 1,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 10",
+    "course_name": "Cultural Geography",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused"
+    ]
+  },
+  {
+    "course_id": "GEOG 12",
+    "course_name": "World Regional Geography",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 70",
+    "course_name": "Introduction to Geographic Information Systems",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "GEOG 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)",
+      "Cross-listed with GLST 100W",
+      "Urban and Regional Planning is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GEOG 103",
+    "course_name": "Colloquium",
+    "units": 1,
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "GEOG 105",
+    "course_name": "Urban Geography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "GEOG 107",
+    "course_name": "Mapping the World",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 110",
+    "course_name": "Urbanization in the Global South",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ANY_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with URBP 110",
+      "Geography is responsible for scheduling",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "GEOG 112",
+    "course_name": "Nations, Cultures & Globalization",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "GEOG 113",
+    "course_name": "Global Cities",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "GEOG 115",
+    "course_name": "Global Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "GEOG 101 recommended",
+      "Sustainability Related - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GEOG 120",
+    "course_name": "Food Supply and Agricultural Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 2: Zero Hunger"
+    ]
+  },
+  {
+    "course_id": "GEOG 121",
+    "course_name": "Population and Global Change",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 121",
+      "Urban and Regional Planning is responsible for scheduling",
+      "Sustainability Focused - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOG 124",
+    "course_name": "Special Topics in Geography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOG_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes",
+      "Sustainability Focused - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOG 130",
+    "course_name": "Natural Resources",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "GEOG 135",
+    "course_name": "Research Methods in Geography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGL_2"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 140",
+    "course_name": "The United States",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 160",
+    "course_name": "East and South Asia",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 160",
+      "Geology is responsible for scheduling",
+      "Sustainability Related - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GEOG 165",
+    "course_name": "National Parks",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 165",
+      "Urban and Regional Planning is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GEOG 171",
+    "course_name": "Advanced Geographic Information Systems",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||GEOG_70",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 172",
+    "course_name": "Cartography and Data Visualization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOG_70",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 173",
+    "course_name": "Drones and Spatial Data Collection",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GEOG_70",
+        "GEOG_172",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 175",
+    "course_name": "Geographic Information Systems Project Development",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOG_70",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 178",
+    "course_name": "Participatory GIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GEOG_70",
+        "GEOG_171",
+        "||GEOG_173",
+        "GEOG_175",
+        "GEOG_181",
+        "GEOG_182",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&SUPERVISOR_APPROVAL",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "GEOG 181",
+    "course_name": "Introduction to Remote Sensing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOG_70",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 182",
+    "course_name": "Programming for GIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOG_70",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 186",
+    "course_name": "Field Methods in Geography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SIX_UNITS_UPPER_DIVISION_GEOGRAPHY"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Sustainability Related - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOG 187",
+    "course_name": "Research Experience",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SIX_UNITS_UPPER_DIVISION_GEOGRAPHY"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for up to 6 units",
+      "Sustainability Related - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOG 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "GEOG 195",
+    "course_name": "Open Source GIS",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GEOG_70",
+        "GEOG_171",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOG 197",
+    "course_name": "Internship",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "&&TWELVE_UNITS_GEOGRAPHY"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course may be repeated for credit for up to 12 units"
+    ]
+  },
+  {
+    "course_id": "GEOG 199",
+    "course_name": "Senior Seminar",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING_GEOGRAPHY"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+
+  {
+    "course_id": "GEOL 1",
+    "course_name": "General Geology",
+    "units": 4,
+    "ge_areas": [
+      "5A",
+      "5C"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related"
+    ]
+  },
+  {
+    "course_id": "GEOL 2",
+    "course_name": "Geology for Engineers",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CIVIL_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Field trips are required and may include weekends"
+    ]
+  },
+  {
+    "course_id": "GEOL 3",
+    "course_name": "Planet Earth",
+    "units": 3,
+    "ge_areas": [
+      "5A"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "GEOL 4L",
+    "course_name": "Earth Systems Lab",
+    "units": 1,
+    "ge_areas": [
+      "5C"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related"
+    ]
+  },
+  {
+    "course_id": "GEOL 5",
+    "course_name": "Earth Science for Sustainability",
+    "units": 3,
+    "ge_areas": [
+      "5A"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with SCED 5",
+      "Geology is responsible for scheduling",
+      "Sustainability Related - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOL 6",
+    "course_name": "Geology of California",
+    "units": 3,
+    "ge_areas": [
+      "5A"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "GEOL 7",
+    "course_name": "Earth, Time and Life",
+    "units": 4,
+    "ge_areas": [
+      "5A",
+      "5C"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 8",
+    "course_name": "The Age of the Dinosaurs",
+    "units": 3,
+    "ge_areas": [
+      "5B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 9",
+    "course_name": "Earth Disasters",
+    "units": 4,
+    "ge_areas": [
+      "5A",
+      "5C"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "GEOL 28",
+    "course_name": "Geology Outdoors",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||GEOL_1",
+        "GEOL_7"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||GEOL_1",
+        "GEOL_7"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "GEOL 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "GEOL 103",
+    "course_name": "Earth Systems and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&||PHYS_1",
+        "CHEM_30A",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused"
+    ]
+  },
+  {
+    "course_id": "GEOL 104",
+    "course_name": "Earth Science Teacher Enhancement",
+    "units": "||0.5-3",
+    "prerequisites": [
+      [
+        "&&TEACHING_CREDENTIAL",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Normally offered through University Continuing Education",
+      "Field trips"
+    ]
+  },
+  {
+    "course_id": "GEOL 105",
+    "course_name": "General Oceanography",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 107",
+    "course_name": "Prehistoric Life",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 111",
+    "course_name": "Geology and the Environment",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 111",
+      "Geology is responsible for scheduling",
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "GEOL 112",
+    "course_name": "Hazards, Risks of Earthquakes and Volcanoes",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "GEOL 120",
+    "course_name": "Fundamentals of Mineralogy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GEOL_1",
+        "GEOL_7"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 122",
+    "course_name": "Petrology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL_120"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&CHEM_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 124",
+    "course_name": "Sedimentology and Stratigraphy",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&GEOL_1",
+        "GEOL_7",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 125",
+    "course_name": "Structural Geology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&MATH_19",
+        "GEOL_1",
+        "GEOL_7",
+        "GEOL_28"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 127",
+    "course_name": "Tectonics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ANY_100W",
+        "GEOL_122",
+        "GEOL_124",
+        "GEOL_125"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 129A",
+    "course_name": "Spring Field Geology",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&GEOL_120",
+        "GEOL_122",
+        "GEOL_124",
+        "GEOL_125",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Field Trip Fees Required"
+    ]
+  },
+  {
+    "course_id": "GEOL 129B",
+    "course_name": "Advanced Field Geology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL_122",
+        "GEOL_124",
+        "GEOL_125",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ]
+  },
+  {
+    "course_id": "GEOL 129C",
+    "course_name": "Digital Geologic Field Mapping",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ANY_100W",
+        "||GEOL_137",
+        "GIS_COURSE_ARCGIS",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "GEOL 129A or a similar field course is strongly encouraged"
+    ]
+  },
+  {
+    "course_id": "GEOL 130",
+    "course_name": "Marine Geology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||GEOL_1",
+        "GEOL_7",
+        "||GEOL_3",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 132",
+    "course_name": "Planetary Geology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||GEOL_1",
+        "GEOL_3",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "This course has an Off Campus Field Trip component"
+    ]
+  },
+  {
+    "course_id": "GEOL 134",
+    "course_name": "Geomorphology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||GEOL_1",
+        "||GEOL_3",
+        "GEOL_4L",
+        "GEOL_7",
+        "GEOL_9",
+        "MATH_19_C",
+        "PHYS_2A_C",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 135",
+    "course_name": "Geochemistry",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&CHEM_1A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Recommend CHEM 1B"
+    ]
+  },
+  {
+    "course_id": "GEOL 137",
+    "course_name": "Introduction to GPS/GIS for Geologic Applications",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL_1",
+        "GEOL_7",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Computer literacy assumed"
+    ]
+  },
+  {
+    "course_id": "GEOL 138",
+    "course_name": "Hydrogeology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||MATH_32",
+        "GEOL_125",
+        "GEOL_135"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 6: Clean Water and Sanitation"
+    ]
+  },
+  {
+    "course_id": "GEOL 140",
+    "course_name": "Principles of Engineering Geology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||PHYS_2A",
+        "PHYS_50",
+        "||MATH_19",
+        "MATH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 142",
+    "course_name": "Paleontology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL_1",
+        "GEOL_7",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with BIOL 142",
+      "Geology is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GEOL 143",
+    "course_name": "Active Tectonics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&GEOL_1",
+        "GEOL_7",
+        "GEOL_28"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 145",
+    "course_name": "Earth System Science",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||GEOL_1",
+        "GEOL_7",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ONE_SEMESTER_CHEMISTRY"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GEOL 147",
+    "course_name": "Introduction to Applied Geophysics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&PHYS_2A",
+        "PHYS_2B",
+        "ANY_100W",
+        "GEOL_1",
+        "GEOL_7"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "GEOL 150",
+    "course_name": "Field Studies in Natural History",
+    "units": "||1-2",
+    "ge_areas": [
+      "5C"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for up to a total of 3 units when location or content changes",
+      "Cross-listed with BIOL 150",
+      "Biological Sciences is responsible for scheduling",
+      "Sustainability Related - SDG 15: Life on Land",
+      "Not an elective in the department majors"
+    ]
+  },
+  {
+    "course_id": "GEOL 174",
+    "course_name": "Hazardous Materials",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PHYS_51",
+        "CHEM_1A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CHE 174",
+      "Chemical Engineering is responsible for scheduling",
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "GEOL 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "GEOL 184",
+    "course_name": "Directed Reading",
+    "units": "||1-3",
+    "prerequisites": [],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "GEOL 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "GERM 1A",
+    "course_name": "Elementary German",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GERM 1B",
+    "course_name": "Elementary German",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||GERM_1A",
+        "EQUIVALENT_GERM_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GERM 25A",
+    "course_name": "Intermediate German",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||ONE_YEAR_COLLEGE_GERMAN",
+        "EQUIVALENT_GERM_1A_1B",
+        "SJSU_PLACEMENT_EXAM"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GERM 25B",
+    "course_name": "Intermediate German",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||THREE_SEMESTERS_COLLEGE_GERMAN",
+        "EQUIVALENT_GERM_25A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "GERM 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "GERM 180",
+    "course_name": "Individual Studies in German",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING_GERMAN_B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "GERM 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "GERO 99",
+    "course_name": "Death, Dying and Religions",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with HUM 99 / RELS 99",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GERO 107",
+    "course_name": "Aging and Society",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with PH 107 / SCWK 107",
+      "Social Work is responsible for scheduling",
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "GERO 111",
+    "course_name": "Medical Ethics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||THREE_UNITS_PHILOSOPHY",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with PHIL 111",
+      "Philosophy is responsible for scheduling",
+      "Sustainability Related - SDG 3: Good Health and Well-Being"
+    ]
+  },
+  {
+    "course_id": "GERO 114",
+    "course_name": "Psychology of Aging",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PSYC_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with PSYC 114",
+      "Psychology is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GERO 116",
+    "course_name": "Aging and Nutrition",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ONE_COLLEGE_NUTRITION_COURSE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with NUFS 116",
+      "Nutrition, Food Science and Packaging is responsible for scheduling",
+      "Sustainability Focused - SDG 3: Good Health and Well-Being"
+    ]
+  },
+  {
+    "course_id": "GERO 133",
+    "course_name": "Gerontology Field Work",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&NINE_UNITS_GERONTOLOGY"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "GERO 166",
+    "course_name": "Medical Sociology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with SOCI 166",
+      "Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Related - SDG 3: Good Health and Well-Being"
+    ]
+  },
+  {
+    "course_id": "GERO 185",
+    "course_name": "Leisure, Recreation and Aging",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "GISC 171",
+    "course_name": "Vector GIS Analysis/Modeling Refresher",
+    "units": 1,
+    "grading": "Letter Graded",
+    "notes": [
+      "Asynchronous 1-month course",
+      "Required only for MS GISc students with no/limited GIS background"
+    ]
+  },
+  {
+    "course_id": "GISC 182",
+    "course_name": "Raster GIS Analysis/Modeling Refresher",
+    "units": 1,
+    "grading": "Letter Graded",
+    "notes": [
+      "Asynchronous 1-month course",
+      "Required only for MS GISc students with no/limited GIS background"
+    ]
+  },
+
+  {
+    "course_id": "GLST 1A",
+    "course_name": "Introduction to Global Studies",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 1B",
+    "course_name": "Introduction to Global Studies",
+    "units": 3,
+    "ge_areas": [
+      "5B"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "GLST 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)",
+      "Cross-listed with GEOG 100W",
+      "Urban and Regional Planning is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "GLST 143",
+    "course_name": "Gender, Power, Intnl Dev",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ]
+  },
+  {
+    "course_id": "GLST 156",
+    "course_name": "Technology of the Modern World",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 9: Industry, Innovation and Infrastructure"
+    ]
+  },
+  {
+    "course_id": "GLST 162",
+    "course_name": "Contemporary Global Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 164",
+    "course_name": "Advanced Seminar in Global Citizenship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 167",
+    "course_name": "Changing Ecologies of Globalization",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 179",
+    "course_name": "Capstone Seminar in Global Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GLST_1A",
+        "SENIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 17: Partnerships for the Goals"
+    ]
+  },
+  {
+    "course_id": "GLST 188",
+    "course_name": "Special Topics in International Experiences",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course is repeatable for up to 6 units",
+      "Course offered as FLP in countries outside the U.S."
+    ]
+  },
+  {
+    "course_id": "GLST 189",
+    "course_name": "Global Experience",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&GLST_1A",
+        "JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course may be repeated for credit for up to 3 units"
+    ]
+  },
+  {
+    "course_id": "GLST 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "HA 157SL",
+    "course_name": "Community Action/Community Service",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with COMM 157SL / EDUC 157SL / ENGR 157SL / SCI 157SL",
+      "Communication Studies is responsible for scheduling",
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "HA 187",
+    "course_name": "Creative Team Practicum",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 6 units",
+      "Enrollment requirements are based on section topic"
+    ]
+  },
+
+  {
+    "course_id": "HEBR 1A",
+    "course_name": "Elementary Hebrew",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 1A / RELS 1A",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 1B",
+    "course_name": "Elementary Hebrew",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||HEBR_1A",
+        "EQUIVALENT_HEBR_1A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 1B / RELS 1B",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 10X",
+    "course_name": "Elementary Hebrew- Individual Learning",
+    "units": "||1-3",
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 3 units"
+    ]
+  },
+  {
+    "course_id": "HEBR 15A",
+    "course_name": "Intermediate Hebrew",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&HEBR_1A",
+        "HEBR_1B",
+        "EQUIVALENT_HEBR_1A_1B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 15A / RELS 15A",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 15B",
+    "course_name": "Intermediate Hebrew",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&HEBR_1A",
+        "HEBR_1B",
+        "EQUIVALENT_HEBR_1A_1B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 15B / RELS 15B",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 15X",
+    "course_name": "Intermediate Hebrew- Individual Learning",
+    "units": "||1-3",
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 3 units"
+    ]
+  },
+  {
+    "course_id": "HEBR 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "HEBR 102A",
+    "course_name": "Advanced Hebrew",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_HEBREW",
+        "EQUIVALENT_HEBR_15A_15B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 102A / RELS 102A",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 102B",
+    "course_name": "Advanced Hebrew",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TWELVE_UNITS_COLLEGE_HEBREW",
+        "EQUIVALENT_HEBR_102A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 102B / RELS 102B",
+      "World Languages and Literatures is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HEBR 102X",
+    "course_name": "Advanced Hebrew- Individual Learning",
+    "units": "||1-3",
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 3 units"
+    ]
+  },
+  {
+    "course_id": "HEBR 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "HIST 1A",
+    "course_name": "World History to 1500",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 1B",
+    "course_name": "World History from 1500",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 10A",
+    "course_name": "Western Civilization",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 10B",
+    "course_name": "Western Civilization",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 15",
+    "course_name": "Essentials of U.S. History",
+    "units": 3,
+    "ge_areas": [
+      "4",
+      "US1"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 20A",
+    "course_name": "History of the American People",
+    "units": 3,
+    "ge_areas": [
+      "US1"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 20B",
+    "course_name": "History of the American People",
+    "units": 3,
+    "ge_areas": [
+      "US1"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 50",
+    "course_name": "Historical Process: Understanding Historical Reasoning",
+    "units": 3,
+    "ge_areas": [
+      "1B"
+    ],
+    "prerequisites": [
+      [
+        "&&GE_AREA_A2_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "HIST 99",
+    "course_name": "History Fundamentals",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||HISTORY_MAJOR",
+        "SOCIAL_SCIENCE_TEACHER_PREP_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 100W",
+    "course_name": "History Writers’ Workshop",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&HIST_99",
+        "||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "||UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)",
+      "Allowed Declared Majors: History and Social Science"
+    ]
+  },
+  {
+    "course_id": "HIST 102",
+    "course_name": "Historiography",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&HIST_99",
+        "HIST_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 104",
+    "course_name": "Advanced Topics in Ancient History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 8 units"
+    ]
+  },
+  {
+    "course_id": "HIST 109A",
+    "course_name": "History of China",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 109A",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 109B",
+    "course_name": "History of China",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 109B",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 110A",
+    "course_name": "History of Japan",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 110A",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 110B",
+    "course_name": "History of Japan",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 110B",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 111",
+    "course_name": "Special Topics in Jewish Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with HUM 111 / JWSS 111 / RELS 111",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 112",
+    "course_name": "Ancient West to 500 BCE",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 114",
+    "course_name": "The Ancient West, 500 BCE-400 CE",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 118",
+    "course_name": "Yiddish History and Culture",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 118",
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HIST 121A",
+    "course_name": "Medieval Worlds, 400-1000",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 121B",
+    "course_name": "Medieval Worlds, 1000-1500",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 124",
+    "course_name": "Early Modern Europe",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 126",
+    "course_name": "Advanced Topics in Medieval History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&DEPARTMENTAL_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 12 units"
+    ]
+  },
+  {
+    "course_id": "HIST 130",
+    "course_name": "Military History to 1500",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 131",
+    "course_name": "Military History from 1500",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 132",
+    "course_name": "Advanced Topics in World History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 12 units",
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "HIST 136",
+    "course_name": "World Jewish History",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 143",
+    "course_name": "Europe, 1750-1900",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 144",
+    "course_name": "Europe, 1900-1945",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 145",
+    "course_name": "Europe and the World Since 1945",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 146",
+    "course_name": "Advanced Topics in European History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 12 units"
+    ]
+  },
+  {
+    "course_id": "HIST 153",
+    "course_name": "History of Women in Europe",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 5: Gender Equality"
+    ]
+  },
+  {
+    "course_id": "HIST 155",
+    "course_name": "20th Century World",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 162",
+    "course_name": "Colonial Latin America",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 163",
+    "course_name": "Modern Latin America, 1800-Present",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 167",
+    "course_name": "Advanced Topics in Latin American History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 12 units"
+    ]
+  },
+  {
+    "course_id": "HIST 170",
+    "course_name": "Topics in American History",
+    "units": 3,
+    "ge_areas": [
+      "US1"
+    ],
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "No credit for history majors or minors",
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "HIST 170S",
+    "course_name": "Topics in American History: American Identities and Institutions",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4",
+      "US1"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "HIST 171",
+    "course_name": "U.S. Constitutional & Legal History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 173",
+    "course_name": "New World Encounters, 1400-1750",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Offered only occasionally",
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "HIST 174",
+    "course_name": "Colonial & Revolutionary America",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 175",
+    "course_name": "Inventing America, 1800-1860",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 176",
+    "course_name": "The Civil War and Reconstruction",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 177",
+    "course_name": "Industrial America, 1877-1920",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 178",
+    "course_name": "Crash, Depression and War, 1920-1950",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 179",
+    "course_name": "Cold War America, 1950-Present",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||HISTORY_MAJOR",
+        "HISTORY_MINOR"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "HIST 181",
+    "course_name": "Advanced Topics in American History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes up to 12 units",
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "HIST 184",
+    "course_name": "Directed Reading",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||HISTORY_MAJOR",
+        "HISTORY_MINOR",
+        "INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course may be repeated for credit for up to 4 units"
+    ]
+  },
+  {
+    "course_id": "HIST 185",
+    "course_name": "LGBTQ+ History in the United States",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 188",
+    "course_name": "History of Women in the United States",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4",
+      "US1"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit",
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ]
+  },
+  {
+    "course_id": "HIST 189A",
+    "course_name": "California History to 1900",
+    "units": 4,
+    "ge_areas": [
+      "US3"
+    ],
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Satisfies American Institutions requirement in California government"
+    ]
+  },
+  {
+    "course_id": "HIST 189B",
+    "course_name": "California History Since 1900",
+    "units": 4,
+    "ge_areas": [
+      "US3"
+    ],
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Satisfies American Institutions requirement in California government"
+    ]
+  },
+  {
+    "course_id": "HIST 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "HIST 197",
+    "course_name": "Introduction to Public History",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HIST 199",
+    "course_name": "Public History Internship",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ]
+  },
+
+  {
+    "course_id": "HS 90",
+    "course_name": "Introduction to Health Science Professions",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 110",
+    "course_name": "Interprofessional Health Teams",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 120",
+    "course_name": "Research Methods in the Health Sciences",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 130",
+    "course_name": "Introduction to Digital Health Data and Information",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 145",
+    "course_name": "Health Career Discovery",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 150",
+    "course_name": "Interprofessional Behavioral Health",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HS 185",
+    "course_name": "Health Science Capstone",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "High Impact Practice: e-Portfolios"
+    ]
+  },
+  
+  {
+    "course_id": "HSPM 1",
+    "course_name": "Travel to Learn, Learn to Travel",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 8: Decent Work and Economic Growth"
+    ]
+  },
+  {
+    "course_id": "HSPM 11",
+    "course_name": "Restaurant Entrepreneurship",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 12",
+    "course_name": "Data Analytics in Restaurant Operations",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with NUFS 12",
+      "Hospitality Management is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HSPM 20",
+    "course_name": "Sanitation and Environmental Issues in the Hospitality Industry",
+    "units": 2,
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with NUFS 20",
+      "Nutrition, Food Science and Packaging is responsible for scheduling",
+      "Sustainability Related - SDG 8: Decent Work and Economic Growth"
+    ]
+  },
+  {
+    "course_id": "HSPM 22",
+    "course_name": "Catering and Beverage Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||NUFS_20",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with NUFS 22",
+      "Nutrition, Food Science and Packaging is responsible for scheduling",
+      "Misc/Lab: Lecture 2 hours /lab 3 hours"
+    ]
+  },
+  {
+    "course_id": "HSPM 65",
+    "course_name": "Professional Seminar in Hospitality Mgmt",
+    "units": 1,
+    "corequisites": [
+      [
+        "&&HSPM_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "This course is part of the teach out plan for the Hospitality, Tourism, and Event Management BS. It will be offered in Fall 2021 and Fall 2022. The course will subsequently be discontinued."
+    ]
+  },
+  {
+    "course_id": "HSPM 86",
+    "course_name": "Special Events Management in Hospitality",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ]
+  },
+  {
+    "course_id": "HSPM 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "HSPM 101",
+    "course_name": "Multicultural & Intl Issues Hospitality",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 8: Decent Work and Economic Growth"
+    ]
+  },
+  {
+    "course_id": "HSPM 102",
+    "course_name": "Hotel & Lodging Operations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 108",
+    "course_name": "Hospitality Information Systems",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 111",
+    "course_name": "Customs and Courtesies in Hospitality",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 130",
+    "course_name": "Special Event Planning",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 140",
+    "course_name": "Corporate Event Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 141",
+    "course_name": "Resort and Club Management",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "HSPM 142",
+    "course_name": "Trade Show and Exhibition Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 143",
+    "course_name": "Tourism Destination Marketing and Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 148",
+    "course_name": "Wine Appreciation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 149",
+    "course_name": "Beer Appreciation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 152",
+    "course_name": "Hotel Catering and Banquet Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 154",
+    "course_name": "Revenue Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 155",
+    "course_name": "Sustainable Hospitality and Tourism Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 161",
+    "course_name": "Cruise Operations and Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 168",
+    "course_name": "Gaming Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 177",
+    "course_name": "Hospitality Service Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HSPM 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&||INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "HSPM 184",
+    "course_name": "Directed Reading",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course may be repeated for credit for up to 4 units",
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "HSPM 191",
+    "course_name": "Hospitality, Tourism and Event Management Internship",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Course is repeatable for up to 4 units"
+    ]
+  },
+  {
+    "course_id": "HSPM 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "HUM 10",
+    "course_name": "Honors Global Oral and Rhetorical Cultures",
+    "units": 3,
+    "ge_areas": [
+      "1C"
+    ],
+    "prerequisites": [
+      [
+        "&&||COMPLETION_OF_GE_AREA_1A",
+        "CONCURRENT_REGISTRATION_IN_GE_AREA_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 11",
+    "course_name": "Honors Critical Thinking across Global Cultures",
+    "units": 3,
+    "ge_areas": [
+      "1B"
+    ],
+    "prerequisites": [
+      [
+        "&&GE_AREA_A2_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 20",
+    "course_name": "Honors Global Material Cultures",
+    "units": 3,
+    "ge_areas": [
+      "3A"
+    ],
+    "prerequisites": [
+      [
+        "&&||COMPLETION_OF_GE_AREA_1A",
+        "CONCURRENT_REGISTRATION_IN_GE_AREA_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 21",
+    "course_name": "Honors Reading Difference across Global Cultures",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||COMPLETION_OF_GE_AREA_1A",
+        "CONCURRENT_REGISTRATION_IN_GE_AREA_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 44HA",
+    "course_name": "Design Your Life, Design Your Semester, Design Your World",
+    "units": 3,
+    "grading": "ABC-/No Credit",
+    "notes": [
+      "High Impact Practice: First-Year Seminars and Experiences"
+    ]
+  },
+  {
+    "course_id": "HUM 80",
+    "course_name": "Reading the World",
+    "units": 3,
+    "ge_areas": [
+      "1B"
+    ],
+    "prerequisites": [
+      [
+        "&&GE_AREA_A1_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 90",
+    "course_name": "Bible History and Literature",
+    "units": 3,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with JWSS 90 / MDES 90 / RELS 90",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "HUM 95",
+    "course_name": "Introduction to Digital Humanities",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 99",
+    "course_name": "Death, Dying and Religions",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with GERO 99 / RELS 99",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 100W",
+    "course_name": "Writing in the Humanities & Interdisciplinary Arts",
+    "units": 3,
+    "ge_areas": [
+      "WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "||UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)",
+      "Cross-listed with AMS 100W / RELS 100W",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 101",
+    "course_name": "Introduction to Critical Humanities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 111",
+    "course_name": "Special Topics in Jewish Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with HIST 111 / JWSS 111 / RELS 111",
+      "History is responsible for scheduling",
+      "Repeatable for credit when topic changes"
+    ]
+  },
+  {
+    "course_id": "HUM 114",
+    "course_name": "Legacy of Asia",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ANTH 114 / ASIA 114 / RELS 114",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 119",
+    "course_name": "Myths, Heroes, and Global Cultures before 1500 CE",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 122",
+    "course_name": "Topics in Comparative World Literature",
+    "units": 4,
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with COLT 122 / ENGL 122 / FORL 122",
+      "English and Comparative Literature is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 126",
+    "course_name": "Holocaust Literature",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENGL 126 / FORL 126 / JWSS 126",
+      "English and Comparative Literature is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 128",
+    "course_name": "Global Humanities in the Modern Era",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "HUM 134",
+    "course_name": "Religion Film & Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CA 134 / RELS 134",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 141",
+    "course_name": "Medieval Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENGL 141",
+      "English and Comparative Literature is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 142",
+    "course_name": "Contemporary Buddhism and its Roots",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 142 / RELS 142",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 144",
+    "course_name": "Chinese Traditions",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ASIA 144 / RELS 144",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 148",
+    "course_name": "Children’s Dance",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with DANC 148",
+      "Film and Theatre is responsible for scheduling",
+      "Misc/Lab: Lecture 2 hours/activity 2 hours"
+    ]
+  },
+  {
+    "course_id": "HUM 159",
+    "course_name": "Nature and World Cultures",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AMS 159 / ENVS 159",
+      "Humanities is responsible for scheduling",
+      "Sustainability Focused - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "HUM 160",
+    "course_name": "Special Topics in Humanities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AMS 160",
+      "Humanities is responsible for scheduling",
+      "Repeatable for credit for up to 9 units"
+    ]
+  },
+  {
+    "course_id": "HUM 169",
+    "course_name": "The American Dream",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AMS 169",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 177A",
+    "course_name": "Advanced Honors in Integrated Science, Social Science, and Humanities",
+    "units": 6,
+    "ge_areas": [
+      "UD_AREA_2_5",
+      "UD_AREA_4",
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&ALL_COLLEGE_GPA_3_0",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Satisfies UD Area 2/5, 4, 3 with successful completion of HUM 177A/HUM 177B sequence",
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions",
+      "Lecture 3 hours/Seminar 3 hours"
+    ]
+  },
+  {
+    "course_id": "HUM 177B",
+    "course_name": "Advanced Honors in Integrated Science, Social Science, and Humanities",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5",
+      "UD_AREA_4",
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&HUM_177A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Satisfies UD Area 2/5, 4, 3 with successful completion of HUM 177A/HUM 177B sequence",
+      "Lecture 1.5 hours/Lecture 1.5 hours"
+    ]
+  },
+  {
+    "course_id": "HUM 179",
+    "course_name": "Issues in US Popular Culture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AMS 179",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "HUM 190",
+    "course_name": "Senior Seminar in Humanities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&ANY_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AMS 190 / RELS 190",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 191",
+    "course_name": "Religion in America",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with RELS 191",
+      "Humanities is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "HUM 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "ISDA 20A",
+    "course_name": "Query Languages",
+    "units": 1,
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken before junior year or before admission for transfer students"
+    ]
+  },
+  {
+    "course_id": "ISDA 20B",
+    "course_name": "Python Programming",
+    "units": 2,
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken before junior year or before admission for transfer students"
+    ]
+  },
+  {
+    "course_id": "ISDA 20C",
+    "course_name": "Web Development",
+    "units": 1,
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken before junior year or before admission for transfer students"
+    ]
+  },
+  {
+    "course_id": "ISDA 20D",
+    "course_name": "Computer Operating Systems",
+    "units": 1,
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken before junior year or before admission for transfer students"
+    ]
+  },
+  {
+    "course_id": "ISDA 80",
+    "course_name": "Introduction to Human-Centered Artificial Intelligence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&GE_AREA_A1_C_MINUS",
+        "GE_AREA_A3_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 81",
+    "course_name": "Ethics of AI",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 100",
+    "course_name": "Technical Writing for Information",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||LLD_100WB",
+        "COMM_100W",
+        "ENGL_100W",
+        "ENGL_100WB",
+        "ENGR_100W",
+        "MCOM_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 101",
+    "course_name": "Online Learning: Tools and Strategies for Success",
+    "units": 1,
+    "grading": "Credit/No Credit/RP",
+    "notes": [
+      "Must be taken before or in the first semester of junior year; if unsuccessful must be retaken next semester; if failed a second time, student will be dismissed from the program"
+    ]
+  },
+  {
+    "course_id": "ISDA 110",
+    "course_name": "Technology, Culture, and Society",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&ISDA_101"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken in first semester of junior year"
+    ]
+  },
+  {
+    "course_id": "ISDA 111",
+    "course_name": "Information and Data Science",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_20A",
+        "ISDA_20B",
+        "GE_AREA_2"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken in first semester of junior year",
+      "STAT 95 preferred for GE Area 2"
+    ]
+  },
+  {
+    "course_id": "ISDA 120",
+    "course_name": "Information Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_20C",
+        "ISDA_20D",
+        "ISDA_111"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 121",
+    "course_name": "Human Centered Cybersecurity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_20C",
+        "ISDA_20D"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 122",
+    "course_name": "Privacy, Security, Ethics",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&||ISDA_120",
+        "ISDA_121"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 123",
+    "course_name": "Information Assurance",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&ISDA_122"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 130",
+    "course_name": "User Centered Interface Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_20C",
+        "ISDA_20D",
+        "ISDA_111"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 131",
+    "course_name": "Information Architecture",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_130"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 140",
+    "course_name": "Big Data Analytics and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_111"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 141",
+    "course_name": "Information Visualization",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_140"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 150",
+    "course_name": "Topics in Information Science and Data Analytics",
+    "units": "||1-9",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for up to 9 units when content changes",
+      "Topics and prerequisites will vary by semester; may be taken a maximum of 3 times with different topics"
+    ]
+  },
+  {
+    "course_id": "ISDA 160",
+    "course_name": "User Experience (UX) Research and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISDA_130"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 170",
+    "course_name": "The Emerging Future: Technology Issues and Trends",
+    "units": 4,
+    "grading": "Letter Graded",
+    "notes": [
+      "Should be taken during last semester of study"
+    ]
+  },
+  {
+    "course_id": "ISDA 180",
+    "course_name": "Responsible Human-AI Interaction",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ISDA_20B",
+        "ISDA_111"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISDA 181",
+    "course_name": "AI and Knowledge Management",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "ISE 102",
+    "course_name": "Engineering Economic Systems",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&MATH_31",
+        "ENGR_10"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "ISE 103",
+    "course_name": "Life Cycle Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "ISE 105",
+    "course_name": "Introduction to Systems Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_31"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering"
+    ]
+  },
+  {
+    "course_id": "ISE 110",
+    "course_name": "Manufacturing Processes",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ME_20_C_MINUS"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&MATE_25"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ME 110",
+      "Mechanical Engineering is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "ISE 112",
+    "course_name": "Occupational Health Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 8: Decent Work and Economic Growth"
+    ]
+  },
+  {
+    "course_id": "ISE 114",
+    "course_name": "Safety Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 8: Decent Work and Economic Growth"
+    ]
+  },
+  {
+    "course_id": "ISE 115",
+    "course_name": "Lean Integrated Manufacturing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_120",
+        "||CMPE_30",
+        "EQUIVALENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours",
+      "Engineering majors only"
+    ]
+  },
+  {
+    "course_id": "ISE 120",
+    "course_name": "Work Methods Design and Measurement",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_32"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ISE_130"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/Lab 3",
+      "Allowed Declared Majors: Any Engineering"
+    ]
+  },
+  {
+    "course_id": "ISE 130",
+    "course_name": "Engineering Probability and Statistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_32"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering and graduate students"
+    ]
+  },
+  {
+    "course_id": "ISE 131",
+    "course_name": "Statistical Process Control and Improvement",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_130_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering"
+    ]
+  },
+  {
+    "course_id": "ISE 133",
+    "course_name": "Data Mining and Analysis for Industrial Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ISE_194",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 135",
+    "course_name": "Design of Experiments",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_130_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering"
+    ]
+  },
+  {
+    "course_id": "ISE 140",
+    "course_name": "Operations Planning and Control",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_102",
+        "ISE_120"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering and graduate students"
+    ]
+  },
+  {
+    "course_id": "ISE 142",
+    "course_name": "Service Systems Engineering and Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 151",
+    "course_name": "Engineering Management Systems in Global Society",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 155",
+    "course_name": "Supply Chain Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_140"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "ISE 160",
+    "course_name": "Healthcare Delivery Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 161",
+    "course_name": "Medical Errors Reduction and Patients Safety Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 162",
+    "course_name": "Engineering Statistics and Analysis",
+    "units": 2,
+    "prerequisites": [
+      [
+        "&&MATH_33A"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CHE 162",
+      "Chemical Engineering is responsible for scheduling",
+      "Lecture 1 hours/Lab 3 hours"
+    ]
+  },
+  {
+    "course_id": "ISE 164",
+    "course_name": "Computer and Human Interaction",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JUNIOR_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ISE 167",
+    "course_name": "System Simulation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CMPE_30",
+        "EQUIVALENT",
+        "ISE_130_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours",
+      "Allowed Declared Majors: Any Engineering and graduate students"
+    ]
+  },
+  {
+    "course_id": "ISE 170",
+    "course_name": "Operation Research",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_130_C_MINUS"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&MATH_33LA"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Allowed Declared Majors: Any Engineering"
+    ]
+  },
+  {
+    "course_id": "ISE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "Not available to Open University Students"
+    ]
+  },
+  {
+    "course_id": "ISE 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "ISE 194",
+    "course_name": "Analytics Workshop",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&CMPE_30",
+        "ISE_135",
+        "SENIOR_STANDING"
+      ]
+    ],
+    "grading": "Credit/No Credit",
+    "notes": [
+      "A service learning component of 10 hours for the semester is required"
+    ]
+  },
+  {
+    "course_id": "ISE 195A",
+    "course_name": "Senior Industrial Engineering Design I",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&ISE_105",
+        "ISE_120",
+        "ENGR_100W",
+        "MAJOR_FORM_ON_FILE",
+        "GOOD_STANDING_IN_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Misc/Lab: Lab 3 hours"
+    ]
+  },
+  {
+    "course_id": "ISE 195B",
+    "course_name": "Senior Industrial Engineering Design II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_140",
+        "ISE_195A_C"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Misc/Lab: Lab 9 hours",
+      "ISE majors only"
+    ]
+  },
+  {
+    "course_id": "ISE 198",
+    "course_name": "Decision Analytics and Intelligence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ISE_130",
+        "||ISE_194",
+        "EQUIVALENT_COURSE_WITH_PROGRAMMING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "ITAL 1A",
+    "course_name": "Elementary Italian",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ITAL 1B",
+    "course_name": "Elementary Italian",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "ITAL_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ITAL 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "ITAL 180",
+    "course_name": "Individual Studies in Italian",
+    "units": "||1-3",
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "ITAL 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "JOUR 50",
+    "course_name": "Navigating the News",
+    "units": 3,
+    "ge_areas": [
+      "4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 4: Quality Education"
+    ]
+  },
+  {
+    "course_id": "JOUR 61",
+    "course_name": "Writing for Print, Electronic and Online Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGL_1A",
+        "ENGL_2"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for the English and Spanish version",
+      "Writing for Spanish Media Topic: Suggested Spanish requirements include AP Spanish 4 or 5, and/or SPAN 1A and/or SPAN 1B"
+    ]
+  },
+  {
+    "course_id": "JOUR 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 95",
+    "course_name": "Beginning Digital News Photography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENGL_1AF_CR",
+        "WRITING_ENROLLMENT_CATEGORY_W_I",
+        "WRITING_ENROLLMENT_CATEGORY_W_II"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 130",
+    "course_name": "Student Media Apprentice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 132",
+    "course_name": "Magazine Reporting, Print and Online",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 133",
+    "course_name": "Editing and News Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||JOUR_61",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 136",
+    "course_name": "Newspaper and Magazine Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||JOUR_61",
+        "JOUR_133",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 137",
+    "course_name": "Reviewing the Arts",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 138",
+    "course_name": "Sports Journalism Investigation",
+    "units": 3,
+    "corequisites": [
+      [
+        "&&||JOUR_61",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 140A",
+    "course_name": "Student Media Production: Update News",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course is repeatable for up to 12 units of credit",
+      "Activity 6 hours"
+    ]
+  },
+  {
+    "course_id": "JOUR 140AS",
+    "course_name": "Student Media Production in Spanish",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "May be repeated for up to 6 units of credit for a major and an additional 3 units can be counted for a minor",
+      "High Impact Practice: Collaborative Assignment/Project"
+    ]
+  },
+  {
+    "course_id": "JOUR 140B",
+    "course_name": "Student Media Production: Spartan Daily",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for up to 12 units of credit"
+    ]
+  },
+  {
+    "course_id": "JOUR 140C",
+    "course_name": "Student Media Production: The Spear",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for up to 12 units of credit"
+    ]
+  },
+  {
+    "course_id": "JOUR 140D",
+    "course_name": "Student Media Production: Magazine",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61",
+        "JOUR_132"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for up to 12 units of credit",
+      "Activity 6 hrs"
+    ]
+  },
+  {
+    "course_id": "JOUR 150",
+    "course_name": "News Media Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&JOUR_61",
+        "||JOUR_140A",
+        "JOUR_140B",
+        "JOUR_140C",
+        "JOUR_140D"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ]
+  },
+  {
+    "course_id": "JOUR 160",
+    "course_name": "Environmental Journalism",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_2_5"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 13: Climate Action and SDG 16: Peace, Justice, and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "JOUR 176A",
+    "course_name": "Documentary Unit I - Short Form Feature Production",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "JOUR 176B",
+    "course_name": "Documentary Unit II - Long Form/Series Production",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JOUR 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "JPN 1A",
+    "course_name": "Elementary Japanese",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 1B",
+    "course_name": "Elementary Japanese",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "JPN_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 25A",
+    "course_name": "Intermediate Japanese",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||ONE_YEAR_COLLEGE_JAPANESE",
+        "EQUIVALENT_JPN_1A_1B",
+        "SJSU_PLACEMENT_EXAM"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 25B",
+    "course_name": "Intermediate Japanese",
+    "units": 4,
+    "ge_areas": [
+      "3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||THREE_SEMESTERS_COLLEGE_JAPANESE",
+        "EQUIVALENT_JPN_25A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "JPN 101A",
+    "course_name": "Advanced Japanese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_JAPANESE",
+        "EQUIVALENT_JPN_101A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 101B",
+    "course_name": "Advanced Japanese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_JAPANESE",
+        "EQUIVALENT_JPN_101B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 101C",
+    "course_name": "Advanced Conversational Japanese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&JPN_25B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 102A",
+    "course_name": "Japanese Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&JPN_25B"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Course is repeatable for up to 8 units"
+    ]
+  },
+  {
+    "course_id": "JPN 102B",
+    "course_name": "Local and Minority Cultures in Japan",
+    "units": 3,
+    "ge_areas": [
+      "UD_AREA_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Repeatable for credit when topic changes",
+      "Course may be repeated for credit for up to 6 units"
+    ]
+  },
+  {
+    "course_id": "JPN 103",
+    "course_name": "Japanese Ideography and Calligraphy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_103"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 105",
+    "course_name": "Media Japanese",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_105"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 107",
+    "course_name": "Japanese for Business Professionals",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_107"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 110",
+    "course_name": "Japanese Linguistics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_110"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 120",
+    "course_name": "Japanese Literature and Translation",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_120"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 130",
+    "course_name": "Readings in Japanese Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_130"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 135",
+    "course_name": "Japanese Culture and Society in Films",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&JPN_101B"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&JPN_101B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 140",
+    "course_name": "Japanese Drama and Lyrics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_140"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 150",
+    "course_name": "Japanese Narratives and Life stories",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||JPN_101C",
+        "EQUIVALENT_JPN_150"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 160",
+    "course_name": "Special Topics in Japanese Studies",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Course may be repeated for credit for up to 9 units"
+    ]
+  },
+  {
+    "course_id": "JPN 170",
+    "course_name": "Japanese Language Proficiency Test (JLPT) Preparation",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&JPN_101A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "JPN 180",
+    "course_name": "Individual Studies in Japanese",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&ELEVEN_UNITS_UPPER_DIVISION_JAPANESE_B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "JPN 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14",
+    "grading": "Mixed Grading"
   }
+
 
 
 ]
