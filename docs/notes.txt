@@ -759,6 +759,420 @@ PREREQUISITES:
     - EQUIVALENT_JPN_150 --> student has completed an equivalent to JPN 150
     - JPN_101A --> student has completed JPN 101A
     - ELEVEN_UNITS_UPPER_DIVISION_JAPANESE_B --> student has completed 11 units of upper division Japanese with a grade of B or better
+    - HEBR_1A --> student has completed HEBR 1A
+    - EQUIVALENT_HEBR_1A --> student has completed an equivalent to HEBR 1A
+    - HEBR_1B --> student has completed HEBR 1B
+    - EQUIVALENT_HEBR_1A_1B --> student has completed an equivalent to HEBR 1A and HEBR 1B
+    - FOUR_SEMESTERS_COLLEGE_HEBREW --> student has completed four semesters of college-level Hebrew
+    - EQUIVALENT_HEBR_15A_15B --> student has completed an equivalent to HEBR 15A and HEBR 15B
+    - TWELVE_UNITS_COLLEGE_HEBREW --> student has completed 12 units of college-level Hebrew
+    - EQUIVALENT_HEBR_102A --> student has completed an equivalent to HEBR 102A
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PROGRAM_COORDINATOR_CONSENT --> student has obtained program coordinator consent
+    - BEGINNING_SWIMMING_EQUIVALENT --> student has completed beginning swimming or its equivalent
+    - INTERMEDIATE_SWIMMING_EQUIVALENT --> student has completed intermediate swimming or its equivalent
+    - BEGINNING_SWIMMING_PROFICIENCY --> student has beginning level swimming proficiency
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SWIM_100_YARDS --> student can swim 100 yards without stopping
+    - TREAD_WATER_5_MINUTES --> student can tread water for 5 minutes
+    - EXIT_OVERTURNED_DINGHY --> student can exit from an overturned dinghy
+    - EXIT_OVERTURNED_KAYAK --> student can exit from an overturned kayak
+    - DON_LIFEJACKET_IN_WATER --> student can don a lifejacket in the water
+    - BEGINNING_VOLLEYBALL_EQUIVALENT --> student has completed beginning volleyball or its equivalent
+    - INTERMEDIATE_VOLLEYBALL_EQUIVALENT --> student has completed intermediate volleyball or its equivalent
+    - BEGINNING_BASKETBALL_EQUIVALENT --> student has completed beginning basketball or its equivalent
+    - BEGINNING_HANDBALL_EQUIVALENT --> student has completed beginning handball or its equivalent
+    - BEGINNING_FLAG_FOOTBALL_EQUIVALENT --> student has completed beginning flag football or its equivalent
+    - BEGINNING_RACQUETBALL_EQUIVALENT --> student has completed beginning racquetball or its equivalent
+    - BEGINNING_ARCHERY_EQUIVALENT --> student has completed beginning archery or its equivalent
+    - BEGINNING_BOWLING_EQUIVALENT --> student has completed beginning bowling or its equivalent
+    - BEGINNING_TENNIS_EQUIVALENT --> student has completed beginning tennis or its equivalent
+    - KIN_19A --> student has completed KIN 19A
+    - EQUIVALENT_SOCCER --> student has equivalent soccer skills
+    - BEGINNING_BADMINTON_EQUIVALENT --> student has completed beginning badminton or its equivalent
+    - INTERMEDIATE_BADMINTON_EQUIVALENT --> student has completed intermediate badminton or its equivalent
+    - BEGINNING_WEIGHT_TRAINING_EQUIVALENT --> student has completed beginning weight training or its equivalent
+    - KIN_32 --> student has completed KIN 32
+    - KIN_34 --> student has completed KIN 34
+    - KIN_25A --> student has completed KIN 25A
+    - EQUIVALENT_GOLF --> student has equivalent golf skills
+    - KIN_27A --> student has completed KIN 27A
+    - EQUIVALENT_TABLE_TENNIS --> student has equivalent table tennis skills
+    - NAUI_SCUBA_CERTIFICATION --> student has NAUI SCUBA certification
+    - EQUIVALENT_SCUBA --> student has equivalent SCUBA certification
+    - EQUIVALENT_AIKIDO --> student has equivalent Aikido skills
+    - KIN_52A --> student has completed KIN 52A
+    - EQUIVALENT_JUDO --> student has equivalent Judo skills
+    - KIN_53A --> student has completed KIN 53A
+    - EQUIVALENT_KARATE --> student has equivalent Karate skills
+    - KIN_54A --> student has completed KIN 54A
+    - EQUIVALENT_TAE_KWON_DO --> student has equivalent Tae Kwon Do skills
+    - BEGINNING_HATHA_YOGA_EQUIVALENT --> student has completed beginning Hatha Yoga or its equivalent
+    - KIN_70 --> student has completed KIN 70
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - GPA_2_0 --> student has an overall GPA of 2.0
+    - KIN_156 --> student has completed KIN 156
+    - SWIM_100_YARDS --> student can swim 100 yards without stopping
+    - KIN_165 --> student has completed KIN 165
+    - KIN_173 --> student has completed KIN 173
+    - KIN_158 --> student has completed KIN 158
+    - KIN_166 --> student has completed KIN 166
+    - KIN_178 --> student has completed KIN 178
+    - KIN_152 --> student has completed KIN 152
+    - BIOL_66_C_MINUS --> student has completed BIOL 66 with a grade of C- or better
+    - CHEM_30A_C_MINUS --> student has completed CHEM 30A with a grade of C- or better
+    - GE_MATH_CONCEPT --> student has completed an approved GE Math Concept course
+    - BIOL_65_C_MINUS --> student has completed BIOL 65 with a grade of C- or better
+    - PSYC_1 --> student has completed PSYC 1
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - KIN_155 --> student has completed KIN 155
+    - KIN_191A --> student has completed KIN 191A
+    - KIN_191B --> student has completed KIN 191B
+    - KIN_197A --> student has completed KIN 197A
+    - KIN_195 --> student has completed KIN 195
+    - KIN_197B --> student has completed KIN 197B
+    - KIN_197C --> student has completed KIN 197C
+    - UPPER_DIVISION_STATUS --> student has upper division status
+    - DEPARTMENT_CHAIR_CONSENT --> student has obtained department chair consent
+    - KIN_198 --> student has completed KIN 198
+    - KIN_179 --> student has completed KIN 179
+    - KIN_188 --> student has completed KIN 188
+    - EQUIVALENT_WEIGHT_TRAINING --> student has equivalent weight training skills
+    - EQUIVALENT_ADVANCED_BADMINTON --> student has equivalent advanced badminton skills
+    - BEGINNING_LEVEL_EQUIVALENT --> student has completed beginning level or its equivalent
+    - INTERMEDIATE_LEVEL_EQUIVALENT --> student has completed intermediate level or its equivalent
+    - EQUIVALENT_SWIMMING --> student has equivalent swimming skills
+    - EQUIVALENT_AIKIDO --> student has equivalent Aikido skills
+    - EQUIVALENT_JUDO --> student has equivalent Judo skills
+    - EQUIVALENT_KARATE --> student has equivalent Karate skills
+    - EQUIVALENT_TAE_KWON_DO --> student has equivalent Tae Kwon Do skills
+    - KIN_MAJOR_MINOR --> student is a KIN major or minor
+    - LOWER_DIVISION_SOCIAL_SCIENCE_GE --> student has completed lower division social science core GE
+    - KIN_157 --> student has completed KIN 157
+    - KIN_162 --> student has completed KIN 162
+    - KIN_164 --> student has completed KIN 164
+    - JOINT_APPROVAL_MAJOR_EDUCATION --> student has joint approval of major and Education departments
+    - KIN_107 --> student has completed KIN 107
+    - KIN_108 --> student has completed KIN 108
+    - KIN_156 --> student has completed KIN 156
+    - KIN_159 --> student has completed KIN 159
+    - KIN_174 --> student has completed KIN 174
+    - APEAA_CANDIDATE --> student is an Adapted physical education added authorization (APEAA) candidate
+    - UPPER_DIVISION_STANDING_LATIN --> student has upper division standing in Latin
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - ENGL_2 --> student has completed ENGL 2
+    - BUSINESS_ADMIN_MAJOR --> student is a declared Business Administration major
+    - ENGINEERING_TECH_MAJOR --> student is a declared Engineering Technology major
+    - PUBLIC_RELATIONS_MAJOR --> student is a declared Public Relations major
+    - ORGANIZATIONAL_STUDIES_MAJOR --> student is a declared Organizational Studies major
+    - INFO_SCIENCE_DATA_ANALYTICS_MAJOR --> student is a declared Information Science and Data Analytics major
+    - LSTP_85 --> student has completed LSTP 85
+    - LSTP_85ABC --> student has completed LSTP 85ABC
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - CHEM_1A_C_MINUS --> student has completed CHEM 1A with a grade of C- or better
+    - PHYS_50_C_MINUS --> student has completed PHYS 50 with a grade of C- or better
+    - MATH_31_C_MINUS --> student has completed MATH 31 with a grade of C- or better
+    - ANY_ENGINEERING_MAJOR --> student is a declared major in any engineering discipline
+    - PHYS_51_C_MINUS --> student has completed PHYS 51 with a grade of C- or better
+    - MATH_33A_C_MINUS --> student has completed MATH 33A with a grade of C- or better
+    - CHEM_1B_C_MINUS --> student has completed CHEM 1B with a grade of C- or better
+    - MATE_25_C_MINUS --> student has completed MATE 25 with a grade of C- or better
+    - ENGR_10 --> student has completed ENGR 10
+    - MATE_153_C_MINUS --> student has completed MATE 153 with a grade of C- or better
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - MATE_25_C --> student has completed MATE 25 with a grade of C or better
+    - INTRO_CHEM_PHYS_MATE --> student has completed an introductory course in chemistry, physics or materials engineering
+    - MATE_141 --> student has completed MATE 141
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - MATE_115_C_MINUS --> student has completed MATE 115 with a grade of C- or better
+    - MATE_153 --> student has completed MATE 153
+    - JUNIOR_CORE_C_MINUS --> student has completed Junior Core with a grade of C- or better
+    - ENGR_100W --> student has completed ENGR 100W
+    - CHE_162_C_MINUS --> student has completed CHE 162 with a grade of C- or better
+    - ENGR_10_C_MINUS --> student has completed ENGR 10 with a grade of C- or better
+    - CE_99_C_MINUS --> student has completed CE 99 with a grade of C- or better
+    - MATE_141_C_MINUS --> student has completed MATE 141 with a grade of C- or better
+    - MATE_151_C_MINUS --> student has completed MATE 151 with a grade of C- or better
+    - EE_98_C_MINUS --> student has completed EE 98 with a grade of C- or better
+    - ENGR_195A --> student has completed or is enrolled in ENGR 195A
+    - MATE_195 --> student has completed MATE 195
+    - CHE_161 --> student has completed CHE 161
+    - MATE_198A_C --> student has completed MATE 198A with a grade of C or better
+    - ENGR_195B --> student has completed or is enrolled in ENGR 195B
+    - GPA_2_0 --> student has a GPA of 2.0 average
+    - MAJOR_FORM_ON_FILE --> student has major form on file with department
+    - MATH_ENROLLMENT_CATEGORY_M_I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_CATEGORY_M_II --> student is in Math Enrollment Category M-II
+    - MATH_1_C_MINUS --> student has completed MATH 1 with a grade of C- or better
+    - MATH_1010AS --> student is enrolled in MATH 1010AS
+    - MATH_ENROLLMENT_CATEGORY_M_III --> student is in Math Enrollment Category M-III
+    - MATH_ENROLLMENT_CATEGORY_M_IV --> student is in Math Enrollment Category M-IV
+    - MATH_1010DS --> student is enrolled in MATH 1010DS
+    - MATH_1010PS --> student is enrolled in MATH 1010PS
+    - LIBERAL_STUDIES_TEACHING_MAJOR --> student is a Liberal Studies (Preparation for Teaching) major
+    - CHILD_ADOLESCENT_DEV_TEACHING_MAJOR --> student is a Child and Adolescent Development (Preparation for Teaching) major
+    - ENV_STUDIES_TEACHING_MAJOR --> student is an Environmental Studies (Preparation for Teaching) major
+    - MATH_1012S --> student is enrolled in MATH 1012S
+    - MATH_1018AS --> student is enrolled in MATH 1018AS
+    - MATH_018AW --> student is enrolled in MATH 018AW
+    - MATH_18A_C_MINUS --> student has completed MATH 18A with a grade of C- or better
+    - MATH_18B_C_MINUS --> student has completed MATH 18B with a grade of C- or better
+    - MATH_1019S --> student is enrolled in MATH 1019S
+    - PRECALCULUS_PROFICIENCY_ASSESSMENT_SATISFACTORY --> student has a satisfactory score on the Precalculus Proficiency Assessment
+    - AP_CALCULUS_AB_3_5 --> student has AP Calculus AB score 3 to 5
+    - AP_CALCULUS_BC_3_5 --> student has AP Calculus BC score 3 to 5
+    - MATH_19_C_MINUS --> student has completed MATH 19 with a grade of C- or better
+    - AP_CALCULUS_AB_3 --> student has AP Calculus AB score of 3
+    - AP_CALCULUS_BC_3 --> student has AP Calculus BC score of 3
+    - MATH_19_B_MINUS --> student has completed MATH 19 with a grade of B- or lower
+    - MATH_18A_B_MINUS --> student has completed MATH 18A with a grade of B- or lower
+    - MATH_18B_B_MINUS --> student has completed MATH 18B with a grade of B- or lower
+    - REPEATING_MATH_30 --> student is repeating MATH 30
+    - AP_CALCULUS_BC_AB_SUBSCORE_3_5 --> student has AP Calculus BC/AB Subscore 3-5
+    - MATH_30_C_MINUS --> student has completed MATH 30 with a grade of C- or better
+    - AP_CALCULUS_BC_4_5 --> student has AP Calculus BC score of 4 to 5
+    - MATH_31_B --> student has completed MATH 31 with a grade of B or better
+    - AP_CALCULUS_BC_3 --> student has AP Calculus BC score of 3
+    - MATH_31_B_MINUS --> student has completed MATH 31 with a grade of B- or lower
+    - REPEATING_MATH_31 --> student is repeating MATH 31
+    - REPEATING_MATH_32 --> student is repeating MATH 32
+    - MATH_32_C_MINUS --> student has completed MATH 32 with a grade of C- or better
+    - MATH_32H_C_MINUS --> student has completed MATH 32H with a grade of C- or better
+    - MATH_31_C_MINUS --> student has completed MATH 31 with a grade of C- or better
+    - MATH_42_C_MINUS --> student has completed MATH 42 with a grade of C- or better
+    - MATH_42X_C_MINUS --> student has completed MATH 42X with a grade of C- or better
+    - MATH_39_C_MINUS --> student has completed MATH 39 with a grade of C- or better
+    - CS_22A_C_MINUS --> student has completed CS 22A with a grade of C- or better
+    - MATH_50_C_MINUS --> student has completed MATH 50 with a grade of C- or better
+    - CS_46A_C_MINUS --> student has completed CS 46A with a grade of C- or better
+    - CS_49C_C_MINUS --> student has completed CS 49C with a grade of C- or better
+    - CS_49J_C_MINUS --> student has completed CS 49J with a grade of C- or better
+    - MATH_33A_C_MINUS --> student has completed MATH 33A with a grade of C- or better
+    - MATH_33LA_C_MINUS --> student has completed MATH 33LA with a grade of C- or better
+    - MATH_34_C_MINUS --> student has completed MATH 34 with a grade of C- or better
+    - MATH_112_C_MINUS --> student has completed MATH 112 with a grade of C- or better
+    - MATH_132_C_MINUS --> student has completed MATH 132 with a grade of C- or better
+    - MATH_108_C_MINUS --> student has completed MATH 108 with a grade of C- or better
+    - MATH_128A_C_MINUS --> student has completed MATH 128A
+    - NOT_REPEATABLE_EQUIVALENT --> student has not taken an equivalent course elsewhere
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - PUBLIC_RELATIONS_MAJOR --> student is a declared Public Relations major
+    - JOURNALISM_MAJOR --> student is a declared Journalism major
+    - ADVERTISING_MAJOR --> student is a declared Advertising major
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - NINE_UNITS_MAJOR_COURSEWORK --> student has completed at least 9 units of major course work in the department
+    - JOUR_61 --> student has completed JOUR 61
+    - MCOM_63 --> student has completed MCOM 63
+    - MCOM_100W --> student has completed MCOM 100W
+    - PR_99 --> student has completed PR 99
+    - PR_190 --> student has completed PR 190
+    - PR_192 --> student has completed PR 192
+    - PR_191 --> student has completed PR 191
+    - ADV_91 --> student has completed ADV 91
+    - MCOM_199A --> student has completed MCOM 199A
+    - SJSU_UPPER_DIV_UNDERGRAD_GRAD --> student is SJSU upper division undergraduate or graduate student
+    - ARTH_70A --> student has completed ARTH 70A
+    - RELIGIOUS_STUDIES_UPPER_DIV_MAJOR_MINOR --> student is a Religious studies upper-division major or minor
+    - COORDINATOR_CONSENT --> student has coordinator consent
+    - ENGR_10 --> student has completed ENGR 10
+    - ME_20_C_MINUS --> student has completed ME 20 with a grade of C- or better
+    - MATE_25 --> student has completed MATE 25
+    - TECH_20 --> student has completed TECH 20
+    - CE_20 --> student has completed CE 20
+    - EQUIVALENT --> student has completed an equivalent course
+    - ME_41_C_MINUS --> student has completed ME 41 with a grade of C- or better
+    - TECH_41_C_MINUS --> student has completed TECH 41 with a grade of C- or better
+    - ENGL_1B --> student has completed ENGL 1B
+    - SECOND_SEMESTER_COMPOSITION --> student has completed second semester composition course
+    - CE_95_C_MINUS --> student has completed CE 95 with a grade of C- or better
+    - CE_99_C_MINUS --> student has completed CE 99 with a grade of C- or better
+    - MATH_32_C_MINUS --> student has completed MATH 32 with a grade of C- or better
+    - MATH_32_B --> student has completed MATH 32 with a grade of B or better
+    - CE_95_B --> student has completed CE 95 with a grade of B or better
+    - CE_99_B --> student has completed CE 99 with a grade of B or better
+    - EE_98 --> student has completed EE 98
+    - CMPE_30 --> student has completed CMPE 30
+    - EE_98_C_MINUS --> student has completed EE 98 with a grade of C- or better
+    - ME_30_C_MINUS --> student has completed ME 30 with a grade of C- or better
+    - CS_49C_C_MINUS --> student has completed CS 49C with a grade of C- or better
+    - EE_30_C_MINUS --> student has completed EE 30
+    - METR_10 --> student has completed METR 10
+    - METR_50 --> student has completed METR 50
+    - METR_60 --> student has completed METR 60
+    - METR_51 --> student has completed METR 51
+    - METR_61 --> student has completed METR 61
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - METR_121A --> student has completed METR 121A
+    - METR_135 --> student has completed METR 135
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - METR_121B --> student has completed METR 121B
+    - METR_100W --> student has completed METR 100W
+    - METR_171A --> student has completed METR 171A
+    - METR_171B --> student has completed METR 171B
+    - MATH_33A --> student has completed MATH 33A
+    - PHYS_2B --> student has completed PHYS 2B
+    - CHEM_1A --> student has completed CHEM 1A
+    - STAT_95 --> student has completed STAT 95
+    - METR_12 --> student has completed METR 12
+    - METR_112 --> student has completed METR 112
+    - COMM_168A_C_MINUS --> student has completed COMM 168A with a grade of C- or better
+    - ENVS_168A_C_MINUS --> student has completed ENVS 168A with a grade of C- or better
+    - METR_168A_C_MINUS --> student has completed METR 168A
+    - CHEM_1B --> student has completed CHEM 1B
+    - CHEM_30A_C --> student has completed CHEM 30A with a grade of C or better
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - BIOL_30_C_MINUS --> student has completed BIOL 30 with a grade of C- or better
+    - BIOL_31_C_MINUS --> student has completed BIOL 31 with a grade of C- or better
+    - BIOLOGY_MAJOR --> student is a declared Biology major
+    - CHEM_8_C --> student has completed CHEM 8 with a grade of C or better
+    - CHEM_112A_C --> student has completed CHEM 112A with a grade of C or better
+    - CHEM_08_C --> student has completed CHEM 08 with a grade of C or better
+    - MICR_101_C --> student has completed MICR 101 with a grade of C or better
+    - BIOL_107_C --> student has completed BIOL 107 with a grade of C or better
+    - CHEM_135_C --> student has completed CHEM 135 with a grade of C or better
+    - MICR_166_C --> student has completed MICR 166 with a grade of C or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - BIOL_100W --> student has completed BIOL 100W
+    - BIOL_107L_C --> student has completed BIOL 107L with a grade of C or better
+    - MICR_141_C --> student has completed MICR 141 with a grade of C or better
+    - CHEM_112A --> student has completed CHEM 112A
+    - CHEM_8 --> student has completed CHEM 8
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - MILITARY_SCIENCE_CHAIR_APPROVAL --> student has obtained Military Science Chair approval
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - ECOLOGY --> student has completed ecology course
+    - STATISTICS --> student has completed statistics course
+    - CONCURRENT_MS_104 --> student is concurrently registered in MS 104
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SCUBA_DIVER_CERTIFIED --> student is a certified SCUBA diver
+    - UPPER_DIVISION_SCIENCE_MAJOR --> student has upper division science major status
+    - PHYSICAL_EXAM --> student has a thorough physical examination
+    - SWIMMING_TEST --> student can pass swimming test
+    - UPPER_DIVISION_VERTEBRATE_ZOOLOGY --> student has completed upper division college vertebrate zoology
+    - COLLEGE_ZOOLOGY --> student has completed college zoology or equivalent
+    - MS_103 --> student has completed MS 103
+    - MS_131 --> student has completed MS 131
+    - MS_144 --> student has completed MS 144
+    - COLLEGE_ALGEBRA --> student has completed college algebra
+    - COLLEGE_PHYSICS --> student has completed college physics
+    - ONE_YEAR_COLLEGE_CHEMISTRY --> student has completed one year of college chemistry
+    - GENERAL_BIOLOGY --> student has completed general biology
+    - GENERAL_CHEMISTRY --> student has completed general chemistry
+    - EDSC_184X --> student has completed EDSC 184X
+    - GOOD_STANDING_SECONDARY_ED_CREDENTIAL --> student is in good standing in the Secondary Education Credential program
+    - MTED_184Y --> student is enrolled in MTED 184Y
+    - MTED_184Z --> student is enrolled in MTED 184Z
+    - MTED_394 --> student has completed MTED 394
+    - JOINT_APPROVAL_MATHEMATICS_EDUCATION --> student has joint approval of Mathematics and Education departments
+    - JOINT_APPROVAL_MATHEMATICS_TEACHER_ED --> student has joint approval of Mathematics and Teacher Education departments
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SOPHOMORE_STANDING --> student has sophomore standing
+    - MUED_140 --> student has completed MUED 140
+    - MUED_170 --> student has completed MUED 170
+    - MUED_147A --> student has completed MUED 147A
+    - MUED_147B --> student has completed MUED 147B
+    - JOINT_APPROVAL_MAJOR_EDUCATION --> student has joint approval of major and education departments
+    - PLACEMENT_EXAMINATION: Placement examination
+    - MUSC_9_WITH_C_MINUS_OR_BETTER --> completion of MUSC 9 with a grade of ‘C-’ or better
+    - MUSC_1A --> MUSC 1A
+    - MUSC_1B --> MUSC 1B
+    - MUSC_2A --> MUSC 2A
+    - MUSC_2B --> MUSC 2B
+    - MUSC_3A --> MUSC 3A
+    - MUSC_3B --> MUSC 3B
+    - MUSC_4A --> MUSC 4A
+    - MUSC_4B --> MUSC 4B
+    - GE_AREA_3A --> Satisfies 3A. Arts (Formerly Area C1)
+    - SUCCESSFUL_AUDITION_INTO_THE_APPLIED_AREA --> Successful audition into the applied area
+    - APPROVAL_BY_THE_MUSIC_EDUCATION_COORDINATOR --> Approval by the Music Education Coordinator
+    - GE_AREA_3B --> Satisfies 3B. Humanities (Formerly Area C2)
+    - MUSC_9 --> MUSC 9
+    - MUSC_10B --> MUSC 10B
+    - MUSC_26A --> MUSC 26A
+    - MUSC_27A --> MUSC 27A
+    - MUSC_27B --> MUSC 27B
+    - MUSC_29A --> MUSC 29A
+    - MUSC_29B --> MUSC 29B
+    - MUSC_29C --> MUSC 29C
+    - MUSC_29D --> MUSC 29D
+    - MUSC_30D --> MUSC 30D
+    - MUSC_33D --> MUSC 33D
+    - MUSC_34D --> MUSC 34D
+    - MUSC_35D --> MUSC 35D
+    - MUSC_36D --> MUSC 36D
+    - MUSC_37D --> MUSC 37D
+    - MUSC_38E --> MUSC 38E
+    - MUSC_39D --> MUSC 39D
+    - MUSC_40A --> MUSC 40A
+    - INSTRUCTOR_CONSENT --> instructor consent
+    - MUSC_50A --> MUSC 50A
+    - MUSC_51A --> MUSC 51A
+    - MUSC_52 --> MUSC 52
+    - MUSC_53 --> MUSC 53
+    - MUSC_54 --> MUSC 54
+    - MUSC_55 --> MUSC 55
+    - MUSC_56 --> MUSC 56
+    - MUSC_57 --> MUSC 57
+    - MUSC_59 --> MUSC 59
+    - MUSC_60A --> MUSC 60A
+    - MUSC_60D --> MUSC 60D
+    - MUSC_60E --> MUSC 60E
+    - MUSC_60H --> MUSC 60H
+    - MUSC_60J --> MUSC 60J
+    - MUSC_60K --> MUSC 60K
+    - MUSC_60L --> MUSC 60L
+    - MUSC_60M --> MUSC 60M
+    - MUSC_60O --> MUSC 60O
+    - MUSC_61 --> MUSC 61
+    - MUSC_64 --> MUSC 64
+    - JUNIOR_STANDING --> junior standing
+    - SENIOR_STANDING --> senior standing
+    - GRADUATE_STANDING --> graduate standing
+    - UPPER_DIVISION_MUSIC_MAJOR --> upper division music major
+    - UPPER_DIVISION_STANDING --> upper division standing
+    - INSTRUCTOR_AND_DIRECTOR_CONSENT --> instructor and director consent
+    - MUSC_190A --> MUSC 190A
+    - MUSC_190B --> MUSC 190B
+    - PLACEMENT_EXAMINATION --> Placement examination
+    - LOWER_DIVISION_CALCULUS_CHEMISTRY_PHYSICS: Lower division calculus, chemistry and physics.
+    - NUCS_121S_WITH_C_OR_BETTER: NUCS 121S with a grade of “C” or better
+    - CHEM_100W_WITH_C_OR_BETTER: CHEM 100W with a grade of “C” or better
+    - CHEM_126_WITH_C_OR_BETTER: CHEM 126 with a grade of “C” or better
+    - CHEM_1A_C --> student has completed CHEM 1A with a grade of C or better
+    - CHEM_30A_C --> student has completed CHEM 30A with a grade of C or better
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - FOOD_PREPARATION_COURSE --> student has completed college basic food preparation course
+    - COLLEGE_NUTRITION_COURSE --> student has completed one college nutrition course
+    - NUFS_8_C --> student has completed NUFS 8 with a grade of C or better
+    - CHALLENGE_EXAM_PASS --> student has passed a challenge exam
+    - NUFS_100W --> student has completed NUFS 100W
+    - PH_100W --> student has completed PH 100W
+    - NUFS_31 --> student has completed NUFS 31
+    - NUFS_106A_C_MINUS --> student has completed NUFS 106A with a grade of C- or better
+    - BIOL_66_C_MINUS --> student has completed BIOL 66
 
 
 
