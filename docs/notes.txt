@@ -1173,6 +1173,252 @@ PREREQUISITES:
     - NUFS_31 --> student has completed NUFS 31
     - NUFS_106A_C_MINUS --> student has completed NUFS 106A with a grade of C- or better
     - BIOL_66_C_MINUS --> student has completed BIOL 66
+    - NURSING_PROGRAM_ADMISSION --> student has admission to Nursing program
+    - NURS_13B --> student has completed NURS 13B
+    - NURS_100WE --> student has completed NURS 100WE
+    - NURS_20B --> student has completed NURS 20B
+    - NURS_123B --> student has completed NURS 123B
+    - NURS_164B --> student has completed NURS 164B
+    - NURS_165B --> student has completed NURS 165B
+    - NURS_167B --> student has completed NURS 167B
+    - NURS_168B --> student has completed NURS 168B
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course
+    - BIOL_65 --> student has completed BIOL 65
+    - BIOL_65O --> student has completed BIOL 65O
+    - BIOL_66 --> student has completed BIOL 66
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - ORGS_101 --> student has completed ORGS 101
+    - ORGS_102 --> student has completed ORGS 102
+    - INSTRUCTOR_PERMISSION --> student has instructor permission
+    - MATH_ENROLLMENT_CATEGORY_M_I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_CATEGORY_M_II --> student is in Math Enrollment Category M-II
+    - POST_BAC_GRADUATE --> student is post baccalaureate or graduate
+    - MATH_ENROLLMENT_CATEGORY_M_III --> student is in Math Enrollment Category M-III
+    - MATH_ENROLLMENT_CATEGORY_M_IV --> student is in Math Enrollment Category M-IV
+    - PHIL_9W --> student is enrolled in PHIL 9W
+    - GE_AREA_A2_C_MINUS --> student has completed GE Area A2 with a grade of C- or better
+    - PHILOSOPHY_3_UNITS --> student has completed 3 units of philosophy
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - PHIL_9 --> student has completed PHIL 9
+    - PHIL_57 --> student has completed PHIL 57
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PHIL_70A --> student has completed PHIL 70A
+    - PHIL_70B --> student has completed PHIL 70B
+    - PHILOSOPHY_UPPER_DIVISION_6_UNITS --> student has completed 6 units of upper division philosophy
+    - DEPARTMENT_CHAIR_CONSENT --> student has department chair consent
+    - QUALIFIED_UPPER_DIVISION --> student is a qualified upper division student
+    - PHOT_40 --> student has completed PHOT 40
+    - PHOT_110 --> student has completed PHOT 110
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PHOT_112 --> student has completed PHOT 112
+    - PHOT_113 --> student has completed PHOT 113
+    - PHOT_115 --> student has completed PHOT 115
+    - ARTH_70B --> student has completed ARTH 70B
+    - PHOT_120 --> student has completed PHOT 120
+    - PHOT_121 --> student has completed PHOT 121
+    - UPPER_DIVISION_PHOTOGRAPHY_TWO_COURSES --> student has completed two additional upper division photography courses
+    - UPPER_DIVISION_PHOTOGRAPHY_15_UNITS --> student has completed 15 units of upper division courses in PHOT
+    - NOT_ALLOWED_ENG_CHEM_GEOL_METR_PHYS_EARTH_SCI_MAJOR --> student is not a declared major in Engineering, Chemistry, Geology, Meteorology, Physics, or Earth Science
+    - ALGEBRA --> student has completed algebra
+    - DEPARTMENT_PERMISSION_NOT_REQUIRED_MAJOR --> student has department permission if course not required for major
+    - MATH_19 --> student has completed MATH 19
+    - PRE_CALC_PLACEMENT_TEST --> student has passed pre-calc placement test
+    - WRITING_ENROLLMENT_CATEGORY_I_II_III --> student is in Writing Enrollment Category I / II / III
+    - GE_AREA_A2_C_MINUS --> student has completed GE Area A2 with a grade of C- or better
+    - ENGL_1AF_CR --> student has completed ENGL 1AF with a grade of CR
+    - AP_CALCULUS_3_BETTER --> student has 3 or better on AP Calculus Test
+    - MATH_30_C_MINUS --> student has completed MATH 30 with a grade of C- or better
+    - MATH_30X_C_MINUS --> student has completed MATH 30X with a grade of C- or better
+    - PHYS_2A_C_MINUS --> student has completed PHYS 2A with a grade of C- or better
+    - PHYS_50_C_MINUS --> student has completed PHYS 50 with a grade of C- or better
+    - MATH_31_C_MINUS --> student has completed MATH 31
+    - ENGL_1A --> student has completed ENGL 1A
+    - PKG_107 --> student has completed PKG 107
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - NUFS_31 --> student has completed NUFS 31
+    - PKG_141A --> student has completed PKG 141A
+    - PKG_141B --> student has completed PKG 141B
+    - PKG_146 --> student has completed PKG 146
+    - PKG_158 --> student has completed PKG 158
+    - MATH_70 --> student has completed MATH 70
+    - MATH_71 --> student has completed MATH 71
+    - STAT_95 --> student has completed STAT 95
+    - PKG_156 --> student has completed PKG 156
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - INSTRUCTOR_DEPARTMENT_CHAIR_CONSENT_PRIOR --> student has instructor and department chair consent during semester prior to enrollment
+    - GE_AREA_A2_C_MINUS --> student has completed GE Area A2 with a grade of C- or better
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education requirements
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - ENVS_1 --> student has completed ENVS 1
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - POLS_1_US23 --> student has completed POLS 1 (or other US2-3)
+    - PSYC_1 --> student has completed PSYC 1
+    - APPROPRIATE_COURSES --> student has completed appropriate courses
+    - DEPARTMENT_CHAIR_CONSENT --> student has department chair consent
+    - POLS_100W --> student has completed POLS 100W
+    - POLS_100M --> student has completed POLS 100M
+    - SENIOR_STANDING --> student has senior standing
+    - GPA_3_2_OVERALL --> student has 3.2 overall GPA
+    - GPA_3_5_MAJOR --> student has 3.5 GPA in the major
+    - PORT_1A --> student has completed PORT 1A
+    - EQUIVALENT_PORT_1A --> student has completed an equivalent to PORT 1A
+    - TWO_SEMESTERS_COLLEGE_PORTUGUESE --> student has completed 2 semesters of college Portuguese
+    - EQUIVALENT_PORT_1A_1B --> student has completed an equivalent to PORT 1A and PORT 1B
+    - SJSU_PLACEMENT_EXAM --> student has passed the SJSU placement exam for Portuguese
+    - THREE_SEMESTERS_COLLEGE_PORTUGUESE --> student has completed 3 semesters of college Portuguese
+    - EQUIVALENT_PORT_20A --> student has completed an equivalent to PORT 20A
+    - FOUR_SEMESTERS_COLLEGE_PORTUGUESE --> student has completed 4 semesters of college Portuguese
+    - EQUIVALENT_PORT_101A --> student has completed an equivalent to PORT 101A
+    - EQUIVALENT_PORT_101B --> student has completed an equivalent to PORT 101B
+    - EQUIVALENT_PORT_102A --> student has completed an equivalent to PORT 102A
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - UPPER_DIVISION_STANDING_PORTUGUESE --> student has upper division standing in Portuguese
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - JOUR_61 --> student has completed JOUR 61
+    - PR_99 --> student has completed PR 99
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PR_190 --> student has completed PR 190
+    - PR_191 --> student has completed PR 191
+    - PR_192 --> student has completed PR 192
+    - MCOM_111 --> student has completed MCOM 111
+    - FIRST_TERM_FRESHMAN --> student is first term freshman only
+    - PSYC_1 --> student has completed PSYC 1
+    - STAT_95 --> student has completed STAT 95
+    - BIOL_21 --> student has completed BIOL 21
+    - BIOL_65 --> student has completed BIOL 65
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - PSYC_MAJOR_MINOR --> student is a Psychology major or minor
+    - BEHAVIORAL_SCIENCE_MAJOR --> student is a Behavioral Science major
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - LOWER_DIVISION_GE_COMPLETE --> student has completed lower division GE
+    - STAT_95_C --> student has completed STAT 95 with a grade of C or better
+    - PSYC_18 --> student has completed PSYC 18
+    - PSYC_100W_C --> student has completed PSYC 100W with a grade of C or better
+    - PSYC_118 --> student has completed PSYC 118
+    - PSYC_120 --> student has completed PSYC 120
+    - PSYC_139 --> student has completed PSYC 139
+    - PSYC_154 --> student has completed PSYC 154
+    - PSYC_135 --> student has completed PSYC 135
+    - PSYC_155 --> student has completed PSYC 155
+    - PSYC_158 --> student has completed PSYC 158
+    - PSYC_110 --> student has completed PSYC 110
+    - PSYC_142 --> student has completed PSYC 142
+    - ANY_100W --> student has completed any 100W course
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PSYC_129 --> student has completed PSYC 129
+    - PSYC_STAT_18_UNITS --> student has completed at least 18 units of PSYC/STAT
+    - PSYC_STAT_GPA_3_5 --> student has overall PSYC/STAT GPA of 3.5
+    - SENIOR_STANDING --> student has senior standing
+    - SENIOR_GRADUATE_STANDING --> student is senior or graduate standing
+    - BIOLOGY_3_UNITS --> student has completed 3 units of biology
+    - PSYC_30_BIOLOGY_3_UNITS --> student has completed PSYC 30 and 3 units of biology
+    - BIOLOGY_9_UNITS --> student has completed 9 units of biology
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - PSYC_12_UNITS --> student has completed 12 units of psychology
+    - INSTRUCTOR_DEPARTMENT_CHAIR_CONSENT --> student has instructor and department chair consent
+    - DEVELOPMENTAL_PSYCHOLOGY_EQUIVALENT --> student has completed equivalent developmental psychology course
+    - PSYC_MAJOR --> student is a Psychology major
+    - POLS_1_US23 --> student has completed POLS 1 (or other US2-3)
+    - HEBR_1A --> student has completed HEBR 1A
+    - EQUIVALENT_HEBR_1A --> student has completed an equivalent to HEBR 1A
+    - HEBR_1B --> student has completed HEBR 1B
+    - EQUIVALENT_HEBR_15A --> student has completed an equivalent to HEBR 15A
+    - EQUIVALENT_HEBR_15B --> student has completed an equivalent to HEBR 15B
+    - FOUR_SEMESTERS_COLLEGE_HEBREW --> student has completed four semesters of college Hebrew
+    - EQUIVALENT_HEBR_102A --> student has completed an equivalent to HEBR 102A
+    - TWELVE_UNITS_COLLEGE_HEBREW --> student has completed 12 units of college Hebrew
+    - EQUIVALENT_HEBR_102B --> student has completed an equivalent to HEBR 102B
+    - EQUIVALENT_PORT_101A --> student has completed an equivalent to PORT 101A
+    - EQUIVALENT_PORT_101B --> student has completed an equivalent to PORT 101B
+    - EQUIVALENT_PORT_102A --> student has completed an equivalent to PORT 102A
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - UPPER_DIVISION_STANDING_PORTUGUESE --> student has upper division standing in Portuguese
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PHILOSOPHY_3_UNITS --> student has completed 3 units of philosophy
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - ANTH_11 --> student has completed ANTH 11
+    - ANTH_25 --> student has completed ANTH 25
+    - RELIGIOUS_STUDIES_UPPER_DIV_MAJOR_MINOR --> student is Religious studies upper-division major or minor
+    - COORDINATOR_CONSENT --> student has coordinator consent
+    - ANY_100W --> student has completed any 100W course
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - RTVF_20 --> student has completed RTVF 20
+    - RTVF_30 --> student has completed RTVF 30
+    - RTVF_31 --> student has completed RTVF 31
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - KSJS_MANAGEMENT_APPOINTMENT --> student has appointment to KSJS management staff
+    - RTVF_120 --> student has completed RTVF 120
+    - RTVF_130 --> student has completed RTVF 130
+    - INSTRUCTOR_APPROVAL --> student has instructor approval
+    - RTVF_020 --> student has completed RTVF 020
+    - RTVF_030 --> student has completed RTVF 030
+    - TA_100W --> student has completed TA 100W
+    - RTVF_160 --> student has completed RTVF 160
+    - RTVF_82 --> student has completed RTVF 82
+    - RTVF_10 --> student has completed RTVF 10
+    - RTVF_80 --> student has completed RTVF 80
+    - INSTRUCTOR_CONSENT_LOWER_DIV --> student has instructor consent (lower division students)
+    - SENIOR_STANDING --> student has senior standing
+    - GPA_3_0 --> student has 3.0 GPA
+    - INVITATION_ONLY --> student is by invitation only
+    - RUSS_1A --> student has completed RUSS 1A
+    - EQUIVALENT_RUSS_1A --> student has completed an equivalent to RUSS 1A
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SOPHOMORE_UPPER_DIVISION_STANDING --> student has sophomore or upper division standing
+    - NOT_OPEN_UNIVERSITY --> student is not an Open University student
+    - SCED_273_B_BETTER --> student has completed SCED 273 with a grade of B or better (B- not accepted)
+    - JOINT_APPROVAL_SCIENCE_ED_SECONDARY_ED --> student has joint approval of the Science Education Program and the Secondary Education Department
+    - ENGL_1A_C_MINUS --> student has completed ENGL 1A with a grade of C- or better
+    - ENGL_1AS_C_MINUS --> student has completed ENGL 1AS with a grade of C- or better
+    - GE_AREA_1A_C_MINUS --> student has completed GE Area 1A with a grade of C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - JUNIOR_STANDING --> student has junior standing
+    - SOCIAL_WORK_MAJOR --> student is a Social Work major
+    - ||JUNIOR_SENIOR_STANDING --> student is junior or senior standing
+    - SCWK_111_C --> student has completed SCWK 111 with a grade of C or better
+    - STAT_95 --> student has completed STAT 95
+    - CONCURRENT_SCWK_112_142 --> student is concurrent with SCWK 112 and SCWK 142
+    - FOLLOWING_SCWK_142_ALL_COURSES_COMPLETED --> student is following SCWK 142 and all other Social Work courses completed
+    - DEPARTMENT_MAJOR --> student is a department major
+    - ||SCWK_110 --> student has completed SCWK 110
+    - SCWK_120 --> student has completed SCWK 120
+    - SCWK_130 --> student has completed SCWK 130
+    - SOCIAL_WORK_EQUIVALENT --> student has completed equivalent social work course
 
 
 
