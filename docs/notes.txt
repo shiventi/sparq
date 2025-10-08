@@ -1419,6 +1419,261 @@ PREREQUISITES:
     - SCWK_120 --> student has completed SCWK 120
     - SCWK_130 --> student has completed SCWK 130
     - SOCIAL_WORK_EQUIVALENT --> student has completed equivalent social work course
+    - MATH_31_C_MINUS --> student has completed MATH 31 with a grade of C- or better
+    - MATH_39_C_MINUS --> student has completed MATH 39 with a grade of C- or better
+    - CS_146_C_MINUS --> student has completed CS 146 with a grade of C- or better
+    - C_PROGRAMMING_EXPERIENCE --> student has previous programming experience in C/C++
+    - COMPUTER_SCIENCE_MAJOR --> student is a Computer Science major
+    - DATA_SCIENCE_MAJOR --> student is a Data Science major
+    - SOFTWARE_ENGINEERING_MAJOR --> student is a Software Engineering major
+    - APPLIED_COMPUTATIONAL_MATH_MAJOR --> student is an Applied/Computational Math major
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - CS_116A_C_MINUS --> student has completed CS 116A with a grade of C- or better
+    - CS_46B --> student has completed CS 46B
+    - BIOL_31 --> student has completed BIOL 31
+    - MS_BIOINFORMATICS --> student is in MS Bioinformatics
+    - CS_151_C_MINUS --> student has completed CS 151 with a grade of C- or better
+    - CMPE_135_C_MINUS --> student has completed CMPE 135 with a grade of C- or better
+    - CS_46B_SE --> student has completed CS 46B (for SE Majors)
+    - CMPE_126 --> student has completed CMPE 126
+    - CMPE_131 --> student has completed CMPE 131
+    - CMPE_126_C_MINUS --> student has completed CMPE 126 with a grade of C- or better
+    - CS_157A_C_MINUS --> student has completed CS 157A with a grade of C- or better
+    - FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR --> student is a Forensic Science: Digital Evidence major
+    - CS_158A_C_MINUS --> student has completed CS 158A with a grade of C- or better
+    - CMPE_148_C_MINUS --> student has completed CMPE 148 with a grade of C- or better
+    - CMPE_127 --> student has completed CMPE 127
+    - ENGR_100W --> student has completed ENGR 100W
+    - CS_47 --> student has completed CS 47
+    - CMPE_102 --> student has completed CMPE 102
+    - CS_154_C_MINUS --> student has completed CS 154 with a grade of C- or better
+    - MATH_42_C_MINUS --> student has completed MATH 42 with a grade of C- or better
+    - CS_46B_C_MINUS --> student has completed CS 46B with a grade of C- or better
+    - COMPUTER_SCIENCE_LINGUISTICS_MAJOR --> student is a Computer Science and Linguistics major
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - CS_157A --> student has completed CS 157A
+    - CS_158A --> student has completed CS 158A
+    - CMPE_148 --> student has completed CMPE 148
+    - MATH_ENROLLMENT_M_I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_M_II --> student is in Math Enrollment Category M-II
+    - MATH_ENROLLMENT_M_III --> student is in Math Enrollment Category M-III
+    - MATH_ENROLLMENT_M_IV --> student is in Math Enrollment Category M-IV
+    - SOCI_1 --> student has completed SOCI 1
+    - EQUIVALENT_SOCI_1 --> student has completed an equivalent to SOCI 1
+    - SOCI_15 --> student has completed SOCI 15
+    - APPROVED_STATISTICS_COURSE --> student has completed an approved statistics course from another school
+    - SOCI_100W --> student has completed SOCI 100W
+    - SOCI_101 --> student has completed SOCI 101
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - SOCI_105 --> student has completed SOCI 105
+    - SOCI_104 --> student has completed SOCI 104
+    - SOCIOLOGY_MAJOR --> student is a Sociology major
+    - BEHAVIORAL_SCIENCE_MAJOR --> student is a Behavioral Science major
+    - CHICANA_CHICANO_STUDIES_MAJOR --> student is a Chicana Chicano Studies major
+    - WOMEN_GENDER_SEXUALITY_STUDIES_MAJOR --> student is a Women, Gender, and Sexuality Studies major
+    - ASIAN_AMERICAN_STUDIES_MAJOR --> student is an Asian American Studies major
+    - GE_AREA_A3_C_MINUS --> student has completed GE Area A3 with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - BEHAVIORAL_STUDIES_MAJOR --> student is a Behavioral Studies major
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - ANY_100W --> student has completed any 100W course
+    - SOCI_1_EQUIVALENT --> student has completed SOCI 1 or equivalent
+    - JUNIOR_STANDING --> student has junior standing
+    - SOCIAL_WORK_MAJOR --> student is a Social Work major
+    - ||JUNIOR_SENIOR_STANDING --> student is junior or senior standing
+    - SCWK_111_C --> student has completed SCWK 111 with a grade of C or better
+    - STAT_95 --> student has completed STAT 95
+    - CONCURRENT_SCWK_112_142 --> student is concurrent with SCWK 112 and SCWK 142
+    - FOLLOWING_SCWK_142_ALL_COURSES_COMPLETED --> student is following SCWK 142 and all other Social Work courses completed
+    - DEPARTMENT_MAJOR --> student is a department major
+    - ||SCWK_110 --> student has completed SCWK 110
+    - SCWK_120 --> student has completed SCWK 120
+    - SCWK_130 --> student has completed SCWK 130
+    - SOCIAL_WORK_EQUIVALENT --> student
+    - MATH_ENROLLMENT_M_I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_M_II --> student is in Math Enrollment Category M-II
+    - MATH_ENROLLMENT_M_III --> student is in Math Enrollment Category M-III
+    - MATH_ENROLLMENT_M_IV_GE_AREA_2_C_MINUS --> student is in Math Enrollment Category M-IV and has completed GE Area 2 with C- or better
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - HIST_15_POLS_15 --> student has completed HIST 15 and POLS 15
+    - AAS_33A_AAS_33B --> student has completed AAS 33A and AAS 33B
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SOCS_177 --> student has completed SOCS 177
+    - GRADUATION_APPLICATION_COMPLETED --> student has completed graduation application
+    - SPAN_1A --> student has completed SPAN 1A
+    - EQUIVALENT_SPAN_1A --> student has completed an equivalent to SPAN 1A
+    - NINE_UNITS_COLLEGE_SPANISH --> student has completed 9 units of college Spanish
+    - EQUIVALENT_SPAN_3 --> student has completed an equivalent to SPAN 3
+    - SPOKEN_SPANISH_KNOWLEDGE --> student has knowledge of spoken Spanish
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - SPAN_20A --> student has completed SPAN 20A
+    - ONE_YEAR_COLLEGE_SPANISH --> student has completed one year of college-level Spanish
+    - EQUIVALENT_SPAN_25A --> student has completed an equivalent to SPAN 25A
+    - SJSU_PLACEMENT_EXAM_SPANISH --> student has passed the SJSU Placement Exam for Spanish
+    - THREE_SEMESTERS_COLLEGE_SPANISH --> student has completed three semesters of college Spanish
+    - EQUIVALENT_SPAN_25B --> student has completed an equivalent to SPAN 25B
+    - FOUR_SEMESTERS_COLLEGE_SPANISH --> student has completed four semesters of college Spanish
+    - EQUIVALENT_SPAN_101A --> student has completed an equivalent to SPAN 101A
+    - EQUIVALENT_SPAN_101B --> student has completed an equivalent to SPAN 101B
+    - EQUIVALENT_SPAN_102A --> student has completed an equivalent to SPAN 102A
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - EQUIVALENT_SPAN_105 --> student has completed an equivalent to SPAN 105
+    - EQUIVALENT_SPAN_110 --> student has completed an equivalent to SPAN 110
+    - SPAN_101B --> student has completed SPAN 101B
+    - EQUIVALENT_SPAN_120A --> student has completed an equivalent to SPAN 120A
+    - SPAN_102A --> student has completed SPAN 102A
+    - SPAN_102B --> student has completed SPAN 102B
+    - EQUIVALENT_SPAN_120B --> student has completed an equivalent to SPAN 120B
+    - TWO_YEARS_SPANISH --> student has completed two years of Spanish
+    - ONE_SEMESTER_SPANISH_RECENT --> student has completed one full semester of Spanish taken recently
+    - EQUIVALENT_SPAN_140A --> student has completed an equivalent to SPAN 140A
+    - EQUIVALENT_SPAN_140B --> student has completed an equivalent to SPAN 140B
+    - EQUIVALENT_SPAN_160A --> student has completed an equivalent to SPAN 160A
+    - EQUIVALENT_SPAN_160B --> student has completed an equivalent to SPAN 160B
+    - EQUIVALENT_SPAN_160C --> student has completed an equivalent to SPAN 160C
+    - ADVISOR_CONSENT --> student has advisor consent
+    - UPPER_DIVISION_STANDING_SPANISH_B --> student has upper division standing in Spanish with grade of B or better
+    - JOINT_APPROVAL_MAJOR_EDUCATION --> student has joint approval of major and Education departments
+    - ENGL_1A_C_MINUS --> student has completed ENGL 1A with a grade of C- or better
+    - ENGL_1AS_C_MINUS --> student has completed ENGL 1AS with a grade of C- or better
+    - GE_AREA_1A_C_MINUS --> student has completed GE Area 1A with a grade of C- or better
+    - SSED_378_B_BETTER --> student has completed SSED 378 with a grade of B or better (B- not acceptable)
+    - JOINT_APPROVAL_MAJOR_EDUCATION --> student has joint approval of major and Education departments
+    - MATH_ENROLLMENT_M_I --> student is in Math Enrollment Category M-I
+    - MATH_ENROLLMENT_M_II --> student is in Math Enrollment Category M-II
+    - MATH_ENROLLMENT_M_III_GE_AREA_2_C_MINUS --> student is in Math Enrollment Category M-III or has completed GE Area 2 with C- or better
+    - MATH_ENROLLMENT_M_IV_GE_AREA_2_C_MINUS --> student is in Math Enrollment Category M-IV or has completed GE Area 2 with C- or better
+    - STAT_95 --> student has completed STAT 95
+    - EQUIVALENT_STAT_95 --> student has completed an equivalent to STAT 95
+    - ENGL_1B_C_MINUS --> student has completed ENGL 1B with a grade of C- or better
+    - EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS --> student has completed an equivalent second semester composition course with a grade of C- or better
+    - COMPLETION_OF_CORE_GE --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - GRADUATE_PBAC --> student is at Graduate or Postbaccalaureate level
+    - RADIO_TV_FILM_MAJOR --> student is a Radio/TV/Film major
+    - THEATRE_ARTS_MAJOR --> student is a Theatre Arts major
+    - DANCE_MAJOR --> student is a Dance major
+    - ANIMATION_ILLUSTRATION_MAJOR --> student is an Animation/Illustration major
+    - INTERDISCIPLINARY_STUDIES_MAJOR --> student is an Interdisciplinary Studies major
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - TA_17 --> student has completed TA 17
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - TA_5 --> student has completed TA 5
+    - TA_11 --> student has completed TA 11
+    - RTVF_130 --> student has completed RTVF 130
+    - RTVF_132A --> student has completed RTVF 132A
+    - TA_48 --> student has completed TA 48
+    - TA_128 --> student has completed TA 128
+    - EQUIVALENT_TA_128 --> student has completed an equivalent to TA 128
+    - RTVF_020 --> student has completed RTVF 020
+    - RTVF_030 --> student has completed RTVF 030
+    - TA_100W --> student has completed TA 100W
+    - JUNIOR_SENIOR_STANDING --> student has junior or senior standing
+    - SENIOR_STANDING --> student has senior standing
+    - GPA_3_0 --> student has 3.0 GPA
+    - INVITATION_ONLY --> student is by invitation only
+    - DEPARTMENT_CHAIR_CONSENT --> student has department chair consent
+    - TAG_1A --> student has completed TAG 1A
+    - TAG_1B --> student has completed TAG 1B
+    - EQUIVALENT_TAG_1B --> student has completed an equivalent to TAG 1B
+    - TAG_25A --> student has completed TAG 25A
+    - MATH_18A --> student has completed MATH 18A
+    - EQUIVALENT_MATH_18A --> student has completed an equivalent to MATH 18A
+    - CHEM_1A --> student has completed CHEM 1A
+    - CHEM_30A --> student has completed CHEM 30A
+    - EQUIVALENT_CHEM --> student has completed an equivalent to CHEM
+    - MATH_71 --> student has completed MATH 71
+    - MATH_30 --> student has completed MATH 30
+    - EQUIVALENT_MATH --> student has completed an equivalent to MATH
+    - BUS2_90 --> student has completed BUS2 90
+    - EQUIVALENT_BUS2_90 --> student has completed an equivalent to BUS2 90
+    - ME_20 --> student has completed ME 20
+    - TECH_20 --> student has completed TECH 20
+    - CE_20 --> student has completed CE 20
+    - EQUIVALENT --> student has completed an equivalent course
+    - TECH_41_C_MINUS --> student has completed TECH 41 with a grade of C- or better
+    - ME_41_C_MINUS --> student has completed ME 41 with a grade of C- or better
+    - TECH_41 --> student has completed TECH 41
+    - ME_41 --> student has completed ME 41
+    - TECH_60 --> student has completed TECH 60
+    - TECH_62 --> student has completed TECH 62
+    - TECH_63 --> student has completed TECH 63
+    - CMPE_30 --> student has completed CMPE 30
+    - CS_49C --> student has completed CS 49C
+    - CS_49J --> student has completed CS 49J
+    - TECH_167 --> student has completed TECH 167
+    - TECH_170 --> student has completed TECH 170
+    - BUS4_111 --> student has completed BUS4 111
+    - TECH_171 --> student has completed TECH 171
+    - TECH_73 --> student has completed TECH 73
+    - TECH_179 --> student has completed TECH 179
+    - TECH_30 --> student has completed TECH 30
+    - TECH_115 --> student has completed TECH 115
+    - TECH_25 --> student has completed TECH 25
+    - TECH_140 --> student has completed TECH 140
+    - TECH_45 --> student has completed TECH 45
+    - TECH_46 --> student has completed TECH 46
+    - PHYS_2A --> student has completed PHYS 2A
+    - PHYS_2B --> student has completed PHYS 2B
+    - PHYS_50 --> student has completed PHYS 50
+    - PHYS_51 --> student has completed PHYS 51
+    - TECH_147 --> student has completed TECH 147
+    - ENGR_100W_C_BETTER --> student has completed ENGR 100W with a grade of C or better
+    - TECH_190A --> student has completed TECH 190A
+    - TECH_190B --> student has completed TECH 190B
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COURSE_CONTRACT --> student has a course contract
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - EQUIVALENT_TECH_31 --> student has completed an equivalent to TECH 31
+    - TECH_68 --> student has completed TECH 68
+    - ENGL_1A --> student has completed ENGL 1A
+    - INTERDISCIPLINARY_STUDIES_MINOR --> student is a declared Interdisciplinary Studies Minor
+    - SJSU_McNAIR_SCHOLARS_PROGRAM --> student is accepted in the SJSU McNair Scholars Program
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - FALL_SEMESTER_APPLICATION_SELECTION --> student has applied and been selected (fall semester)
+    - GPA_2_0 --> student has 2.0 GPA
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - ANTH_11 --> student has completed ANTH 11
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - ARTH_70B --> student has completed ARTH 70B
+    - URBP_151 --> student has completed URBP 151
+    - ENVS_1 --> student has completed ENVS 1
+    - ENVS_124 --> student has completed ENVS 124
+    - ENVS_185 --> student has completed ENVS 185
+    - URBP_179A --> student has completed URBP 179A
+    - DEPARTMENT_CHAIR_APPROVAL --> student has department chair approval
+    - VIET_1A --> student has completed VIET 1A
+    - EQUIVALENT_VIET_1A --> student has completed an equivalent to VIET 1A
+    - PSYC_1 --> student has completed PSYC 1
+    - WGSS_10 --> student has completed WGSS 10
+    - WGSS_20 --> student has completed WGSS 20
+    - WGSS_101 --> student has completed WGSS 101
+    - INSTRUCTOR_CONSENT --> student has obtained instructor consent
+    - PHILOSOPHY_3_UNITS --> student has completed 3 units of philosophy
+    - UPPER_DIVISION_STANDING --> student has upper division standing
+    - COMPLETION_OF_CORE_GENERAL_EDUCATION --> student has completed core General Education
+    - CO_REGISTRATION_IN_100W --> student is co-registered in any 100W course
+    - COMPLETION_OF_100W --> student has completed any 100W course
+    - SOCI_1 --> student has completed SOCI 1
+    - WOMENS_STUDIES_MINOR_EMPHASIS --> student has minor or emphasis in women’s studies
 
 
 

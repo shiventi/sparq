@@ -39316,9 +39316,4095 @@
     "course_name": "International Program Studies",
     "units": "||1-6",
     "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "SE 116A",
+    "course_name": "Introduction to Computer Graphics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_31_C_MINUS",
+        "MATH_39_C_MINUS",
+        "CS_146_C_MINUS",
+        "C_PROGRAMMING_EXPERIENCE",
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "APPLIED_COMPUTATIONAL_MATH_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 116A. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 116B",
+    "course_name": "Computer Graphics Algorithms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_116A_C_MINUS",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Offered only occasionally.",
+      "Cross-listed with CS 116B. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 123A",
+    "course_name": "Bioinformatics I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_46B",
+        "BIOL_31",
+        "INSTRUCTOR_CONSENT"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with BIOL 123A / CS 123A. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 123B",
+    "course_name": "Bioinformatics II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_123A",
+        "BIOL_123A",
+        "SE_123A"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "BIOLOGY_MAJOR",
+        "CHEMISTRY_MAJOR",
+        "MS_BIOINFORMATICS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with BIOL 123B / CS 123B. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 134",
+    "course_name": "Computer Game Design and Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_C_MINUS",
+        "||CS_151_C_MINUS",
+        "CMPE_135_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 134. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 135",
+    "course_name": "Object-Oriented Analysis and Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_46B_SE",
+        "CMPE_126"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CMPE 135. Computer Engineering is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 137",
+    "course_name": "Wireless Mobile Software Engineering",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_131"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with CMPE 137. Computer Engineering is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SE 139",
+    "course_name": "Fundamentals of Data Mining",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CMPE_126_C_MINUS",
+        "CS_146_C_MINUS"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with CMPE 139. Computer Engineering is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SE 152",
+    "course_name": "Programming Paradigms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_151_C_MINUS",
+        "CMPE_135_C_MINUS"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with CS 152. Computer Science is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SE 153",
+    "course_name": "Concepts of Compiler Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_47",
+        "CMPE_102",
+        "CS_146_C_MINUS",
+        "CS_154_C_MINUS"
+      ],
+      [
+        "&&COMPUTER_SCIENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 153. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 154",
+    "course_name": "Formal Languages and Computability",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&MATH_42_C_MINUS",
+        "CS_46B_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "COMPUTER_SCIENCE_LINGUISTICS_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 154. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 155",
+    "course_name": "Introduction to the Design and Analysis of Algorithms",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_COMPUTATIONAL_MATH_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 156",
+    "course_name": "Introduction to Artificial Intelligence",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_146_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "DATA_SCIENCE_MAJOR",
+        "APPLIED_COMPUTATIONAL_MATH_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 156. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 157B",
+    "course_name": "Database Management Systems II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_157A_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "APPLIED_COMPUTATIONAL_MATH_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 157B. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 158B",
+    "course_name": "Computer Network Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CS_158A_C_MINUS",
+        "CMPE_148_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR",
+        "FORENSIC_SCIENCE_DIGITAL_EVIDENCE_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 158B. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 163",
+    "course_name": "Introduction to Computer Graphics and Augmented Reality",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CMPE_127",
+        "||ENGR_100W"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&ENGR_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CMPE 163. Computer Engineering is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 174",
+    "course_name": "Server-side Web Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&CS_46B_C_MINUS"
+      ],
+      [
+        "||COMPUTER_SCIENCE_MAJOR",
+        "SOFTWARE_ENGINEERING_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CS 174. Computer Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Not available to Open University Students",
+      "Cross-listed with CMPE 180. Computer Engineering is responsible for scheduling"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SE 188",
+    "course_name": "Machine Learning for Big Data",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||CMPE_126",
+        "CS_146"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with CMPE 188. Computer Engineering is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SE 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "SOCI 1",
+    "course_name": "Introduction to Sociology",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 15",
+    "course_name": "Statistical Applications in the Social Sciences",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_M_I",
+        "MATH_ENROLLMENT_M_II",
+        "MATH_ENROLLMENT_M_III",
+        "MATH_ENROLLMENT_M_IV"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with SOCS 15. Sociology and Interdisciplinary Social Sciences is responsible for scheduling.",
+      "Sustainability Related"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 57",
+    "course_name": "Community Involvement and Personal Growth",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sociology and Interdisciplinary Social Sciences is responsible for scheduling.",
+      "Sustainability Related - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "SOCI 80",
+    "course_name": "Social Problems",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "SOCI 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "SOCI 100W",
+    "course_name": "Writing Workshop",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_WID"
+    ],
+    "prerequisites": [
+      [
+        "&&SOCI_1",
+        "||GE_AREA_A3_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GE",
+        "UPPER_DIVISION_STANDING",
+        "||GRADUATE_PBAC"
+      ],
+      [
+        "||SOCIOLOGY_MAJOR",
+        "BEHAVIORAL_SCIENCE_MAJOR",
+        "CHICANA_CHICANO_STUDIES_MAJOR",
+        "WOMEN_GENDER_SEXUALITY_STUDIES_MAJOR",
+        "ASIAN_AMERICAN_STUDIES_MAJOR"
+      ]
+    ],
+    "notes": [
+      "Required for Sociology Majors.",
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 101",
+    "course_name": "Social Theory",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1",
+        "UPPER_DIVISION_STANDING"
+      ],
+      [
+        "||SOCIOLOGY_MAJOR",
+        "BEHAVIORAL_STUDIES_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&SOCI_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 104",
+    "course_name": "Quantitative Research Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1",
+        "||SOCI_15",
+        "APPROVED_STATISTICS_COURSE",
+        "SOCI_100W",
+        "SOCI_101",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Related"
+    ]
+  },
+  {
+    "course_id": "SOCI 105",
+    "course_name": "Qualitative Research Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1",
+        "SOCI_100W",
+        "SOCI_101",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 105B",
+    "course_name": "Advanced Qualitative Research Methods",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1",
+        "SOCI_100W",
+        "SOCI_101",
+        "SOCI_105"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 116",
+    "course_name": "Global Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 118",
+    "course_name": "Sociology of Human Rights and Social Justice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 120",
+    "course_name": "Contemporary Social Issues",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "SOCI 127",
+    "course_name": "Community-Based Participatory Research",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 127. Environmental Studies is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SOCI 140",
+    "course_name": "Sociology of Media",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "SOCI 141",
+    "course_name": "Environmental Sociology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 142",
+    "course_name": "Critical Native American Studies",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 143",
+    "course_name": "Feminist Perspectives on Gender and Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||JUNIOR_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 144",
+    "course_name": "Education for Liberation",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 4: Quality Education"
+    ]
+  },
+  {
+    "course_id": "SOCI 145",
+    "course_name": "Community Mental Health",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ANY_100W",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with PH 145 / PSYC 145. Public Health and Recreation is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SOCI 146",
+    "course_name": "Work, Power, and Leisure",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 147",
+    "course_name": "Education and Global Justice",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 148",
+    "course_name": "Current Topics and Trends in Education",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 151",
+    "course_name": "Violence in the Family",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 154",
+    "course_name": "Sociology and Non-Conforming Behavior",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 3: Good Health and Well-Being"
+    ]
+  },
+  {
+    "course_id": "SOCI 157",
+    "course_name": "Sociology of Youth Sport",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 160",
+    "course_name": "Immigration and Identity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "SOCI 161",
+    "course_name": "City Life",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 162",
+    "course_name": "Race and Ethnic Relations",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "SOCI 163",
+    "course_name": "Social Change",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 164",
+    "course_name": "Social Action",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "notes": [
+      "Repeatable once when content changes"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 165",
+    "course_name": "Poverty, Wealth and Privilege",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 1: No Poverty"
+    ]
+  },
+  {
+    "course_id": "SOCI 166",
+    "course_name": "Medical Sociology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with GERO 166. Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Related - SDG 3: Good Health and Well-Being"
+    ]
+  },
+  {
+    "course_id": "SOCI 168",
+    "course_name": "Social Policy",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 169",
+    "course_name": "Political Sociology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 170",
+    "course_name": "Sociology of Family",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 171",
+    "course_name": "Person and Society",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 172",
+    "course_name": "Lesbian, Gay, Bi, Transgender Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 10: Reduced Inequalities"
+    ]
+  },
+  {
+    "course_id": "SOCI 173",
+    "course_name": "Socialization and Identity",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 174",
+    "course_name": "Sexualities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ]
+  },
+  {
+    "course_id": "SOCI 175",
+    "course_name": "Sociology of Masculinities and Femininities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with WGSS 175. Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ]
+  },
+  {
+    "course_id": "SOCI 176",
+    "course_name": "Sociology of Everyday Life",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 177",
+    "course_name": "Sociology of Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with SOCS 177. Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Related - SDG 4: Quality Education"
+    ]
+  },
+  {
+    "course_id": "SOCI 178",
+    "course_name": "Sociology of Childhood",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 179",
+    "course_name": "Sociology of Higher Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SOCI 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SOCI 181",
+    "course_name": "Service Internship",
+    "units": "||1-6",
+    "prerequisites": [
+      [
+        "&&||SOCI_1",
+        "EQUIVALENT_SOCI_1",
+        "SOCI_100W",
+        "SOCI_101",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_STANDING",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SOCI 181B",
+    "course_name": "Sociology Career Capstone",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1",
+        "SOCI_100W",
+        "SOCI_101",
+        "||SOCI_104",
+        "SOCI_105"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Students must have taken at least one of the required research method courses before enrolling in the capstone course"
+    ]
+  },
+  {
+    "course_id": "SOCI 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "SOCI 193",
+    "course_name": "Behavioral Science in Practice",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "||BEHAVIORAL_SCIENCE_MAJOR",
+        "BEHAVIORAL_SCIENCE_DOUBLE_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ANTH 193 / PSYC 193. Anthropology is responsible for scheduling",
+      "Sustainability Related - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCI 199H",
+    "course_name": "Senior Honors Project",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&SOCIOLOGY_HONORS_PROGRAM"
+      ]
+    ],
+    "notes": [
+      "Repeatable for a total of 4 units"
+    ],
+    "grading": "Mandatory Credit/No Credit/RP"
+  },
+
+  {
+    "course_id": "SOCS 15",
+    "course_name": "Statistical Applications in the Social Sciences",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_M_I",
+        "MATH_ENROLLMENT_M_II",
+        "MATH_ENROLLMENT_M_III",
+        "MATH_ENROLLMENT_M_IV_GE_AREA_2_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with SOCI 15. Sociology and Interdisciplinary Social Sciences is responsible for scheduling.",
+      "Sustainability Related"
+    ]
+  },
+  {
+    "course_id": "SOCS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading",
+    "notes": [
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SOCS 137",
+    "course_name": "California History for Teachers",
+    "units": 3,
+    "grading": "Letter Graded",
+    "notes": [
+      "Not acceptable for Economics majors, except double majors; acceptable for Economics minors.",
+      "History is responsible for scheduling.",
+      "Sustainability Related - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCS 138",
+    "course_name": "US History for Teachers",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "History is responsible for scheduling.",
+      "Sustainability Related - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCS 139",
+    "course_name": "World History for Teachers",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&||HIST_15_POLS_15",
+        "AAS_33A_AAS_33B",
+        "COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "History is responsible for scheduling.",
+      "Sustainability Related - SDG 16: Peace, Justice and Strong Institutions"
+    ]
+  },
+  {
+    "course_id": "SOCS 177",
+    "course_name": "Sociology of Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with SOCI 177. Sociology and Interdisciplinary Social Sciences is responsible for scheduling.",
+      "Sustainability Related - SDG 4: Quality Education"
+    ]
+  },
+  {
+    "course_id": "SOCS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading",
+    "notes": [
+      "History is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "SOCS 195",
+    "course_name": "Social Science Teacher Preparation",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCS_177",
+        "GRADUATION_APPLICATION_COMPLETED",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "History is responsible for scheduling"
+    ]
+  },
+
+  {
+    "course_id": "SPAN 1A",
+    "course_name": "Elementary Spanish",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 1B",
+    "course_name": "Elementary Spanish",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||SPAN_1A",
+        "EQUIVALENT_SPAN_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 3",
+    "course_name": "Special Topics in Practical Spanish",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||NINE_UNITS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_3"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 8 units.",
+      "Not accepted as preparation for advanced courses. Native speakers see General Information section."
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 4A",
+    "course_name": "Basic Spanish I",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 4B",
+    "course_name": "Basic Spanish II",
+    "units": 4,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 20A",
+    "course_name": "Spanish for Heritage Speakers I",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&SPOKEN_SPANISH_KNOWLEDGE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 20B",
+    "course_name": "Spanish for Heritage Speakers II",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||SPAN_20A",
+        "SPOKEN_SPANISH_KNOWLEDGE",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 25A",
+    "course_name": "Intermediate Spanish",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||ONE_YEAR_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_25A",
+        "SJSU_PLACEMENT_EXAM_SPANISH"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 25B",
+    "course_name": "Intermediate Spanish",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||THREE_SEMESTERS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_25B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "SPAN 101A",
+    "course_name": "Advanced Spanish",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_101A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 101B",
+    "course_name": "Advanced Spanish",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_101B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 102A",
+    "course_name": "Spanish Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_102A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 102B",
+    "course_name": "Hispanic American Culture",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 105",
+    "course_name": "Spanish Phonology",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_SPANISH",
+        "EQUIVALENT_SPAN_105"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 110",
+    "course_name": "Spanish Morphology and Syntax",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SPAN_101B",
+        "EQUIVALENT_SPAN_110"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 111",
+    "course_name": "Advanced Spanish Conversation",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||FOUR_SEMESTERS_COLLEGE_SPANISH",
+        "ADVISOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "May be repeated once for credit, but only 3 units apply to major.",
+      "Native speakers see General Information section."
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 115",
+    "course_name": "Introduction to Literary Studies in Spanish",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SPAN_101B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 120A",
+    "course_name": "Spanish Literature I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SPAN_101B",
+        "||SPAN_102A",
+        "SPAN_102B",
+        "EQUIVALENT_SPAN_120A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 120B",
+    "course_name": "Spanish Literature II",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SPAN_101B",
+        "||SPAN_102A",
+        "SPAN_102B",
+        "EQUIVALENT_SPAN_120B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 132",
+    "course_name": "Special Topics in Spanish for Careers",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TWO_YEARS_SPANISH",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 132X",
+    "course_name": "Spanish for Librarians II",
+    "units": 3,
+    "pre_corequisites": [
+      [
+        "&&||ONE_SEMESTER_SPANISH_RECENT",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 140A",
+    "course_name": "Spanish American Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SPAN_101B",
+        "SPAN_102A",
+        "SPAN_102B",
+        "EQUIVALENT_SPAN_140A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 140B",
+    "course_name": "Spanish American Literature II",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SPAN_101B",
+        "SPAN_102A",
+        "SPAN_102B",
+        "EQUIVALENT_SPAN_140B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 160A",
+    "course_name": "Hispanic Culture",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SPAN_101B",
+        "EQUIVALENT_SPAN_160A"
+      ]
+    ],
+    "notes": [
+      "Repeatable when topic changes for up to 8 units.",
+      "Cross-listed with SPAN 260A (combined undergraduate/graduate course)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 160B",
+    "course_name": "Hispanic Linguistics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SPAN_101B",
+        "EQUIVALENT_SPAN_160B"
+      ]
+    ],
+    "notes": [
+      "Repeatable when topic changes for up to 8 units.",
+      "Cross-listed with SPAN 260B (combined undergraduate/graduate course)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 160C",
+    "course_name": "Hispanic Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||SPAN_101B",
+        "EQUIVALENT_SPAN_160C"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 8 units.",
+      "Cross-listed with SPAN 260C (combined undergraduate/graduate course)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 170",
+    "course_name": "Spanish Translation: Theory and Practice",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SPAN_101B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SPAN 180",
+    "course_name": "Individual Studies in Spanish",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING_SPANISH_B",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SPAN 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "SPED 184Y",
+    "course_name": "Student Teaching II - Classroom Teaching",
+    "units": "||4-6",
+    "prerequisites": [
+      [
+        "&&JOINT_APPROVAL_MAJOR_EDUCATION"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SPED 184Z",
+    "course_name": "Student Teaching III - Classroom Teaching",
+    "units": "||4-6",
+    "grading": "Credit/No Credit",
+    "notes": [
+      "May be in different subject/school and will be at a different grade level"
+    ]
+  },
+
+  {
+    "course_id": "SSCI 90",
+    "course_name": "Successfully Negotiating Social Science",
+    "units": 1,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SSCI 101",
+    "course_name": "Leadership and Career Accelerator",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ENGL_1A_C_MINUS",
+        "ENGL_1AS_C_MINUS",
+        "GE_AREA_1A_C_MINUS"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Collaborative Assignments/Project"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SSCI 102",
+    "course_name": "Intro to Science, Technology & Society",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "SSCI 191",
+    "course_name": "Science, Technology & Society Capstone",
+    "units": 3,
+    "notes": [
+      "High Impact Practice: Capstone Courses and Projects"
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "SSED 184Y",
+    "course_name": "Student Teaching II - Classroom Teaching",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&SSED_378_B_BETTER",
+        "JOINT_APPROVAL_MAJOR_EDUCATION"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "SSED 184Z",
+    "course_name": "Student Teaching III - Classroom Teaching",
+    "units": 4,
+    "grading": "Credit/No Credit",
+    "notes": [
+      "May be in different subject/school and will be at a different grade level"
+    ]
+  },
+
+  {
+    "course_id": "STAT 95",
+    "course_name": "Elementary Statistics",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_ENROLLMENT_M_I",
+        "MATH_ENROLLMENT_M_II",
+        "MATH_ENROLLMENT_M_III_GE_AREA_2_C_MINUS",
+        "MATH_ENROLLMENT_M_IV_GE_AREA_2_C_MINUS"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Intended for Psychology majors and minors as well as for programs in Behavioral Science, Child Development, Education, Health Science, Nursing, Nutritional Science, Social Science, and Social Work."
+    ]
+  },
+  {
+    "course_id": "STAT 115",
+    "course_name": "Intermediate Statistics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||STAT_95",
+        "EQUIVALENT_STAT_95"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Intended for majors in education, nursing, personnel administration, psychology, social service and sociology, and psychology minors."
+    ]
+  },
+
+  {
+    "course_id": "TA 5",
+    "course_name": "Beginning Acting",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 10",
+    "course_name": "Theatre Appreciation",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 11",
+    "course_name": "Dramaturgy and Dramatic Criticism",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 13",
+    "course_name": "Great Comedies for Theatre",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 15",
+    "course_name": "Voice and Diction",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 17",
+    "course_name": "Intermediate Acting",
+    "units": 3,
+    "notes": [
+      "Discussion 2 hours/ Activity 2 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 48",
+    "course_name": "Voice & Movement for the Actor",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_E"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 51A",
+    "course_name": "Stagecraft: Scenery & Prop Fundamentals",
+    "units": 1,
+    "notes": [
+      "Lecture 0.5 hours/Lab 1.5 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 51B",
+    "course_name": "Stagecraft: Costume Fundamentals",
+    "units": 1,
+    "notes": [
+      "Misc/Lab: Activity 2 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 51C",
+    "course_name": "Stagecraft: Lighting & Sound Technology",
+    "units": 1,
+    "notes": [
+      "Lecture 0.5 hours/Activity 1.5 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 51D",
+    "course_name": "Stagecraft - Stage Management Fundamentals",
+    "units": 1,
+    "notes": [
+      "Lecture 0.5 hours/Activity 1.5 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 55",
+    "course_name": "Intro to Design for the Performing Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_3A"
+    ],
+    "notes": [
+      "2 hours of Activity/2 hours Lecture"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 64",
+    "course_name": "Make-up for Performing Arts",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture/demonstration 2 hours/lab 2 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 91",
+    "course_name": "Scenic Painting & Props",
+    "units": "||1-3",
+    "notes": [
+      "Lecture 2 hours/Lab 2 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "TA 100W",
+    "course_name": "Writing Workshop: Theatre Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_WID"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENGL_1B_C_MINUS",
+        "EQUIVALENT_SECOND_SEMESTER_COMPOSITION_C_MINUS",
+        "COMPLETION_OF_CORE_GE",
+        "UPPER_DIVISION_STANDING",
+        "GRADUATE_PBAC"
+      ],
+      [
+        "||RADIO_TV_FILM_MAJOR",
+        "THEATRE_ARTS_MAJOR",
+        "DANCE_MAJOR",
+        "ANIMATION_ILLUSTRATION_MAJOR",
+        "INTERDISCIPLINARY_STUDIES_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Must be passed with C or better to satisfy the CSU Graduation Writing Assessment Requirement (GWAR)"
+    ]
+  },
+  {
+    "course_id": "TA 103",
+    "course_name": "Musical Theatre",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 110",
+    "course_name": "Advanced Acting",
+    "units": 3,
+    "notes": [
+      "Discussion 2 hours/lab 3 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "prerequisites": [
+      [
+        "&&TA_17",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 112",
+    "course_name": "Rehearsal and Performance",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lab hours required",
+      "Course may be repeated for credit"
+    ],
+    "prerequisites": [
+      [
+        "&&||TA_5",
+        "TA_17",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 113",
+    "course_name": "Acting and Professional Career Prep",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 2 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&||TA_11",
+        "TA_17",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 116",
+    "course_name": "Introduction to Stage Directing",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/activity 2 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TA_11",
+        "||TA_5",
+        "TA_17"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 117",
+    "course_name": "Practice in Acting or Directing",
+    "units": "||1-3",
+    "notes": [
+      "Activity 6 hours",
+      "Course is repeatable for up to 9 units when content changes"
+    ],
+    "prerequisites": [
+      [
+        "&&||TA_17",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 120",
+    "course_name": "World Theatre I",
+    "units": 3,
+    "notes": [
+      "Cross-listed with ENGL 120. Film and Theatre is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 121",
+    "course_name": "World Theatre II",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 127",
+    "course_name": "Contemporary Theatre and Performance Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with ENGL 127. Film and Theatre is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 128",
+    "course_name": "Introduction to Playwriting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 6 units",
+      "Cross-listed with ENGL 128. Film and Theatre is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 129",
+    "course_name": "Advanced Playwriting",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TA_128",
+        "EQUIVALENT_TA_128",
+        "INSTRUCTOR_CONSENT",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Course is repeatable for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 131",
+    "course_name": "Storytelling",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 144",
+    "course_name": "Shakespeare I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with ENGL 144. English and Comparative Literature is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 145",
+    "course_name": "Shakespeare and Performance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with ENGL 145. English and Comparative Literature is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 148",
+    "course_name": "Voice & Movement for Performance",
+    "units": 3,
+    "notes": [
+      "Cross-listed with CA 148. Film and Theatre is responsible for scheduling"
+    ],
+    "prerequisites": [
+      [
+        "&&||TA_48",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 151",
+    "course_name": "Lighting Design for Performing Arts",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Activity 2 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 153",
+    "course_name": "Costume Design for Performing Arts",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Activity 2 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 154",
+    "course_name": "Scenic Design for Performing Arts",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Activity 2 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 167",
+    "course_name": "Theatre in Education",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 168",
+    "course_name": "Stage Management",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/lab 1 hour",
+      "May be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 170A",
+    "course_name": "Introduction to Acting and Directing for the Camera",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Activity 2 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "prerequisites": [
+      [
+        "&&||RTVF_130",
+        "TA_17"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 170B",
+    "course_name": "Advanced Acting and Directing for the Camera",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Activity 2 hours",
+      "Course is repeatable for up to 6 units"
+    ],
+    "prerequisites": [
+      [
+        "&&||TA_170A",
+        "RTVF_130",
+        "RTVF_132A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 172",
+    "course_name": "The Arts in U.S. Society",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with CA 172 / ENGL 172 / MUSC 172. Humanities is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 173",
+    "course_name": "Thinking About Contemporary World Arts",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Collaborative Assignments/Project; Diversity/Global Learning.",
+      "Cross-listed with CA 173 / ENGL 173 / MUSC 173. Humanities is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 180",
+    "course_name": "Individual Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&DEPARTMENT_CHAIR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TA 191",
+    "course_name": "Theatre Production Workshop",
+    "units": 3,
+    "notes": [
+      "Activity 9 hours",
+      "Course may be repeated for credit for up to 21 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "TA 198",
+    "course_name": "Internship",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 3 hours/Activity 6 hours",
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "prerequisites": [
+      [
+        "&&||JUNIOR_SENIOR_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TA 199H",
+    "course_name": "Honors Program",
+    "units": "||2-3",
+    "prerequisites": [
+      [
+        "&&SENIOR_STANDING",
+        "GPA_3_0",
+        "INVITATION_ONLY"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 6 units",
+      "Cross-listed with RTVF 199H. Film and Theatre is responsible for scheduling"
+    ],
+    "grading": "Credit/No Credit"
+  },
+
+  {
+    "course_id": "TAG 1A",
+    "course_name": "Elementary Tagalog I",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TAG 1B",
+    "course_name": "Elementary Tagalog II",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&TAG_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TAG 25A",
+    "course_name": "Intermediate Tagalog I",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||TAG_1B",
+        "EQUIVALENT_TAG_1B"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TAG 25B",
+    "course_name": "Intermediate Tagalog II",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&TAG_25A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "TECH 15",
+    "course_name": "Careers in Engineering Technology",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 20",
+    "course_name": "Computer-Aided-Graphics",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours; Lab 3 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 25",
+    "course_name": "Introduction to Materials Science and Technology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||MATH_18A",
+        "EQUIVALENT_MATH_18A"
+      ]
+    ],
+    "corequisites": [
+      [
+        "&&||CHEM_1A",
+        "CHEM_30A",
+        "EQUIVALENT_CHEM"
+      ]
+    ],
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 30",
+    "course_name": "Introduction to Python Programming",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||MATH_71",
+        "MATH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 31",
+    "course_name": "Quality Assurance and Control",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS2_90",
+        "EQUIVALENT_BUS2_90"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 41",
+    "course_name": "Machine Shop Operations and Safety",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||ME_20",
+        "TECH_20",
+        "CE_20",
+        "EQUIVALENT"
+      ]
+    ],
+    "notes": [
+      "3 hours lab",
+      "Course is repeatable for up to 3 units",
+      "Cross-listed with ME 41. Technology is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 42",
+    "course_name": "Manufacturing and Machine Shop Projects and Practices",
+    "units": 1,
+    "prerequisites": [
+      [
+        "&&||TECH_41_C_MINUS",
+        "ME_41_C_MINUS"
+      ]
+    ],
+    "notes": [
+      "Misc/Lab: 3 hours lab",
+      "Course may be repeated for credit for up to 4 units",
+      "Cross-listed with ME 42. Technology is responsible for scheduling"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TECH 45",
+    "course_name": "Facilities Design & Planning",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_20",
+        "CE_20",
+        "ME_20",
+        "EQUIVALENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "TECH 46",
+    "course_name": "Machine Operations and Management",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&||TECH_41",
+        "ME_41"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 60",
+    "course_name": "Introduction to Electronics",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "pre_corequisites": [
+      [
+        "&&||MATH_71",
+        "MATH_30",
+        "EQUIVALENT_MATH"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 62",
+    "course_name": "Analog Circuits",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_60",
+        "MATH_71",
+        "MATH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 63",
+    "course_name": "Analog and Digital Circuits",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_60",
+        "||MATH_71",
+        "MATH_30",
+        "EQUIVALENT_MATH"
+      ]
+    ],
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 65",
+    "course_name": "Introduction to Networks",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&||MATH_18A",
+        "ELIGIBLE_MATH_19"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 66",
+    "course_name": "Network Administration",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_65"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 67",
+    "course_name": "Introduction to Internet of Things",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lec 2 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_60",
+        "TECH_65"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 68",
+    "course_name": "Enterprise Network Management",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_65"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 73",
+    "course_name": "Cloud Computing System Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_30",
+        "TECH_65"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 115",
+    "course_name": "Automation and Robotics",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_60",
+        "MATH_71",
+        "||PHYS_2A_PHYS_2B",
+        "PHYS_50_PHYS_51"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 136",
+    "course_name": "Software Quality Management",
+    "units": 3,
+    "notes": [
+      "2 hours lecture/3 hours lab"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 140",
+    "course_name": "Product Design and Prototyping",
+    "units": 3,
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ],
+    "prerequisites": [
+      [
+        "&&||TECH_20",
+        "ME_20",
+        "||CHEM_1A",
+        "CHEM_30B",
+        "||MATH_71",
+        "MATH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 143",
+    "course_name": "Polymers and Composites Fabrication Technology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_20",
+        "CHEM_1A",
+        "PHYS_2A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 145",
+    "course_name": "Lean Methodology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BUS2_90",
+        "EQUIVALENT_BUS2_90"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ]
+  },
+  {
+    "course_id": "TECH 146",
+    "course_name": "3D Printing and Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_20",
+        "TECH_25",
+        "TECH_140"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 147",
+    "course_name": "Manufacturing Analysis & Management",
+    "units": 3,
+    "notes": [
+      "Sustainability Focused - SDG 12: Responsible Consumption and Production"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_45",
+        "TECH_46",
+        "TECH_115"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&TECH_140"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 149",
+    "course_name": "Smart Manufacturing",
+    "units": 3,
+    "notes": [
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_147"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 163",
+    "course_name": "Telecommunications Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_62",
+        "TECH_63"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 165",
+    "course_name": "Wireless Communications Technologies",
+    "units": 3,
+    "notes": [
+      "Lecture 3 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_63",
+        "TECH_65"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 167",
+    "course_name": "Control Systems",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_63",
+        "TECH_115",
+        "||CMPE_30",
+        "CS_49C",
+        "CS_49J"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 169",
+    "course_name": "Applied Electronic Design",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lecture 2 hours/lab 3 hours"
+    ],
+    "pre_corequisites": [
+      [
+        "&&TECH_167"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 170",
+    "course_name": "Connected Products Applications",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lec 2 hours/ Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_68"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 171",
+    "course_name": "Network Security & Prevention Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_170",
+        "BUS4_111"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 172",
+    "course_name": "Database Server System Management",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: Lec 2 hours/Lab 3 hours"
+    ],
+    "prerequisites": [
+      [
+        "&&TECH_171",
+        "TECH_73",
+        "TECH_179"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 173",
+    "course_name": "Cloud Services Management and Security",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_73"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 174",
+    "course_name": "Blockchain Technology and Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_30",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 175",
+    "course_name": "Industrial Internet of Things (IIoT)",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_30",
+        "TECH_65",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 176",
+    "course_name": "Machine Learning Technology and Applications",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_30",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 177",
+    "course_name": "Data Science in Industrial Systems Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_31",
+        "EQUIVALENT_TECH_31",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 178",
+    "course_name": "Autonomous Systems Technology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_115",
+        "TECH_170",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 179",
+    "course_name": "Cyber Security System Management",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||TECH_171",
+        "BUS4_111"
+      ]
+    ],
+    "notes": [
+      "Sustainability Related"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 180A",
+    "course_name": "Individual Research Studies",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Not available to Open University Students"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TECH 180B",
+    "course_name": "Individual Studies in Manufacturing Technology",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Not available to Open University Students"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TECH 180J",
+    "course_name": "Individual Studies in Technology Issues",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Not available to Open University Students"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TECH 181",
+    "course_name": "Linux for Network Administration",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_30"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 190A",
+    "course_name": "Senior Project I",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&ENGR_100W_C_BETTER",
+        "||TECH_115_TECH_140_TECH_147",
+        "TECH_170_TECH_171"
+      ]
+    ],
+    "notes": [
+      "TECH 190A and TECH 190B sequence must be completed in the same academic year",
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 190B",
+    "course_name": "Senior Project II",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&TECH_190A"
+      ]
+    ],
+    "notes": [
+      "Sustainability Related - SDG 12: Responsible Consumption and Production"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 192",
+    "course_name": "International Program Studies",
+    "units": "||1-14",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "TECH 195",
+    "course_name": "Cooperative Internship",
+    "units": "||1-3",
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING",
+        "COURSE_CONTRACT",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "TECH 198",
+    "course_name": "Technology and Civilization",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with CMPE 198 / ENGR 198 / ME 198. Technology is responsible for scheduling",
+      "Sustainability Related - SDG 9: Industry, Innovation and Infrastructure"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 199A",
+    "course_name": "Special Topics in Electronics & Cmp Tech",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "TECH 199B",
+    "course_name": "Special Topics in Manufacturing Systems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 6 units"
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "UNVS 15",
+    "course_name": "Statway: Statistics-Concepts & Methods",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_2"
+    ],
+    "notes": [
+      "Lecture 1 hour / Activity 4 hours",
+      "A grade of C- or better is required to satisfy GE Area 2.",
+      "Cross-listed with MATH 15. Undergraduate Education is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 75",
+    "course_name": "Fundamentals of Leadership and Career Accelerator",
+    "units": 3,
+    "notes": [
+      "Misc/Lab: 2 hours lecture/ 2 hours lab",
+      "Cross-listed with SCI 75. Science is responsible for scheduling"
+    ],
+    "prerequisites": [
+      [
+        "&&ENGL_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "UNVS 95B",
+    "course_name": "First Year Experience- Academic Success",
+    "units": "||1-2",
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 120",
+    "course_name": "Conceptualizing Complex Problems",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INTERDISCIPLINARY_STUDIES_MINOR"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Learning Community"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 121",
+    "course_name": "Social Problems Topics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INTERDISCIPLINARY_STUDIES_MINOR"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Learning Community"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 122",
+    "course_name": "Steps in Real-World Problem Solving",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INTERDISCIPLINARY_STUDIES_MINOR"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Learning Community"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 123",
+    "course_name": "HonorsX Explorations",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&INTERDISCIPLINARY_STUDIES_MINOR"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Learning Community"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 124",
+    "course_name": "HonorsX Research or Practicum Experience",
+    "units": "||3-6",
+    "prerequisites": [
+      [
+        "&&INTERDISCIPLINARY_STUDIES_MINOR"
+      ]
+    ],
+    "notes": [
+      "High Impact Practice: Learning Community",
+      "Sustainability Focused"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "UNVS 125M",
+    "course_name": "McNair Research Colloquium",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SJSU_McNAIR_SCHOLARS_PROGRAM"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "UNVS 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "UNVS 190",
+    "course_name": "University Internship",
+    "units": "||1-4",
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "UNVS 195H",
+    "course_name": "Interdisciplinary Research Practicum",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "UNVS 199",
+    "course_name": "Orientation Leadership Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&FALL_SEMESTER_APPLICATION_SELECTION",
+        "GPA_2_0",
+        "UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "URBP 92",
+    "course_name": "International Program Studies",
+    "units": "||1-6",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "URBP 101",
+    "course_name": "The City",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "College of Humanities and the Arts is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 103",
+    "course_name": "Local Government and Politics",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with POLS 103. Political Science is responsible for scheduling"
+    ]
+  },
+  {
+    "course_id": "URBP 110",
+    "course_name": "Urbanization in the Global South",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GE",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&ANY_100W"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with GEOG 110. Geography is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 120",
+    "course_name": "Intro to Housing Economics and Policy",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Offered only occasionally.",
+      "College of Humanities and the Arts is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 125",
+    "course_name": "Urban Anthropology",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ANTH_11",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ANTH 125. Anthropology is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 133",
+    "course_name": "Introduction to Social Issues in Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AFAM 133. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 136",
+    "course_name": "Introduction to Land Use Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 136. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 142",
+    "course_name": "Introduction to Environmental Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 142. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 143",
+    "course_name": "Intro Private Development and Planning",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 145",
+    "course_name": "Race, Policy, and Urban Cities",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with AFAM 145. African American Studies is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 148",
+    "course_name": "Introduction to Spatial Visualization Technology in Urban Planning",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with DSGN 148. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 150",
+    "course_name": "Introduction to Municipal Finance",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 151",
+    "course_name": "Introduction to Urban Design",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with DSIT 151. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 152",
+    "course_name": "Introduction to Urban Design Studio",
+    "units": 4,
+    "notes": [
+      "Cross-listed with DSIT 152. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ],
+    "prerequisites": [
+      [
+        "&&||URBP_151",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 156",
+    "course_name": "Introduction to Local Transportation Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 156. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Related - SDG 9: Industry, Innovation and Infrastructure"
+    ]
+  },
+  {
+    "course_id": "URBP 160",
+    "course_name": "Topics in Environmental Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 163",
+    "course_name": "Twentieth Century Urban Design",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||ARTH_70B",
+        "URBP_151",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ARTH 163. Art and Art History is responsible for scheduling.",
+      "Sustainability Focused - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 175",
+    "course_name": "Urban Studies Topics",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Course may be repeated for credit for up to 8 units"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 178",
+    "course_name": "Intro to Regional Transport Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 178. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Focused - SDG 9: Industry, Innovation and Infrastructure"
+    ]
+  },
+  {
+    "course_id": "URBP 179A",
+    "course_name": "Fundamentals of GIS for Urban Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with ENVS 179A. Urban and Regional Planning is responsible for scheduling.",
+      "Sustainability Related - SDG 11: Sustainable Cities and Communities"
+    ]
+  },
+  {
+    "course_id": "URBP 179B",
+    "course_name": "Advanced GIS for Urban Planning",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&||URBP_179A",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "DEPARTMENT_CHAIR_APPROVAL"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "URBP 185",
+    "course_name": "Environmental Impact Analysis",
+    "units": 4,
+    "notes": [
+      "Cross-listed with ENVS 185. Environmental Studies is responsible for scheduling"
+    ],
+    "prerequisites": [
+      [
+        "&&ENVS_1",
+        "ENVS_124",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 190",
+    "course_name": "Advanced Environmental Impact Assessment",
+    "units": 4,
+    "notes": [
+      "Cross-listed with ENVS 190. Environmental Studies is responsible for scheduling"
+    ],
+    "prerequisites": [
+      [
+        "&&||ENVS_185",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "URBP 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "VIET 1A",
+    "course_name": "Elementary Vietnamese",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "VIET 1B",
+    "course_name": "Elementary Vietnamese",
+    "units": 4,
+    "ge_areas": [
+      "GE_AREA_3B"
+    ],
+    "prerequisites": [
+      [
+        "&&||VIET_1A",
+        "EQUIVALENT_VIET_1A"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+
+  {
+    "course_id": "WGSS 10",
+    "course_name": "Women, Gender, and Sexuality Studies",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 16A",
+    "course_name": "Women of Color in United States History I",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "notes": [
+      "Must complete entire sequence (WGSS 16A and WGSS 16B) to satisfy American Institutions (US123)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 16B",
+    "course_name": "Women of Color in U.S. History II",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4",
+      "GE_AREA_US123"
+    ],
+    "notes": [
+      "Must complete entire sequence (WGSS 16A and WGSS 16B) to satisfy American Institutions (US123)"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 20",
+    "course_name": "Women of Color in the U.S.",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_4"
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 92",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+  {
+    "course_id": "WGSS 101",
+    "course_name": "Sex, Power, and Politics",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_4"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 102",
+    "course_name": "The Global Study of Women",
+    "units": 3,
+    "ge_areas": [
+      "GE_AREA_UD_3"
+    ],
+    "prerequisites": [
+      [
+        "&&COMPLETION_OF_CORE_GENERAL_EDUCATION",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "pre_corequisites": [
+      [
+        "&&||COMPLETION_OF_100W",
+        "CO_REGISTRATION_IN_100W"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 107",
+    "course_name": "Psychology of Women",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&PSYC_1"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with PSYC 107. Psychology is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 112",
+    "course_name": "Women in the Global Economy",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||WGSS_10",
+        "WGSS_20",
+        "WGSS_101",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 114",
+    "course_name": "Politics of Mothering and Reproduction",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 120",
+    "course_name": "Special Topics in Women’s Studies",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||WGSS_10",
+        "WGSS_20",
+        "WGSS_101",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 121",
+    "course_name": "Philosophy and Feminism",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||PHILOSOPHY_3_UNITS",
+        "UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with PHIL 121. Philosophy is responsible for scheduling",
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 131",
+    "course_name": "Gender, Sexuality, and Religion",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with RELS 131. Humanities is responsible for scheduling",
+      "Sustainability Related - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 135",
+    "course_name": "Trans Studies: Identities, Embodiment, & Politics",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 156",
+    "course_name": "Black Women’s Writing",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with AFAM 156 / ENGL 156. African American Studies is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 160",
+    "course_name": "Queering Gender, Race, and Class",
+    "units": 3,
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 169",
+    "course_name": "Sexualities and the Body",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 175",
+    "course_name": "Sociology of Masculinities and Femininities",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&SOCI_1"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with SOCI 175. Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&WOMENS_STUDIES_MINOR_EMPHASIS"
+      ]
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "WGSS 182",
+    "course_name": "Women, Gender, and Sexuality in Literature",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with ENGL 182. English and Comparative Literature is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 184",
+    "course_name": "Queer Literary Studies",
+    "units": 4,
+    "prerequisites": [
+      [
+        "&&UPPER_DIVISION_STANDING"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with ENGL 184. English and Comparative Literature is responsible for scheduling"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 189",
+    "course_name": "Feminist Perspectives on Gender and Religion",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||UPPER_DIVISION_STANDING",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Cross-listed with MDES 189. Sociology and Interdisciplinary Social Sciences is responsible for scheduling",
+      "Sustainability Focused - SDG 5: Gender Equality"
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "WGSS 190",
+    "course_name": "Internship",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&||WGSS_101",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "notes": [
+      "Repeatable for credit with program coordinator approval"
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "WGSS 192",
+    "course_name": "International Program Studies",
+    "units": "||1-12",
+    "grading": "Mixed Grading"
+  },
+
+  {
+    "course_id": "ZOOL 113",
+    "course_name": "Principles of Systematics",
+    "units": 3,
+    "notes": [
+      "Lab/Act: Lecture 2 hours/Lab 3 hours.",
+      "Cross-listed with BIOL 113 / BOT 113 / ENT 113. Biological Sciences is responsible for scheduling."
+    ],
+    "prerequisites": [
+      [
+        "&&||BIOL_115_C",
+        "BIOL_118_C",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ZOOL 114",
+    "course_name": "Functional Morphology",
+    "units": 3,
+    "notes": [
+      "Lecture 2 hours/Lab 3 hours.",
+      "Cross-listed with BIOL 114 / BOT 114 / ENT 114. Biological Sciences is responsible for scheduling."
+    ],
+    "prerequisites": [
+      [
+        "&&||BIOL_115_C",
+        "BIOL_118_C",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ZOOL 115",
+    "course_name": "Invertebrate Zoology and Natural History",
+    "units": 4,
+    "notes": [
+      "Lecture 2 hours/lab-field trips 6 hours."
+    ],
+    "prerequisites": [
+      [
+        "&&||BIOL_115_C",
+        "BIOL_118_C",
+        "BIOLOGICAL_SCIENCES_MAJOR",
+        "INSTRUCTOR_CONSENT"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ZOOL 116",
+    "course_name": "Vertebrate Evolution and Natural History",
+    "units": 4,
+    "notes": [
+      "Lecture 2 hours/lab 6 hours with several field trips."
+    ],
+    "prerequisites": [
+      [
+        "&&BIOL_118_C",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGICAL_SCIENCES_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded"
+  },
+  {
+    "course_id": "ZOOL 143",
+    "course_name": "Biogeography",
+    "units": 3,
+    "prerequisites": [
+      [
+        "&&||BIOL_31_C_MINUS",
+        "EQUIVALENT_BIOL_31",
+        "INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "grading": "Letter Graded",
+    "notes": [
+      "Cross-listed with BIOL 143 / BOT 143 / ENT 143. Biological Sciences is responsible for scheduling.",
+      "Sustainability Related - SDG 15: Life on Land"
+    ]
+  },
+  {
+    "course_id": "ZOOL 180",
+    "course_name": "Individual Studies",
+    "units": "||1-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "notes": [
+      "Course is repeatable for credit."
+    ],
+    "grading": "Credit/No Credit"
+  },
+  {
+    "course_id": "ZOOL 186",
+    "course_name": "Senior Thesis",
+    "units": "||2-4",
+    "prerequisites": [
+      [
+        "&&INSTRUCTOR_CONSENT",
+        "BIOLOGY_MAJOR"
+      ]
+    ],
+    "grading": "Credit/No Credit"
   }
-
-
-
-
 ]
