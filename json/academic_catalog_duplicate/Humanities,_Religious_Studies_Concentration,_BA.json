@@ -1,0 +1,147 @@
+{
+  "output": {
+    "major_name": "Humanities, Religious Studies Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_1B, GE_AREA_3B, GE_AREA_4, GE_AREA_UD3, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "RELS 70",
+          "course_name": "Religious Worlds: Navigating Diversity",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "HUM 80",
+          "course_name": "Reading the World",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "HUM 95",
+          "course_name": "Introduction to Digital Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 101",
+          "course_name": "Introduction to Critical Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 160",
+          "course_name": "Special Topics in Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 190",
+          "course_name": "Senior Seminar in Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "AMS 129",
+          "course_name": "The U.S. in a Global Context",
+          "units": 3
+        },
+        {
+          "course_id": "AMS 159",
+          "course_name": "Nature and World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "CA 173",
+          "course_name": "Thinking About Contemporary World Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "HUM 119",
+          "course_name": "Myths, Heroes, and Global Cultures before 1500 CE",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 128",
+          "course_name": "Global Humanities in the Modern Era",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Traditions",
+        "courses": [
+          "RELS 142",
+          "RELS 144",
+          "RELS 145",
+          "RELS 156"
+        ]
+      },
+      {
+        "field_name": "Thoughts, Texts, and Images",
+        "courses": [
+          "ENGL 116",
+          "RELS 90",
+          "RELS 104",
+          "RELS 109",
+          "RELS 122"
+        ]
+      },
+      {
+        "field_name": "Religions and Cultures",
+        "courses": [
+          "AFAM 134",
+          "HIST 121A",
+          "HIST 121B",
+          "HIST 126",
+          "RELS 99",
+          "RELS 111",
+          "RELS 114",
+          "RELS 120",
+          "RELS 137",
+          "RELS 162",
+          "RELS 191"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least two courses from each field.",
+      "String: One year of college level foreign language or equivalent related to chosen area is recommended."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

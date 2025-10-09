@@ -1,0 +1,323 @@
+{
+  "output": {
+    "major_name": "Art, Digital Media Art Concentration, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A; 3 units may be satisfied by major coursework: GE_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 12",
+          "course_name": "Two-Dimensional Design and Color Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 15",
+          "course_name": "Digital 2D Foundations",
+          "units": 3
+        },
+        {
+          "course_id": "ART 13",
+          "course_name": "Three-Dimensional Design Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 24",
+          "course_name": "Drawing I",
+          "units": 3
+        },
+        {
+          "course_id": "ART 68",
+          "course_name": "Beginning Sculpture: Object & Concept",
+          "units": 3
+        },
+        {
+          "course_id": "ART 74",
+          "course_name": "Introduction to Digital Media",
+          "units": 3
+        },
+        {
+          "course_id": "ART 75",
+          "course_name": "Introduction to Digital Video Art",
+          "units": 3
+        },
+        {
+          "course_id": "PHOT 40",
+          "course_name": "Beginning Photography",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 70A",
+          "course_name": "Art History, Prehistoric to Medieval",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70B",
+          "course_name": "Art History, Renaissance to Modern",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70C",
+          "course_name": "Arts of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ART 1",
+          "course_name": "Professional Preparation in Art",
+          "units": 1
+        },
+        {
+          "course_id": "ART 2",
+          "course_name": "The Artist in Contemporary Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 3",
+          "course_name": "Medium and Message",
+          "units": 3
+        },
+        {
+          "course_id": "ART 100W",
+          "course_name": "Writing Workshop: Fine Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ARTH 110",
+          "course_name": "History and Theory of New Media",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 193A",
+          "course_name": "Worlds of Art and Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ARTH 193B",
+          "course_name": "East Meets West in Art",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ART 101",
+          "course_name": "Digital Media Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 102",
+          "course_name": "3D Modeling and Printing",
+          "units": 3
+        },
+        {
+          "course_id": "ART 103",
+          "course_name": "Art as System",
+          "units": 3
+        },
+        {
+          "course_id": "ART 104",
+          "course_name": "Interdisciplinary Seminar in Digital Media Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 105",
+          "course_name": "Advanced Digital Video",
+          "units": 3
+        },
+        {
+          "course_id": "ART 46",
+          "course_name": "Introduction to Ceramics",
+          "units": 3
+        },
+        {
+          "course_id": "ART 47",
+          "course_name": "Introduction to Metalsmithing",
+          "units": 3
+        },
+        {
+          "course_id": "ART 133",
+          "course_name": "Topics in Ceramic Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 135",
+          "course_name": "Topics in Moldmaking for Artists",
+          "units": 3
+        },
+        {
+          "course_id": "ART 137",
+          "course_name": "Figure Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "ART 140",
+          "course_name": "Topics in Glass",
+          "units": 3
+        },
+        {
+          "course_id": "ART 141",
+          "course_name": "Topics in Advanced Glass",
+          "units": 3
+        },
+        {
+          "course_id": "ART 149",
+          "course_name": "Topics in Jewelry and Small Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 151",
+          "course_name": "Topics in Screen-Printing",
+          "units": 3
+        },
+        {
+          "course_id": "ART 153",
+          "course_name": "Topics in Intaglio Processes",
+          "units": 3
+        },
+        {
+          "course_id": "ART 168",
+          "course_name": "Topics in Woodworking",
+          "units": 3
+        },
+        {
+          "course_id": "ART 169",
+          "course_name": "Topics in Metal Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 170",
+          "course_name": "Topics in Fabricated Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 173",
+          "course_name": "Topics in Installation Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 178",
+          "course_name": "Art Field Work",
+          "units": "1-3"
+        },
+        {
+          "course_id": "ART 199",
+          "course_name": "BFA Project",
+          "units": 3
+        },
+        {
+          "course_id": "PHOT 120",
+          "course_name": "Image and Idea",
+          "units": 3
+        },
+        {
+          "course_id": "ART 106",
+          "course_name": "Topics in Human Machine Interface",
+          "units": 3
+        },
+        {
+          "course_id": "ART 107",
+          "course_name": "Advanced Projects in Digital Media Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 108",
+          "course_name": "Introduction to Game Studies",
+          "units": 3
+        },
+        {
+          "course_id": "ART 109",
+          "course_name": "Web Development in HTML, CSS and JavaScript",
+          "units": 3
+        },
+        {
+          "course_id": "ART 175",
+          "course_name": "Special Topics in Studio Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 181",
+          "course_name": "Digital Printmaking",
+          "units": 3
+        },
+        {
+          "course_id": "ART 193",
+          "course_name": "Digital Materials",
+          "units": 3
+        },
+        {
+          "course_id": "ART 210",
+          "course_name": "Seminar in Digital Media Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 195",
+          "course_name": "BFA Group Exhibition",
+          "units": 3
+        },
+        {
+          "course_id": "ART 198",
+          "course_name": "BFA Seminar",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Lower Division College of Humanities & the Arts Requirement",
+        "courses": [
+          "ART 44HA",
+          "DSGN 44HA",
+          "ENGL 44HA",
+          "HUM 44HA",
+          "PHIL 44HA"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from the Lower Division College of Humanities & the Arts Requirement.",
+      "String: Students must complete one upper division course from the College of Humanities & the Arts in a discipline other than their major.",
+      "String: Students must complete one course from ARTH 70A, ARTH 70B, or ARTH 70C.",
+      "String: Students must complete one course from ART 46, ART 47, ART 133, ART 135, ART 137, ART 140, ART 141, ART 149, ART 151, ART 153, ART 168, ART 169, ART 170, ART 173, ART 178, ART 199, or PHOT 120.",
+      "String: Students must complete three courses from ART 106, ART 107, ART 108, ART 109, ART 175, ART 181, ART 193, or ART 210."
+    ],
+    "recommendations": [
+      "ART 100W for GWAR"
+    ]
+  }
+}

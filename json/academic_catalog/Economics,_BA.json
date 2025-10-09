@@ -1,0 +1,183 @@
+{
+  "output": {
+    "major_name": "Economics, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units from Areas 2 and 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ECON 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Statistics Requirement",
+          "options": [
+            {
+              "group": [
+                "||SOCI 15",
+                "||SOCS 15",
+                "||STAT 95",
+                "||BUS2 90"
+              ],
+              "details": [
+                {
+                  "course_id": "SOCI 15",
+                  "course_name": "Elementary Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "SOCS 15",
+                  "course_name": "Elementary Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "STAT 95",
+                  "course_name": "Elementary Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "BUS2 90",
+                  "course_name": "Business Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculus Requirement",
+          "options": [
+            {
+              "group": [
+                "||MATH 71",
+                "||MATH 30"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 71",
+                  "course_name": "Calculus for Business and Aviation",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "MATH 30",
+                  "course_name": "Calculus I",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ECON 1A",
+          "course_name": "Principles of Economics: Macroeconomics",
+          "units": 3
+        },
+        {
+          "course_id": "ECON 1B",
+          "course_name": "Principles of Economics: Microeconomics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ECON 100W",
+          "course_name": "Writing Workshop: Economic Reports",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 101",
+          "course_name": "Microeconomic Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 102",
+          "course_name": "Macroeconomic Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 103A",
+          "course_name": "Introduction to Econometrics and Research Methods",
+          "units": 4
+        },
+        {
+          "name": "Capstone Experience",
+          "options": [
+            {
+              "group": [
+                "||ECON 190",
+                "||ECON 191"
+              ],
+              "details": [
+                {
+                  "course_id": "ECON 190",
+                  "course_name": "History of Economic Thought",
+                  "units": 4
+                },
+                {
+                  "course_id": "ECON 191",
+                  "course_name": "Economic Thought of Nobel Prize Winners",
+                  "units": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Data Analytics Specialization",
+        "courses": [
+          "ECON 166",
+          "ECON 138",
+          "ECON 195",
+          "ECON 197"
+        ]
+      }
+    ],
+    "notes": [
+      "String: The statistics course in Major Preparation must be completed with a grade of 'C-' or better.",
+      "String: All courses required in the major (Core, Capstone, and major electives) must be completed with a minimum grade of 'C-'.",
+      "String: ECON 109 is NOT intended for majors and cannot be used to fulfill upper division elective requirements.",
+      "String: For the Data Analytics specialization, students must complete two out of four specified elective courses and an additional 16 units of 100-level economics electives."
+    ],
+    "recommendations": [
+      "ECON 100W for GWAR",
+      "Complete a minor in a field recommended by the advisor"
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "output": {
+    "major_name": "Creative Arts, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_3, GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CA 60",
+          "course_name": "Creativity Matters",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 95",
+          "course_name": "Introduction to Digital Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "CA 95",
+          "course_name": "Introduction to Queer Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "DANC 10",
+          "course_name": "Dance Appreciation",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ENGL 10",
+          "course_name": "Great Works of Literature",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "ENGL 22",
+          "course_name": "Fantasy and Science Fiction",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 10A",
+          "course_name": "Music Appreciation",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "RTVF 82",
+          "course_name": "Introduction to Film History",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 31",
+          "course_name": "Film and Television Aesthetics",
+          "units": 3
+        },
+        {
+          "course_id": "TA 10",
+          "course_name": "Theatre Appreciation",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ART 12",
+          "course_name": "Two-Dimensional Design and Color Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 13",
+          "course_name": "Three-Dimensional Design Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 24",
+          "course_name": "Drawing I",
+          "units": 3
+        },
+        {
+          "course_id": "ART 26",
+          "course_name": "Drawing II",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 40A",
+          "course_name": "Topics in Modern Dance I",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_PE"
+          ]
+        },
+        {
+          "course_id": "DANC 42A",
+          "course_name": "Topics in Jazz Dance I",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_PE"
+          ]
+        },
+        {
+          "course_id": "DANC 43",
+          "course_name": "Dance Improvisation",
+          "units": 1
+        },
+        {
+          "course_id": "DANC 53",
+          "course_name": "World Dance",
+          "units": 1
+        },
+        {
+          "course_id": "ENGL 71",
+          "course_name": "Creative Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "TA 5",
+          "course_name": "Beginning Acting",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "TA 17",
+          "course_name": "Intermediate Acting",
+          "units": 3
+        },
+        {
+          "course_id": "TA 48",
+          "course_name": "Voice & Movement for the Actor",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CA 172",
+          "course_name": "The Arts in U.S. Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "CA 173",
+          "course_name": "Thinking About Contemporary World Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "CA 175",
+          "course_name": "Seminar in Creative Process",
+          "units": 3
+        },
+        {
+          "course_id": "CA 176",
+          "course_name": "Creativity and Creative Leadership",
+          "units": 3
+        },
+        {
+          "course_id": "CA 178",
+          "course_name": "Senior Seminar in Creative Arts",
+          "units": 3
+        },
+        {
+          "course_id": "AMS 179",
+          "course_name": "Issues in US Popular Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 110",
+          "course_name": "History and Theory of New Media",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 126",
+          "course_name": "History of Photography",
+          "units": 3
+        },
+        {
+          "course_id": "CA 134",
+          "course_name": "Religion Film & Media",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 102",
+          "course_name": "Dance in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "DANC 148",
+          "course_name": "Children\u2019s Dance",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 176",
+          "course_name": "The Short Story",
+          "units": 4
+        },
+        {
+          "course_id": "RTVF 111",
+          "course_name": "Global Screen Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "RTVF 181",
+          "course_name": "Modern Film History",
+          "units": 3
+        },
+        {
+          "course_id": "SPAN 120A",
+          "course_name": "Spanish Literature I",
+          "units": 4
+        },
+        {
+          "course_id": "TA 120",
+          "course_name": "World Theatre I",
+          "units": 3
+        },
+        {
+          "course_id": "TA 121",
+          "course_name": "World Theatre II",
+          "units": 3
+        },
+        {
+          "course_id": "TA 131",
+          "course_name": "Storytelling",
+          "units": 3
+        },
+        {
+          "course_id": "CA 194",
+          "course_name": "Community Building through Arts Orgs",
+          "units": 3
+        },
+        {
+          "course_id": "CA 180",
+          "course_name": "Individual Studies",
+          "units": "1-4"
+        },
+        {
+          "course_id": "CA 190",
+          "course_name": "Field Work/Internship",
+          "units": "1-3"
+        },
+        {
+          "course_id": "HUM 160",
+          "course_name": "Special Topics in Humanities",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: To qualify for a baccalaureate in Creative Arts, a grade of \u201cC-\u201d (1.7) or better is required in each of the following courses: CA 172, CA 173, CA 175, CA 176, CA 178.",
+      "String: Arts History/Theory Course: Three units of lower division non-studio, non-activity courses in history or theory selected from the following: Art; Art History; Comparative Literature; Dance; Design; English; Music; Radio, Television, Film; Theatre Arts; and others approved by the CAP Advisor.",
+      "String: Activity or Studio Courses: Six units of activity or studio courses in visual or performing arts or creative writing listed below or approved by the CAP Advisor."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

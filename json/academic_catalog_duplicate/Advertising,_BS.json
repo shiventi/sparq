@@ -1,0 +1,159 @@
+{
+  "output": {
+    "major_name": "Advertising, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_3B, GE_AREA_4, GE_AREA_UD3, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MCOM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ADV 91",
+          "course_name": "Introduction to Advertising",
+          "units": 3
+        },
+        {
+          "course_id": "ADV 121",
+          "course_name": "Strategic Planning/Communications",
+          "units": 3
+        },
+        {
+          "course_id": "ADV 128",
+          "course_name": "Integrated Marketing Communications (IMC)",
+          "units": 3
+        },
+        {
+          "course_id": "ADV 129",
+          "course_name": "Advertising Campaign Planning and Management",
+          "units": 3
+        },
+        {
+          "course_id": "MCOM 70",
+          "course_name": "Visual Communication for Modern Media",
+          "units": 3
+        },
+        {
+          "course_id": "MCOM 100W",
+          "course_name": "Writing Workshop: Mass Communications",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "MCOM 104",
+          "course_name": "Introduction to Mass Communications Research",
+          "units": 3
+        },
+        {
+          "course_id": "MCOM 111",
+          "course_name": "Mass Communications Internship",
+          "units": 3
+        },
+        {
+          "course_id": "MCOM 170",
+          "course_name": "Strategic Social Media & Digital Marketing",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Track Option Requirements",
+          "options": [
+            [
+              "||ENGL 71",
+              "ADV 93",
+              "ADV 94",
+              "ADV 95",
+              "ADV 124",
+              "ADV 130",
+              "ADV 131",
+              "ADV 132",
+              "ART_ELECTIVE",
+              "ADV_APPROVED_ELECTIVE"
+            ],
+            [
+              "||ADV 93",
+              "ADV 97",
+              "ADV 122",
+              "ADV 123",
+              "ADV 126",
+              "ADV 127",
+              "MCOM 63",
+              "MCOM 175",
+              "STAT 95",
+              "ADV_APPROVED_ELECTIVE"
+            ],
+            [
+              "||ADV 97",
+              "ADV 126",
+              "ADV 127",
+              "JOUR 61",
+              "MCOM 63",
+              "MCOM 175",
+              "PR 99",
+              "PR 190",
+              "PR 191",
+              "STAT 95",
+              "MCOM_APPROVED_ELECTIVE"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: MCOM 199A/MCOM 199B substitutes for MCOM 111 and ADV 129 by invitation.",
+      "String: Creative Track students are not required to fulfill prerequisite BUS2 130. Contact instructor for permission code.",
+      "String: UNVS 15 may be used in lieu of the statistics course required by this major."
+    ],
+    "recommendations": [
+      "MCOM 100W for GWAR"
+    ]
+  }
+}

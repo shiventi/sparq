@@ -1,0 +1,277 @@
+{
+  "output": {
+    "major_name": "Art, Studio Practice Concentration (Preparation for Teaching), BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 12",
+          "course_name": "Two-Dimensional Design and Color Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 13",
+          "course_name": "Three-Dimensional Design Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 24",
+          "course_name": "Drawing I",
+          "units": 3
+        },
+        {
+          "course_id": "ART 68",
+          "course_name": "Beginning Sculpture: Object & Concept",
+          "units": 3
+        },
+        {
+          "course_id": "ART 74",
+          "course_name": "Introduction to Digital Media",
+          "units": 3
+        },
+        {
+          "course_id": "PHOT 40",
+          "course_name": "Beginning Photography",
+          "units": 3
+        },
+        {
+          "name": "General Art History Survey Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 70A",
+                "||ARTH 70B",
+                "||ARTH 70C"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 70A",
+                  "course_name": "Art History, Prehistoric to Medieval",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "ARTH 70B",
+                  "course_name": "Art History, Renaissance to Modern",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "ARTH 70C",
+                  "course_name": "Arts of Asia",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aesthetics and Art Theory Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 101",
+                "||PHIL 66",
+                "||PHIL 106"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 101",
+                  "course_name": "Introduction to Practice of Art History",
+                  "units": 3
+                },
+                {
+                  "course_id": "PHIL 66",
+                  "course_name": "Introduction to Aesthetics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "PHIL 106",
+                  "course_name": "Philosophy of Art",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specialized Art History Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 185",
+                "||ARTH 187A",
+                "||ARTH 190B",
+                "||ARTH 191A",
+                "||ARTH 160",
+                "||ARTH 161"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 185",
+                  "course_name": "Art of the Classical World",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 187A",
+                  "course_name": "Art of the Italian Renaissance, Fifteenth Century",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 190B",
+                  "course_name": "Early Modernist Art",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 191A",
+                  "course_name": "Issues in Contemporary Art",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 160",
+                  "course_name": "Modern Architecture",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 161",
+                  "course_name": "Contemporary Architecture",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ART 1",
+          "course_name": "Professional Preparation in Art",
+          "units": 1
+        },
+        {
+          "course_id": "ART 2",
+          "course_name": "The Artist in Contemporary Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 3",
+          "course_name": "Medium and Message",
+          "units": 3
+        },
+        {
+          "course_id": "ART 61",
+          "course_name": "Beginning Painting",
+          "units": 3
+        },
+        {
+          "course_id": "ART 100W",
+          "course_name": "Writing Workshop: Fine Arts",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "ART 138",
+          "course_name": "Elementary Art Methods",
+          "units": 3
+        },
+        {
+          "course_id": "ART 139",
+          "course_name": "Teaching Diversity through Art",
+          "units": 3
+        },
+        {
+          "name": "Upper Division Art History Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 193A",
+                "||ARTH 193B"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 193A",
+                  "course_name": "Worlds of Art and Culture",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_UD_AREA_3"
+                  ]
+                },
+                {
+                  "course_id": "ARTH 193B",
+                  "course_name": "East Meets West in Art",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_UD_AREA_3"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "ARED 150",
+          "course_name": "Field Experience in the Arts",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Lower Division Humanities & the Arts College Requirement",
+        "courses": [
+          "ART 44HA",
+          "DSGN 44HA",
+          "ENGL 44HA",
+          "HUM 44HA",
+          "PHIL 44HA"
+        ]
+      },
+      {
+        "field_name": "Upper Division Humanities & the Arts College Requirement",
+        "courses": []
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course from the Lower Division Humanities & the Arts College Requirement.",
+      "String: For the Upper Division Humanities & the Arts College Requirement, students must complete any one course offered by the College of Humanities & the Arts in a discipline other than their major.",
+      "String: Courses in Area Focus cannot be taken again if taken in another requirement area."
+    ],
+    "recommendations": [
+      "ARTH 70B for General Art History Survey",
+      "Consult with advisor from Department of Art and Art History about recommended minors."
+    ]
+  }
+}

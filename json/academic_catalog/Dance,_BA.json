@@ -1,0 +1,139 @@
+{
+  "output": {
+    "major_name": "Dance, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_AREA_3B_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W or TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Lower Division Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation - Dance in World Cultures",
+          "options": [
+            "DANC 102"
+          ]
+        },
+        {
+          "name": "Major Preparation - Written Communication II",
+          "options": [
+            [
+              "||MUSC 100W",
+              "TA 100W"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation - Intro to Visual Culture",
+          "options": [
+            [
+              "||ARTH 15",
+              "DANC 10",
+              "MUSC 10A"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Upper Division Requirement",
+          "options": [
+            "Any course from College of Humanities & the Arts outside major"
+          ]
+        },
+        {
+          "name": "Dance Technique",
+          "options": [
+            [
+              "||DANC 154A",
+              "DANC 154B"
+            ]
+          ],
+          "minimum_units": 6
+        },
+        {
+          "name": "Culminating Experience",
+          "options": [
+            "DANC 198"
+          ],
+          "units": 2
+        },
+        {
+          "name": "Choreography Sequence",
+          "options": [
+            [
+              "&&DANC 43",
+              "DANC 145A",
+              "DANC 145B",
+              "DANC 145C"
+            ]
+          ]
+        },
+        {
+          "name": "Performance Requirement",
+          "options": [
+            [
+              "||DANC 12",
+              "DANC 112",
+              "DANC 194"
+            ]
+          ],
+          "minimum_units": 6
+        },
+        {
+          "name": "Theory Requirements",
+          "options": [
+            [
+              "&&DANC 51A",
+              "DANC 51B",
+              "DANC 51B",
+              "DANC 75",
+              "DANC 144A",
+              "DANC 147A",
+              "DANC 150A",
+              "DANC 150B"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "MUSC 100W for GWAR",
+      "TA 100W for GWAR"
+    ]
+  }
+}

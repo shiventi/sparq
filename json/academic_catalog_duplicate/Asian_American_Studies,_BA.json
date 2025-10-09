@@ -1,0 +1,196 @@
+{
+  "output": {
+    "major_name": "Asian American Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_4 and GE_AREA_6"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "AFAM 100W or SOCI 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "AAS 1",
+          "course_name": "Introduction to Asian American Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_6"
+          ]
+        },
+        {
+          "course_id": "AAS 33A",
+          "course_name": "Asian Americans in U.S. History I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "AAS 33B",
+          "course_name": "Asian Americans in U.S. History II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4",
+            "GE_AREA_US123"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "AAS 175",
+          "course_name": "Asian American Communities",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "AAS 184",
+          "course_name": "Ethnic Studies Theory",
+          "units": 3
+        },
+        {
+          "course_id": "AAS 185",
+          "course_name": "Ethnic Studies Methodologies",
+          "units": 3
+        },
+        {
+          "course_id": "AFAM 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "SOCI 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Asian American Studies",
+        "courses": [
+          "AAS 125",
+          "AAS 158",
+          "AAS 159",
+          "AAS 170",
+          "AAS 180",
+          "AAS 186",
+          "AAS 190"
+        ]
+      },
+      {
+        "field_name": "African American Studies",
+        "courses": [
+          "AFAM 105",
+          "AFAM 110",
+          "AFAM 115",
+          "AFAM 120",
+          "AFAM 125",
+          "AFAM 130",
+          "AFAM 134",
+          "AFAM 137",
+          "AFAM 142",
+          "AFAM 145",
+          "AFAM 151",
+          "AFAM 152",
+          "AFAM 156",
+          "AFAM 157",
+          "AFAM 158",
+          "AFAM 159",
+          "AFAM 161",
+          "AFAM 162"
+        ]
+      },
+      {
+        "field_name": "Arts and Humanities",
+        "courses": [
+          "ENGL 123C",
+          "ENGL 156",
+          "ENGL 165",
+          "ENGL 169",
+          "LING 129",
+          "PHIL 117",
+          "RELS 137"
+        ]
+      },
+      {
+        "field_name": "Chicana/Chicano Studies",
+        "courses": [
+          "CCS 105",
+          "CCS 115",
+          "CCS 120",
+          "CCS 126",
+          "CCS 130",
+          "CCS 135",
+          "CCS 144",
+          "CCS 145",
+          "CCS 147",
+          "CCS 150",
+          "CCS 151",
+          "CCS 152",
+          "CCS 160",
+          "CCS 170",
+          "CCS 175"
+        ]
+      },
+      {
+        "field_name": "Women, Gender and Sexuality Studies",
+        "courses": [
+          "WGSS 101",
+          "WGSS 102",
+          "WGSS 112",
+          "WGSS 114",
+          "WGSS 120",
+          "WGSS 135",
+          "WGSS 156",
+          "WGSS 160",
+          "WGSS 169"
+        ]
+      },
+      {
+        "field_name": "Additional Elective",
+        "courses": [
+          "COMM 126F",
+          "COMM 174",
+          "ENVS 151",
+          "JS 132",
+          "SOCI 118",
+          "SOCI 142",
+          "SOCI 160",
+          "SOCI 162"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Must complete the entire sequence (AAS 33A and 33B) to satisfy American Institutions (US123).",
+      "String: Students are encouraged to enroll in a minor or second major."
+    ],
+    "recommendations": [
+      "AFAM 100W for GWAR",
+      "SOCI 100W for GWAR"
+    ]
+  }
+}

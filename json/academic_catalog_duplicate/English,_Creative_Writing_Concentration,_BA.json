@@ -1,0 +1,268 @@
+{
+  "output": {
+    "major_name": "English, Creative Writing Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_1A, GE_AREA_1B, GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ENGL 2",
+          "course_name": "Critical Thinking and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ENGL 71",
+          "course_name": "Creative Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ENGL 1A",
+          "course_name": "First Year Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        },
+        {
+          "course_id": "ENGL 1AS",
+          "course_name": "First-Year Writing: Stretch English II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ENGL 50",
+          "course_name": "Beginnings to the American Experiment",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 60",
+          "course_name": "Literatures of the Atlantic World, 1680\u20101860",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 70",
+          "course_name": "Emerging Modernisms and Beyond",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 100W",
+          "course_name": "Writing Workshop",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ENGL 117B",
+          "course_name": "Global Film, Literature, and Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 122",
+          "course_name": "Topics in Comparative World Literature",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 123A",
+          "course_name": "Literatures of the Americas",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123B",
+          "course_name": "Literatures of Africa",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123C",
+          "course_name": "Literatures of the Pacific",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123D",
+          "course_name": "Literatures of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 144",
+          "course_name": "Shakespeare I",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 145",
+          "course_name": "Shakespeare and Performance",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 117A",
+          "course_name": "American Literature, Film, & Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "ENGL 162",
+          "course_name": "Indigenous American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 163",
+          "course_name": "Asian American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 165",
+          "course_name": "Black American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 166",
+          "course_name": "Latinx Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 169",
+          "course_name": "Ethnicity in American Literature",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "ENGL 130",
+          "course_name": "Writing Fiction",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 131",
+          "course_name": "Writing Poetry",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 133",
+          "course_name": "Reed Magazine",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 135",
+          "course_name": "Writing Nonfiction",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 178",
+          "course_name": "Creative Nonfiction",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Literature for Global Understanding",
+        "courses": [
+          "ENGL 117B",
+          "ENGL 122",
+          "ENGL 123A",
+          "ENGL 123B",
+          "ENGL 123C",
+          "ENGL 123D"
+        ]
+      },
+      {
+        "field_name": "Shakespeare",
+        "courses": [
+          "ENGL 144",
+          "ENGL 145"
+        ]
+      },
+      {
+        "field_name": "American Literature & Ethnicity",
+        "courses": [
+          "ENGL 117A",
+          "ENGL 162",
+          "ENGL 163",
+          "ENGL 165",
+          "ENGL 166",
+          "ENGL 169"
+        ]
+      },
+      {
+        "field_name": "Creative Writing Concentration",
+        "courses": [
+          "ENGL 130",
+          "ENGL 131",
+          "ENGL 133",
+          "ENGL 135",
+          "ENGL 178"
+        ]
+      }
+    ],
+    "notes": [
+      "String: One year of foreign language study at the college level or equivalency through examination (0-8 units) is required.",
+      "String: Courses in the Creative Writing Concentration may be repeated a maximum of 2 times.",
+      "String: Any one upper division English course may be taken as a Major Elective (3-4 units).",
+      "String: Upper Division College of Humanities & the Arts Requirement: Complete any one course offered by the College of Humanities & the Arts in a discipline other than your major (2-4 units)."
+    ],
+    "recommendations": [
+      "ENGL 100W for GWAR"
+    ]
+  }
+}

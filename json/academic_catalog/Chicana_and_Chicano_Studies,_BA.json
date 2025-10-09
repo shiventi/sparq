@@ -1,0 +1,113 @@
+{
+  "output": {
+    "major_name": "Chicana and Chicano Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units from major coursework (Area 6)"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CCS 190"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CCS 1",
+          "course_name": "Introduction to Chicana and Chicano Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_6"
+          ]
+        },
+        {
+          "course_id": "CCS 40",
+          "course_name": "Chicana/o Theater: Social Justice Performance Art",
+          "units": 3,
+          "ge_areas": []
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CCS 125",
+          "course_name": "Barrio Service Learning",
+          "units": 4,
+          "ge_areas": []
+        },
+        {
+          "course_id": "CCS 135",
+          "course_name": "Contemporary Chicana/o Issues",
+          "units": 3,
+          "ge_areas": []
+        },
+        {
+          "course_id": "CCS 150",
+          "course_name": "Research Methods",
+          "units": 3,
+          "ge_areas": []
+        },
+        {
+          "course_id": "CCS 151",
+          "course_name": "Theory in Chicana/o Studies",
+          "units": 3,
+          "ge_areas": []
+        },
+        {
+          "course_id": "CCS 190",
+          "course_name": "Chicana and Chicano Studies Capstone",
+          "units": 3,
+          "ge_areas": []
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Cultural and Creative Expression",
+        "courses": [
+          "CCS 144",
+          "CCS 145",
+          "CCS 147",
+          "CCS 152",
+          "CCS 170"
+        ]
+      },
+      {
+        "field_name": "Institutions and Community Engagement",
+        "courses": [
+          "CCS 115",
+          "CCS 126",
+          "CCS 185"
+        ]
+      },
+      {
+        "field_name": "Transnationalism and Global Relations",
+        "courses": [
+          "CCS 105",
+          "CCS 120",
+          "CCS 175"
+        ]
+      }
+    ],
+    "notes": [
+      "String: All majors will select a specific specialization area and will take 9 units in that area and 6 units in each of the other two areas for a total of 21 units.",
+      "String: Students must complete one course in each of the three field areas.",
+      "String: JS 126 may be substituted for CCS 126."
+    ],
+    "recommendations": [
+      "CCS 190 for GWAR"
+    ]
+  }
+}

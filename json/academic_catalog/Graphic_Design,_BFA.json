@@ -1,0 +1,235 @@
+{
+  "output": {
+    "major_name": "Graphic Design, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation Courses",
+          "options": [
+            {
+              "course_id": "ANI 11",
+              "course_name": "Illustration Fundamentals I",
+              "units": 3,
+              "prerequisites": [],
+              "corequisites": [],
+              "ge_areas": []
+            }
+          ]
+        },
+        {
+          "name": "Art History Requirement",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ARTH 72",
+          "course_name": "Design in Society",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "DSGD 63",
+          "course_name": "Fundamental Graphic Visualization",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 83",
+          "course_name": "Digital Applications: Basics",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 109",
+          "course_name": "Digital Apps: Motion & Interaction Design",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 176A",
+          "course_name": "Graphic Design History and Theory",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 100A",
+          "course_name": "Typography",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 100",
+          "course_name": "Visual Communication & Process",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 102",
+          "course_name": "Intermediate Typography",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 103A",
+          "course_name": "Advanced Typography I",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 104",
+          "course_name": "Introduction to Graphic Design",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 105",
+          "course_name": "Intermediate Graphic Design",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 106",
+          "course_name": "Advanced Graphic Design",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 108",
+          "course_name": "Graphic Design Portfolio",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 110",
+          "course_name": "Visual Literacy: Image Making",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 120",
+          "course_name": "Exhibition Design & Info Graphics",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 150",
+          "course_name": "Degree Project: Senior Studio",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "DSGD 186",
+          "course_name": "Digital Applications: Methodology",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "name": "Internship or Practicum Requirement",
+          "options": [
+            [
+              "||DSGD 127",
+              "DSGN 127"
+            ]
+          ]
+        },
+        {
+          "name": "Electives Requirement",
+          "options": [
+            [
+              "||DSGD 107A",
+              "DSGD 107B",
+              "DSGD 131",
+              "DSGD 132",
+              "DSGD 141"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}

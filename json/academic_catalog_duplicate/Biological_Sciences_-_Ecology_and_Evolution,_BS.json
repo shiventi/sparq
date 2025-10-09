@@ -1,0 +1,327 @@
+{
+  "output": {
+    "major_name": "Biological Sciences - Ecology and Evolution, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "BIOL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 100W",
+          "course_name": "Scientific Communication Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID",
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 19",
+          "course_name": "Precalculus",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "BIOL 155",
+          "course_name": "Hypothesis Testing",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 156",
+          "course_name": "Ecological Sampling Design and Analyses",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Organic Chemistry Sequence",
+          "options": [
+            [
+              "||CHEM 8",
+              "CHEM 9"
+            ],
+            [
+              "||CHEM 112A",
+              "CHEM 112B",
+              "CHEM 113A"
+            ]
+          ]
+        },
+        {
+          "name": "Calculus Concepts Sequence",
+          "options": [
+            [
+              "||MATH 19"
+            ],
+            [
+              "||MATH 30"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BIOL 30",
+          "course_name": "Principles of Biology I",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 31",
+          "course_name": "Principles of Biology II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 106",
+          "course_name": "Physiological Ecology",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 106L",
+          "course_name": "Physiological Ecology Lab",
+          "units": 1
+        },
+        {
+          "course_id": "BIOL 113",
+          "course_name": "Principles of Systematics",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 118",
+          "course_name": "Evolution",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 160",
+          "course_name": "Ecology",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 163",
+          "course_name": "Conservation Biology",
+          "units": 3
+        },
+        {
+          "course_id": "BOT 165",
+          "course_name": "Plant Communities of California",
+          "units": 4
+        },
+        {
+          "course_id": "BOT 104",
+          "course_name": "Plant Taxonomy",
+          "units": 4
+        },
+        {
+          "course_id": "ENT 101",
+          "course_name": "Insect Diversity",
+          "units": 4
+        },
+        {
+          "course_id": "ZOOL 115",
+          "course_name": "Invertebrate Zoology and Natural History",
+          "units": 4
+        },
+        {
+          "course_id": "ZOOL 116",
+          "course_name": "Vertebrate Evolution and Natural History",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 111",
+          "course_name": "Fire Ecology",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 115",
+          "course_name": "General Genetics",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 124",
+          "course_name": "Systems Physiology",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 148",
+          "course_name": "Molecular Ecology",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 155",
+          "course_name": "Hypothesis Testing",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 161",
+          "course_name": "Introduction to Marine Ecology",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 162",
+          "course_name": "Marine Biology and Oceanography",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 164",
+          "course_name": "Ecological Field Methods",
+          "units": 3
+        },
+        {
+          "course_id": "BIOL 180",
+          "course_name": "Individual Studies",
+          "units": "1-4"
+        },
+        {
+          "course_id": "CHEM 132",
+          "course_name": "Introductory Biochemistry",
+          "units": 4
+        },
+        {
+          "course_id": "CHEM 135",
+          "course_name": "General Biochemistry",
+          "units": 4
+        },
+        {
+          "course_id": "ENT 106",
+          "course_name": "Forensic Entomology",
+          "units": 3
+        },
+        {
+          "course_id": "GEOL 137",
+          "course_name": "Introduction to GPS/GIS for Geologic Applications",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 142",
+          "course_name": "Paleontology",
+          "units": 4
+        },
+        {
+          "course_id": "MICR 101",
+          "course_name": "General Microbiology",
+          "units": 5
+        },
+        {
+          "course_id": "ZOOL 143",
+          "course_name": "Biogeography",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Biological Diversity",
+        "courses": [
+          "BOT 104",
+          "ENT 101",
+          "ZOOL 115",
+          "ZOOL 116"
+        ]
+      },
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "BIOL 111",
+          "BIOL 115",
+          "BIOL 124",
+          "BIOL 148",
+          "BIOL 155",
+          "BIOL 161",
+          "BIOL 162",
+          "BIOL 164",
+          "BIOL 180",
+          "BOT 104",
+          "CHEM 132",
+          "CHEM 135",
+          "ENT 101",
+          "ENT 106",
+          "GEOL 137",
+          "GEOL 142",
+          "MICR 101",
+          "ZOOL 115",
+          "ZOOL 116",
+          "ZOOL 143"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "BIOL 100W for GWAR"
+    ]
+  }
+}

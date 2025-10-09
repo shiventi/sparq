@@ -1,0 +1,349 @@
+{
+  "output": {
+    "major_name": "Music, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_AREA_3B_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 182"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 3A",
+          "course_name": "Music Theory IIIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 3B",
+          "course_name": "Musicianship IIIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 4A",
+          "course_name": "Music Theory 4A",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 4B",
+          "course_name": "Musicianship 4B",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 12",
+          "course_name": "Medieval and Renaissance Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 13",
+          "course_name": "Music Technology",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 25A",
+          "course_name": "Piano Proficiency I",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 25B",
+          "course_name": "Piano Proficiency II",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 40A",
+          "course_name": "Jazz Improvisation - I",
+          "units": 2
+        },
+        {
+          "name": "Applied Lessons Requirement",
+          "options": [
+            [
+              "||MUSC 29AX",
+              "MUSC 29BX",
+              "MUSC 29CX",
+              "MUSC 29DX"
+            ],
+            [
+              "||MUSC 30AX",
+              "MUSC 30BX",
+              "MUSC 30CX",
+              "MUSC 30DX"
+            ],
+            [
+              "||MUSC 33X",
+              "MUSC 33AX",
+              "MUSC 33BX",
+              "MUSC 33CX",
+              "MUSC 33DX"
+            ],
+            [
+              "||MUSC 34X",
+              "MUSC 34AX",
+              "MUSC 34BX",
+              "MUSC 34CX",
+              "MUSC 34DX"
+            ],
+            [
+              "||MUSC 35AX",
+              "MUSC 35BX",
+              "MUSC 35CX",
+              "MUSC 35DX"
+            ],
+            [
+              "||MUSC 36BX",
+              "MUSC 36CX",
+              "MUSC 36DX",
+              "MUSC 36EX"
+            ],
+            [
+              "||MUSC 37AX",
+              "MUSC 37BX",
+              "MUSC 37CX",
+              "MUSC 37DX"
+            ]
+          ]
+        },
+        {
+          "name": "Ensemble Requirement",
+          "options": [
+            [
+              "||MUSC 50A",
+              "MUSC 51A",
+              "MUSC 51B",
+              "MUSC 52",
+              "MUSC 53",
+              "MUSC 54",
+              "MUSC 55",
+              "MUSC 57",
+              "MUSC 59",
+              "MUSC 60A",
+              "MUSC 60C",
+              "MUSC 60E",
+              "MUSC 60F",
+              "MUSC 60H",
+              "MUSC 60I"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 110",
+          "course_name": "Baroque and Classical Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 117",
+          "course_name": "Music and Culture in Latin America",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "MUSC 120",
+          "course_name": "Worlds of Jazz",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_4"
+          ]
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Music Electives Requirement",
+          "options": [
+            [
+              "||MUSC 102",
+              "MUSC 103",
+              "MUSC 104",
+              "MUSC 109"
+            ],
+            [
+              "||MUSC 142",
+              "MUSC 144",
+              "MUSC 145",
+              "MUSC 172",
+              "MUSC 173"
+            ],
+            [
+              "||MUSC 147A",
+              "MUSC 147B",
+              "MUSC 147C"
+            ],
+            [
+              "||MUSC 140B",
+              "MUSC 140C"
+            ],
+            [
+              "||MUSC 167",
+              "MUSC 168",
+              "MUSC 170A",
+              "MUSC 170B",
+              "MUSC 170C"
+            ],
+            [
+              "||MUSC 180"
+            ],
+            [
+              "||MUSC 25C",
+              "MUSC 26A",
+              "MUSC 41A",
+              "MUSC 41B",
+              "MUSC 122A",
+              "MUSC 122B",
+              "MUSC 123A",
+              "MUSC 123B",
+              "MUSC 125D",
+              "MUSC 127A",
+              "MUSC 127B"
+            ],
+            [
+              "||MUSC 129A",
+              "MUSC 130A",
+              "MUSC 130B",
+              "MUSC 130C",
+              "MUSC 130D",
+              "MUSC 133",
+              "MUSC 133A",
+              "MUSC 133B",
+              "MUSC 133C",
+              "MUSC 133D",
+              "MUSC 134",
+              "MUSC 134A",
+              "MUSC 134B",
+              "MUSC 134C",
+              "MUSC 134D",
+              "MUSC 135",
+              "MUSC 135A",
+              "MUSC 135B",
+              "MUSC 135C",
+              "MUSC 135D",
+              "MUSC 136",
+              "MUSC 136B",
+              "MUSC 136C",
+              "MUSC 136D",
+              "MUSC 136E",
+              "MUSC 137",
+              "MUSC 137A",
+              "MUSC 137B",
+              "MUSC 137C",
+              "MUSC 137D",
+              "MUSC 139A",
+              "MUSC 139B",
+              "MUSC 139C",
+              "MUSC 139D"
+            ],
+            [
+              "||MUSC 60A",
+              "MUSC 60D",
+              "MUSC 60F",
+              "MUSC 60H",
+              "MUSC 60J",
+              "MUSC 60K",
+              "MUSC 60L",
+              "MUSC 60M",
+              "MUSC 60O",
+              "MUSC 160A",
+              "MUSC 160D",
+              "MUSC 160F",
+              "MUSC 160H",
+              "MUSC 160J",
+              "MUSC 160K",
+              "MUSC 160L",
+              "MUSC 160M",
+              "MUSC 160O"
+            ],
+            [
+              "||MUSC 150A",
+              "MUSC 153",
+              "MUSC 154",
+              "MUSC 155",
+              "MUSC 157",
+              "MUSC 159",
+              "MUSC 160F",
+              "MUSC 160I",
+              "MUSC 160S"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Applied Lessons Requirement: Students must complete four units from any of the applied lesson courses listed.",
+      "String: Ensemble Requirement: Students must complete four units from any of the ensemble courses listed.",
+      "String: Music Electives: Select 15 units from at least two of the following categories with a minimum of five upper division units. Courses must be selected in consultation with a major advisor.",
+      "String: Ensembles required as co-requisite for those receiving applied lessons.",
+      "String: Maximum of two chamber music units can be counted towards major.",
+      "String: Maximum of four ensemble units allowed.",
+      "String: Capstone Experience: One of the following: undergraduate thesis, lecture/demonstration, or an appropriate project approved by the Director and area coordinator."
+    ],
+    "recommendations": [
+      "MUSC 182 for GWAR"
+    ]
+  }
+}

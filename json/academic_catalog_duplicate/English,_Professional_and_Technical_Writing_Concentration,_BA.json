@@ -1,0 +1,266 @@
+{
+  "output": {
+    "major_name": "English, Professional and Technical Writing Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_1A, GE_AREA_1B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ENGL 50",
+          "course_name": "Beginnings to the American Experiment",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 60",
+          "course_name": "Literatures of the Atlantic World, 1680\u20101860",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 70",
+          "course_name": "Emerging Modernisms and Beyond",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 100W",
+          "course_name": "Writing Workshop",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ENGL 117B",
+          "course_name": "Global Film, Literature, and Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 122",
+          "course_name": "Topics in Comparative World Literature",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 123A",
+          "course_name": "Literatures of the Americas",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123B",
+          "course_name": "Literatures of Africa",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123C",
+          "course_name": "Literatures of the Pacific",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 123D",
+          "course_name": "Literatures of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "ENGL 144",
+          "course_name": "Shakespeare I",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 145",
+          "course_name": "Shakespeare and Performance",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 117A",
+          "course_name": "American Literature, Film, & Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "ENGL 162",
+          "course_name": "Indigenous American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 163",
+          "course_name": "Asian American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 165",
+          "course_name": "Black American Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 166",
+          "course_name": "Latinx Literatures",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 169",
+          "course_name": "Ethnicity in American Literature",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "ENGL 103",
+          "course_name": "Modern English",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 106",
+          "course_name": "Professional and Technical Editing",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 107",
+          "course_name": "Professional and Technical Writing",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 105",
+          "course_name": "Seminar in Advanced Composition",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 110",
+          "course_name": "UX Design and Visual Communication",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 111",
+          "course_name": "Strategic Digital Content and Social Media Writing",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 129",
+          "course_name": "Writing for Professional Publications",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 157",
+          "course_name": "Topics in Rhetorical Analysis",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Literature for Global Understanding",
+        "courses": [
+          "ENGL 117B",
+          "ENGL 122",
+          "ENGL 123A",
+          "ENGL 123B",
+          "ENGL 123C",
+          "ENGL 123D"
+        ]
+      },
+      {
+        "field_name": "Shakespeare",
+        "courses": [
+          "ENGL 144",
+          "ENGL 145"
+        ]
+      },
+      {
+        "field_name": "American Literature & Ethnicity",
+        "courses": [
+          "ENGL 117A",
+          "ENGL 162",
+          "ENGL 163",
+          "ENGL 165",
+          "ENGL 166",
+          "ENGL 169"
+        ]
+      },
+      {
+        "field_name": "Professional and Technical Writing Concentration",
+        "courses": [
+          "ENGL 103",
+          "ENGL 106",
+          "ENGL 107",
+          "ENGL 105",
+          "ENGL 110",
+          "ENGL 111",
+          "ENGL 129",
+          "ENGL 157"
+        ]
+      }
+    ],
+    "notes": [
+      "String: One year of foreign language study at the college level or equivalency through examination (0-8 units).",
+      "String: ENGL 2 - Critical Thinking and Writing (3 units) is required and satisfies GE Area 1B.",
+      "String: Complete either ENGL 1A or ENGL 1AS to satisfy GE Area 1A (3 units).",
+      "String: Any one upper division English course may be taken as a Major Elective (3-4 units).",
+      "String: Complete any one course offered by the College of Humanities & the Arts in a discipline other than your major for 2-4 units."
+    ],
+    "recommendations": [
+      "ENGL 100W for GWAR"
+    ]
+  }
+}

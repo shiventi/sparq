@@ -1,0 +1,263 @@
+{
+  "output": {
+    "major_name": "Biological Sciences, Molecular Biology Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_5A_5B_5C_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_4_UD_3_UD_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "BIOL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 100W",
+          "course_name": "Scientific Communication Workshop",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "BIOL 155",
+          "course_name": "Hypothesis Testing",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BIOL 30",
+          "course_name": "Principles of Biology I",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 31",
+          "course_name": "Principles of Biology II",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 115",
+          "course_name": "General Genetics",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "BIOL 116",
+          "course_name": "Molecular Genetics",
+          "units": 4,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "BIOL 116L",
+          "course_name": "Molecular Genetics Laboratory",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "BIOL 135A",
+          "course_name": "Eukaryotic Cell and Molecular Biology I",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "BIOL 135B",
+          "course_name": "Eukaryotic Cell and Molecular Biology II",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        },
+        {
+          "course_id": "BIOL 135L",
+          "course_name": "Molecular Cell Biology Lab",
+          "units": 3,
+          "prerequisites": [],
+          "corequisites": [],
+          "ge_areas": []
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "||BIOL 105"
+            ],
+            [
+              "||BIOL 107"
+            ],
+            [
+              "||BIOL 107L"
+            ],
+            [
+              "||BIOL 117"
+            ],
+            [
+              "||BIOL 119"
+            ],
+            [
+              "||BIOL 123A"
+            ],
+            [
+              "||BIOL 123B"
+            ],
+            [
+              "||BIOL 124"
+            ],
+            [
+              "||BIOL 125"
+            ],
+            [
+              "||BIOL 136"
+            ],
+            [
+              "||BIOL 137"
+            ],
+            [
+              "||BIOL 138"
+            ],
+            [
+              "||BIOL 139"
+            ],
+            [
+              "||BIOL 180"
+            ],
+            [
+              "||BIOL 182"
+            ],
+            [
+              "||BIOL 184"
+            ],
+            [
+              "||BIOL 186"
+            ],
+            [
+              "||BIOL 198"
+            ],
+            [
+              "||CHEM 180"
+            ],
+            [
+              "||MICR 101"
+            ],
+            [
+              "||MICR 166"
+            ],
+            [
+              "||MICR 170"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Science Electives",
+        "courses": [
+          "Any course from the College of Science"
+        ]
+      },
+      {
+        "field_name": "Chemistry Minor Requirements",
+        "courses": [
+          "CHEM 1A",
+          "CHEM 1B",
+          "CHEM 112A",
+          "CHEM 112B",
+          "CHEM 113A",
+          "CHEM 120S",
+          "CHEM 135"
+        ]
+      },
+      {
+        "field_name": "University Electives",
+        "courses": [
+          "Any university elective course"
+        ]
+      }
+    ],
+    "notes": [
+      "String: At least 9 elective units must be in Biological Sciences.",
+      "String: Any combination of BIOL 180, 182, 184, 186, or CHEM 180 may be taken for a maximum of 4 units.",
+      "String: Science electives must be selected in consultation with a major advisor.",
+      "String: University electives must be selected in consultation with a major advisor."
+    ],
+    "recommendations": [
+      "BIOL 100W for GWAR"
+    ]
+  }
+}

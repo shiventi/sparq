@@ -1,0 +1,283 @@
+{
+  "output": {
+    "major_name": "Aerospace Engineering, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 33A",
+          "course_name": "Ordinary Differential Equations for SCI & ENGR",
+          "units": 3
+        },
+        {
+          "course_id": "AE 105",
+          "course_name": "Mathematical Methods for Aerospace Engineers",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 52",
+          "course_name": "General Physics III: Waves, Light, Heat",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "EE 98",
+          "course_name": "Introduction to Circuit Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 10",
+          "course_name": "Introduction to Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "AE 20",
+          "course_name": "Computer-Aided Design for Aerospace Engineers",
+          "units": 2
+        },
+        {
+          "course_id": "AE 30",
+          "course_name": "Computer Programming for Aerospace Engineers",
+          "units": 2
+        },
+        {
+          "course_id": "AE 107",
+          "course_name": "Programming & AI for Aerospace Applications",
+          "units": 2
+        },
+        {
+          "course_id": "AE 112",
+          "course_name": "Aerospace Structures and Materials I",
+          "units": 5
+        },
+        {
+          "course_id": "AE 114",
+          "course_name": "Aerospace Structures and Materials II",
+          "units": 3
+        },
+        {
+          "course_id": "AE 138",
+          "course_name": "Vector-Based Dynamics for Aerospace Applications",
+          "units": 3
+        },
+        {
+          "course_id": "AE 140",
+          "course_name": "Rigid Body Dynamics",
+          "units": 3
+        },
+        {
+          "course_id": "AE 157",
+          "course_name": "Aerospace Automatic Control Systems Design",
+          "units": 3
+        },
+        {
+          "course_id": "AE 160",
+          "course_name": "Aerodynamics I",
+          "units": 3
+        },
+        {
+          "course_id": "AE 162",
+          "course_name": "Aerodynamics II",
+          "units": 3
+        },
+        {
+          "course_id": "AE 164",
+          "course_name": "Aerothermodynamics",
+          "units": 5
+        },
+        {
+          "course_id": "AE 165",
+          "course_name": "Aerospace Flight Mechanics",
+          "units": 3
+        },
+        {
+          "course_id": "AE 167",
+          "course_name": "Aerospace Propulsion",
+          "units": 3
+        },
+        {
+          "course_id": "AE 267",
+          "course_name": "Space Propulsion Systems",
+          "units": 3
+        },
+        {
+          "course_id": "AE 168",
+          "course_name": "Aerospace Vehicle Dynamics and Control",
+          "units": 3
+        },
+        {
+          "name": "Numerical Methods / Simulation Course",
+          "options": [
+            [
+              "||AE 119",
+              "AE 149",
+              "AE 169"
+            ]
+          ]
+        },
+        {
+          "name": "Capstone Option",
+          "options": [
+            [
+              "&&AE 171A",
+              "&&AE 171B",
+              "&&ENGR 195A",
+              "&&ENGR 195B"
+            ],
+            [
+              "&&AE 172A",
+              "&&AE 172B",
+              "&&ENGR 195A",
+              "&&ENGR 195B"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Technical Electives",
+        "courses": [
+          "AE 110",
+          "AE 119",
+          "AE 142",
+          "AE 149",
+          "AE 166",
+          "AE 169",
+          "AE 173",
+          "AE 180",
+          "AE 199",
+          "ME 110",
+          "ME 136",
+          "ME 154",
+          "ME 165",
+          "ISE 114",
+          "ISE 102",
+          "ISE 105",
+          "ISE 151",
+          "MATH 112",
+          "MATH 129B",
+          "MATH 133B",
+          "MATH 143M",
+          "ISE 130",
+          "ISE 170",
+          "MATE 131",
+          "MATE 135",
+          "ASTR 117A",
+          "ASTR 117B",
+          "PHYS 105A",
+          "PHYS 120A",
+          "PHYS 120C",
+          "PHYS 158",
+          "PHYS 160",
+          "CE 160",
+          "ME 114",
+          "ME 149",
+          "ME 106"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must satisfy the specific degree requirements for their undergraduate major and fulfill the following University degree requirements.",
+      "String: To qualify for a baccalaureate degree in Aerospace Engineering, a student must receive a grade of \u201cC\u201d or better in all courses in preparation for the major.",
+      "String: To qualify for a baccalaureate degree in Aerospace Engineering, a student must receive a grade of \u201cC\u201d or better in all courses required for the major.",
+      "String: Students with GPA 2.7 or higher may take an MSAE course as their elective.",
+      "String: Non-AE courses from any of the topical lists below are also eligible."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

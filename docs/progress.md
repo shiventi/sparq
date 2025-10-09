@@ -1,5 +1,12 @@
 # sparq Progress
 
+# OCT 8, 2025
+- Cleaned up notes.txt to remove duplicates
+- Added academic_catalog.py to generate the JSON version of academic catalogs
+- Created academic_catalog_prompt.txt which has the AI prompt instruction
+- Made academic_catalog.json which has a list of majors that have an academic catalog
+- Wrote future.md for future plans as simple bullet points
+
 # OCT 7, 2025
 - Finished adding all courses to all_sjsu_courses_with_ge.json
 - Finished adding all pre-req codes to notes.txt

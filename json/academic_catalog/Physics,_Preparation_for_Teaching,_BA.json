@@ -1,0 +1,170 @@
+{
+  "output": {
+    "major_name": "Physics, Preparation for Teaching, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "EDTE 224"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 33A",
+          "course_name": "Ordinary Differential Equations for SCI & ENGR",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 39",
+          "course_name": "Linear Algebra I",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "EDTE 224",
+          "course_name": "Seminar in Educational Psychology",
+          "units": 3
+        },
+        {
+          "course_id": "EDTE 262",
+          "course_name": "Classroom Issues in the Language/Literacy Development of L2 Learners",
+          "units": 3
+        },
+        {
+          "course_id": "EDTE 294",
+          "course_name": "Research/Practices in Health and Special Education",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 20",
+          "course_name": "Invitation to Physics and Astronomy",
+          "units": 1
+        },
+        {
+          "course_id": "PHYS 40",
+          "course_name": "Introduction to Computational Physics",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 52",
+          "course_name": "General Physics III: Waves, Light, Heat",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 105A",
+          "course_name": "Advanced Mechanics I",
+          "units": 4
+        },
+        {
+          "course_id": "PHYS 110A",
+          "course_name": "Electricity and Magnetism I",
+          "units": 4
+        },
+        {
+          "course_id": "PHYS 120A",
+          "course_name": "Electronics, Data Acquisition & Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 122",
+          "course_name": "Modern Physics",
+          "units": 4
+        },
+        {
+          "course_id": "PHYS 130",
+          "course_name": "Mathematical Methods in Physics",
+          "units": 3
+        },
+        {
+          "course_id": "SCED 273",
+          "course_name": "Secondary School Science",
+          "units": 3
+        },
+        {
+          "course_id": "SCED 175",
+          "course_name": "Classroom Experiences in Science Teaching",
+          "units": 1
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: 9 additional units of upper division physics courses are required."
+    ],
+    "recommendations": [
+      "PHYS 105A for advanced mechanics sequence",
+      "PHYS 110A for electricity and magnetism sequence"
+    ]
+  }
+}

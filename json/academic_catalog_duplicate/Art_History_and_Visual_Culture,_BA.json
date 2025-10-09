@@ -1,0 +1,380 @@
+{
+  "output": {
+    "major_name": "Art History and Visual Culture, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A; 9 units may be satisfied by major coursework: GE_UD_AREA_2or5, GE_UD_AREA_3, GE_UD_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ARTH 70A",
+          "course_name": "Art History, Prehistoric to Medieval",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70B",
+          "course_name": "Art History, Renaissance to Modern",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70C",
+          "course_name": "Arts of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ANTH 160",
+          "course_name": "Mysteries of Ancient Civilizations",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_2or5"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "UD GE Area 4",
+          "options": [
+            [
+              "||CA 172",
+              "RELS 191",
+              "RTVF 110",
+              "URBP 101",
+              "WGSS 101"
+            ]
+          ]
+        },
+        {
+          "name": "World Language/Art Foundation",
+          "options": [
+            [
+              "||World Language Course",
+              "World Language Course"
+            ],
+            [
+              "||ART 12",
+              "ART 13",
+              "ART 14",
+              "ART 24"
+            ]
+          ]
+        },
+        {
+          "name": "Global Art UD GE Area 3",
+          "options": [
+            [
+              "||ARTH 193A",
+              "ARTH 193B"
+            ]
+          ]
+        },
+        {
+          "name": "Critical Periods in Western Art",
+          "options": [
+            [
+              "||ARTH 187A",
+              "ARTH 190B"
+            ]
+          ]
+        },
+        {
+          "name": "Capstone",
+          "options": [
+            [
+              "||ARTH 199",
+              "ARTH 277"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ART 100W",
+          "course_name": "Writing Workshop: Fine Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ARTH 175",
+          "course_name": "Theories of Art History and Art Criticism",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 101",
+          "course_name": "Introduction to Practice of Art History",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 174A",
+          "course_name": "Exhibition and Curatorial Practices",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 174B",
+          "course_name": "Museum and Gallery Operations",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 110",
+          "course_name": "History and Theory of New Media",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 126",
+          "course_name": "History of Photography",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 127",
+          "course_name": "Photography, Film, and Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 160",
+          "course_name": "Modern Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 161",
+          "course_name": "Contemporary Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 162",
+          "course_name": "California Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 163",
+          "course_name": "Twentieth Century Urban Design",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 176A",
+          "course_name": "Graphic Design History and Theory",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 190A",
+          "course_name": "Art of the Nineteenth Century",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 190B",
+          "course_name": "Early Modernist Art",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 190C",
+          "course_name": "20th Century Art: from Dada to Pop",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 190D",
+          "course_name": "German Art, 1800-2000",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 191A",
+          "course_name": "Issues in Contemporary Art",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 192A",
+          "course_name": "Modern Design",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 192C",
+          "course_name": "History of Interior Design",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 150",
+          "course_name": "Modern Textiles: A Global History of Art and Design",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 182A",
+          "course_name": "Art of the Americas",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 183D",
+          "course_name": "Art of Africa and the African Diaspora",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 189B",
+          "course_name": "Global Baroque Art and Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 191B",
+          "course_name": "Women in Art",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 191C",
+          "course_name": "Contemporary Art in Mexico, the U.S., and Latin America",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 193A",
+          "course_name": "Worlds of Art and Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ARTH 193B",
+          "course_name": "East Meets West in Art",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ARTH 194A",
+          "course_name": "Art of China",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 195",
+          "course_name": "Art of Japan",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 183A",
+          "course_name": "Art of Egypt and Mesopotamia",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 185",
+          "course_name": "Art of the Classical World",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 187A",
+          "course_name": "Art of the Italian Renaissance, Fifteenth Century",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 187B",
+          "course_name": "Art of the Italian Renaissance, Sixteenth Century",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 187C",
+          "course_name": "The Art of Renaissance Venice",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "World Art",
+        "courses": [
+          "ARTH 150",
+          "ARTH 182A",
+          "ARTH 183D",
+          "ARTH 189B",
+          "ARTH 191B",
+          "ARTH 191C",
+          "ARTH 193A",
+          "ARTH 193B",
+          "ARTH 194A",
+          "ARTH 195"
+        ]
+      },
+      {
+        "field_name": "Ancient and Early Modern Art in Europe",
+        "courses": [
+          "ARTH 183A",
+          "ARTH 185",
+          "ARTH 187A",
+          "ARTH 187B",
+          "ARTH 187C",
+          "ARTH 189B"
+        ]
+      },
+      {
+        "field_name": "Modern and Contemporary Art",
+        "courses": [
+          "ARTH 110",
+          "ARTH 126",
+          "ARTH 127",
+          "ARTH 160",
+          "ARTH 161",
+          "ARTH 162",
+          "ARTH 163",
+          "ARTH 176A",
+          "ARTH 190A",
+          "ARTH 190B",
+          "ARTH 190C",
+          "ARTH 190D",
+          "ARTH 191A",
+          "ARTH 192A",
+          "ARTH 192C"
+        ]
+      },
+      {
+        "field_name": "Professional, Curatorial and Museum Studies",
+        "courses": [
+          "ARTH 174A",
+          "ARTH 174B",
+          "ARTH 101"
+        ]
+      }
+    ],
+    "notes": [
+      "String: One course may be art studio.",
+      "String: A minimum of one course from each of the following four groups, with a minimum of 2 additional courses selected from one of the groups."
+    ],
+    "recommendations": [
+      "ART 100W for GWAR"
+    ]
+  }
+}

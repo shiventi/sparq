@@ -1,0 +1,168 @@
+{
+  "output": {
+    "major_name": "Humanities, Religious Studies Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1B_GE_AREA_3B_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_AREA_3_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            [
+              "RELS 70"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Core Courses",
+          "options": [
+            [
+              "HUM 80"
+            ],
+            [
+              "HUM 95"
+            ],
+            [
+              "HUM 101"
+            ],
+            [
+              "HUM 160"
+            ],
+            [
+              "HUM 190"
+            ]
+          ]
+        },
+        {
+          "name": "Comparative Courses",
+          "options": [
+            [
+              "AMS 129"
+            ],
+            [
+              "AMS 159"
+            ],
+            [
+              "CA 173"
+            ],
+            [
+              "HUM 119"
+            ],
+            [
+              "HUM 128"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "||RELS 142",
+              "RELS 144",
+              "RELS 145",
+              "RELS 156"
+            ],
+            [
+              "||ENGL 116",
+              "RELS 90",
+              "RELS 104",
+              "RELS 109"
+            ],
+            [
+              "||AFAM 134",
+              "HIST 121A",
+              "HIST 121B",
+              "HIST 126",
+              "RELS 99",
+              "RELS 111",
+              "RELS 114",
+              "RELS 120",
+              "RELS 122",
+              "RELS 137",
+              "RELS 162",
+              "RELS 191"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Traditions",
+        "courses": [
+          "RELS 142",
+          "RELS 144",
+          "RELS 145",
+          "RELS 156"
+        ]
+      },
+      {
+        "field_name": "Thoughts, Texts, and Images",
+        "courses": [
+          "ENGL 116",
+          "RELS 90",
+          "RELS 104",
+          "RELS 109"
+        ]
+      },
+      {
+        "field_name": "Religions and Cultures",
+        "courses": [
+          "AFAM 134",
+          "HIST 121A",
+          "HIST 121B",
+          "HIST 126",
+          "RELS 99",
+          "RELS 111",
+          "RELS 114",
+          "RELS 120",
+          "RELS 122",
+          "RELS 137",
+          "RELS 162",
+          "RELS 191"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete six major elective courses, with at least two from each of the three fields: Traditions, Thoughts, Texts, and Images, and Religions and Cultures.",
+      "String: One year of college-level foreign language or equivalent related to the chosen area is recommended."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

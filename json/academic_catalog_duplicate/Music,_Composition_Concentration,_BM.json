@@ -1,0 +1,593 @@
+{
+  "output": {
+    "major_name": "Music, Composition Concentration, BM",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_3A, GE_AREA_3B, GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 100W",
+          "course_name": "Written Communication II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "MUSC 120",
+          "course_name": "Worlds of Jazz",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "MUSC 25A",
+          "course_name": "Piano Proficiency I",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 25B",
+          "course_name": "Piano Proficiency II",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 25C",
+          "course_name": "Piano Proficiency III",
+          "units": 1
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 3A",
+          "course_name": "Music Theory IIIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 3B",
+          "course_name": "Musicianship IIIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 4A",
+          "course_name": "Music Theory 4A",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 4B",
+          "course_name": "Musicianship 4B",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 12",
+          "course_name": "Medieval and Renaissance Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 110",
+          "course_name": "Baroque and Classical Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 29",
+          "course_name": "Electro-Acoustics",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 29A",
+          "course_name": "Electro-Acoustics 1",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 29B",
+          "course_name": "Electro-Acoustics 2",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 29C",
+          "course_name": "Electro-Acoustics 3",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 29D",
+          "course_name": "Electro-Acoustics 4",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 30AX",
+          "course_name": "Applied Piano 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 30BX",
+          "course_name": "Applied Piano 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 30CX",
+          "course_name": "Applied Piano 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 30DX",
+          "course_name": "Applied Piano 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 33X",
+          "course_name": "Applied Voice",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 33AX",
+          "course_name": "Applied Voice 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 33BX",
+          "course_name": "Applied Voice 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 33CX",
+          "course_name": "Applied Voice 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 33DX",
+          "course_name": "Applied Voice 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 34X",
+          "course_name": "Strings",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 34AX",
+          "course_name": "Strings 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 34BX",
+          "course_name": "Strings 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 34CX",
+          "course_name": "Strings 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 34DX",
+          "course_name": "Strings 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 35AX",
+          "course_name": "Woodwinds 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 35BX",
+          "course_name": "Woodwinds 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 35CX",
+          "course_name": "Woodwinds 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 35DX",
+          "course_name": "Woodwinds 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 36BX",
+          "course_name": "Brass 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 36CX",
+          "course_name": "Brass 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 36DX",
+          "course_name": "Brass 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 36EX",
+          "course_name": "Brass 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 37AX",
+          "course_name": "Applied Percussion 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 37BX",
+          "course_name": "Applied Percussion 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 37CX",
+          "course_name": "Applied Percussion 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 37DX",
+          "course_name": "Applied Percussion 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 38BX",
+          "course_name": "Applied Instruction in Music Composition 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 38CX",
+          "course_name": "Applied Instruction in Music Composition 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 38DX",
+          "course_name": "Applied Instruction in Music Composition 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 38EX",
+          "course_name": "Applied Instruction in Music Composition 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 39AX",
+          "course_name": "Jazz: Improvisation, Composition or Arranging 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 39BX",
+          "course_name": "Jazz: Improvisation, Composition or Arranging 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 39CX",
+          "course_name": "Jazz: Improvisation, Composition or Arranging 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 39DX",
+          "course_name": "Jazz: Improvisation, Composition or Arranging 4",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 138B",
+          "course_name": "Composition 5",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 138C",
+          "course_name": "Composition 6",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 138D",
+          "course_name": "Composition 7",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 138E",
+          "course_name": "Composition 8",
+          "units": "1-2"
+        },
+        {
+          "course_id": "MUSC 50A",
+          "course_name": "ENS: Concert Choir",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 52",
+          "course_name": "ENS: Opera Theater",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 53",
+          "course_name": "ENS: University Symphony Orchestra",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 54",
+          "course_name": "ENS: Symphonic Band",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 55",
+          "course_name": "ENS: Wind Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 150A",
+          "course_name": "ENS: Concert Choir",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 152",
+          "course_name": "ENS: Opera Theater",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 153",
+          "course_name": "ENS: University Symphony Orchestra",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 154",
+          "course_name": "ENS: Symphonic Band",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 155",
+          "course_name": "Wind Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 40A",
+          "course_name": "Jazz Improvisation - I",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 140B",
+          "course_name": "Jazz Improvisation-II",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 140C",
+          "course_name": "Jazz Improvisation-III",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 102",
+          "course_name": "Orchestration",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 103",
+          "course_name": "Form and Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 104",
+          "course_name": "Counterpoint",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 147A",
+          "course_name": "Beginning Conducting",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 167",
+          "course_name": "Electro-Acoustic Music I",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 168",
+          "course_name": "Electro-Acoustic Music II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170A",
+          "course_name": "Fundamentals of Sound Recording",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 109",
+          "course_name": "Film Scoring Techniques",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 122A",
+          "course_name": "Fundamental Techniques of Woodwinds: Flute, Clarinet, and Saxophone",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 122B",
+          "course_name": "Fundamental Techniques and Literature: Instrumental",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 123A",
+          "course_name": "Brass Fundamentals: Upper Brass",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 123B",
+          "course_name": "Brass Fundamentals: Low Brass",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 125D",
+          "course_name": "Percussion Techniques",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 127A",
+          "course_name": "Fundamental Techniques and Literature: Instrumental Upper Strings - Violin and Viola",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 127B",
+          "course_name": "Fundamental Techniques and Literature: Instrumental Lower Strings - Cello and Bass",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160A",
+          "course_name": "ENS: Choraliers",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160D",
+          "course_name": "ENS: Collegium Musicum",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160F",
+          "course_name": "ENS: Small Jazz Ensembles",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160J",
+          "course_name": "ENS: String Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160K",
+          "course_name": "ENS: Brass Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160L",
+          "course_name": "Woodwind Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160M",
+          "course_name": "ENS: Saxophone Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 160O",
+          "course_name": "Trombone Ensemble",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 170B",
+          "course_name": "Intermediate Sound Recording",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170C",
+          "course_name": "Advanced Sound Recording Production",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Composition Concentration",
+        "courses": [
+          "MUSC 102",
+          "MUSC 103",
+          "MUSC 104",
+          "MUSC 147A",
+          "MUSC 167",
+          "MUSC 168",
+          "MUSC 170A"
+        ]
+      },
+      {
+        "field_name": "Composition Electives",
+        "courses": [
+          "MUSC 109",
+          "MUSC 122A",
+          "MUSC 122B",
+          "MUSC 123A",
+          "MUSC 123B",
+          "MUSC 125D",
+          "MUSC 127A",
+          "MUSC 127B",
+          "MUSC 160A",
+          "MUSC 160D",
+          "MUSC 160F",
+          "MUSC 160J",
+          "MUSC 160K",
+          "MUSC 160L",
+          "MUSC 160M",
+          "MUSC 160O",
+          "MUSC 170B",
+          "MUSC 170C"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least 8 units from Electro-Acoustics or Applied Instruction courses.",
+      "String: Students must complete 8 units from upper division composition courses (MUSC 138B-E).",
+      "String: Students must complete 4 units from lower division ensemble courses (MUSC 50A, 52-55).",
+      "String: Students must complete 4 units from upper division ensemble courses (MUSC 150A, 152-155).",
+      "String: Students must complete 2 units from jazz improvisation courses (MUSC 40A, 140B-C)."
+    ],
+    "recommendations": [
+      "MUSC 100W for GWAR"
+    ]
+  }
+}

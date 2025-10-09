@@ -1,0 +1,107 @@
+{
+  "output": {
+    "major_name": "Social Work, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "SCWK 175"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "SCWK 110",
+          "course_name": "Foundations of Social Work Practice",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 111",
+          "course_name": "Generalist Social Work Practice I",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 112",
+          "course_name": "Generalist Practice II",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 120",
+          "course_name": "Social Welfare Institutions and Policies I",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 121",
+          "course_name": "Social Welfare Institutions and Policies II",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 130",
+          "course_name": "Human Behavior in the Social Environment I",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 131",
+          "course_name": "Human Behavior in the Social Environment II",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 140",
+          "course_name": "Introduction to Field Practicum",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 141",
+          "course_name": "Field Practicum I",
+          "units": 4
+        },
+        {
+          "course_id": "SCWK 142",
+          "course_name": "Field Practicum II",
+          "units": 4
+        },
+        {
+          "course_id": "SCWK 170",
+          "course_name": "Introduction to Research Methods",
+          "units": 3
+        },
+        {
+          "course_id": "SCWK 175",
+          "course_name": "Social Work Senior Seminar",
+          "units": 3
+        }
+      ]
+    },
+    "notes": [
+      "String: UNVS 15 may be used in lieu of the statistics course required by this major."
+    ],
+    "recommendations": [
+      "SCWK 175 for GWAR"
+    ]
+  }
+}

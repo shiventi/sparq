@@ -1,0 +1,221 @@
+{
+  "output": {
+    "major_name": "Graphic Design, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 11",
+          "course_name": "Illustration Fundamentals I",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 70A",
+          "course_name": "Art History, Prehistoric to Medieval",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70B",
+          "course_name": "Art History, Renaissance to Modern",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70C",
+          "course_name": "Arts of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 72",
+          "course_name": "Design in Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "DSGD 63",
+          "course_name": "Fundamental Graphic Visualization",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 83",
+          "course_name": "Digital Applications: Basics",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 109",
+          "course_name": "Digital Apps: Motion & Interaction Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 176A",
+          "course_name": "Graphic Design History and Theory",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "DSGD 100A",
+          "course_name": "Typography",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 100",
+          "course_name": "Visual Communication & Process",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 102",
+          "course_name": "Intermediate Typography",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 103A",
+          "course_name": "Advanced Typography I",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 104",
+          "course_name": "Introduction to Graphic Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 105",
+          "course_name": "Intermediate Graphic Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 106",
+          "course_name": "Advanced Graphic Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 108",
+          "course_name": "Graphic Design Portfolio",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 110",
+          "course_name": "Visual Literacy: Image Making",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 120",
+          "course_name": "Exhibition Design & Info Graphics",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 150",
+          "course_name": "Degree Project: Senior Studio",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 186",
+          "course_name": "Digital Applications: Methodology",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 127",
+          "course_name": "Design Practicum",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 127",
+          "course_name": "Internship",
+          "units": "1-4"
+        },
+        {
+          "course_id": "DSGD 107A",
+          "course_name": "Special Topics in Graphic Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 107B",
+          "course_name": "Special Topics in Experience Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 131",
+          "course_name": "Motion Graphics",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 132",
+          "course_name": "User Interface & Interaction Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 141",
+          "course_name": "3D Branding & Promotion Design",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: 3 units of major preparation may be satisfied by major coursework: GE_AREA_3A",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4",
+      "String: Students must complete any one course offered by the College of Humanities & the Arts in a discipline other than their major for 2-4 units",
+      "String: ART 24 will also be accepted for transfer students in place of ANI 11",
+      "String: ART 12 will also be accepted for transfer students in place of DSGD 63"
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}

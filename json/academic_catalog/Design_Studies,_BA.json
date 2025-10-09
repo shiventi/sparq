@@ -1,0 +1,183 @@
+{
+  "output": {
+    "major_name": "Design Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Art History Requirement",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        },
+        {
+          "name": "Design Drawing Requirement",
+          "options": [
+            [
+              "||ANI 11",
+              "DSID 21",
+              "DSIT 10"
+            ]
+          ]
+        },
+        {
+          "name": "Design Foundation I Requirement",
+          "options": [
+            [
+              "||ANI 10",
+              "DSGD 63",
+              "DSID 22",
+              "DSIT 5"
+            ]
+          ]
+        },
+        {
+          "name": "Design Foundation II Requirement",
+          "options": [
+            [
+              "||ANI 71",
+              "DSGD 83",
+              "DSID 31",
+              "DSIT 29"
+            ]
+          ]
+        },
+        {
+          "name": "Design Methods I Requirement",
+          "options": [
+            [
+              "||ANI 31",
+              "DSGD 109",
+              "DSID 137",
+              "DSIT 33"
+            ]
+          ]
+        },
+        {
+          "name": "Design Methods II Requirement",
+          "options": [
+            [
+              "||DSGD 100A",
+              "DSID 32",
+              "DSIT 83"
+            ]
+          ]
+        },
+        {
+          "name": "Design History Requirement",
+          "options": [
+            [
+              "||ARTH 160",
+              "ARTH 161",
+              "DSGD 176A",
+              "DSID 122",
+              "RTVF 181"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Upper Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ADV_COURSE1",
+              "ADV_COURSE2",
+              "ADV_COURSE3"
+            ]
+          ]
+        },
+        {
+          "name": "Area of Specialization - Graphic Design",
+          "options": [
+            [
+              "&&DSGD 100",
+              "DSGD 104",
+              "DSGD 111",
+              "DSGN 197"
+            ]
+          ]
+        },
+        {
+          "name": "Area of Specialization - Industrial Design",
+          "options": [
+            [
+              "&&DSID 41",
+              "DSID 129",
+              "DSID 136",
+              "DSID 143"
+            ]
+          ]
+        },
+        {
+          "name": "Area of Specialization - Interior Design",
+          "options": [
+            [
+              "&&DSIT 34",
+              "||DSIT 106",
+              "DSIT 107",
+              "DSIT 108",
+              "DSIT 112"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "&&6 units of lower division design electives",
+              "6 units of upper division design electives"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "TA 5 for ANI students",
+      "DSID 126 for ID students",
+      "DSIT 106 for IT students"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "output": {
+    "major_name": "Japanese, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units from major prep; 3 units from JPN 102B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FORL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Lower Division Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Upper Division Requirement",
+          "options": [
+            "&&ADV_COURSE1"
+          ]
+        },
+        {
+          "name": "Core Courses",
+          "options": [
+            "FORL 100W",
+            "JPN 101C",
+            "JPN 101A",
+            "JPN 101B",
+            "JPN 102A",
+            "JPN 102B",
+            "JPN 105",
+            "JPN 107",
+            "JPN 120"
+          ]
+        },
+        {
+          "name": "Elective Courses",
+          "options": [
+            [
+              "||JPN 103",
+              "JPN 110",
+              "JPN 130",
+              "JPN 135",
+              "JPN 140",
+              "JPN 150",
+              "JPN 160",
+              "JPN 170"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must satisfy the specific degree requirements for their undergraduate major and fulfill University degree requirements.",
+      "String: Academic program requires total units with an average 2.0 GPA - 'C' or better.",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4.",
+      "String: Complete any one course offered by the College of Humanities & the Arts in a discipline other than your major (2-4 units).",
+      "String: Major Preparation includes 12 units of a second world language (or equivalent)."
+    ],
+    "recommendations": [
+      "FORL 100W for GWAR"
+    ]
+  }
+}

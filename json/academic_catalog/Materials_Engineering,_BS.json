@@ -1,0 +1,254 @@
+{
+  "output": {
+    "major_name": "Materials Engineering, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "CHE 110A",
+          "course_name": "Mathematical Methods in Chemical and Materials Engineering",
+          "units": 2
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ENGR 10",
+          "course_name": "Introduction to Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5",
+            "GE_AREA_UD_4",
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "MATE 25",
+          "course_name": "Introduction to Materials",
+          "units": 3
+        },
+        {
+          "course_id": "CE 99",
+          "course_name": "Introductory Statics",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 110B",
+          "course_name": "Computational Methods in Chemical Engineering",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 161",
+          "course_name": "Process Safety and Engineering Ethics",
+          "units": 1
+        },
+        {
+          "course_id": "CHE 162",
+          "course_name": "Engineering Statistics and Analysis",
+          "units": 2
+        },
+        {
+          "course_id": "MATE 115",
+          "course_name": "Structure/Properties of Solids",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 141",
+          "course_name": "Structure and Analysis of Materials",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 146",
+          "course_name": "Experimental Methods in Materials Characterization",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 150",
+          "course_name": "Introduction to Computational Materials Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 151",
+          "course_name": "Solid State Thermodynamics",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 152",
+          "course_name": "Solid State Kinetics",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 153",
+          "course_name": "Electronic, Optical, and Magnetic Properties of Materials",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 154",
+          "course_name": "Metals and Alloys",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 155",
+          "course_name": "Materials Selection and Process Design",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 185",
+          "course_name": "Ceramics",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 186",
+          "course_name": "Polymers",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 195",
+          "course_name": "Mechanical Behavior of Materials",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 198A",
+          "course_name": "Senior Design Project",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "MATE 198B",
+          "course_name": "Senior Design Project",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "ME 20",
+          "course_name": "Design and Graphics",
+          "units": 2
+        },
+        {
+          "course_id": "ENGR 195A",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "ENGR 195B",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Core Lower Division GE: 12 (13 units may be satisfied by major coursework: Areas 5A, 5B (Intensive Science), 5C, 2, 3B; 3 units of 1B waived)",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Area 4",
+      "String: Upper Division GE: 0 (9 units may be satisfied by major coursework: UD Areas 2or5, 3, 4)",
+      "String: Physical Education: 0 (waived)",
+      "String: GWAR / WID: 0 (3 units satisfied by ENGR 100W)",
+      "String: CE 99 also accepted."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "output": {
+    "major_name": "Chemistry, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CHEM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHIL 133",
+          "course_name": "Ethics in Science",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 55",
+          "course_name": "Quantitative Analysis",
+          "units": 2
+        },
+        {
+          "course_id": "CHEM 55L",
+          "course_name": "Quantitative Analysis Laboratory",
+          "units": 2
+        },
+        {
+          "course_id": "CHEM 100W",
+          "course_name": "Writing Workshop: Chemical Communications",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "CHEM 112A",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 112B",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 113A",
+          "course_name": "Organic Chemistry Lab",
+          "units": 2
+        },
+        {
+          "course_id": "CHEM 113B",
+          "course_name": "Organic Chemistry Lab",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 120S",
+          "course_name": "Chemical Safety Seminar",
+          "units": 1
+        },
+        {
+          "course_id": "CHEM 160",
+          "course_name": "Physical Chemistry",
+          "units": 4
+        },
+        {
+          "course_id": "CHEM 191",
+          "course_name": "Undergraduate Seminar",
+          "units": 1
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Elective Lab Courses",
+        "courses": [
+          "CHEM 131A",
+          "CHEM 155",
+          "CHEM 162L"
+        ]
+      },
+      {
+        "field_name": "Capstone Course",
+        "courses": [
+          "CHEM 114",
+          "CHEM 131B",
+          "CHEM 146"
+        ]
+      },
+      {
+        "field_name": "Other Upper Division Chemistry Electives",
+        "courses": [
+          "CHEM 105",
+          "CHEM 118",
+          "CHEM 121S",
+          "CHEM 126",
+          "CHEM 127",
+          "CHEM 130A",
+          "CHEM 130B",
+          "CHEM 130C",
+          "CHEM 135",
+          "CHEM 145",
+          "CHEM 170A",
+          "CHEM 180",
+          "CHEM 181",
+          "CHEM 191",
+          "CHEM 213",
+          "CHEM 236",
+          "CHEM 245",
+          "CHEM 250"
+        ]
+      }
+    ],
+    "notes": [
+      "String: PHYS 50 and PHYS 51 accepted for Transfers, in lieu of PHYS 2A/PHYS 2B.",
+      "String: Students must complete at least three Upper Division lab courses, including at least one capstone course.",
+      "String: A maximum of 4 units of supervisory courses (CHEM 180, CHEM 181, CHEM 184) can be applied toward the degree.",
+      "String: CHEM 135 or CHEM 130A may count toward the degree."
+    ],
+    "recommendations": [
+      "CHEM 100W for GWAR"
+    ]
+  }
+}

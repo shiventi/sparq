@@ -1,0 +1,124 @@
+{
+  "output": {
+    "major_name": "French, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FORL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            [
+              "&&FREN 25A",
+              "FREN 25B"
+            ]
+          ]
+        },
+        {
+          "name": "Foreign Language Requirement",
+          "options": [
+            "String: 12 units of a second world language (or equivalent)"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Writing Workshop",
+          "options": [
+            [
+              "FORL 100W"
+            ]
+          ]
+        },
+        {
+          "name": "Francophone Cultures: Through Literature and Cinema",
+          "options": [
+            [
+              "FREN 102B"
+            ]
+          ]
+        },
+        {
+          "name": "Advanced French: Reading and Writing Sequence",
+          "options": [
+            [
+              "||FREN 101A",
+              "FREN 101B",
+              "FREN 101C"
+            ]
+          ]
+        },
+        {
+          "name": "Advanced Grammar and Special Topics",
+          "options": [
+            [
+              "||FREN 105",
+              "FREN 110",
+              "FREN 132",
+              "FREN 170"
+            ]
+          ]
+        },
+        {
+          "name": "French Literature Sequence",
+          "options": [
+            [
+              "||FREN 120A",
+              "FREN 120B",
+              "FREN 140B"
+            ]
+          ]
+        },
+        {
+          "name": "French Culture Electives",
+          "options": [
+            [
+              "||FREN 102A",
+              "FREN 102C",
+              "FREN 160"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "FORL 100W for GWAR"
+    ]
+  }
+}

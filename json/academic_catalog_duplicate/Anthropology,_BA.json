@@ -1,0 +1,352 @@
+{
+  "output": {
+    "major_name": "Anthropology, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "12 units may be satisfied by major coursework: GE_AREA_1B, GE_AREA_2, GE_AREA_4, GE_AREA_5B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ANTH 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "SOCI 15",
+          "course_name": "Statistical Applications in the Social Sciences",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "GEOG 12",
+          "course_name": "World Regional Geography",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ANTH 11",
+          "course_name": "Cultural Anthropology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ANTH 12",
+          "course_name": "Introduction to Human Evolution",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        },
+        {
+          "course_id": "ANTH 13",
+          "course_name": "Archaeology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ANTH 131",
+          "course_name": "Theories of Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 191",
+          "course_name": "Frontiers of Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 149",
+          "course_name": "Ethnographic Methods",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 155",
+          "course_name": "Forensic Osteology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 168",
+          "course_name": "Archaeological Methodology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 169",
+          "course_name": "Archaeological Site Excavation",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 102",
+          "course_name": "Silicon Valley Connections",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 105",
+          "course_name": "Applied Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 107",
+          "course_name": "Eating Culture: The Anthropology of Food",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 108",
+          "course_name": "Medical Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 125",
+          "course_name": "Urban Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 129",
+          "course_name": "Environmental Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 130",
+          "course_name": "Kin, Kith, and Community: The Anthropology of Social Organization",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 132",
+          "course_name": "Creating Built Worlds",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 133",
+          "course_name": "Organizational Cultures",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 136",
+          "course_name": "Thought Control in Contemporary Society",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 142",
+          "course_name": "Culture in Mind",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 143",
+          "course_name": "Culture and Adaptation",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 144",
+          "course_name": "Gifts, Markets, and Power",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 148",
+          "course_name": "Religion and Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 173",
+          "course_name": "Multimedia Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 175",
+          "course_name": "Anthropology of Native America",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 176",
+          "course_name": "Native California: Past and Present",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 161",
+          "course_name": "Technology, Environment and Ancient Empires",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 162",
+          "course_name": "Inca, Aztec and Maya Civilization",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 164",
+          "course_name": "North America before 1492",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 165",
+          "course_name": "Historical Archaeology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 151",
+          "course_name": "Modernity and Disease",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 152",
+          "course_name": "Becoming Human",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 154",
+          "course_name": "Monkeys, Apes and Humans",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 156",
+          "course_name": "Bioarchaeology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 157",
+          "course_name": "Forensic Anthropology",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 159",
+          "course_name": "Mummies",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 180",
+          "course_name": "Individual Studies",
+          "units": "1-4"
+        },
+        {
+          "course_id": "ANTH 184",
+          "course_name": "Directed Reading",
+          "units": "1-4"
+        },
+        {
+          "course_id": "ANTH 190",
+          "course_name": "Designing Research",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 195",
+          "course_name": "Anthropology Practicum",
+          "units": "1-6"
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Core Courses",
+        "courses": [
+          "ANTH 11",
+          "ANTH 12",
+          "ANTH 13",
+          "ANTH 131",
+          "ANTH 191"
+        ]
+      },
+      {
+        "field_name": "Research Methods",
+        "courses": [
+          "ANTH 149",
+          "ANTH 155",
+          "ANTH 168",
+          "ANTH 169"
+        ]
+      },
+      {
+        "field_name": "Cultural Anthropology",
+        "courses": [
+          "ANTH 102",
+          "ANTH 105",
+          "ANTH 107",
+          "ANTH 108",
+          "ANTH 125",
+          "ANTH 129",
+          "ANTH 130",
+          "ANTH 132",
+          "ANTH 133",
+          "ANTH 136",
+          "ANTH 142",
+          "ANTH 143",
+          "ANTH 144",
+          "ANTH 148",
+          "ANTH 149",
+          "ANTH 173",
+          "ANTH 175",
+          "ANTH 176"
+        ]
+      },
+      {
+        "field_name": "Archaeology",
+        "courses": [
+          "ANTH 143",
+          "ANTH 161",
+          "ANTH 162",
+          "ANTH 164",
+          "ANTH 165",
+          "ANTH 168",
+          "ANTH 169"
+        ]
+      },
+      {
+        "field_name": "Biological Anthropology",
+        "courses": [
+          "ANTH 151",
+          "ANTH 152",
+          "ANTH 154",
+          "ANTH 155",
+          "ANTH 156",
+          "ANTH 157",
+          "ANTH 159"
+        ]
+      },
+      {
+        "field_name": "Anthropology Electives",
+        "courses": [
+          "ANTH 180",
+          "ANTH 184",
+          "ANTH 190",
+          "ANTH 195"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Major Preparation: Complete three units from SOCI 15, STAT 95, or GEOG 12.",
+      "String: For Cultural Anthropology, Archaeology, and Biological Anthropology fields, students must select a total of 6 units from the listed courses.",
+      "String: Anthropology Electives include all current upper-division anthropology courses except those used to satisfy GE UD Areas 2/5, 3, or 4.",
+      "String: Double major and second baccalaureate students require only 6 upper division anthropology electives for a total of 30 major units."
+    ],
+    "recommendations": [
+      "ANTH 100W for GWAR"
+    ]
+  }
+}

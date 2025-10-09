@@ -1,0 +1,205 @@
+{
+  "output": {
+    "major_name": "Geology, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units from major coursework in Areas 5A, 5B, 5C, 2; 3 units of 1B waived; 3 units satisfied by major coursework in UD Areas 2 or 5"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "May be satisfied by selecting applicable GE courses in Areas 3B and/or 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "Any 100W. Recommended: CHEM 100W, ENVS 100W, METR 100W, or PHYS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Physics Sequence",
+          "options": [
+            {
+              "group": [
+                "||PHYS 2A",
+                "PHYS 2B"
+              ],
+              "details": [
+                {
+                  "course_id": "PHYS 2A",
+                  "course_name": "Fundamentals of Physics",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                },
+                {
+                  "course_id": "PHYS 2B",
+                  "course_name": "Fundamentals of Physics",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "&&PHYS 50",
+                "PHYS 51"
+              ],
+              "details": [
+                {
+                  "course_id": "PHYS 50",
+                  "course_name": "General Physics I: Mechanics",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                },
+                {
+                  "course_id": "PHYS 51",
+                  "course_name": "General Physics II: Electricity and Magnetism",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "GEOL 1",
+          "course_name": "General Geology",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "GEOL 7",
+          "course_name": "Earth, Time and Life",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "GEOL 28",
+          "course_name": "Geology Outdoors",
+          "units": 1
+        },
+        {
+          "course_id": "GEOL 120",
+          "course_name": "Fundamentals of Mineralogy",
+          "units": 3
+        },
+        {
+          "course_id": "GEOL 122",
+          "course_name": "Petrology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 124",
+          "course_name": "Sedimentology and Stratigraphy",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "GEOL 125",
+          "course_name": "Structural Geology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 129A",
+          "course_name": "Spring Field Geology",
+          "units": 2
+        },
+        {
+          "course_id": "GEOL 137",
+          "course_name": "Introduction to GPS/GIS for Geologic Applications",
+          "units": 4
+        },
+        {
+          "name": "Advanced Field Course Requirement",
+          "options": [
+            [
+              "||GEOL 129B",
+              "GEOL 129C"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Geology Electives",
+        "courses": [
+          "GEOL 127",
+          "GEOL 129C",
+          "GEOL 130",
+          "GEOL 132",
+          "GEOL 134",
+          "GEOL 135",
+          "GEOL 138",
+          "GEOL 140",
+          "GEOL 142",
+          "GEOL 143",
+          "GEOL 145",
+          "GEOL 147",
+          "GEOL 174",
+          "GEOL 180",
+          "MS 141"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: 21-23 units required from Geology Electives list.",
+      "String: If GEOL 129C is selected as the Advanced Field Course, it cannot be used again to fulfill Geology Electives.",
+      "String: Any 100W course fulfills WID requirement. Recommended: METR, ENVS, PHYS, or CHEM 100W."
+    ],
+    "recommendations": [
+      "MATH 31 recommended for graduate school or technical careers."
+    ]
+  }
+}

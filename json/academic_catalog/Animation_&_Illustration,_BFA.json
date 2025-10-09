@@ -1,0 +1,118 @@
+{
+  "output": {
+    "major_name": "Animation & Illustration, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units from major coursework in GE Area 3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "May be satisfied by selecting applicable GE courses in Areas 3B and/or 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Core Courses",
+          "options": [
+            [
+              "&&ANI 22",
+              "ANI 23",
+              "ANI 32",
+              "ANI 132"
+            ]
+          ]
+        },
+        {
+          "name": "Specialization Area - Animation and Story",
+          "options": [
+            [
+              "&&ANI 133",
+              "ANI 161",
+              "ANI 162"
+            ],
+            [
+              "||ANI 134",
+              "ANI 175"
+            ]
+          ]
+        },
+        {
+          "name": "Specialization Area - Visual Development and Modeling",
+          "options": [
+            [
+              "&&ANI 123",
+              "ANI 141"
+            ],
+            [
+              "||ANI 124",
+              "ANI 179"
+            ],
+            [
+              "||ANI 142",
+              "ANI 175"
+            ]
+          ]
+        },
+        {
+          "name": "Capstone Requirement",
+          "options": [
+            [
+              "&&ANI 198",
+              "ANI 199"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must satisfy the specific degree requirements for their undergraduate major and fulfill University degree requirements.",
+      "String: Academic program requires a total of 120 units with an average 2.0 GPA ('C' or better).",
+      "String: Physical Education requirement is waived (0 units).",
+      "String: Units in Residence: 30 units, including 24 upper division and 12 in major.",
+      "String: Upper Division Units: 40 units total, including 18 upper division units in major for BS degree.",
+      "String: Specializations are a cluster of courses used by departments for advising purposes. Specializations will not appear on transcripts or diplomas. Please see advisor for more details."
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "output": {
+    "major_name": "Computer Science and Linguistics, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_2_GE_AREA_3B_GE_AREA_4_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CS 100W or LLD 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CS 22A",
+          "course_name": "Python for Everyone",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "CS 46A",
+          "course_name": "Introduction to Programming",
+          "units": 4
+        },
+        {
+          "course_id": "CS 46B",
+          "course_name": "Introduction to Data Structures",
+          "units": 4
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Intro to Programming Requirement",
+          "options": [
+            [
+              "||CS 46A",
+              "CS 46AX"
+            ]
+          ]
+        },
+        {
+          "name": "Technical Writing Requirement",
+          "options": [
+            [
+              "||CS 100W",
+              "LLD 100W"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 154",
+          "course_name": "Formal Languages and Computability",
+          "units": 3
+        },
+        {
+          "course_id": "CS 156",
+          "course_name": "Introduction to Artificial Intelligence",
+          "units": 3
+        },
+        {
+          "course_id": "CS 171",
+          "course_name": "Introduction to Machine Learning",
+          "units": 3
+        },
+        {
+          "course_id": "LING 101",
+          "course_name": "Introduction to Linguistics",
+          "units": 3
+        },
+        {
+          "course_id": "LING 111",
+          "course_name": "Introduction to Linguistic Phonetics",
+          "units": 3
+        },
+        {
+          "course_id": "LING 112",
+          "course_name": "Introduction to Syntax",
+          "units": 3
+        },
+        {
+          "course_id": "LING 115",
+          "course_name": "Corpus Linguistics",
+          "units": 3
+        },
+        {
+          "course_id": "LING 124",
+          "course_name": "Introduction to Speech Technology",
+          "units": 3
+        },
+        {
+          "course_id": "LING 165",
+          "course_name": "Introduction to Natural Language Processing",
+          "units": 3
+        },
+        {
+          "name": "Linguistics Core Course Requirement",
+          "options": [
+            [
+              "||LING 113",
+              "LING 114",
+              "LING 125",
+              "LING 161",
+              "LING 162",
+              "LING 166",
+              "LING 167"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "CS 22B",
+          "CS 47",
+          "CS 116A",
+          "CS 122",
+          "CS 131",
+          "CS 133",
+          "CS 149",
+          "CS 151",
+          "CS 153",
+          "CS 155",
+          "CS 157A",
+          "CS 157B",
+          "CS 157C",
+          "CS 158A",
+          "CS 166",
+          "CS 176",
+          "CS 190",
+          "CS 190I",
+          "LING 20",
+          "LING 107",
+          "LING 108",
+          "LING 113",
+          "LING 114",
+          "LING 122",
+          "LING 125",
+          "LING 161",
+          "LING 162",
+          "LING 165",
+          "LING 166",
+          "LING 167",
+          "LING 180",
+          "SSCI 101",
+          "CS 85A",
+          "CS 85C",
+          "CS 180",
+          "CS 180H",
+          "CS 185A",
+          "CS 185C"
+        ]
+      }
+    ],
+    "notes": [
+      "String: At least 3 units must be from an upper-division CS course and 3 units from an upper-division LING course.",
+      "String: Up to three units may be used from CS 190 or CS 190I.",
+      "String: Up to three units may be used from CS 85A, CS 85C, CS 185A, or CS 185C.",
+      "String: CS 180 and CS 180H may be used with prior approval."
+    ],
+    "recommendations": [
+      "CS 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "output": {
+    "major_name": "Data Science, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 39",
+          "course_name": "Linear Algebra I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 42",
+          "course_name": "Discrete Mathematics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161A",
+          "course_name": "Applied Probability and Statistics I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 167R",
+          "course_name": "Statistical Programming with R",
+          "units": 3
+        },
+        {
+          "course_id": "CS 100W",
+          "course_name": "Technical Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "PHIL 133",
+          "course_name": "Ethics in Science",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "CS 22A",
+          "course_name": "Python for Everyone",
+          "units": 3,
+          "prerequisites": [
+            "INSTRUCTOR_CONSENT"
+          ]
+        },
+        {
+          "course_id": "CS 122",
+          "course_name": "Advanced Programming with Python",
+          "units": 3
+        },
+        {
+          "course_id": "CS 46A",
+          "course_name": "Introduction to Programming",
+          "units": 4
+        },
+        {
+          "course_id": "CS 46AX",
+          "course_name": "Introduction to Programming",
+          "units": 4
+        },
+        {
+          "course_id": "CS 46B",
+          "course_name": "Introduction to Data Structures",
+          "units": 4,
+          "prerequisites": [
+            [
+              "||CS 46A",
+              "CS 46AX"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CS 131",
+          "course_name": "Processing Big Data - Tools and Techniques",
+          "units": 3
+        },
+        {
+          "course_id": "CS 133",
+          "course_name": "Introduction to Data Visualization",
+          "units": 3
+        },
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 156",
+          "course_name": "Introduction to Artificial Intelligence",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 157A",
+          "course_name": "Introduction to Database Management Systems",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 163",
+          "course_name": "Data Science Senior Project",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 131",
+              "CS 133",
+              "CS 146",
+              "CS 156",
+              "CS 157A"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 171",
+          "course_name": "Introduction to Machine Learning",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31",
+              "MATH 161A"
+            ]
+          ]
+        }
+      ],
+      "major_electives": [
+        {
+          "course_id": "CS 22B",
+          "course_name": "Python Programming for Data Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "CS 47",
+          "course_name": "Introduction to Computer Systems",
+          "units": 3
+        },
+        {
+          "course_id": "CS 48",
+          "course_name": "Applied Algorithms",
+          "units": 1
+        },
+        {
+          "course_id": "CS 49J",
+          "course_name": "Programming in Java",
+          "units": 3,
+          "prerequisites": "String: may be used with prior approval"
+        },
+        {
+          "course_id": "CS 85A",
+          "course_name": "Practical Computing Topics",
+          "units": 1,
+          "prerequisites": "String: may be used with prior approval"
+        },
+        {
+          "course_id": "CS 116A",
+          "course_name": "Introduction to Computer Graphics",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 30"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 122",
+          "course_name": "Advanced Programming with Python",
+          "units": 3
+        },
+        {
+          "course_id": "CS 123A",
+          "course_name": "Bioinformatics I",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 123B",
+          "course_name": "Bioinformatics II",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 123A"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 136",
+          "course_name": "Introduction to Computer Vision",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 30"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 151",
+          "course_name": "Object-Oriented Design",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 155",
+          "course_name": "Introduction to the Design and Analysis of Algorithms",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 157B",
+          "course_name": "Database Management Systems II",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 157A"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 157C",
+          "course_name": "NoSQL Database Systems",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 157A"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 158A",
+          "course_name": "Computer Networks",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 166",
+          "course_name": "Information Security",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 176",
+          "course_name": "Introduction to Social Network Analysis",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&CS 46B",
+              "MATH 161A"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 180",
+          "course_name": "Individual Studies",
+          "units": "1-3",
+          "prerequisites": "String: may be used with prior approval"
+        },
+        {
+          "course_id": "CS 180H",
+          "course_name": "Individual Studies for Honors",
+          "units": 3,
+          "prerequisites": "String: may be used with prior approval"
+        },
+        {
+          "course_id": "CS 185C",
+          "course_name": "Advanced Practical Computing Topics",
+          "units": 3
+        },
+        {
+          "course_id": "CS 190",
+          "course_name": "Internship Project",
+          "units": 1
+        },
+        {
+          "course_id": "CS 190I",
+          "course_name": "Internship Project",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "MATH 161B",
+          "course_name": "Applied Probability and Statistics II",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 161A"
+            ]
+          ]
+        },
+        {
+          "course_id": "MATH 161C",
+          "course_name": "Applied Probability and Statistics III",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 161B"
+            ]
+          ]
+        },
+        {
+          "course_id": "MATH 163",
+          "course_name": "Probability Theory",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "MATH 164",
+          "course_name": "Mathematical Statistics",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 163"
+            ]
+          ]
+        },
+        {
+          "course_id": "SSCI 101",
+          "course_name": "Leadership and Career Accelerator",
+          "units": 3
+        }
+      ],
+      "domain_field_electives": {
+        "units": 9,
+        "description": "Complete 9 units of major requirement courses of one particular major program (excluding BS - Computer Science, BS - Software Engineering, and BS - Information Science and Data Analytics) to gain domain expertise; requires prior department approval."
+      }
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Exceptions for University Graduation Requirements, including exemptions and waivers, are approved for specific majors and on a case-by-case evaluation only.",
+      "String: At most 6 units of CS 185C may be used toward major electives.",
+      "String: At most 3 units of CS 190 or CS 190I may be used toward major electives."
+    ],
+    "recommendations": [
+      "CS 100W for GWAR"
+    ]
+  }
+}

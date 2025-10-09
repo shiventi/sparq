@@ -1,0 +1,187 @@
+{
+  "output": {
+    "major_name": "Anthropology, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1B_GE_AREA_2_GE_AREA_4_GE_AREA_5B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ANTH 190"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Major Preparation Requirement",
+          "options": [
+            {
+              "group": [
+                "||SOCI 15",
+                "STAT 95"
+              ],
+              "details": [
+                {
+                  "course_id": "SOCI 15",
+                  "course_name": "Statistical Applications in the Social Sciences",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "STAT 95",
+                  "course_name": "Elementary Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                }
+              ]
+            },
+            {
+              "course_id": "GEOG 12",
+              "course_name": "World Regional Geography",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4"
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ANTH 11",
+          "course_name": "Cultural Anthropology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ANTH 12",
+          "course_name": "Introduction to Human Evolution",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        },
+        {
+          "course_id": "ANTH 13",
+          "course_name": "Archaeology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ANTH 131",
+          "course_name": "Theories of Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 191",
+          "course_name": "Frontiers of Anthropology",
+          "units": 3
+        },
+        {
+          "name": "Research Methods Requirement",
+          "options": [
+            [
+              "||ANTH 149",
+              "ANTH 155",
+              "ANTH 168",
+              "ANTH 169"
+            ]
+          ]
+        },
+        {
+          "name": "Cultural Anthropology Requirement",
+          "options": [
+            [
+              "||ANTH 102",
+              "ANTH 105",
+              "ANTH 107",
+              "ANTH 108",
+              "ANTH 125",
+              "ANTH 129",
+              "ANTH 130",
+              "ANTH 132",
+              "ANTH 133",
+              "ANTH 136",
+              "ANTH 142",
+              "ANTH 143",
+              "ANTH 144",
+              "ANTH 148",
+              "ANTH 149",
+              "ANTH 173",
+              "ANTH 175",
+              "ANTH 176"
+            ]
+          ]
+        },
+        {
+          "name": "Archaeology Requirement",
+          "options": [
+            [
+              "||ANTH 143",
+              "ANTH 161",
+              "ANTH 162",
+              "ANTH 164",
+              "ANTH 165",
+              "ANTH 168",
+              "ANTH 169"
+            ]
+          ]
+        },
+        {
+          "name": "Biological Anthropology Requirement",
+          "options": [
+            [
+              "||ANTH 151",
+              "ANTH 152",
+              "ANTH 154",
+              "ANTH 155",
+              "ANTH 156",
+              "ANTH 157",
+              "ANTH 159"
+            ]
+          ]
+        },
+        {
+          "name": "Anthropology Electives Requirement",
+          "options": [
+            [
+              "||ANTH 180",
+              "ANTH 184",
+              "ANTH 190",
+              "ANTH 195"
+            ]
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4",
+      "String: All current upper-division anthropology courses, except GE UD Area 2/5, 3, or 4 courses, and any of the following courses as appropriate and with approval of advisor.",
+      "String: Double major and second baccalaureate requirements are the same as for the regular major except only 6 upper division anthropology electives are needed for a total of 30 units."
+    ],
+    "recommendations": [
+      "ANTH 190 for GWAR"
+    ]
+  }
+}

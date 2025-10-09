@@ -1,0 +1,338 @@
+{
+  "output": {
+    "major_name": "Mechanical Engineering, BS",
+    "total_units": 125,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "13 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5C, GE_AREA_2, GE_AREA_3B, GE_AREA_1B (3 units waived); 9 units may be satisfied by major coursework: GE_UD_AREA_2or5, GE_UD_AREA_3, GE_UD_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_UD_AREA_3 or GE_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 33A",
+          "course_name": "Ordinary Differential Equations for SCI & ENGR",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 52",
+          "course_name": "General Physics III: Waves, Light, Heat",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CE 95",
+          "course_name": "Theory and Application of Statics",
+          "units": 3
+        },
+        {
+          "course_id": "EE 98",
+          "course_name": "Introduction to Circuit Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 10",
+          "course_name": "Introduction to Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 25",
+          "course_name": "Introduction to Materials",
+          "units": 3
+        },
+        {
+          "course_id": "ME 20",
+          "course_name": "Design and Graphics",
+          "units": 2
+        },
+        {
+          "course_id": "ME 30",
+          "course_name": "Computer Applications",
+          "units": 3
+        },
+        {
+          "course_id": "ME 41",
+          "course_name": "Machine Shop Operations and Safety",
+          "units": 1
+        },
+        {
+          "course_id": "CE 112",
+          "course_name": "Mechanics of Materials",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID",
+            "GE_UD_AREA_2or5"
+          ]
+        },
+        {
+          "course_id": "ENGR 195A",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_UD_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ENGR 195B",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ME 101",
+          "course_name": "Dynamics",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&PHYS 50",
+              "MATH 31"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 101H",
+          "course_name": "Honors Dynamics",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&PHYS 50",
+              "MATH 31",
+              "UPPER_DIVISION_STANDING"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 106",
+          "course_name": "Fundamentals of Mechatronics Engineering",
+          "units": 4,
+          "prerequisites": [
+            [
+              "&&EE 98",
+              "ME 30"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 111",
+          "course_name": "Fluid Mechanics",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&ENGR 10",
+              "MATH 33A"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 113",
+          "course_name": "Thermodynamics",
+          "units": 4,
+          "prerequisites": [
+            [
+              "&&CHEM 1A",
+              "PHYS 50"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 114",
+          "course_name": "Heat Transfer",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&ME 111",
+              "ME 113"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 115",
+          "course_name": "Thermal Engineering Laboratory",
+          "units": 1,
+          "prerequisites": [
+            [
+              "&&ME 113"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 120",
+          "course_name": "Experimental Methods",
+          "units": 2,
+          "prerequisites": [
+            [
+              "&&ME 101",
+              "ME 111"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 130",
+          "course_name": "Applied Engineering Analysis",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&MATH 32",
+              "ME 101"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 131",
+          "course_name": "Artificial Intelligence in Mechanical Engineering",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&ME 30",
+              "MATH 33A"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 147",
+          "course_name": "Dynamic Systems Vibration and Control",
+          "units": 3,
+          "prerequisites": [
+            [
+              "&&ME 101",
+              "MATH 33A"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 154",
+          "course_name": "Mechanical Engineering Design",
+          "units": 4,
+          "prerequisites": [
+            [
+              "&&ME 101",
+              "ME 20"
+            ]
+          ]
+        },
+        {
+          "course_id": "ME 195A",
+          "course_name": "Senior Design Project I",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ME 195B",
+          "course_name": "Senior Design Project II",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Required Capstone Courses",
+          "options": [
+            [
+              "||ME 157",
+              "ME 182",
+              "ME 190"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Technical electives can be chosen from designated courses for breadth or focus in one of the three areas of mechanical design, mechatronics, or thermal/fluids, with advisor approval."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

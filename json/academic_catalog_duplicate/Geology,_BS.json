@@ -1,0 +1,171 @@
+{
+  "output": {
+    "major_name": "Geology, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5C, GE_AREA_2, GE_AREA_1B waived; 3 units satisfied by major coursework: GE_UD_AREA_2or5"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "Any 100W. Recommended: METR 100W, ENVS 100W, PHYS 100W, or CHEM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Physics Sequence",
+          "options": [
+            [
+              "||PHYS 2A",
+              "PHYS 2B"
+            ],
+            [
+              "||PHYS 50",
+              "PHYS 51"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "GEOL 1",
+          "course_name": "General Geology",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "GEOL 7",
+          "course_name": "Earth, Time and Life",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "GEOL 28",
+          "course_name": "Geology Outdoors",
+          "units": 1
+        },
+        {
+          "course_id": "Any 100W",
+          "course_name": "Graduation Writing Course",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "GEOL 120",
+          "course_name": "Fundamentals of Mineralogy",
+          "units": 3
+        },
+        {
+          "course_id": "GEOL 122",
+          "course_name": "Petrology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 124",
+          "course_name": "Sedimentology and Stratigraphy",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_2or5"
+          ]
+        },
+        {
+          "course_id": "GEOL 125",
+          "course_name": "Structural Geology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 129A",
+          "course_name": "Spring Field Geology",
+          "units": 2
+        },
+        {
+          "course_id": "GEOL 137",
+          "course_name": "Introduction to GPS/GIS for Geologic Applications",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 129B",
+          "course_name": "Advanced Field Geology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 129C",
+          "course_name": "Digital Geologic Field Mapping",
+          "units": 2
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Geology Electives",
+        "courses": [
+          "GEOL 127",
+          "GEOL 129C",
+          "GEOL 130",
+          "GEOL 132",
+          "GEOL 134",
+          "GEOL 135",
+          "GEOL 138",
+          "GEOL 140",
+          "GEOL 142",
+          "GEOL 143",
+          "GEOL 145",
+          "GEOL 147",
+          "GEOL 174",
+          "GEOL 180",
+          "MS 141"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete 21-23 units from Geology Electives.",
+      "String: MATH 31 is recommended for graduate school or technical careers."
+    ],
+    "recommendations": [
+      "METR 100W for GWAR",
+      "ENVS 100W for GWAR",
+      "PHYS 100W for GWAR",
+      "CHEM 100W for GWAR"
+    ]
+  }
+}

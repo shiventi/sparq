@@ -1,0 +1,177 @@
+{
+  "output": {
+    "major_name": "Mathematics, Integrated Teacher Education Program, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Calculus Sequence",
+          "options": [
+            {
+              "group": [
+                "&&MATH 30",
+                "MATH 31",
+                "MATH 32"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 30",
+                  "course_name": "Calculus I",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "MATH 31",
+                  "course_name": "Calculus II",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                },
+                {
+                  "course_id": "MATH 32",
+                  "course_name": "Calculus III",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Linear Algebra Requirement",
+          "options": [
+            {
+              "group": [
+                "MATH 39"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 39",
+                  "course_name": "Linear Algebra I",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Discrete Mathematics Requirement",
+          "options": [
+            {
+              "group": [
+                "MATH 42"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 42",
+                  "course_name": "Discrete Mathematics",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MATH 102",
+          "course_name": "Secondary School Mathematics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 108",
+          "course_name": "Introduction to Abstract Mathematics and Proofs",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 115",
+          "course_name": "Modern Geometry and Transformations",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 126",
+          "course_name": "Theory of Numbers",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 128A",
+          "course_name": "Abstract Algebra I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 128B",
+          "course_name": "Abstract Algebra II",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 131A",
+          "course_name": "Introduction to Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161A",
+          "course_name": "Applied Probability and Statistics I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161B",
+          "course_name": "Applied Probability and Statistics II",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Abstract Algebra Alternative",
+        "courses": [
+          "MATH 129B"
+        ]
+      },
+      {
+        "field_name": "Real Analysis Alternative",
+        "courses": [
+          "MATH 131B"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Core Lower Division GE: 18 units (10 units may be satisfied by major coursework in Areas 5A, 5C, 2, 6).",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4.",
+      "String: Upper Division GE: 0 units (9 units may be satisfied by major coursework in UD Areas 2or5, 3, 4).",
+      "String: Major Preparation includes AAS 25 / AFAM 25 / CCS 25 - The Changing Majority: Power and Ethnicity in America (3 units, GE Area 6).",
+      "String: Major Preparation includes CHAD 60 - Child Development (3 units).",
+      "String: Major Preparation includes ENGR 100W - Engineering Reports (3 units, WID + GE UD Area 2/5).",
+      "String: Major Preparation includes PHYS 50 - General Physics I: Mechanics (4 units, GE Areas 5A and 5C).",
+      "String: Students must complete one programming course from the following list: CMPE 30, CS 22A, CS 46A, CS 49C, CS 49J, MATH 50, or MATH 167R."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR",
+      "CS 46A for programming requirement"
+    ]
+  }
+}

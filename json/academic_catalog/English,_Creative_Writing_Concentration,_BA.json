@@ -1,0 +1,165 @@
+{
+  "output": {
+    "major_name": "English, Creative Writing Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1A_GE_AREA_1B_GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Lower Division Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "First Year Writing Requirement",
+          "options": [
+            [
+              "||ENGL 1A",
+              "ENGL 1AS"
+            ]
+          ]
+        },
+        {
+          "course_id": "ENGL 2",
+          "course_name": "Critical Thinking and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ENGL 71",
+          "course_name": "Creative Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Upper Division Requirement",
+          "options": [
+            [
+              "&&UD_HA_COURSE"
+            ]
+          ]
+        },
+        {
+          "course_id": "ENGL 50",
+          "course_name": "Beginnings to the American Experiment",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 60",
+          "course_name": "Literatures of the Atlantic World, 1680\u20101860",
+          "units": 4
+        },
+        {
+          "course_id": "ENGL 70",
+          "course_name": "Emerging Modernisms and Beyond",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 100W",
+          "course_name": "Writing Workshop",
+          "units": 4,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "name": "Literature for Global Understanding Requirement",
+          "options": [
+            [
+              "||ENGL 117B",
+              "ENGL 122",
+              "ENGL 123A",
+              "ENGL 123B",
+              "ENGL 123C",
+              "ENGL 123D"
+            ]
+          ]
+        },
+        {
+          "name": "Shakespeare Requirement",
+          "options": [
+            [
+              "||ENGL 144",
+              "ENGL 145"
+            ]
+          ]
+        },
+        {
+          "name": "American Literature & Ethnicity Requirement",
+          "options": [
+            [
+              "||ENGL 117A",
+              "ENGL 162",
+              "ENGL 163",
+              "ENGL 165",
+              "ENGL 166",
+              "ENGL 169"
+            ]
+          ]
+        },
+        {
+          "name": "Creative Writing Concentration",
+          "options": [
+            [
+              "&&ENGL 130",
+              "ENGL 131",
+              "ENGL 133",
+              "ENGL 135",
+              "ENGL 178"
+            ]
+          ]
+        },
+        {
+          "name": "Major Elective",
+          "options": [
+            [
+              "&&UPPER_DIV_ENGL_COURSE"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: One year of foreign language study at the college level or equivalency through examination (0-8 units) is required.",
+      "String: Courses in the Creative Writing Concentration may be repeated a maximum of 2 times.",
+      "String: The Upper Division College of Humanities & the Arts Requirement must be fulfilled with a course in a discipline other than the major."
+    ],
+    "recommendations": [
+      "ENGL 100W for GWAR"
+    ]
+  }
+}

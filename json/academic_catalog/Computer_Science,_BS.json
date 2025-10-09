@@ -1,0 +1,194 @@
+{
+  "output": {
+    "major_name": "Computer Science, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Intro to Programming Requirement",
+          "options": [
+            [
+              "||CS 46A",
+              "CS 46AX"
+            ]
+          ]
+        },
+        {
+          "course_id": "CS 46B",
+          "course_name": "Introduction to Data Structures",
+          "units": 4
+        },
+        {
+          "course_id": "CS 47",
+          "course_name": "Introduction to Computer Systems",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Additional Mathematics Course",
+          "options": [
+            [
+              "||MATH 32",
+              "MATH 142",
+              "MATH 161A"
+            ]
+          ]
+        },
+        {
+          "name": "Science Electives",
+          "options": [
+            [
+              "||BIOL 30",
+              "BIOL 31",
+              "CHEM 1A",
+              "GEOL 1",
+              "GEOL 4L",
+              "GEOL 7",
+              "METR 10",
+              "PHYS 50",
+              "PHYS 51"
+            ]
+          ]
+        },
+        {
+          "name": "CS 49C or CS 49J",
+          "options": [
+            [
+              "||CS 49C",
+              "CS 49J"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 147",
+          "course_name": "Computer Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "CS 149",
+          "course_name": "Operating Systems",
+          "units": 3
+        },
+        {
+          "course_id": "CS 151",
+          "course_name": "Object-Oriented Design",
+          "units": 3
+        },
+        {
+          "course_id": "CS 152",
+          "course_name": "Programming Paradigms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 154",
+          "course_name": "Formal Languages and Computability",
+          "units": 3
+        },
+        {
+          "course_id": "CS 160",
+          "course_name": "Software Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "CS 157A",
+          "course_name": "Introduction to Database Management Systems",
+          "units": 3
+        },
+        {
+          "course_id": "CS 166",
+          "course_name": "Information Security",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "CS 116A",
+          "CS 116B",
+          "CS 122",
+          "CS 123A",
+          "CS 123B",
+          "CS 131",
+          "CS 133",
+          "CS 134",
+          "CS 136",
+          "CS 144",
+          "CS 148",
+          "CS 153",
+          "CS 155",
+          "CS 156",
+          "CS 157B",
+          "CS 157C",
+          "CS 158A",
+          "CS 158B",
+          "CS 159",
+          "CS 161",
+          "CS 168",
+          "CS 171",
+          "CS 174",
+          "CS 175",
+          "CS 176",
+          "CS 108",
+          "CS 143C",
+          "CS 143M",
+          "CS 180",
+          "CS 180H",
+          "CS 185A",
+          "CS 185C",
+          "CS 190",
+          "CS 190I",
+          "CS 48",
+          "CS 85A",
+          "MATH 142",
+          "MATH 161A",
+          "MATH 162",
+          "MATH 164",
+          "MATH 177",
+          "MATH 178",
+          "MATH 179",
+          "MATH 203"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: At most 6 units of CS 85A/C and CS 185A/C may be used.",
+      "String: CS 48 does not require special consent to satisfy major elective requirements.",
+      "String: CS 180H and CS 190I may be used with prior advisor approval.",
+      "String: Exceptions for University Graduation Requirements are approved for specific majors and on a case-by-case evaluation only."
+    ],
+    "recommendations": [
+      "CS 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "output": {
+    "major_name": "Earth System Science, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_2_GE_AREA_5A_GE_AREA_5B_GE_AREA_5C"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "METR 100W, ENVS 100W, PHYS 100W, or CHEM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "General Geology Requirement",
+          "options": [
+            [
+              "||GEOL 1",
+              "GEOL 3&&GEOL 4L",
+              "GEOL 7",
+              "GEOL 9"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "GEOL 1",
+              "course_name": "General Geology",
+              "units": 4,
+              "ge_areas": [
+                "GE_AREA_5A",
+                "GE_AREA_5C"
+              ]
+            },
+            {
+              "course_id": "GEOL 3",
+              "course_name": "Planet Earth",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_5A"
+              ]
+            },
+            {
+              "course_id": "GEOL 4L",
+              "course_name": "Earth Systems Lab",
+              "units": 1,
+              "ge_areas": [
+                "GE_AREA_5C"
+              ]
+            },
+            {
+              "course_id": "GEOL 7",
+              "course_name": "Earth, Time and Life",
+              "units": 4,
+              "ge_areas": [
+                "GE_AREA_5A",
+                "GE_AREA_5C"
+              ]
+            },
+            {
+              "course_id": "GEOL 9",
+              "course_name": "Earth Disasters",
+              "units": 4,
+              "ge_areas": [
+                "GE_AREA_5A",
+                "GE_AREA_5C"
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "GEOL 5",
+          "course_name": "Earth Science for Sustainability",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5A"
+          ]
+        },
+        {
+          "course_id": "GEOL 28",
+          "course_name": "Geology Outdoors",
+          "units": 1
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "GEOL 100W",
+          "course_name": "Graduation Writing",
+          "units": 3,
+          "corequisites": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "GEOL 130",
+          "course_name": "Marine Geology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 134",
+          "course_name": "Geomorphology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 138",
+          "course_name": "Hydrogeology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 142",
+          "course_name": "Paleontology",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 137",
+          "course_name": "Introduction to GPS/GIS for Geologic Applications",
+          "units": 4
+        },
+        {
+          "course_id": "GEOL 145",
+          "course_name": "Earth System Science",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "METR 100W",
+      "ENVS 100W",
+      "PHYS 100W",
+      "CHEM 100W"
+    ]
+  }
+}

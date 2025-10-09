@@ -1,0 +1,201 @@
+{
+  "output": {
+    "major_name": "Biological Sciences, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "BIOL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 100W",
+          "course_name": "Scientific Communication Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID",
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "BIOL 155",
+          "course_name": "Hypothesis Testing",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Organic Chemistry Sequence",
+          "options": [
+            [
+              "||CHEM 8",
+              "CHEM 9"
+            ],
+            [
+              "||CHEM 112A",
+              "CHEM 112B",
+              "CHEM 113A"
+            ]
+          ]
+        },
+        {
+          "name": "Biochemistry Course",
+          "options": [
+            [
+              "||CHEM 132",
+              "CHEM 135"
+            ]
+          ]
+        },
+        {
+          "name": "Calculus Course",
+          "options": [
+            [
+              "||MATH 19"
+            ],
+            [
+              "||MATH 30"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BIOL 30",
+          "course_name": "Principles of Biology I",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 31",
+          "course_name": "Principles of Biology II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 115",
+          "course_name": "General Genetics",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 118",
+          "course_name": "Evolution",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 135B",
+          "course_name": "Eukaryotic Cell and Molecular Biology II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "BIOL 159",
+          "course_name": "Integrative Biology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "BIOL 160",
+          "course_name": "Ecology",
+          "units": 4
+        },
+        {
+          "course_id": "BIOL 178",
+          "course_name": "Integrative Physiology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "MICR 127",
+          "course_name": "Microbial Physiology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Major electives selected in consultation with a major advisor.",
+      "String: BIOL 115, BIOL 118, BIOL 159, and/or BIOL 160 may be used as electives if they are not used to satisfy a requirement in Core Courses.",
+      "String: The following courses may be taken as electives in the major for a combined total of 4 units: BIOL 180, BIOL 182, BIOL 184, BIOL 186, BOT 180, BOT 186, ENT 180, ENT 186, MICR 180, ZOOL 180, ZOOL 186, and CHEM 180."
+    ],
+    "recommendations": [
+      "BIOL 100W for GWAR"
+    ]
+  }
+}

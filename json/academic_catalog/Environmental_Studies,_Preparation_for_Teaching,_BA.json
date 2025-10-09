@@ -1,0 +1,223 @@
+{
+  "output": {
+    "major_name": "Environmental Studies, Preparation for Teaching, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "28 units may be satisfied by major coursework: Areas 1A, 1B, 5A, 5B, 5C, 2, 3A, 3B, 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "Satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENVS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ENVS 1",
+          "course_name": "Introduction to Environmental Issues",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ENVS 100W",
+          "course_name": "Environmental Research and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ENVS 119",
+          "course_name": "Energy and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2_5"
+          ]
+        },
+        {
+          "course_id": "ENVS 129",
+          "course_name": "Water Policy in the Western U.S.",
+          "units": 3
+        },
+        {
+          "course_id": "ENVS 150",
+          "course_name": "Introduction to Environmental Thought",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ENVS 154",
+          "course_name": "Sustainable Agriculture",
+          "units": 4
+        },
+        {
+          "course_id": "ENVS 158",
+          "course_name": "Environmental Education",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Reading, Language and Literature Sequence",
+          "options": [
+            [
+              "||COMM 45",
+              "LING 108",
+              "EDEL 108E"
+            ],
+            [
+              "||CHAD 150",
+              "CHAD 151"
+            ]
+          ]
+        },
+        {
+          "name": "History and Social Science Sequence",
+          "options": [
+            [
+              "&&AFAM 2A",
+              "AFAM 2B"
+            ],
+            [
+              "&&AAS 33A",
+              "AAS 33B"
+            ],
+            [
+              "&&CCS 10A",
+              "CCS 10B"
+            ],
+            [
+              "&&HIST 15",
+              "POLS 15"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ENVS 119",
+          "course_name": "Energy and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "ENVS 150",
+          "course_name": "Introduction to Environmental Thought",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "ENVS 151",
+          "course_name": "Race, Class and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "AFAM 151",
+          "course_name": "Race, Class and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Reading, Language and Literature",
+        "courses": [
+          "ENGL 1A",
+          "ENGL 2",
+          "ENGL 10",
+          "ENGL 103",
+          "ENGL 112A"
+        ]
+      },
+      {
+        "field_name": "History and Social Science",
+        "courses": [
+          "SOCS 137",
+          "SOCS 138",
+          "SOCS 139"
+        ]
+      },
+      {
+        "field_name": "Mathematics",
+        "courses": [
+          "MATH 12",
+          "MATH 105",
+          "MATH 106"
+        ]
+      },
+      {
+        "field_name": "Science",
+        "courses": [
+          "CHEM 30A",
+          "ENVS 10",
+          "GEOL 103",
+          "PHYS 1"
+        ]
+      },
+      {
+        "field_name": "Visual and Performing Arts",
+        "courses": [
+          "CA 177",
+          "ART 39",
+          "ART 138",
+          "DANC 148",
+          "MUSC 10B",
+          "MUSC 185A",
+          "TA 131"
+        ]
+      },
+      {
+        "field_name": "Physical Education and Health",
+        "courses": [
+          "CHAD 149"
+        ]
+      },
+      {
+        "field_name": "Human Development",
+        "courses": [
+          "CHAD 60",
+          "CHAD 70"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: 6 required units of American Institutions/US123 are satisfied in the major requirements.",
+      "String: Upper Division GE units may be satisfied by major coursework (UD Areas 2or5, 3, 4).",
+      "String: ENGL 1B also accepted for Transfer Students."
+    ],
+    "recommendations": [
+      "ENVS 194 - Environmental Internship"
+    ]
+  }
+}

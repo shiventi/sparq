@@ -1,0 +1,234 @@
+{
+  "output": {
+    "major_name": "Chemical Engineering, BS",
+    "total_units": 123,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "13 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5C, GE_AREA_2, GE_AREA_3B; 3 units of GE_AREA_1B waived"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CE 99",
+          "course_name": "Introductory Statics",
+          "units": 2
+        },
+        {
+          "course_id": "ENGR 10",
+          "course_name": "Introduction to Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "MATE 25",
+          "course_name": "Introduction to Materials",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 112A",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 112B",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 113A",
+          "course_name": "Organic Chemistry Lab",
+          "units": 2
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID",
+            "GE_AREA_UD2",
+            "GE_AREA_UD5"
+          ]
+        },
+        {
+          "course_id": "CHE 110A",
+          "course_name": "Mathematical Methods in Chemical and Materials Engineering",
+          "units": 2,
+          "prerequisites": [
+            [
+              "||MATH 33A",
+              "MATH 33LA"
+            ]
+          ]
+        },
+        {
+          "course_id": "CHE 110B",
+          "course_name": "Computational Methods in Chemical Engineering",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 114",
+          "course_name": "Data Science in Chemical and Materials Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "CHE 115",
+          "course_name": "Industrial Chemical Calculations",
+          "units": 3
+        },
+        {
+          "course_id": "CHE 151",
+          "course_name": "Process Engineering Thermodynamics",
+          "units": 4
+        },
+        {
+          "course_id": "CHE 158",
+          "course_name": "Kinetics and Reactor Design",
+          "units": 3
+        },
+        {
+          "course_id": "CHE 160A",
+          "course_name": "Unit Operations I",
+          "units": 4
+        },
+        {
+          "course_id": "CHE 160B",
+          "course_name": "Unit Operations II",
+          "units": 4
+        },
+        {
+          "course_id": "CHE 161L",
+          "course_name": "Undergraduate Chemical Engineering Laboratory",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 162",
+          "course_name": "Engineering Statistics and Analysis",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 163L",
+          "course_name": "Undergraduate Chemical Engineering Laboratory II",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 165A",
+          "course_name": "Plant Design I",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 165B",
+          "course_name": "Plant Design II",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 185",
+          "course_name": "Chemical Process Dynamics and Control",
+          "units": 2
+        },
+        {
+          "course_id": "CHE 190",
+          "course_name": "Introduction to Transport Phenomena",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Core Lower Division GE: 12 units (Areas 5A, 5B, 5C, 2, 3B).",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Area 4.",
+      "String: Upper Division GE: 6 units (3 units may be satisfied by major coursework: UD Areas 2 or 5).",
+      "String: Physical Education is waived.",
+      "String: GWAR/WID requirement is satisfied by ENGR 100W.",
+      "String: Transfer students with MATH 33A (C- or better) or MATH 33LA (C- or better) may use these in lieu of CHE 110A."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

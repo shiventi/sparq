@@ -1,0 +1,175 @@
+{
+  "output": {
+    "major_name": "Women, Gender, and Sexuality Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "SOCI 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "WGSS 10",
+          "course_name": "Women, Gender, and Sexuality Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "WGSS 20",
+          "course_name": "Women of Color in the U.S.",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "SOCI 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "SOCI 105",
+          "course_name": "Qualitative Research Methods",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 101",
+          "course_name": "Sex, Power, and Politics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "WGSS 102",
+          "course_name": "The Global Study of Women",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "WGSS 112",
+          "course_name": "Women in the Global Economy",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 114",
+          "course_name": "Politics of Mothering and Reproduction",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 135",
+          "course_name": "Trans Studies: Identities, Embodiment, & Politics",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 160",
+          "course_name": "Queering Gender, Race, and Class",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 169",
+          "course_name": "Sexualities and the Body",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 189",
+          "course_name": "Feminist Perspectives on Gender and Religion",
+          "units": 3
+        },
+        {
+          "course_id": "CCS 160",
+          "course_name": "Gender and Sexuality in the Chicana/o Community",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "SOCI 170",
+          "course_name": "Sociology of Family",
+          "units": 3
+        },
+        {
+          "course_id": "SOCI 172",
+          "course_name": "Lesbian, Gay, Bi, Transgender Studies",
+          "units": 3
+        },
+        {
+          "course_id": "SOCI 174",
+          "course_name": "Sexualities",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 107",
+          "course_name": "Psychology of Women",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 121",
+          "course_name": "Philosophy and Feminism",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 131",
+          "course_name": "Gender, Sexuality, and Religion",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 156",
+          "course_name": "Black Women\u2019s Writing",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 175",
+          "course_name": "Sociology of Masculinities and Femininities",
+          "units": 3
+        },
+        {
+          "course_id": "WGSS 180",
+          "course_name": "Individual Studies",
+          "units": "1-4"
+        },
+        {
+          "course_id": "WGSS 190",
+          "course_name": "Internship",
+          "units": "1-4"
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Core Courses (18 units) include WGSS 10, WGSS 20, SOCI 100W, SOCI 105, WGSS 101, and WGSS 102.",
+      "String: Complete Four Courses (12 units) from WGSS 112, WGSS 114, WGSS 135, WGSS 160, WGSS 169, WGSS 189.",
+      "String: Major Electives (9 units) require completion of 3 courses from CCS 160, SOCI 170, SOCI 172, SOCI 174, WGSS 107, WGSS 121, WGSS 131, WGSS 156, WGSS 175, WGSS 180, WGSS 190."
+    ],
+    "recommendations": [
+      "SOCI 100W for GWAR"
+    ]
+  }
+}

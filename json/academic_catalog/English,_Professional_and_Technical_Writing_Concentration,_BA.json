@@ -1,0 +1,140 @@
+{
+  "output": {
+    "major_name": "English, Professional and Technical Writing Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units from major prep or core"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "First Year Writing Requirement",
+          "options": [
+            [
+              "||ENGL 1A",
+              "ENGL 1AS"
+            ]
+          ]
+        },
+        {
+          "name": "Critical Thinking and Writing Requirement",
+          "options": [
+            "ENGL 2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            "Any one course offered by the College of Humanities & the Arts in a discipline other than your major"
+          ]
+        },
+        {
+          "name": "Core Courses",
+          "options": [
+            "ENGL 50",
+            "ENGL 60",
+            "ENGL 70",
+            "ENGL 100W"
+          ]
+        },
+        {
+          "name": "Literature for Global Understanding",
+          "options": [
+            [
+              "||ENGL 117B",
+              "ENGL 122",
+              "ENGL 123A",
+              "ENGL 123B",
+              "ENGL 123C",
+              "ENGL 123D"
+            ]
+          ]
+        },
+        {
+          "name": "Shakespeare",
+          "options": [
+            [
+              "||ENGL 144",
+              "ENGL 145"
+            ]
+          ]
+        },
+        {
+          "name": "American Literature & Ethnicity",
+          "options": [
+            [
+              "||ENGL 117A",
+              "ENGL 162",
+              "ENGL 163",
+              "ENGL 165",
+              "ENGL 166",
+              "ENGL 169"
+            ]
+          ]
+        },
+        {
+          "name": "Professional and Technical Writing Concentration",
+          "options": [
+            "ENGL 103",
+            "ENGL 106",
+            "ENGL 107",
+            [
+              "||ENGL 105",
+              "ENGL 110",
+              "ENGL 111",
+              "ENGL 129",
+              "ENGL 157"
+            ]
+          ]
+        },
+        {
+          "name": "Major Elective",
+          "options": [
+            "Any one upper division English Course"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "String: One year of foreign language study at the college level or equivalency through examination (0-8 units) is required.",
+      "String: ENGL 100W satisfies the Graduation Writing Assessment Requirement (GWAR).",
+      "String: Students must complete one course from the College of Humanities & the Arts Lower Division requirement.",
+      "String: Students must complete one course from the College of Humanities & the Arts Upper Division requirement in a discipline other than their major."
+    ],
+    "recommendations": [
+      "ENGL 100W for GWAR"
+    ]
+  }
+}

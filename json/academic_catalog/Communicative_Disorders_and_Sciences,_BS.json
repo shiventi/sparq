@@ -1,0 +1,319 @@
+{
+  "output": {
+    "major_name": "Communicative Disorders and Sciences, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "GWAR / WID"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "name": "Biological Sciences Requirement",
+          "options": [
+            {
+              "group": [
+                "||BIOL 10"
+              ],
+              "details": [
+                {
+                  "course_id": "BIOL 10",
+                  "course_name": "The Living World",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_5B"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||BIOL 21"
+              ],
+              "details": [
+                {
+                  "course_id": "BIOL 21",
+                  "course_name": "Human Biology",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5B",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||BIOL 30"
+              ],
+              "details": [
+                {
+                  "course_id": "BIOL 30",
+                  "course_name": "Principles of Biology I",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5B",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physics or Chemistry Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHEM 1A"
+              ],
+              "details": [
+                {
+                  "course_id": "CHEM 1A",
+                  "course_name": "General Chemistry",
+                  "units": 5,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||CHEM 30A"
+              ],
+              "details": [
+                {
+                  "course_id": "CHEM 30A",
+                  "course_name": "Introductory Chemistry",
+                  "units": 4,
+                  "ge_areas": [
+                    "GE_AREA_5A",
+                    "GE_AREA_5C"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||PHYS 1"
+              ],
+              "details": [
+                {
+                  "course_id": "PHYS 1",
+                  "course_name": "Elementary Physics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_5A"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Social Sciences/Behavioral Sciences Requirement",
+          "options": [
+            {
+              "group": [
+                "||ANTH 11",
+                "||GERO 107",
+                "||PSYC 1",
+                "||SOCI 57",
+                "||SOCI 80"
+              ],
+              "details": [
+                {
+                  "course_id": "ANTH 11",
+                  "course_name": "Cultural Anthropology",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "GERO 107",
+                  "course_name": "Aging and Society",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "PSYC 1",
+                  "course_name": "Introduction to Psychology",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "SOCI 57",
+                  "course_name": "Community Involvement and Personal Growth",
+                  "units": 3
+                },
+                {
+                  "course_id": "SOCI 80",
+                  "course_name": "Social Problems",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lifespan Development Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHAD 60",
+                "||PH 15",
+                "||PSYC 102"
+              ],
+              "details": [
+                {
+                  "course_id": "CHAD 60",
+                  "course_name": "Child Development",
+                  "units": 3
+                },
+                {
+                  "course_id": "PH 15",
+                  "course_name": "Human Life Span",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "PSYC 102",
+                  "course_name": "Psychology of Childhood",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "EDSP 102",
+          "course_name": "Communication Development in Children",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 110",
+          "course_name": "Survey of Communication Disorders",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 111",
+          "course_name": "Introduction to Clinical Phonetics",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 112",
+          "course_name": "Fundamentals of Clinical Practice",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 113",
+          "course_name": "Anatomy and Physiology of Communication Disorders",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 120",
+          "course_name": "Communicative Disorders in Children",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 161",
+          "course_name": "Neuroanatomy and Neurophysiology of Communication Disorders",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 162",
+          "course_name": "Communicative Disorders in Adults",
+          "units": 3
+        },
+        {
+          "course_id": "EDSP 176",
+          "course_name": "Guided Professional Clinical Observations",
+          "units": 3
+        },
+        {
+          "course_id": "EDAU 115",
+          "course_name": "Hearing Science",
+          "units": 3
+        },
+        {
+          "course_id": "EDAU 170",
+          "course_name": "Introduction to Audiology",
+          "units": 3
+        },
+        {
+          "course_id": "EDAU 172",
+          "course_name": "Principles of Aural Rehabilitation",
+          "units": 3
+        },
+        {
+          "name": "Practicum Requirement",
+          "options": [
+            {
+              "group": [
+                "||EDSP 177",
+                "||EDAU 177"
+              ],
+              "details": [
+                {
+                  "course_id": "EDSP 177",
+                  "course_name": "Practicum in Speech Pathology",
+                  "units": 3
+                },
+                {
+                  "course_id": "EDAU 177",
+                  "course_name": "Practicum in Audiology",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "String: Placement in clinical practicum is contingent upon completing a clinic application, clinic availability, major GPA verification of 3.0+, and an overall GPA of 2.7+.",
+      "String: Students who do not complete an undergraduate clinic practicum will need to complete an approved clinic substitution and submit a course substitution form."
+    ],
+    "recommendations": [
+      "See CDS Roadmap Assistance for suggested electives."
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "output": {
+    "major_name": "Design Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 70A",
+          "course_name": "Art History, Prehistoric to Medieval",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70B",
+          "course_name": "Art History, Renaissance to Modern",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70C",
+          "course_name": "Arts of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ANI 11",
+          "course_name": "Illustration Fundamentals I",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 21",
+          "course_name": "Visualization I",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 10",
+          "course_name": "Sketching, Drawing + Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 10",
+          "course_name": "Light and Optics",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 63",
+          "course_name": "Fundamental Graphic Visualization",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 22",
+          "course_name": "Visualization II",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 5",
+          "course_name": "Introduction of Interior Design and Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 71",
+          "course_name": "Visual Principles",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 83",
+          "course_name": "Digital Applications: Basics",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 31",
+          "course_name": "Industrial Design Foundation I",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 29",
+          "course_name": "Design Process",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 31",
+          "course_name": "2D Animation I",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 109",
+          "course_name": "Digital Apps: Motion & Interaction Design",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 137",
+          "course_name": "Advanced Physical Prototyping",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 33",
+          "course_name": "Architectural Presentation",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 100A",
+          "course_name": "Typography",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 32",
+          "course_name": "Industrial Design Foundation II",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 83",
+          "course_name": "Visual Communication I",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ARTH 72",
+          "course_name": "Design in Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 160",
+          "course_name": "Modern Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 161",
+          "course_name": "Contemporary Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "DSGD 176A",
+          "course_name": "Graphic Design History and Theory",
+          "units": 3
+        },
+        {
+          "course_id": "DSID 122",
+          "course_name": "Cont. & Crit. Studies: Industrial Design",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 181",
+          "course_name": "Modern Film History",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Graphic Design",
+        "courses": [
+          "DSGD 100",
+          "DSGD 104",
+          "DSGD 111",
+          "DSGN 197"
+        ]
+      },
+      {
+        "field_name": "Industrial Design",
+        "courses": [
+          "DSID 41",
+          "DSID 129",
+          "DSID 136",
+          "DSID 143"
+        ]
+      },
+      {
+        "field_name": "Interior Design",
+        "courses": [
+          "DSIT 34",
+          "DSIT 106",
+          "DSIT 107",
+          "DSIT 108",
+          "DSIT 112"
+        ]
+      },
+      {
+        "field_name": "Animation & Illustration",
+        "courses": [
+          "TA 5",
+          "DSID 126",
+          "DSIT 106"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each field.",
+      "String: Specializations are a cluster of courses used by departments for advising purposes. Specializations will not appear on transcripts or diplomas. Please see advisor for more details.",
+      "String: Only for students who were admitted as Animation & Illustration, BFA and did not pass portfolio review. Consult with your advisor regarding the requirements to satisfy the specialization.",
+      "String: With the departmental advisor approval, students must complete 6 units of lower division design electives and 6 units of upper division design electives."
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "output": {
+    "major_name": "Forensic Science, Chemistry Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "13 units may be satisfied by major coursework: GE_AREA_1A, GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FS 100W or JS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 30",
+          "course_name": "Principles of Biology I",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1B",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 55",
+          "course_name": "Quantitative Analysis",
+          "units": 2
+        },
+        {
+          "course_id": "CHEM 55L",
+          "course_name": "Quantitative Analysis Laboratory",
+          "units": 2
+        },
+        {
+          "course_id": "ENGL 1A",
+          "course_name": "First Year Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        },
+        {
+          "course_id": "JS 171",
+          "course_name": "Human Rights and Justice",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHIL 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "JS 15",
+          "course_name": "Introductory Statistics in Justice Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "FS 100W",
+          "course_name": "Forensic Science Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "JS 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "FS 11",
+          "course_name": "Survey of Forensic Science",
+          "units": 3
+        },
+        {
+          "course_id": "FS 161",
+          "course_name": "Crime Scene Investigation",
+          "units": 3
+        },
+        {
+          "course_id": "FS 162",
+          "course_name": "Forensic Science Applications",
+          "units": 3
+        },
+        {
+          "course_id": "JS 180",
+          "course_name": "Individual Studies",
+          "units": "1-3"
+        },
+        {
+          "course_id": "JS 181",
+          "course_name": "Internship: Justice Studies",
+          "units": "1-6"
+        },
+        {
+          "course_id": "JS 182",
+          "course_name": "Themis: Journal of Justice Studies and Forensic Science",
+          "units": 3
+        },
+        {
+          "course_id": "JS 184",
+          "course_name": "Directed Reading",
+          "units": "1-3"
+        },
+        {
+          "course_id": "FS 169",
+          "course_name": "FS Senior Seminar: Studies in Contemporary FS Issues",
+          "units": 3
+        },
+        {
+          "course_id": "JS 189",
+          "course_name": "Senior Seminar: Contemporary Problems",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 112A",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 112B",
+          "course_name": "Organic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 113A",
+          "course_name": "Organic Chemistry Lab",
+          "units": 2
+        },
+        {
+          "course_id": "CHEM 145",
+          "course_name": "Inorganic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 155",
+          "course_name": "Instrumental Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "CHEM 160",
+          "course_name": "Physical Chemistry",
+          "units": 4
+        },
+        {
+          "course_id": "FS 166",
+          "course_name": "Forensic Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "FS 176",
+          "course_name": "Introduction to Fire and Explosion Investigations",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 130A",
+          "course_name": "Biochemistry",
+          "units": 4
+        },
+        {
+          "course_id": "CHEM 135",
+          "course_name": "General Biochemistry",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Major Preparation: 41 units",
+      "String: Major Requirements: 47 units",
+      "String: University Electives: 6 units",
+      "String: Total: 120 units",
+      "String: Complete either JS 15 or STAT 95 for statistics requirement.",
+      "String: Complete either FS 100W or JS 100W for GWAR.",
+      "String: Practical Requirement: Complete 3 units from JS 180, JS 181, JS 182, or JS 184.",
+      "String: Senior Capstone: Complete either FS 169 or JS 189.",
+      "String: Biochemistry Course: Complete either CHEM 130A or CHEM 135."
+    ],
+    "recommendations": [
+      "FS 100W or JS 100W for GWAR"
+    ]
+  }
+}

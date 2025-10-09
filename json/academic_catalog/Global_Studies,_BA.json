@@ -1,0 +1,200 @@
+{
+  "output": {
+    "major_name": "Global Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_5B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "GLST 179"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "GLST 1A",
+          "course_name": "Introduction to Global Studies",
+          "units": 3
+        },
+        {
+          "course_id": "GLST 1B",
+          "course_name": "Introduction to Global Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "GLST 164",
+          "course_name": "Advanced Seminar in Global Citizenship",
+          "units": 3
+        },
+        {
+          "course_id": "GLST 179",
+          "course_name": "Capstone Seminar in Global Studies",
+          "units": 3
+        },
+        {
+          "name": "Global Experience Requirement",
+          "options": [
+            [
+              "||GLST 188",
+              "GLST 189"
+            ]
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Global Sustainability Breadth",
+          "options": [
+            [
+              "||ANTH 129",
+              "BIOL 110",
+              "COMM 146F",
+              "ENVS 150",
+              "ENVS 152",
+              "ENVS 159",
+              "GEOG 121",
+              "GEOL 111",
+              "GEOL 112",
+              "PH 172",
+              "METR 112",
+              "NUFS 139",
+              "PHIL 126"
+            ]
+          ]
+        },
+        {
+          "name": "Global Development, Population, Human Rights Breadth",
+          "options": [
+            [
+              "||ANTH 151",
+              "ANTH 132",
+              "BUS5 187",
+              "ECON 113B",
+              "ECON 190",
+              "GEOG 115",
+              "HIST 155",
+              "JS 171",
+              "JS 172",
+              "JS 173",
+              "POLS 147",
+              "POLS 155",
+              "SOCI 118",
+              "SOCI 160",
+              "SOCI 169",
+              "WGSS 102",
+              "WGSS 112"
+            ]
+          ]
+        },
+        {
+          "name": "Global Security and Technology Breadth",
+          "options": [
+            [
+              "||ANTH 136",
+              "ANTH 146",
+              "BUS5 165A",
+              "COMM 115P",
+              "COMM 179",
+              "GEOG 107",
+              "GEOG 112",
+              "GEOG 70",
+              "GEOG 181",
+              "JS 123",
+              "JS 161",
+              "MCOM 180",
+              "POLS 148",
+              "POLS 150",
+              "POLS 152A",
+              "TECH 198"
+            ]
+          ]
+        },
+        {
+          "name": "Global Cultures and Society Breadth",
+          "options": [
+            [
+              "||ANTH 107",
+              "ANTH 115",
+              "ANTH 148",
+              "ARTH 193A",
+              "ARTH 193B",
+              "CA 173",
+              "COMM 152I",
+              "COMM 173F",
+              "COLT 122",
+              "ENGL 117B",
+              "ENGL 123A",
+              "ENGL 123B",
+              "ENGL 123C",
+              "ENGL 123D",
+              "ENGL 126",
+              "HIST 132",
+              "HUM 128",
+              "LING 122",
+              "MCOM 106",
+              "PHIL 120",
+              "SOCI 116",
+              "TECH 198",
+              "WGSS 189"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Global Sustainability",
+        "courses": [
+          "GLST 167"
+        ]
+      },
+      {
+        "field_name": "Global Development, Population, Human Rights",
+        "courses": [
+          "GLST 143"
+        ]
+      },
+      {
+        "field_name": "Global Security and Technology",
+        "courses": [
+          "GLST 156"
+        ]
+      },
+      {
+        "field_name": "Global Cultures and Society",
+        "courses": [
+          "SOCI 116"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each of the four major breadth areas.",
+      "String: Minor requirement: 12-16 units selected in consultation with Global Studies advisor.",
+      "String: Major Upper Division Electives: 11 units fulfilled by taking GLST 162, GLST 192, or electives in GLST, ENVS, GEOG, GISC, or URBP.",
+      "String: University Electives: 11-19 units.",
+      "String: GWAR may be satisfied through GLST 179."
+    ],
+    "recommendations": [
+      "GLST 179 for GWAR"
+    ]
+  }
+}

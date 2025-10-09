@@ -1,0 +1,157 @@
+{
+  "output": {
+    "major_name": "Justice Studies, Criminology Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_2_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_3_UD_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "JS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Major Preparation Requirement 1",
+          "options": [
+            [
+              "||FS 11",
+              "JS 10",
+              "JS 12",
+              "JS 25"
+            ]
+          ]
+        },
+        {
+          "name": "Statistics Course Requirement",
+          "options": [
+            [
+              "||JS 15",
+              "STAT 95"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Justice Studies Core Requirement",
+          "options": [
+            "JS 100W",
+            "JS 101",
+            "JS 114",
+            "JS 132",
+            "JS 151",
+            "JS 171"
+          ]
+        },
+        {
+          "name": "Justice Studies Core Elective 1",
+          "options": [
+            [
+              "||JS 141",
+              "JS 142",
+              "JS 181"
+            ]
+          ]
+        },
+        {
+          "name": "Justice Studies Core Elective 2",
+          "options": [
+            [
+              "||FS 169",
+              "JS 189"
+            ]
+          ]
+        },
+        {
+          "name": "Concentration Required Courses",
+          "options": [
+            "JS 102",
+            "JS 104",
+            "JS 152",
+            "JS 155"
+          ]
+        },
+        {
+          "name": "Concentration Electives",
+          "options": [
+            [
+              "||JS 103",
+              "JS 153",
+              "JS 157",
+              "JS 185"
+            ],
+            [
+              "||JS 107",
+              "JS 117",
+              "JS 131",
+              "JS 143",
+              "JS 185"
+            ],
+            [
+              "||FS 171",
+              "JS 122",
+              "JS 128",
+              "JS 130",
+              "JS 136",
+              "JS 144",
+              "JS 146",
+              "JS 150",
+              "JS 174",
+              "JS 185"
+            ],
+            [
+              "||FS 170",
+              "JS 121",
+              "JS 123",
+              "JS 127",
+              "JS 129",
+              "JS 137",
+              "JS 145",
+              "JS 156",
+              "JS 158",
+              "JS 161",
+              "JS 172",
+              "JS 173",
+              "JS 185"
+            ],
+            [
+              "||JS 140",
+              "JS 141",
+              "JS 142",
+              "JS 179",
+              "JS 180",
+              "JS 182",
+              "JS 184"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course from FS 11, JS 10, JS 12, or JS 25 for major preparation.",
+      "String: One statistics course is required: either JS 15 or STAT 95.",
+      "String: JS 100W satisfies the Graduation Writing Assessment Requirement (GWAR).",
+      "String: Students must complete 9 units of concentration electives, distributed among Areas A through E with a maximum of 6 units per area.",
+      "String: A minor is strongly recommended."
+    ],
+    "recommendations": [
+      "JS 100W for GWAR"
+    ]
+  }
+}

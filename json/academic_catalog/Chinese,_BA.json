@@ -1,0 +1,106 @@
+{
+  "output": {
+    "major_name": "Chinese, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units from major prep and 3 units from major requirements"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FORL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "||DSGN 44HA",
+              "||ENGL 44HA",
+              "||HUM 44HA",
+              "||PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            [
+              "&&CHIN 25A",
+              "&&CHIN 25B"
+            ]
+          ]
+        },
+        {
+          "name": "Foreign Language Requirement",
+          "description": "12 units of a second world language"
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CHIN 101A",
+          "course_name": "Advanced Chinese",
+          "units": 4
+        },
+        {
+          "course_id": "CHIN 101B",
+          "course_name": "Advanced Chinese",
+          "units": 4
+        },
+        {
+          "course_id": "CHIN 140",
+          "course_name": "Chinese Culture and Politics Through Literature",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "FORL 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "||CHIN 102",
+              "||CHIN 110",
+              "||CHIN 130",
+              "||CHIN 132",
+              "||RELS 144"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course from the Lower Division Humanities & the Arts College Requirement list.",
+      "String: Major Preparation includes CHIN 25A and CHIN 25B or equivalent.",
+      "String: Foreign Language Requirement consists of 12 units of a second world language.",
+      "String: Complete six courses from the Major Electives list."
+    ],
+    "recommendations": [
+      "FORL 100W for GWAR"
+    ]
+  }
+}

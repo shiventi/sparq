@@ -1,0 +1,269 @@
+{
+  "output": {
+    "major_name": "Nursing, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "NURS 100WE"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ENGL 1A",
+          "course_name": "First Year Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        },
+        {
+          "course_id": "COMM 20",
+          "course_name": "Public Speaking",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1C"
+          ]
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 65",
+          "course_name": "Human Anatomy",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 65O",
+          "course_name": "Human Anatomy Lab",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 66",
+          "course_name": "Human Physiology",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MICR 20",
+          "course_name": "General Bacteriology",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "NUFS 8",
+          "course_name": "Nutrition for the Health Professions",
+          "units": 3
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "name": "Statistics Alternative",
+          "options": [
+            [
+              "||STAT 95",
+              "MATH/UNVS 15"
+            ]
+          ]
+        },
+        {
+          "course_id": "CHAD 70",
+          "course_name": "Lifespan Development in a Global Context",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "NURS 10",
+          "course_name": "Leadership I",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 11",
+          "course_name": "Introduction to Pharmacology",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 12",
+          "course_name": "Health Assessment & Skills I",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 13A",
+          "course_name": "Gerontological Nursing Theory",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 13B",
+          "course_name": "Geriatric Nursing Practicum",
+          "units": 1
+        },
+        {
+          "course_id": "NURS 100WE",
+          "course_name": "Evidence Based Practice Writing Workshop",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 20A",
+          "course_name": "Adult Care Management I",
+          "units": 4
+        },
+        {
+          "course_id": "NURS 20B",
+          "course_name": "Adult Care Clinical Practicum I",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 22",
+          "course_name": "Health Assessment & Skills in Nursing II",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 123A",
+          "course_name": "Mental Health Theory",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 123B",
+          "course_name": "Mental Health Practicum",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 32",
+          "course_name": "Health Assessment & Skills III",
+          "units": 1
+        },
+        {
+          "course_id": "NURS 161",
+          "course_name": "Leadership II",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 165A",
+          "course_name": "Child Health Theory",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 165B",
+          "course_name": "Child Health Practicum",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 168A",
+          "course_name": "Maternal Newborn Theory",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 168B",
+          "course_name": "Maternal Newborn Practicum",
+          "units": 2
+        },
+        {
+          "course_id": "NURS 166",
+          "course_name": "Simulation I",
+          "units": 1
+        },
+        {
+          "course_id": "NURS 167A",
+          "course_name": "Adult Care Management II",
+          "units": 4
+        },
+        {
+          "course_id": "NURS 167B",
+          "course_name": "Adult Care Clinical Practicum II",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 164AR",
+          "course_name": "Community Health Theory for Nursing BS Program",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2",
+            "GE_AREA_5"
+          ]
+        },
+        {
+          "course_id": "NURS 164B",
+          "course_name": "Community Health Practicum",
+          "units": 3
+        },
+        {
+          "course_id": "NURS 177",
+          "course_name": "Senior Preceptorship",
+          "units": 4
+        },
+        {
+          "course_id": "NURS 178",
+          "course_name": "Leadership III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: 22 units of Lower Division GE may be satisfied by major coursework in Areas 1A, 1C, 5A, 5B, 5C, 2, 4.",
+      "String: 6 units of American Institutions/US 123 are required; 3 units may be satisfied from the LD GE by selecting a GE course in Area 3B.",
+      "String: 6 units of Upper Division GE may be satisfied by major coursework in UD Areas 2 or 5, and 4.",
+      "String: Physical Education requirement is waived.",
+      "String: GWAR is satisfied by NURS 100WE."
+    ],
+    "recommendations": [
+      "NURS 100WE for GWAR"
+    ]
+  }
+}

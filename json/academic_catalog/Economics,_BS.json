@@ -1,0 +1,119 @@
+{
+  "output": {
+    "major_name": "Economics, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units from major coursework may satisfy GE Areas 2 and 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "May be satisfied by selecting applicable GE courses in Areas 3B and/or 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ECON 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Statistics Requirement",
+          "options": [
+            [
+              "||SOCI 15",
+              "SOCS 15",
+              "STAT 95"
+            ]
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "BUS2 90",
+          "course_name": "Business Analytics Preparation",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ECON 1A",
+          "course_name": "Principles of Economics: Macroeconomics",
+          "units": 3
+        },
+        {
+          "course_id": "ECON 1B",
+          "course_name": "Principles of Economics: Microeconomics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ECON 100W",
+          "course_name": "Writing Workshop: Economic Reports",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 101",
+          "course_name": "Microeconomic Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 102",
+          "course_name": "Macroeconomic Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 103A",
+          "course_name": "Introduction to Econometrics and Research Methods",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 103B",
+          "course_name": "Econometric Methods",
+          "units": 4
+        },
+        {
+          "course_id": "ECON 104",
+          "course_name": "Mathematical Methods for Economics",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Data Analytics Specialization",
+        "courses": [
+          "ECON 166",
+          "ECON 138",
+          "ECON 195",
+          "ECON 197"
+        ]
+      }
+    ],
+    "notes": [
+      "String: All major preparation courses must be completed with a grade of 'C' or better.",
+      "String: All major core and elective courses must be completed with a minimum grade of 'C-'.",
+      "String: ECON 109 is NOT intended for majors and cannot be used to fulfill upper division elective requirements.",
+      "String: Students pursuing the Data Analytics specialization must complete 12 units of 100-level economics electives in addition to selecting two out of four specified courses."
+    ],
+    "recommendations": [
+      "ECON 100W for GWAR"
+    ]
+  }
+}

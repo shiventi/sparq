@@ -1,0 +1,187 @@
+{
+  "output": {
+    "major_name": "Dance, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A, 3 units may be satisfied by major coursework: UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W or TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 43",
+          "course_name": "Dance Improvisation",
+          "units": 1
+        },
+        {
+          "course_id": "DANC 75",
+          "course_name": "Rhythm and Dynamics in Dance",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 10A",
+          "course_name": "Music Appreciation",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 100W",
+          "course_name": "Written Communication II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "DANC 102",
+          "course_name": "Dance in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "DANC 12",
+          "course_name": "Ensemble Dance Rehearsal and Performance",
+          "units": 2
+        },
+        {
+          "course_id": "DANC 112",
+          "course_name": "ENS: Dance Rehearsal and Performance",
+          "units": 2
+        },
+        {
+          "course_id": "DANC 194",
+          "course_name": "Dance Repertory Activity",
+          "units": 1
+        },
+        {
+          "course_id": "DANC 145A",
+          "course_name": "Choreography I",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 145B",
+          "course_name": "Choreography II",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 145C",
+          "course_name": "Choreography III",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 147A",
+          "course_name": "Dance Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 51A",
+          "course_name": "Dance Production",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 51B",
+          "course_name": "Topics in Dance Crewing",
+          "units": 0.5
+        },
+        {
+          "course_id": "DANC 144A",
+          "course_name": "Dance History and Repertory",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 150A",
+          "course_name": "Kinesiology I",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 150B",
+          "course_name": "Kinesiology II",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 151",
+          "course_name": "Introduction to Dance Pedagogy",
+          "units": 2
+        },
+        {
+          "course_id": "DANC 49A",
+          "course_name": "Topics in Tap Dance I",
+          "units": 1
+        },
+        {
+          "course_id": "DANC 53",
+          "course_name": "World Dance",
+          "units": 1
+        },
+        {
+          "course_id": "DANC 148",
+          "course_name": "Children\u2019s Dance",
+          "units": 3
+        },
+        {
+          "course_id": "DANC 198",
+          "course_name": "Internship in Dance",
+          "units": "1-3"
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Freshmen must perform at level II in area of option. Minimum of one technique class daily required each semester at SJSU. Level I is prerequisite if unable to perform at level II or higher in Modern, Jazz, Ballet or Tap.",
+      "String: Complete at least 6 units of DANC 154B.",
+      "String: Performance Requirements: Any combination of DANC 12, DANC 112 or DANC 194, 4 units must be DANC 112."
+    ],
+    "recommendations": [
+      "DANC 51B should be taken twice",
+      "TA 100W also accepted for GWAR"
+    ]
+  }
+}

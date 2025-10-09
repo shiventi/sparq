@@ -1,0 +1,131 @@
+{
+  "output": {
+    "major_name": "Radio-Television-Film, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_3A, GE_AREA_4, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "RTVF 10",
+          "course_name": "The Art of Film",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "RTVF 110",
+          "course_name": "Media and Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "TA 100W",
+          "course_name": "Writing Workshop: Theatre Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "RTVF 20",
+          "course_name": "Introduction to Audio for Film & Television",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 30",
+          "course_name": "Introduction to Film & Television Production",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 31",
+          "course_name": "Film and Television Aesthetics",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 80",
+          "course_name": "Introduction to Media",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 82",
+          "course_name": "Introduction to Film History",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 120",
+          "course_name": "Intermediate Audio for Film & Television",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 130",
+          "course_name": "Intermediate Film & Television Production",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 160",
+          "course_name": "Introduction to Screenwriting",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 183",
+          "course_name": "Critical Studies & Research in RTVF",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 185",
+          "course_name": "Special Topics in RTVF",
+          "units": 3
+        },
+        {
+          "course_id": "RTVF 198",
+          "course_name": "RTVF Internships, Portfolio, Career Prep",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Lower Division College of Humanities & the Arts Requirement",
+        "courses": [
+          "ART 44HA",
+          "DSGN 44HA",
+          "ENGL 44HA",
+          "HUM 44HA",
+          "PHIL 44HA"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Complete any one course offered by the College of Humanities & the Arts in a discipline other than your major for 2-4 units.",
+      "String: RTVF 160, RTVF 185, and RTVF 198 are repeatable for credit up to 6 units."
+    ],
+    "recommendations": [
+      "TA 100W for GWAR"
+    ]
+  }
+}

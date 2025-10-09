@@ -1,0 +1,211 @@
+{
+  "output": {
+    "major_name": "Business Administration, Marketing Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1B_GE_AREA_2_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100WB"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ECON 1A",
+          "course_name": "Principles of Economics: Macroeconomics",
+          "units": 3
+        },
+        {
+          "course_id": "ECON 1B",
+          "course_name": "Principles of Economics: Microeconomics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ENGL 2",
+          "course_name": "Critical Thinking and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "name": "Mathematics Requirement",
+          "options": [
+            {
+              "group": [
+                "||MATH 70"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 70",
+                  "course_name": "Mathematics for Business",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||MATH 30",
+                "MATH 31",
+                "MATH 32",
+                "MATH 71"
+              ],
+              "details": [
+                {
+                  "course_id": "MATH 30",
+                  "course_name": "Calculus I",
+                  "units": 3
+                },
+                {
+                  "course_id": "MATH 31",
+                  "course_name": "Calculus II",
+                  "units": 3
+                },
+                {
+                  "course_id": "MATH 32",
+                  "course_name": "Calculus III",
+                  "units": 3
+                },
+                {
+                  "course_id": "MATH 71",
+                  "course_name": "Applied Calculus for Business",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Writing in the Disciplines",
+          "options": [
+            [
+              "||COMM 100W",
+              "ENGL 100WB",
+              "LLD 100WB"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BUS1 20",
+          "course_name": "Financial Accounting",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 21",
+          "course_name": "Managerial Accounting",
+          "units": 3
+        },
+        {
+          "course_id": "BUS3 80",
+          "course_name": "Legal Environment of Business",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 90",
+          "course_name": "Business Statistics",
+          "units": 3
+        },
+        {
+          "course_id": "BUS4 91L",
+          "course_name": "Computer Tools for Business",
+          "units": 1
+        },
+        {
+          "course_id": "BUS3 12",
+          "course_name": "Business First Year Experience",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 130",
+          "course_name": "Introduction to Marketing",
+          "units": 3
+        },
+        {
+          "course_id": "BUS5 140",
+          "course_name": "Fundamentals of Operations Management",
+          "units": 3
+        },
+        {
+          "course_id": "BUS3 160",
+          "course_name": "Fundamentals of Management and Organizational Behavior",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 170",
+          "course_name": "Fundamentals of Finance",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 190",
+          "course_name": "Fundamentals of Business Analytics",
+          "units": 3
+        },
+        {
+          "course_id": "BUS3 189",
+          "course_name": "Strategic Management",
+          "units": 3
+        },
+        {
+          "course_id": "BUS4 188",
+          "course_name": "Business Systems and Policy",
+          "units": 3
+        },
+        {
+          "course_id": "BUS5 187",
+          "course_name": "Global Dimensions of Business",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Non-Business Global Perspectives",
+        "courses": [
+          "UD_AREA_3_COURSE"
+        ]
+      }
+    ],
+    "notes": [
+      "String: All marketing courses must be completed with a grade of \"C-\" or better.",
+      "String: Marketing courses are those numbered in the BUS2 130-BUS2 139 sequence.",
+      "String: Transfer students with STAT 95 (C or better) may use this in lieu of BUS2 90.",
+      "String: BUS3 10 can be substituted for BUS3 12 for Transfer Students."
+    ],
+    "recommendations": [
+      "ENGL 100WB for GWAR",
+      "STAT 95 for BUS2 90 substitution",
+      "BUS3 10 for BUS3 12 substitution"
+    ]
+  }
+}

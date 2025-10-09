@@ -1,0 +1,216 @@
+{
+  "output": {
+    "major_name": "Climate Science, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "METR 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 31",
+          "course_name": "Principles of Biology II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "COMM 146F",
+          "course_name": "Communication and the Environment",
+          "units": 4
+        },
+        {
+          "course_id": "ENVS 1",
+          "course_name": "Introduction to Environmental Issues",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "ENVS 119",
+          "course_name": "Energy and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2",
+            "GE_AREA_5"
+          ]
+        },
+        {
+          "course_id": "ENVS 133",
+          "course_name": "Sustainable Energy Strategies",
+          "units": 3
+        },
+        {
+          "course_id": "GEOL 3",
+          "course_name": "Planet Earth",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5A"
+          ]
+        },
+        {
+          "course_id": "ISE 103",
+          "course_name": "Life Cycle Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "METR 12",
+          "course_name": "Global Warming: Science and Solutions",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5A"
+          ]
+        },
+        {
+          "course_id": "METR 40",
+          "course_name": "Weather Seminar",
+          "units": 1
+        },
+        {
+          "course_id": "METR 50",
+          "course_name": "AI-Powered Programming for Science and Society I",
+          "units": 2
+        },
+        {
+          "course_id": "METR 51",
+          "course_name": "AI-Powered Programming for Science and Society II",
+          "units": 2
+        },
+        {
+          "course_id": "METR 60",
+          "course_name": "Meteorology and Climate Science I",
+          "units": 3
+        },
+        {
+          "course_id": "METR 61",
+          "course_name": "Meteorology and Climate Science II",
+          "units": 2
+        },
+        {
+          "course_id": "METR 100W",
+          "course_name": "Writing Workshop: Meteorological Reports",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "METR 123",
+          "course_name": "Advanced Climatology",
+          "units": 3
+        },
+        {
+          "course_id": "METR 135",
+          "course_name": "The Global Carbon Cycle",
+          "units": 3
+        },
+        {
+          "course_id": "METR 136",
+          "course_name": "Applied Statistics and Analysis in Meteorology",
+          "units": 3
+        },
+        {
+          "course_id": "METR 163",
+          "course_name": "Meteorological Instrumentation",
+          "units": 3
+        },
+        {
+          "course_id": "METR 173",
+          "course_name": "Global Climate Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "METR 174",
+          "course_name": "Climate Change Capstone",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "METR 168A",
+          "ENVS 107",
+          "ENVS 116",
+          "ENVS 124",
+          "ENVS 128",
+          "ENVS 130",
+          "ENVS 132",
+          "GEOG 120",
+          "GEOG 124",
+          "GEOG 130",
+          "GEOG 70",
+          "GEOG 171",
+          "GEOG 181",
+          "GEOG 182",
+          "METR 131"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "HIST 100W for GWAR"
+    ]
+  }
+}

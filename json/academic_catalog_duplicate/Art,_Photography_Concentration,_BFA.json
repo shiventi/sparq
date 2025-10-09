@@ -1,0 +1,176 @@
+{
+  "output": {
+    "major_name": "Art, Photography Concentration, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A, 3 units may be satisfied by major coursework: GE_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 12",
+          "course_name": "Two-Dimensional Design and Color Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 13",
+          "course_name": "Three-Dimensional Design Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 24",
+          "course_name": "Drawing I",
+          "units": 3
+        },
+        {
+          "course_id": "ART 74",
+          "course_name": "Introduction to Digital Media",
+          "units": 3
+        },
+        {
+          "course_id": "PHOT 40",
+          "course_name": "Beginning Photography",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division Art History Sequence",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        },
+        {
+          "name": "Lower Division College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ART 1",
+          "course_name": "Professional Preparation in Art",
+          "units": 1
+        },
+        {
+          "course_id": "ART 2",
+          "course_name": "The Artist in Contemporary Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 100W",
+          "course_name": "Writing Workshop: Fine Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "PHOT 126",
+          "course_name": "History of Photography",
+          "units": 3
+        },
+        {
+          "course_id": "ART 198",
+          "course_name": "BFA Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "ART 199",
+          "course_name": "BFA Project",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Art/Art History Electives",
+        "courses": [
+          "ART 75",
+          "ART 105",
+          "PHOT 110",
+          "PHOT 113",
+          "PHOT 114",
+          "PHOT 122",
+          "PHOT 123",
+          "PHOT 125",
+          "ART 26",
+          "ART 61",
+          "ART 151",
+          "ART 152",
+          "ART 153",
+          "ART 158",
+          "ART 162",
+          "ART 164",
+          "ART 165",
+          "ART 46",
+          "ART 132",
+          "ART 133",
+          "ART 137",
+          "ART 140",
+          "ART 141",
+          "ART 168",
+          "ART 172",
+          "ART 173"
+        ]
+      },
+      {
+        "field_name": "Upper Division Art History",
+        "courses": [
+          "ARTH 193A",
+          "ARTH 193B",
+          "ARTH 110",
+          "ARTH 191A"
+        ]
+      },
+      {
+        "field_name": "Specialization Courses",
+        "courses": [
+          "PHOT 112",
+          "PHOT 115",
+          "PHOT 116",
+          "PHOT 120",
+          "PHOT 121",
+          "PHOT 129",
+          "PHOT 197"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Courses cannot be taken again if taken in another requirement area.",
+      "String: Complete any one course offered by the College of Humanities & the Arts in a discipline other than your major."
+    ],
+    "recommendations": [
+      "ART 100W for GWAR"
+    ]
+  }
+}

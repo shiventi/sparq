@@ -1,0 +1,193 @@
+{
+  "output": {
+    "major_name": "Child and Adolescent Development, Preparation for Teaching, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "12 units may be satisfied by major coursework: GE_AREA_1A, GE_AREA_2, GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CHAD 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHAD 60",
+          "course_name": "Child Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 70",
+          "course_name": "Lifespan Development in a Global Context",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "CHAD 80",
+          "course_name": "Quantitative Analysis in Developmental Science",
+          "units": 3,
+          "prerequisites": [
+            [
+              "||STAT 95",
+              "UNVS 15/MATH 15",
+              "SOCS 15/SOCI 15"
+            ]
+          ],
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CHAD 101",
+          "course_name": "Research Methods in Developmental Science",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 159",
+          "course_name": "Practicum in K-8 Education",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 168",
+          "course_name": "Social and Emotional Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 169",
+          "course_name": "Motivating Children and Adolescents in Educational Settings",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 170",
+          "course_name": "Cognitive Development in Context",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 195",
+          "course_name": "Senior Seminar in Child & Adolescent Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "LLD 100W",
+          "course_name": "Lower Division Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "CHAD 162",
+          "course_name": "Cultural Influences in Childhood and Adolescence",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 164",
+          "course_name": "Contemporary Parenting",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 163",
+          "course_name": "Critical Issues in Adolescent Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 173",
+          "course_name": "Critical Issues in Infant/Toddler Development",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Language and Literature",
+        "courses": [
+          "ENGL 1A",
+          "ENGL 112A",
+          "CHAD 135",
+          "ENGL 103",
+          "LING 107"
+        ]
+      },
+      {
+        "field_name": "Mathematics",
+        "courses": [
+          "MATH 12",
+          "MATH 105",
+          "MATH 106"
+        ]
+      },
+      {
+        "field_name": "Science",
+        "courses": [
+          "ENVS 158"
+        ]
+      },
+      {
+        "field_name": "Visual and Performing Arts",
+        "courses": [
+          "CA 177",
+          "ART 39",
+          "ART 138",
+          "DANC 148",
+          "TA 131",
+          "TA 167"
+        ]
+      },
+      {
+        "field_name": "Physical Education and Health",
+        "courses": [
+          "CHAD 149"
+        ]
+      }
+    ],
+    "notes": [
+      "String: CHAD 159 and CHAD 195 may be repeated only once.",
+      "String: Students interested in the Child and Adolescent Development, Preparation for Teaching W/CSET Waiver, BA are required to satisfy specific General Education courses."
+    ],
+    "recommendations": [
+      "CHAD 100W for GWAR"
+    ]
+  }
+}

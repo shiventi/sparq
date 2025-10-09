@@ -1,0 +1,158 @@
+{
+  "output": {
+    "major_name": "Music Technology, BA (Accepting Students for Fall 2026)",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_3B, GE_AREA_4, GE_AREA_UD3, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "Consider fulfilling through major writing-intensive courses"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 9",
+          "course_name": "Music Fundamentals",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 25A",
+          "course_name": "Piano Proficiency I",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 25B",
+          "course_name": "Piano Proficiency II",
+          "units": 1
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 60S",
+          "course_name": "ModLark - Mobile Device and Laptop Orchestra (Intro. Level)",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 13",
+          "course_name": "Music Technology",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 109",
+          "course_name": "Film Scoring Techniques",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 149",
+          "course_name": "The Music Industry",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 167",
+          "course_name": "Electro-Acoustic Music I",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 168",
+          "course_name": "Electro-Acoustic Music II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 169",
+          "course_name": "Electro-Acoustic Music III",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170A",
+          "course_name": "Fundamentals of Sound Recording",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170B",
+          "course_name": "Intermediate Sound Recording",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170C",
+          "course_name": "Advanced Sound Recording Production",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 29AX",
+          "course_name": "Applied Electro-Acoustic 1",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 29BX",
+          "course_name": "Applied Electro-Acoustic 2",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 29CX",
+          "course_name": "Applied Electro-Acoustic 3",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 29DX",
+          "course_name": "Applied Electro-Acoustic 4",
+          "units": 1
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Four semesters of MUSC 60S (ModLark) are required for a total of 4 units.",
+      "String: Students must complete at least one course from each field if applicable.",
+      "String: Music electives may include interdisciplinary options such as ART 74 and ART 101."
+    ],
+    "recommendations": [
+      "Select writing-intensive courses to fulfill GWAR",
+      "Consider taking additional ModLark courses beyond the minimum requirement"
+    ]
+  }
+}

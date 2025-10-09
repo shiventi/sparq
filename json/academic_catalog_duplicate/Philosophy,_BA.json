@@ -1,0 +1,357 @@
+{
+  "output": {
+    "major_name": "Philosophy, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "PHIL 9",
+          "course_name": "Mathematics and Logic for General Education",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHIL 57",
+          "course_name": "Logic and Critical Reasoning",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "PHIL 70A",
+          "course_name": "Ancient Philosophy",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "PHIL 70B",
+          "course_name": "Early Modern Philosophy",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "PHIL 70E",
+          "course_name": "Medieval and Renaissance Philosophy",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "PHIL 190",
+          "course_name": "Seminar in Philosophical Classics",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 195",
+          "course_name": "Seminar in Philosophy of Law",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 290",
+          "course_name": "Advanced Seminar in a Selected Philosopher or Tradition",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "PHIL 291",
+          "course_name": "Advanced Seminar in Epistemology and Metaphysics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "PHIL 292",
+          "course_name": "Advanced Seminar in Ethics or Aesthetics",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 293",
+          "course_name": "Advanced Seminar in Logical Theory",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Logic and Reasoning",
+        "courses": [
+          "PHIL 9",
+          "PHIL 57",
+          "PHIL 157"
+        ]
+      },
+      {
+        "field_name": "History of Philosophy",
+        "courses": [
+          "PHIL 70A",
+          "PHIL 70B",
+          "PHIL 70E"
+        ]
+      },
+      {
+        "field_name": "Seminar Course",
+        "courses": [
+          "PHIL 190",
+          "PHIL 195",
+          "PHIL 290",
+          "PHIL 291",
+          "PHIL 292",
+          "PHIL 293"
+        ]
+      },
+      {
+        "field_name": "Philosophy Electives",
+        "courses": [
+          "PHIL 70A",
+          "PHIL 70B",
+          "PHIL 70C",
+          "PHIL 70D",
+          "PHIL 70E",
+          "PHIL 100",
+          "PHIL 101",
+          "PHIL 102",
+          "PHIL 103",
+          "PHIL 104",
+          "PHIL 105",
+          "PHIL 106",
+          "PHIL 107",
+          "PHIL 108",
+          "PHIL 109",
+          "PHIL 110",
+          "PHIL 111",
+          "PHIL 112",
+          "PHIL 113",
+          "PHIL 114",
+          "PHIL 115",
+          "PHIL 116",
+          "PHIL 117",
+          "PHIL 118",
+          "PHIL 119",
+          "PHIL 120",
+          "PHIL 121",
+          "PHIL 122",
+          "PHIL 123",
+          "PHIL 124",
+          "PHIL 125",
+          "PHIL 126",
+          "PHIL 127",
+          "PHIL 128",
+          "PHIL 129",
+          "PHIL 130",
+          "PHIL 131",
+          "PHIL 132",
+          "PHIL 133",
+          "PHIL 134",
+          "PHIL 135",
+          "PHIL 136",
+          "PHIL 137",
+          "PHIL 138",
+          "PHIL 139",
+          "PHIL 140",
+          "PHIL 141",
+          "PHIL 142",
+          "PHIL 143",
+          "PHIL 144",
+          "PHIL 145",
+          "PHIL 146",
+          "PHIL 147",
+          "PHIL 148",
+          "PHIL 149",
+          "PHIL 150",
+          "PHIL 151",
+          "PHIL 152",
+          "PHIL 153",
+          "PHIL 154",
+          "PHIL 155",
+          "PHIL 156",
+          "PHIL 157",
+          "PHIL 158",
+          "PHIL 159",
+          "PHIL 160",
+          "PHIL 161",
+          "PHIL 162",
+          "PHIL 163",
+          "PHIL 164",
+          "PHIL 165",
+          "PHIL 166",
+          "PHIL 167",
+          "PHIL 168",
+          "PHIL 169",
+          "PHIL 170",
+          "PHIL 171",
+          "PHIL 172",
+          "PHIL 173",
+          "PHIL 174",
+          "PHIL 175",
+          "PHIL 176",
+          "PHIL 177",
+          "PHIL 178",
+          "PHIL 179",
+          "PHIL 180",
+          "PHIL 181",
+          "PHIL 182",
+          "PHIL 183",
+          "PHIL 184",
+          "PHIL 185",
+          "PHIL 186",
+          "PHIL 187",
+          "PHIL 188",
+          "PHIL 189",
+          "PHIL 190",
+          "PHIL 191",
+          "PHIL 192",
+          "PHIL 193",
+          "PHIL 194",
+          "PHIL 195",
+          "PHIL 196",
+          "PHIL 197",
+          "PHIL 198",
+          "PHIL 199",
+          "PHIL 200",
+          "PHIL 201",
+          "PHIL 202",
+          "PHIL 203",
+          "PHIL 204",
+          "PHIL 205",
+          "PHIL 206",
+          "PHIL 207",
+          "PHIL 208",
+          "PHIL 209",
+          "PHIL 210",
+          "PHIL 211",
+          "PHIL 212",
+          "PHIL 213",
+          "PHIL 214",
+          "PHIL 215",
+          "PHIL 216",
+          "PHIL 217",
+          "PHIL 218",
+          "PHIL 219",
+          "PHIL 220",
+          "PHIL 221",
+          "PHIL 222",
+          "PHIL 223",
+          "PHIL 224",
+          "PHIL 225",
+          "PHIL 226",
+          "PHIL 227",
+          "PHIL 228",
+          "PHIL 229",
+          "PHIL 230",
+          "PHIL 231",
+          "PHIL 232",
+          "PHIL 233",
+          "PHIL 234",
+          "PHIL 235",
+          "PHIL 236",
+          "PHIL 237",
+          "PHIL 238",
+          "PHIL 239",
+          "PHIL 240",
+          "PHIL 241",
+          "PHIL 242",
+          "PHIL 243",
+          "PHIL 244",
+          "PHIL 245",
+          "PHIL 246",
+          "PHIL 247",
+          "PHIL 248",
+          "PHIL 249",
+          "PHIL 250",
+          "PHIL 251",
+          "PHIL 252",
+          "PHIL 253",
+          "PHIL 254",
+          "PHIL 255",
+          "PHIL 256",
+          "PHIL 257",
+          "PHIL 258",
+          "PHIL 259",
+          "PHIL 260",
+          "PHIL 261",
+          "PHIL 262",
+          "PHIL 263",
+          "PHIL 264",
+          "PHIL 265",
+          "PHIL 266",
+          "PHIL 267",
+          "PHIL 268",
+          "PHIL 269",
+          "PHIL 270",
+          "PHIL 271",
+          "PHIL 272",
+          "PHIL 273",
+          "PHIL 274",
+          "PHIL 275",
+          "PHIL 276",
+          "PHIL 277",
+          "PHIL 278",
+          "PHIL 279",
+          "PHIL 280",
+          "PHIL 281",
+          "PHIL 282",
+          "PHIL 283",
+          "PHIL 284",
+          "PHIL 285",
+          "PHIL 286",
+          "PHIL 287",
+          "PHIL 288",
+          "PHIL 289",
+          "PHIL 290",
+          "PHIL 291",
+          "PHIL 292",
+          "PHIL 293",
+          "PHIL 294",
+          "PHIL 295",
+          "PHIL 296",
+          "PHIL 297",
+          "PHIL 298",
+          "PHIL 299"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from Logic and Reasoning.",
+      "String: Students must complete surveys of at least two periods in the history of philosophy.",
+      "String: PHIL 157 requires permission from advisor.",
+      "String: At least 4 units of University Electives must be Upper Division."
+    ],
+    "recommendations": [
+      "ENGL 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "output": {
+    "major_name": "Forensic Science, Digital Evidence Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "13 units may be satisfied by major coursework: GE_AREA_1A, GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FS 100W or JS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 30",
+          "course_name": "Principles of Biology I",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CS 46A",
+          "course_name": "Introduction to Programming",
+          "units": 4
+        },
+        {
+          "course_id": "CS 46B",
+          "course_name": "Introduction to Data Structures",
+          "units": 4
+        },
+        {
+          "course_id": "CS 47",
+          "course_name": "Introduction to Computer Systems",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 1A",
+          "course_name": "First Year Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        },
+        {
+          "course_id": "JS 171",
+          "course_name": "Human Rights and Justice",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 42",
+          "course_name": "Discrete Mathematics",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "PHYS 2A",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 2B",
+          "course_name": "Fundamentals of Physics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Statistics Course",
+          "options": [
+            [
+              "||JS 15",
+              "STAT 95"
+            ]
+          ]
+        },
+        {
+          "name": "Programming Course",
+          "options": [
+            [
+              "||CS 22A",
+              "CS 49C"
+            ]
+          ]
+        },
+        {
+          "name": "Graduation Writing Assessment Requirement",
+          "options": [
+            [
+              "||FS 100W",
+              "JS 100W"
+            ]
+          ]
+        },
+        {
+          "name": "Practical Requirement",
+          "options": [
+            [
+              "||JS 180",
+              "JS 181",
+              "JS 182",
+              "JS 184"
+            ]
+          ]
+        },
+        {
+          "name": "Senior Seminar",
+          "options": [
+            [
+              "||FS 169",
+              "JS 189"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "FS 100W",
+          "course_name": "Forensic Science Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "JS 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "FS 11",
+          "course_name": "Survey of Forensic Science",
+          "units": 3
+        },
+        {
+          "course_id": "FS 161",
+          "course_name": "Crime Scene Investigation",
+          "units": 3
+        },
+        {
+          "course_id": "FS 162",
+          "course_name": "Forensic Science Applications",
+          "units": 3
+        },
+        {
+          "course_id": "JS 180",
+          "course_name": "Individual Studies",
+          "units": "1-3"
+        },
+        {
+          "course_id": "JS 181",
+          "course_name": "Internship: Justice Studies",
+          "units": "1-6"
+        },
+        {
+          "course_id": "JS 182",
+          "course_name": "Themis: Journal of Justice Studies and Forensic Science",
+          "units": 3
+        },
+        {
+          "course_id": "JS 184",
+          "course_name": "Directed Reading",
+          "units": "1-3"
+        },
+        {
+          "course_id": "FS 169",
+          "course_name": "FS Senior Seminar: Studies in Contemporary FS Issues",
+          "units": 3
+        },
+        {
+          "course_id": "JS 189",
+          "course_name": "Senior Seminar: Contemporary Problems",
+          "units": 3
+        },
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 147",
+          "course_name": "Computer Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "FS 12",
+          "course_name": "Introduction to Digital Evidence Investigations",
+          "units": 3
+        },
+        {
+          "course_id": "FS 101",
+          "course_name": "Expert Witness Testimony",
+          "units": 3
+        },
+        {
+          "course_id": "FS 130",
+          "course_name": "Digital Forensic Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "FS 131",
+          "course_name": "Digital Forensic Applications",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Exceptions for University Graduation Requirements including exemptions and waivers, are approved for specific majors and on a case-by-case evaluation only."
+    ],
+    "recommendations": []
+  }
+}

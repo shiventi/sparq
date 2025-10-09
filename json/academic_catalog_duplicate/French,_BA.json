@@ -1,0 +1,141 @@
+{
+  "output": {
+    "major_name": "French, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3B, 3 units may be satisfied by major coursework: GE_AREA_UD3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "FORL 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "FREN 25A",
+          "course_name": "Intermediate French: Reading",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "FREN 25B",
+          "course_name": "Intermediate French: Writing",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "FORL 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "FREN 102B",
+          "course_name": "Francophone Cultures: Through Literature and Cinema",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "FREN 101A",
+          "course_name": "Advanced French: Reading and Writing",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 101B",
+          "course_name": "Advanced French: Written Communication",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 101C",
+          "course_name": "Advanced French: Oral Communication",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 105",
+          "course_name": "Advanced Grammar: Phonetic Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 110",
+          "course_name": "Advanced Grammar: Grammatical Analysis",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 132",
+          "course_name": "Special Topics in French for Careers",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 170",
+          "course_name": "Translation and Comparative Stylistics",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 120A",
+          "course_name": "French Literature from the Middle Ages to 1600",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 120B",
+          "course_name": "French Literature of the Seventeenth through the Eighteenth Centuries",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 140B",
+          "course_name": "French Literature 20th-21st Centuries",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 102A",
+          "course_name": "French Culture",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 102C",
+          "course_name": "French Culture",
+          "units": 4
+        },
+        {
+          "course_id": "FREN 160",
+          "course_name": "Masters of French Literature",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Foreign Language Requirement: 12 units of a second world language (or equivalent).",
+      "String: Complete 2-3 courses from FREN 101A, FREN 101B, FREN 101C.",
+      "String: Complete 1-3 courses from FREN 105, FREN 110, FREN 132, FREN 170.",
+      "String: Complete 2-3 courses from FREN 120A, FREN 120B, FREN 140B.",
+      "String: Complete 0-2 courses from FREN 102A, FREN 102C, FREN 160."
+    ],
+    "recommendations": [
+      "FORL 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "output": {
+    "major_name": "Music, Composition Concentration, BM",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_AREA_3B_GE_AREA_UD_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 100W",
+          "course_name": "Written Communication II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 120",
+          "course_name": "Worlds of Jazz",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "name": "Piano Proficiency Requirement",
+          "options": [
+            [
+              "||MUSC 25A",
+              "MUSC 25B",
+              "MUSC 25C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 3A",
+          "course_name": "Music Theory IIIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 3B",
+          "course_name": "Musicianship IIIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 4A",
+          "course_name": "Music Theory 4A",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 4B",
+          "course_name": "Musicianship 4B",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 12",
+          "course_name": "Medieval and Renaissance Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 110",
+          "course_name": "Baroque and Classical Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        },
+        {
+          "name": "Elective Performance or Composition Units (8 units)",
+          "options": [
+            [
+              "||MUSC 29",
+              "MUSC 29A",
+              "MUSC 29B",
+              "MUSC 29C",
+              "MUSC 29D"
+            ],
+            [
+              "||MUSC 30AX",
+              "MUSC 30BX",
+              "MUSC 30CX",
+              "MUSC 30DX"
+            ],
+            [
+              "||MUSC 33X",
+              "MUSC 33AX",
+              "MUSC 33BX",
+              "MUSC 33CX",
+              "MUSC 33DX"
+            ],
+            [
+              "||MUSC 34X",
+              "MUSC 34AX",
+              "MUSC 34BX",
+              "MUSC 34CX",
+              "MUSC 34DX"
+            ],
+            [
+              "||MUSC 35AX",
+              "MUSC 35BX",
+              "MUSC 35CX",
+              "MUSC 35DX"
+            ],
+            [
+              "||MUSC 36BX",
+              "MUSC 36CX",
+              "MUSC 36DX",
+              "MUSC 36EX"
+            ],
+            [
+              "||MUSC 37AX",
+              "MUSC 37BX",
+              "MUSC 37CX",
+              "MUSC 37DX"
+            ],
+            [
+              "||MUSC 38BX",
+              "MUSC 38CX",
+              "MUSC 38DX",
+              "MUSC 38EX"
+            ],
+            [
+              "||MUSC 39AX",
+              "MUSC 39BX",
+              "MUSC 39CX",
+              "MUSC 39DX"
+            ]
+          ]
+        },
+        {
+          "name": "Advanced Composition Units (8 units)",
+          "options": [
+            [
+              "||MUSC 138B",
+              "MUSC 138C",
+              "MUSC 138D",
+              "MUSC 138E"
+            ]
+          ]
+        },
+        {
+          "name": "Lower Division Ensemble Requirement (4 units)",
+          "options": [
+            [
+              "||MUSC 50A",
+              "MUSC 52",
+              "MUSC 53",
+              "MUSC 54",
+              "MUSC 55"
+            ]
+          ]
+        },
+        {
+          "name": "Upper Division Ensemble Requirement (4 units)",
+          "options": [
+            [
+              "||MUSC 150A",
+              "MUSC 152",
+              "MUSC 153",
+              "MUSC 154",
+              "MUSC 155"
+            ]
+          ]
+        },
+        {
+          "name": "Jazz Improvisation Requirement (2 units)",
+          "options": [
+            [
+              "||MUSC 40A",
+              "MUSC 140B",
+              "MUSC 140C"
+            ]
+          ]
+        },
+        {
+          "course_id": "MUSC 102",
+          "course_name": "Orchestration",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 103",
+          "course_name": "Form and Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 104",
+          "course_name": "Counterpoint",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 147A",
+          "course_name": "Beginning Conducting",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 167",
+          "course_name": "Electro-Acoustic Music I",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 168",
+          "course_name": "Electro-Acoustic Music II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 170A",
+          "course_name": "Fundamentals of Sound Recording",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Composition Electives",
+        "courses": [
+          "MUSC 109",
+          "MUSC 122A",
+          "MUSC 122B",
+          "MUSC 123A",
+          "MUSC 123B",
+          "MUSC 125D",
+          "MUSC 127A",
+          "MUSC 127B",
+          "MUSC 160A",
+          "MUSC 160D",
+          "MUSC 160F",
+          "MUSC 160J",
+          "MUSC 160K",
+          "MUSC 160L",
+          "MUSC 160M",
+          "MUSC 160O",
+          "MUSC 170B",
+          "MUSC 170C"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Piano proficiency may be satisfied with completion of any combination of MUSC 25A, MUSC 25B, and/or MUSC 25C.",
+      "String: Lower Division Ensemble Requirement: Complete 4 units from listed ensembles.",
+      "String: Upper Division Ensemble Requirement: Complete 4 units from listed ensembles.",
+      "String: Jazz Improvisation Requirement: Complete 2 units from listed courses.",
+      "String: Composition Electives: Complete 4 units from the listed courses."
+    ],
+    "recommendations": [
+      "MUSC 100W for GWAR"
+    ]
+  }
+}

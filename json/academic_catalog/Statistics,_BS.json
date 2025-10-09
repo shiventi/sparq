@@ -1,0 +1,178 @@
+{
+  "output": {
+    "major_name": "Statistics, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 39",
+          "course_name": "Linear Algebra I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 42",
+          "course_name": "Discrete Mathematics",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MATH 161A",
+          "course_name": "Applied Probability and Statistics I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161B",
+          "course_name": "Applied Probability and Statistics II",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161C",
+          "course_name": "Applied Probability and Statistics III",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 163",
+          "course_name": "Probability Theory",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 164",
+          "course_name": "Mathematical Statistics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 167PS",
+          "course_name": "Introduction to Python Programming and SQL",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 167R",
+          "course_name": "Statistical Programming with R",
+          "units": 3
+        }
+      ],
+      "electives": [
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 151",
+          "course_name": "Object-Oriented Design",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 108",
+          "course_name": "Introduction to Abstract Mathematics and Proofs",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 132",
+          "course_name": "Advanced Calculus",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 142",
+          "course_name": "Introduction to Combinatorics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 143C",
+          "course_name": "Numerical Analysis and Scientific Computing",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 143M",
+          "course_name": "Numerical Analysis and Scientific Computing",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 146",
+          "course_name": "An Introduction to Mathematical Cryptography",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 151",
+          "course_name": "Fundamentals of Data Science",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 162",
+          "course_name": "Statistics for Bioinformatics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 177",
+          "course_name": "Linear and Non-Linear Optimization",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 180",
+          "course_name": "Individual Studies",
+          "units": 1
+        },
+        {
+          "course_id": "MATH 188I",
+          "course_name": "Student Internships",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: At most 3 units of any combination of Math 180, 180R and 180H may count towards degree requirements. Note: Math 180 and 180R have variable units. Math 180H is a 3-unit course.",
+      "String: At most 3 units of Math 188i may count towards degree requirements."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR",
+      "CS 100W for GWAR",
+      "PHYS 100W for GWAR"
+    ]
+  }
+}

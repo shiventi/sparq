@@ -1,0 +1,234 @@
+{
+  "output": {
+    "major_name": "Geography, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "12 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_2, GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "GEOG 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "GEOG 1",
+          "course_name": "Physical Geography",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5A"
+          ]
+        },
+        {
+          "course_id": "GEOG 10",
+          "course_name": "Cultural Geography",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "GEOG 12",
+          "course_name": "World Regional Geography",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "GEOG 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "GEOG 105",
+          "course_name": "Urban Geography",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 135",
+          "course_name": "Research Methods in Geography",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 70",
+          "course_name": "Introduction to Geographic Information Systems",
+          "units": 4
+        },
+        {
+          "course_id": "GEOG 186",
+          "course_name": "Field Methods in Geography",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 199",
+          "course_name": "Senior Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 112",
+          "course_name": "Nations, Cultures & Globalization",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "GEOG 113",
+          "course_name": "Global Cities",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 115",
+          "course_name": "Global Development",
+          "units": 3
+        },
+        {
+          "course_id": "URBP 101",
+          "course_name": "The City",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "URBP 136",
+          "course_name": "Introduction to Land Use Planning",
+          "units": 4
+        },
+        {
+          "course_id": "GEOG 107",
+          "course_name": "Mapping the World",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD2_5"
+          ]
+        },
+        {
+          "course_id": "GEOG 121",
+          "course_name": "Population and Global Change",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 130",
+          "course_name": "Natural Resources",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 165",
+          "course_name": "National Parks",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 110",
+          "course_name": "Urbanization in the Global South",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 140",
+          "course_name": "The United States",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "GEOG 160",
+          "course_name": "East and South Asia",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 171",
+          "course_name": "Advanced Geographic Information Systems",
+          "units": 4
+        },
+        {
+          "course_id": "GEOG 172",
+          "course_name": "Cartography and Data Visualization",
+          "units": 3
+        },
+        {
+          "course_id": "GEOG 181",
+          "course_name": "Introduction to Remote Sensing",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Human Geography",
+        "courses": [
+          "GEOG 112",
+          "GEOG 113",
+          "GEOG 115",
+          "URBP 101",
+          "URBP 136"
+        ]
+      },
+      {
+        "field_name": "Physical Geography",
+        "courses": [
+          "GEOG 107",
+          "GEOG 121",
+          "GEOG 130",
+          "GEOG 165"
+        ]
+      },
+      {
+        "field_name": "Regional Synthesis",
+        "courses": [
+          "GEOG 110",
+          "GEOG 140",
+          "GEOG 160"
+        ]
+      },
+      {
+        "field_name": "Geographic Information Science",
+        "courses": [
+          "GEOG 171",
+          "GEOG 172",
+          "GEOG 181"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least two human geography courses (minimum 6 units).",
+      "String: Students must complete at least two physical geography courses (minimum 6 units).",
+      "String: Students must complete one regional geography course (minimum 3 units).",
+      "String: Students must complete one GIS course (minimum 3 units).",
+      "String: GEOG 92, GEOG 124, GEOG 180, and GEOG 197 may be substituted for core courses and major electives only with prior advisor approval.",
+      "String: No more than 12 units of GEOG 92, GEOG 124, GEOG 180, and GEOG 197 may be applied toward major requirements."
+    ],
+    "recommendations": [
+      "Declaring a minor is recommended.",
+      "GEOG 100W for GWAR"
+    ]
+  }
+}

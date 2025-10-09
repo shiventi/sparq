@@ -1,0 +1,159 @@
+{
+  "output": {
+    "major_name": "Behavioral Science, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_2 and GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ANTH 193, PSYC 193, or SOCI 193"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ANTH 11",
+          "course_name": "Cultural Anthropology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "SOCI 1",
+          "course_name": "Introduction to Sociology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "SOCI 15",
+          "course_name": "Statistical Applications in the Social Sciences",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Statistics Course",
+          "options": [
+            [
+              "||STAT 95",
+              "SOCI 15"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ANTH 193",
+          "course_name": "Behavioral Science in Practice",
+          "units": 3
+        },
+        {
+          "course_id": "PSYC 193",
+          "course_name": "Behavioral Science in Practice",
+          "units": 3
+        },
+        {
+          "course_id": "SOCI 193",
+          "course_name": "Behavioral Science in Practice",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 149",
+          "course_name": "Ethnographic Methods",
+          "units": 3
+        },
+        {
+          "course_id": "ANTH 165",
+          "course_name": "Historical Archaeology",
+          "units": 3
+        },
+        {
+          "course_id": "PSYC 18",
+          "course_name": "Introduction to Research Methods",
+          "units": 3
+        },
+        {
+          "course_id": "PSYC 120",
+          "course_name": "Advanced Research Methods and Design",
+          "units": 4
+        },
+        {
+          "course_id": "SOCI 104",
+          "course_name": "Quantitative Research Methods",
+          "units": 3
+        },
+        {
+          "course_id": "SOCI 101",
+          "course_name": "Social Theory",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Anthropology",
+        "courses": [
+          "ANTH 149",
+          "ANTH 165",
+          "ANTH 168"
+        ]
+      },
+      {
+        "field_name": "Psychology",
+        "courses": [
+          "PSYC 18",
+          "PSYC 120"
+        ]
+      },
+      {
+        "field_name": "Sociology",
+        "courses": [
+          "SOCI 104"
+        ]
+      }
+    ],
+    "notes": [
+      "String: A 3-unit maximum of individual studies may be used to meet the degree requirements.",
+      "String: Specializations are a cluster of courses used by departments for advising purposes. Specializations will not appear on transcripts or diplomas."
+    ],
+    "recommendations": [
+      "ANTH 193, PSYC 193, or SOCI 193 for GWAR"
+    ]
+  }
+}

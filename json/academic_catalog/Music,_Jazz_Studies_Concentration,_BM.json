@@ -1,0 +1,266 @@
+{
+  "output": {
+    "major_name": "Music, Jazz Studies Concentration, BM",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 100W",
+          "course_name": "Written Communication II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 120",
+          "course_name": "Worlds of Jazz",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "name": "Piano Proficiency Requirement",
+          "options": [
+            [
+              "||MUSC 25A",
+              "MUSC 25B",
+              "MUSC 25C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 3A",
+          "course_name": "Music Theory IIIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 3B",
+          "course_name": "Musicianship IIIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 4A",
+          "course_name": "Music Theory 4A",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 4B",
+          "course_name": "Musicianship 4B",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 6",
+          "course_name": "Jazz Theory",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 12",
+          "course_name": "Medieval and Renaissance Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 13",
+          "course_name": "Music Technology",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 27A",
+          "course_name": "Fundamentals of Jazz Keyboard I",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 27B",
+          "course_name": "Fundamentals of Jazz Keyboard II",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 40A",
+          "course_name": "Jazz Improvisation - I",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 110",
+          "course_name": "Baroque and Classical Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Applied Music",
+        "courses": [
+          "MUSC 30AX",
+          "MUSC 30BX",
+          "MUSC 30CX",
+          "MUSC 30DX",
+          "MUSC 33X",
+          "MUSC 33AX",
+          "MUSC 33BX",
+          "MUSC 33CX",
+          "MUSC 33DX",
+          "MUSC 34X",
+          "MUSC 34AX",
+          "MUSC 34BX",
+          "MUSC 34CX",
+          "MUSC 34DX",
+          "MUSC 35AX",
+          "MUSC 35BX",
+          "MUSC 35CX",
+          "MUSC 35DX",
+          "MUSC 36BX",
+          "MUSC 36CX",
+          "MUSC 36DX",
+          "MUSC 36EX",
+          "MUSC 37AX",
+          "MUSC 37BX",
+          "MUSC 37CX",
+          "MUSC 37DX",
+          "MUSC 38BX",
+          "MUSC 38CX",
+          "MUSC 38DX",
+          "MUSC 38EX",
+          "MUSC 39AX",
+          "MUSC 39BX",
+          "MUSC 39CX",
+          "MUSC 39DX"
+        ]
+      },
+      {
+        "field_name": "Ensembles - Lower Division",
+        "courses": [
+          "MUSC 50A",
+          "MUSC 51A",
+          "MUSC 51B",
+          "MUSC 53",
+          "MUSC 54",
+          "MUSC 55",
+          "MUSC 57",
+          "MUSC 59",
+          "MUSC 60F",
+          "MUSC 60I"
+        ]
+      },
+      {
+        "field_name": "Ensembles - Upper Division",
+        "courses": [
+          "MUSC 153",
+          "MUSC 154",
+          "MUSC 155",
+          "MUSC 157",
+          "MUSC 159",
+          "MUSC 160F",
+          "MUSC 160I"
+        ]
+      },
+      {
+        "field_name": "Jazz Studies",
+        "courses": [
+          "MUSC 139A",
+          "MUSC 139B",
+          "MUSC 139C",
+          "MUSC 139D"
+        ]
+      },
+      {
+        "field_name": "Jazz Studies Concentration",
+        "courses": [
+          "MUSC 102",
+          "MUSC 104",
+          "MUSC 106A",
+          "MUSC 106B",
+          "MUSC 140B",
+          "MUSC 140C",
+          "MUSC 167",
+          "MUSC 170A"
+        ]
+      },
+      {
+        "field_name": "Jazz Ensemble Requirement",
+        "courses": [
+          "MUSC 60F",
+          "MUSC 60I",
+          "MUSC 160F",
+          "MUSC 160I"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete four units from applied music courses.",
+      "String: Four units must be completed from lower division ensemble courses.",
+      "String: Four units must be completed from upper division ensemble courses.",
+      "String: Eight units must be completed from Jazz Studies courses (MUSC 139A-D), with variable unit options.",
+      "String: One unit must be completed from Jazz Ensemble courses (MUSC 60F, 60I, 160F, or 160I)."
+    ],
+    "recommendations": [
+      "MUSC 100W for GWAR"
+    ]
+  }
+}

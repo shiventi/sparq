@@ -1,0 +1,231 @@
+{
+  "output": {
+    "major_name": "Child and Adolescent Development, Preparation for Teaching, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1A_GE_AREA_2_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_3_UD_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CHAD 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHAD 60",
+          "course_name": "Child Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 70",
+          "course_name": "Lifespan Development in a Global Context",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "name": "Quantitative Analysis Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHAD 80",
+                "STAT 95"
+              ],
+              "details": [
+                {
+                  "course_id": "CHAD 80",
+                  "course_name": "Quantitative Analysis in Developmental Science",
+                  "units": 3
+                },
+                {
+                  "course_id": "STAT 95",
+                  "course_name": "Elementary Statistics",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CHAD 101",
+          "course_name": "Research Methods in Developmental Science",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 159",
+          "course_name": "Practicum in K-8 Education",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 168",
+          "course_name": "Social and Emotional Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 169",
+          "course_name": "Motivating Children and Adolescents in Educational Settings",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 170",
+          "course_name": "Cognitive Development in Context",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 195",
+          "course_name": "Senior Seminar in Child & Adolescent Development",
+          "units": 3
+        },
+        {
+          "name": "Writing Workshop Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHAD 100W",
+                "LLD 100W"
+              ],
+              "details": [
+                {
+                  "course_id": "CHAD 100W",
+                  "course_name": "Writing Workshop",
+                  "units": 3
+                },
+                {
+                  "course_id": "LLD 100W",
+                  "course_name": "Writing Workshop",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural Influences or Parenting Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHAD 162",
+                "CHAD 164"
+              ],
+              "details": [
+                {
+                  "course_id": "CHAD 162",
+                  "course_name": "Cultural Influences in Childhood and Adolescence",
+                  "units": 3
+                },
+                {
+                  "course_id": "CHAD 164",
+                  "course_name": "Contemporary Parenting",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Critical Issues Requirement",
+          "options": [
+            {
+              "group": [
+                "||CHAD 163",
+                "CHAD 173"
+              ],
+              "details": [
+                {
+                  "course_id": "CHAD 163",
+                  "course_name": "Critical Issues in Adolescent Development",
+                  "units": 3
+                },
+                {
+                  "course_id": "CHAD 173",
+                  "course_name": "Critical Issues in Infant/Toddler Development",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Language and Literature",
+        "courses": [
+          "ENGL 1A",
+          "ENGL 112A",
+          "CHAD 135",
+          "ENGL 103",
+          "LING 107"
+        ]
+      },
+      {
+        "field_name": "Mathematics",
+        "courses": [
+          "MATH 12",
+          "MATH 105",
+          "MATH 106"
+        ]
+      },
+      {
+        "field_name": "Science",
+        "courses": [
+          "ENVS 158"
+        ]
+      },
+      {
+        "field_name": "Visual and Performing Arts",
+        "courses": [
+          "CA 177",
+          "ART 39",
+          "ART 138",
+          "DANC 148",
+          "TA 131",
+          "TA 167"
+        ]
+      },
+      {
+        "field_name": "Physical Education and Health",
+        "courses": [
+          "CHAD 149"
+        ]
+      }
+    ],
+    "notes": [
+      "String: 12 units of Lower Division Core GE requirements; 9 units of Upper Division GE requirements.",
+      "String: 6 units of American Institutions/US 123 are required: 3 units may be satisfied from the LD GE by selecting GE course in Area 3B.",
+      "String: Students must complete one course each in Language and Literature, Mathematics, Science, Visual and Performing Arts, and Physical Education and Health fields.",
+      "String: CHAD 159 and CHAD 195 may be repeated only once."
+    ],
+    "recommendations": [
+      "CHAD 100W for GWAR"
+    ]
+  }
+}

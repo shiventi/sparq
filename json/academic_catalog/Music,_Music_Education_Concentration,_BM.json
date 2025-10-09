@@ -1,0 +1,413 @@
+{
+  "output": {
+    "major_name": "Music, Music Education Concentration, BM",
+    "total_units": 132,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_AREA_3B_GE_AREA_4_UD_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MUSC 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MUSC 1A",
+          "course_name": "Music Theory IA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 1B",
+          "course_name": "Musicianship IB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 2A",
+          "course_name": "Music Theory IIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 8",
+          "course_name": "The Artist\u2019s Way",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 19",
+          "course_name": "Music in World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 28",
+          "course_name": "Guitar Fundamentals",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 100W",
+          "course_name": "Written Communication II",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 120",
+          "course_name": "Worlds of Jazz",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_4"
+          ]
+        },
+        {
+          "name": "Piano Proficiency Requirement",
+          "options": [
+            [
+              "||MUSC 25A",
+              "MUSC 25B",
+              "MUSC 25C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "MUSC 2B",
+          "course_name": "Musicianship IIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 3A",
+          "course_name": "Music Theory IIIA",
+          "units": 2
+        },
+        {
+          "course_id": "MUSC 3B",
+          "course_name": "Musicianship IIIB",
+          "units": 1
+        },
+        {
+          "course_id": "MUSC 4A",
+          "course_name": "Music Theory 4A",
+          "units": 2,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 4B",
+          "course_name": "Musicianship 4B",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "MUSC 12",
+          "course_name": "Medieval and Renaissance Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MUSC 110",
+          "course_name": "Baroque and Classical Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 111",
+          "course_name": "Romantic and Modern Music History",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 182",
+          "course_name": "Senior Project",
+          "units": 1
+        },
+        {
+          "name": "Lower Division Performance Courses (8 units)",
+          "options": [
+            [
+              "||MUSC 30",
+              "MUSC 30A",
+              "MUSC 30B",
+              "MUSC 30C",
+              "MUSC 30D"
+            ],
+            [
+              "||MUSC 33",
+              "MUSC 33A",
+              "MUSC 33B",
+              "MUSC 33C",
+              "MUSC 33D"
+            ],
+            [
+              "||MUSC 34",
+              "MUSC 34A",
+              "MUSC 34B",
+              "MUSC 34C",
+              "MUSC 34D"
+            ],
+            [
+              "||MUSC 35",
+              "MUSC 35A",
+              "MUSC 35B",
+              "MUSC 35C",
+              "MUSC 35D"
+            ],
+            [
+              "||MUSC 36",
+              "MUSC 36B",
+              "MUSC 36C",
+              "MUSC 36D",
+              "MUSC 36E"
+            ],
+            [
+              "||MUSC 37",
+              "MUSC 37A",
+              "MUSC 37B",
+              "MUSC 37C",
+              "MUSC 37D"
+            ],
+            [
+              "||MUSC 38B",
+              "MUSC 38C",
+              "MUSC 38D",
+              "MUSC 38E"
+            ],
+            [
+              "||MUSC 39A",
+              "MUSC 39B",
+              "MUSC 39C",
+              "MUSC 39D"
+            ]
+          ]
+        },
+        {
+          "name": "Upper Division Performance Courses (8 units)",
+          "options": [
+            [
+              "||MUSC 130A",
+              "MUSC 130B",
+              "MUSC 130C",
+              "MUSC 130D"
+            ],
+            [
+              "||MUSC 133",
+              "MUSC 133A",
+              "MUSC 133B",
+              "MUSC 133C",
+              "MUSC 133D"
+            ],
+            [
+              "||MUSC 134",
+              "MUSC 134A",
+              "MUSC 134B",
+              "MUSC 134C",
+              "MUSC 134D"
+            ],
+            [
+              "||MUSC 135",
+              "MUSC 135A",
+              "MUSC 135B",
+              "MUSC 135C",
+              "MUSC 135D"
+            ],
+            [
+              "||MUSC 136",
+              "MUSC 136B",
+              "MUSC 136C",
+              "MUSC 136D",
+              "MUSC 136E"
+            ],
+            [
+              "||MUSC 137",
+              "MUSC 137A",
+              "MUSC 137B",
+              "MUSC 137C",
+              "MUSC 137D"
+            ],
+            [
+              "||MUSC 138B",
+              "MUSC 138C",
+              "MUSC 138D",
+              "MUSC 138E"
+            ],
+            [
+              "||MUSC 139A",
+              "MUSC 139B",
+              "MUSC 139C",
+              "MUSC 139D"
+            ]
+          ]
+        },
+        {
+          "name": "Lower Division Ensembles (4 units)",
+          "options": [
+            [
+              "||MUSC 50A",
+              "MUSC 53",
+              "MUSC 54",
+              "MUSC 55"
+            ]
+          ]
+        },
+        {
+          "name": "Upper Division Ensembles (4 units)",
+          "options": [
+            [
+              "||MUSC 150A",
+              "MUSC 153",
+              "MUSC 154",
+              "MUSC 155"
+            ]
+          ]
+        },
+        {
+          "name": "Jazz Improvisation Courses (2 units)",
+          "options": [
+            [
+              "||MUSC 40A",
+              "MUSC 140B",
+              "MUSC 140C"
+            ]
+          ]
+        },
+        {
+          "name": "Music Education Common Courses (15-16 units)",
+          "options": [
+            [
+              "&&MUSC 103"
+            ],
+            [
+              "&&MUSC 147A"
+            ],
+            [
+              "&&MUED 140"
+            ],
+            [
+              "&&MUED 142"
+            ],
+            [
+              "||MUSC 147B",
+              "MUSC 147C"
+            ],
+            [
+              "||MUSC 102",
+              "MUSC 106A",
+              "MUSC 106B"
+            ]
+          ]
+        },
+        {
+          "name": "Music Education Breadth Requirement",
+          "options": [
+            [
+              "ADV_COURSE1"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "ADV_COURSE1",
+              "course_name": "By advisement select two units of large or chamber ensemble outside of major performing area to satisfy breadth requirement",
+              "units": 2
+            }
+          ]
+        },
+        {
+          "name": "Music Education Instrumental Specialization (14 units)",
+          "options": [
+            [
+              "&&MUSC 26A"
+            ],
+            [
+              "&&MUSC 122A"
+            ],
+            [
+              "&&MUSC 122B"
+            ],
+            [
+              "&&MUSC 123A"
+            ],
+            [
+              "&&MUSC 123B"
+            ],
+            [
+              "&&MUSC 125D"
+            ],
+            [
+              "&&MUSC 126"
+            ],
+            [
+              "&&MUSC 127A"
+            ],
+            [
+              "&&MUSC 127B"
+            ],
+            [
+              "&&MUED 170A"
+            ],
+            [
+              "&&MUED 175"
+            ]
+          ]
+        },
+        {
+          "name": "Music Education Choral/General Specialization (14 units)",
+          "options": [
+            [
+              "&&MUSC 41A"
+            ],
+            [
+              "&&MUSC 41B"
+            ],
+            [
+              "&&MUSC 122A"
+            ],
+            [
+              "&&MUSC 123A"
+            ],
+            [
+              "&&MUSC 125D"
+            ],
+            [
+              "&&MUSC 185A"
+            ],
+            [
+              "&&MUED 170B"
+            ],
+            [
+              "&&MUED 175"
+            ],
+            [
+              "||MUSC 127A",
+              "MUSC 127B"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must also satisfy piano proficiency; this requirement may be satisfied with completion of MUSC 25A, MUSC 25B, or MUSC 25C.",
+      "String: All students must take the Common Courses below.",
+      "String: Select an area of specialization from either the Instrumental or the Choral/General below."
+    ],
+    "recommendations": [
+      "MUSC 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "output": {
+    "major_name": "Theatre Arts, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Upper Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "&&UD_HA_COURSE"
+            ]
+          ]
+        },
+        {
+          "name": "Core Courses",
+          "options": [
+            [
+              "||TA 5",
+              "TA 55"
+            ],
+            "TA 11",
+            "TA 17",
+            [
+              "&&TA 51A",
+              "TA 51B",
+              "TA 51C",
+              "TA 51D"
+            ],
+            [
+              "||TA 116",
+              "TA 128"
+            ],
+            "TA 120",
+            "TA 121",
+            [
+              "||TA 151",
+              "TA 153",
+              "TA 154"
+            ],
+            "TA 170A",
+            "TA 198",
+            "TA 191",
+            [
+              "||TA 103",
+              "TA 112",
+              "TA 117",
+              "TA 131"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            "TA 5",
+            "TA 10",
+            "TA 13",
+            "TA 48",
+            "TA 55",
+            "TA 64",
+            "TA 91",
+            "TA 100W",
+            "TA 103",
+            "TA 110",
+            "TA 112",
+            "TA 113",
+            "TA 116",
+            "TA 117",
+            "TA 127",
+            "TA 128",
+            "TA 129",
+            "TA 131",
+            "TA 148",
+            "TA 151",
+            "TA 153",
+            "TA 154",
+            "TA 167",
+            "TA 168",
+            "TA 170B",
+            "TA 180",
+            "TA 191",
+            "TA 199H"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Theatre majors are required to take 9 units of upper-division courses that participate in a production at SJSU. Of those 9 units, 3 units need to be TA 191 (Production Workshop).",
+      "String: TA 51A, TA 51B, TA 51C, TA 51D must be taken in the same semester.",
+      "String: TA 116 and TA 128 are offered in alternating years; students should check availability."
+    ],
+    "recommendations": [
+      "TA 100W for GWAR"
+    ]
+  }
+}

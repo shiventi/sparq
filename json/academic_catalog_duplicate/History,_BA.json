@@ -1,0 +1,345 @@
+{
+  "output": {
+    "major_name": "History, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HIST 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "HIST 99",
+          "course_name": "History Fundamentals",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "World History",
+          "options": [
+            [
+              "||HIST 1A",
+              "HIST 1B"
+            ]
+          ]
+        },
+        {
+          "name": "Western Civilization",
+          "options": [
+            [
+              "||HIST 10A",
+              "HIST 10B"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "HIST 100W",
+          "course_name": "History Writers\u2019 Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "HIST 102",
+          "course_name": "Historiography",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 104",
+          "course_name": "Advanced Topics in Ancient History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 112",
+          "course_name": "Ancient West to 500 BCE",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 114",
+          "course_name": "The Ancient West, 500 BCE-400 CE",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 121A",
+          "course_name": "Medieval Worlds, 400-1000",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 121B",
+          "course_name": "Medieval Worlds, 1000-1500",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 126",
+          "course_name": "Advanced Topics in Medieval History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 124",
+          "course_name": "Early Modern Europe",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 143",
+          "course_name": "Europe, 1750-1900",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 144",
+          "course_name": "Europe, 1900-1945",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 145",
+          "course_name": "Europe and the World Since 1945",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 146",
+          "course_name": "Advanced Topics in European History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 153",
+          "course_name": "History of Women in Europe",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "HIST 171",
+          "course_name": "U.S. Constitutional & Legal History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 173",
+          "course_name": "New World Encounters, 1400-1750",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 174",
+          "course_name": "Colonial & Revolutionary America",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 175",
+          "course_name": "Inventing America, 1800-1860",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 176",
+          "course_name": "The Civil War and Reconstruction",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 177",
+          "course_name": "Industrial America, 1877-1920",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 178",
+          "course_name": "Crash, Depression and War, 1920-1950",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 179",
+          "course_name": "Cold War America, 1950-Present",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 181",
+          "course_name": "Advanced Topics in American History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 185",
+          "course_name": "LGBTQ+ History in the United States",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "HIST 188",
+          "course_name": "History of Women in the United States",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4",
+            "GE_AREA_US1"
+          ]
+        },
+        {
+          "course_id": "HIST 189A",
+          "course_name": "California History to 1900",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_US3"
+          ]
+        },
+        {
+          "course_id": "HIST 189B",
+          "course_name": "California History Since 1900",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_US3"
+          ]
+        },
+        {
+          "course_id": "HIST 109A",
+          "course_name": "History of China",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 109B",
+          "course_name": "History of China",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 110A",
+          "course_name": "History of Japan",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 110B",
+          "course_name": "History of Japan",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 130",
+          "course_name": "Military History to 1500",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 131",
+          "course_name": "Military History from 1500",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 132",
+          "course_name": "Advanced Topics in World History",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 136",
+          "course_name": "World Jewish History",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "HIST 155",
+          "course_name": "20th Century World",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "HIST 162",
+          "course_name": "Colonial Latin America",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 163",
+          "course_name": "Modern Latin America, 1800-Present",
+          "units": 4
+        },
+        {
+          "course_id": "HIST 167",
+          "course_name": "Advanced Topics in Latin American History",
+          "units": 4
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Ancient & Medieval",
+        "courses": [
+          "HIST 104",
+          "HIST 112",
+          "HIST 114",
+          "HIST 121A",
+          "HIST 121B",
+          "HIST 126"
+        ]
+      },
+      {
+        "field_name": "Europe",
+        "courses": [
+          "HIST 124",
+          "HIST 143",
+          "HIST 144",
+          "HIST 145",
+          "HIST 146",
+          "HIST 153"
+        ]
+      },
+      {
+        "field_name": "United States",
+        "courses": [
+          "HIST 171",
+          "HIST 173",
+          "HIST 174",
+          "HIST 175",
+          "HIST 176",
+          "HIST 177",
+          "HIST 178",
+          "HIST 179",
+          "HIST 181",
+          "HIST 185",
+          "HIST 188",
+          "HIST 189A",
+          "HIST 189B"
+        ]
+      },
+      {
+        "field_name": "World",
+        "courses": [
+          "HIST 109A",
+          "HIST 109B",
+          "HIST 110A",
+          "HIST 110B",
+          "HIST 130",
+          "HIST 131",
+          "HIST 132",
+          "HIST 136",
+          "HIST 155",
+          "HIST 162",
+          "HIST 163",
+          "HIST 167",
+          "HIST 173"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "HIST 100W for GWAR"
+    ]
+  }
+}

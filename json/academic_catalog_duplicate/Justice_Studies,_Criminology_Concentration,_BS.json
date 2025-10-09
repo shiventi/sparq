@@ -1,0 +1,243 @@
+{
+  "output": {
+    "major_name": "Justice Studies, Criminology Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units may be satisfied by major coursework: GE_AREA_2 and GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "JS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "FS 11",
+          "course_name": "Survey of Forensic Science",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "JS 10",
+          "course_name": "Introduction to Justice Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "JS 12",
+          "course_name": "Introduction to Legal Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "JS 25",
+          "course_name": "Introduction to Human Rights and Justice",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "JS 15",
+          "course_name": "Introductory Statistics in Justice Studies",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "JS 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "JS 101",
+          "course_name": "Critical Issues and Ideas in Justice",
+          "units": 3
+        },
+        {
+          "course_id": "JS 114",
+          "course_name": "Research Methods in Justice Studies",
+          "units": 3
+        },
+        {
+          "course_id": "JS 132",
+          "course_name": "Race, Gender, Inequality and the Law",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "JS 151",
+          "course_name": "Criminological Theory",
+          "units": 3
+        },
+        {
+          "course_id": "JS 171",
+          "course_name": "Human Rights and Justice",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "JS 141",
+          "course_name": "Record Clearance Project Representation",
+          "units": 3
+        },
+        {
+          "course_id": "JS 142",
+          "course_name": "Record Clearance Project - Advanced Study and Community Involvement",
+          "units": 3
+        },
+        {
+          "course_id": "JS 181",
+          "course_name": "Internship: Justice Studies",
+          "units": 3
+        },
+        {
+          "course_id": "FS 169",
+          "course_name": "FS Senior Seminar: Studies in Contemporary FS Issues",
+          "units": 3
+        },
+        {
+          "course_id": "JS 189",
+          "course_name": "Senior Seminar: Contemporary Problems",
+          "units": 3
+        },
+        {
+          "course_id": "JS 102",
+          "course_name": "Police and Society",
+          "units": 3
+        },
+        {
+          "course_id": "JS 104",
+          "course_name": "Penal Politics & Institutions",
+          "units": 3
+        },
+        {
+          "course_id": "JS 152",
+          "course_name": "Juvenile Delinquency & Justice",
+          "units": 3
+        },
+        {
+          "course_id": "JS 155",
+          "course_name": "Victimology",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Theory Courses",
+        "courses": [
+          "FS 160",
+          "JS 103",
+          "JS 153",
+          "JS 157",
+          "JS 185"
+        ]
+      },
+      {
+        "field_name": "Methodology Courses",
+        "courses": [
+          "FS 160",
+          "JS 107",
+          "JS 117",
+          "JS 131",
+          "JS 143",
+          "JS 185"
+        ]
+      },
+      {
+        "field_name": "Critical Inquiry Courses",
+        "courses": [
+          "FS 160",
+          "FS 171",
+          "JS 122",
+          "JS 128",
+          "JS 130",
+          "JS 136",
+          "JS 144",
+          "JS 146",
+          "JS 150",
+          "JS 174",
+          "JS 185"
+        ]
+      },
+      {
+        "field_name": "Local, Transnational, Historical Courses",
+        "courses": [
+          "FS 160",
+          "FS 170",
+          "JS 121",
+          "JS 123",
+          "JS 127",
+          "JS 129",
+          "JS 137",
+          "JS 145",
+          "JS 156",
+          "JS 158",
+          "JS 161",
+          "JS 172",
+          "JS 173",
+          "JS 185"
+        ]
+      },
+      {
+        "field_name": "Experiential Learning Courses",
+        "courses": [
+          "JS 140",
+          "JS 141",
+          "JS 142",
+          "JS 179",
+          "JS 180",
+          "JS 182",
+          "JS 184"
+        ]
+      }
+    ],
+    "notes": [
+      "String: A minor is strongly recommended.",
+      "String: Students must complete 9 units from the concentration elective areas (Area A through Area E).",
+      "String: Up to six units may be selected from each elective area."
+    ],
+    "recommendations": [
+      "JS 100W for GWAR"
+    ]
+  }
+}

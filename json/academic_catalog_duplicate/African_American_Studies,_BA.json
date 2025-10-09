@@ -1,0 +1,172 @@
+{
+  "output": {
+    "major_name": "African American Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_4, GE_AREA_6, GE_AREA_UD_2_5, GE_AREA_UD_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "AFAM 100W or COMM 100W or SOCI 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "AFAM 2A",
+          "course_name": "African Americans and the Development of America\u2019s History and Government",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "AFAM 2B",
+          "course_name": "African Americans and the Development of America\u2019s History and Government",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4",
+            "GE_AREA_US123"
+          ]
+        },
+        {
+          "course_id": "AFAM 22",
+          "course_name": "The Humanities in African American Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_6"
+          ]
+        },
+        {
+          "course_id": "AFAM 40",
+          "course_name": "African Origins",
+          "units": 3
+        },
+        {
+          "course_id": "AFAM 111",
+          "course_name": "African Nations: History, Politics, and Culture",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "AFAM 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "COMM 100W",
+          "course_name": "Writing Workshop: Writing for Influence",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "SOCI 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "AFAM 134",
+          "course_name": "The Black Civil Rights Movements",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_6"
+          ]
+        },
+        {
+          "course_id": "AFAM 151",
+          "course_name": "Race, Class and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "AFAM 152",
+          "course_name": "Black Feminisms",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division Sequence",
+          "options": [
+            [
+              "||AFAM 40",
+              "AFAM 111"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "AFAM 102",
+          "AFAM 105",
+          "AFAM 106",
+          "AFAM 110",
+          "AFAM 111",
+          "AFAM 112",
+          "AFAM 115",
+          "AFAM 120",
+          "AFAM 125",
+          "AFAM 130",
+          "AFAM 137",
+          "AFAM 142",
+          "AFAM 145",
+          "AFAM 156",
+          "AFAM 157",
+          "AFAM 158",
+          "AFAM 159",
+          "AFAM 160",
+          "AFAM 161",
+          "AFAM 162",
+          "AFAM 165",
+          "AFAM 166",
+          "AFAM 170",
+          "AFAM 180",
+          "AFAM 184",
+          "AFAM 185",
+          "AFAM 190",
+          "AFAM 192"
+        ]
+      }
+    ],
+    "notes": [
+      "String: 6 required units of American Institutions/US123 are satisfied in the major requirements.",
+      "String: At least 7 units of University Electives must be Upper Division.",
+      "String: A minor or double major is recommended (selected with advisor approval)."
+    ],
+    "recommendations": [
+      "AFAM 100W for GWAR",
+      "COMM 100W for GWAR",
+      "SOCI 100W for GWAR"
+    ]
+  }
+}

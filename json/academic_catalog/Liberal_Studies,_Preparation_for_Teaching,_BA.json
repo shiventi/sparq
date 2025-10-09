@@ -1,0 +1,645 @@
+{
+  "output": {
+    "major_name": "Liberal Studies, Preparation for Teaching, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_1A_GE_AREA_1B_GE_AREA_2_GE_AREA_3A_GE_AREA_3B_GE_AREA_4_GE_AREA_5A_GE_AREA_5B_GE_AREA_5C"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_AREA_3_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Reading, Language and Literature Requirement",
+          "options": [
+            [
+              "||CHAD 135",
+              "ENGL 1A",
+              "ENGL 2",
+              "ENGL 112A",
+              "LING 107"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "CHAD 135",
+              "course_name": "Development of Language & Literacy in Children",
+              "units": 3
+            },
+            {
+              "course_id": "ENGL 1A",
+              "course_name": "First Year Writing",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_1A"
+              ]
+            },
+            {
+              "course_id": "ENGL 2",
+              "course_name": "Critical Thinking and Writing",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_1B"
+              ]
+            },
+            {
+              "course_id": "ENGL 112A",
+              "course_name": "Children\u2019s Literature",
+              "units": 3
+            },
+            {
+              "course_id": "LING 107",
+              "course_name": "Patterns of English",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "History and Social Science Requirement",
+          "options": [
+            [
+              "||SOCS 137",
+              "SOCS 138",
+              "SOCS 139"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "SOCS 137",
+              "course_name": "California History for Teachers",
+              "units": 3
+            },
+            {
+              "course_id": "SOCS 138",
+              "course_name": "US History for Teachers",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            },
+            {
+              "course_id": "SOCS 139",
+              "course_name": "World History for Teachers",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mathematics Requirement",
+          "options": [
+            [
+              "&&MATH 12",
+              "MATH 105",
+              "MATH 106"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "MATH 12",
+              "course_name": "Number Systems",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_2"
+              ]
+            },
+            {
+              "course_id": "MATH 105",
+              "course_name": "Concepts in Mathematics, Probability, Statistics",
+              "units": 3
+            },
+            {
+              "course_id": "MATH 106",
+              "course_name": "Intuitive Geometry",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Science Requirement",
+          "options": [
+            [
+              "&&CHEM 30A",
+              "ENVS 10",
+              "PHYS 1"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "CHEM 30A",
+              "course_name": "Introductory Chemistry",
+              "units": 4,
+              "ge_areas": [
+                "GE_AREA_5A",
+                "GE_AREA_5C"
+              ]
+            },
+            {
+              "course_id": "ENVS 10",
+              "course_name": "Life on a Changing Planet",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_5B"
+              ]
+            },
+            {
+              "course_id": "PHYS 1",
+              "course_name": "Elementary Physics",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_5A"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Visual and Performing Arts Requirement",
+          "options": [
+            [
+              "&&CA 177",
+              "ART 39",
+              "ART 138",
+              "ART 139",
+              "CA 70",
+              "CA 75",
+              "DANC 148",
+              "MUSC 10B",
+              "MUSC 185A",
+              "TA 131",
+              "TA 167"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "CA 177",
+              "course_name": "Interdisciplinary Arts for Teaching",
+              "units": 3
+            },
+            {
+              "course_id": "ART 39",
+              "course_name": "Multicultural Arts for Children",
+              "units": 3
+            },
+            {
+              "course_id": "ART 138",
+              "course_name": "Elementary Art Methods",
+              "units": 3
+            },
+            {
+              "course_id": "ART 139",
+              "course_name": "Teaching Diversity through Art",
+              "units": 3
+            },
+            {
+              "course_id": "CA 70",
+              "course_name": "Visual & Media Arts for K-8 Teachers",
+              "units": 3
+            },
+            {
+              "course_id": "CA 75",
+              "course_name": "Performing Arts for K-8 Teachers",
+              "units": 3
+            },
+            {
+              "course_id": "DANC 148",
+              "course_name": "Children\u2019s Dance",
+              "units": 3
+            },
+            {
+              "course_id": "MUSC 10B",
+              "course_name": "Introduction to Music",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3A"
+              ]
+            },
+            {
+              "course_id": "MUSC 185A",
+              "course_name": "Music for Children",
+              "units": 3
+            },
+            {
+              "course_id": "TA 131",
+              "course_name": "Storytelling",
+              "units": 3
+            },
+            {
+              "course_id": "TA 167",
+              "course_name": "Theatre in Education",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Physical Education and Health Requirement",
+          "options": [
+            [
+              "||CHAD 149"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "CHAD 149",
+              "course_name": "Child Health and Activity",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Human Development Requirement",
+          "options": [
+            [
+              "||CHAD 60",
+              "CHAD 70"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "CHAD 60",
+              "course_name": "Child Development",
+              "units": 3
+            },
+            {
+              "course_id": "CHAD 70",
+              "course_name": "Lifespan Development in a Global Context",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Liberal Studies Requirement",
+          "options": [
+            [
+              "||LSTP 10"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "LSTP 10",
+              "course_name": "Chronicles of Education",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3B"
+              ]
+            }
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "History Sequence Options",
+          "options": [
+            [
+              "||AMS 10",
+              "AMS 11"
+            ],
+            [
+              "||AAS 33A",
+              "AAS 33B"
+            ],
+            [
+              "||CCS 10A",
+              "CCS 10B"
+            ],
+            [
+              "||HIST 15",
+              "POLS 15"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Area of Specialization Requirement",
+          "options": [
+            [
+              "||LSTP 139"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "LSTP 139",
+              "course_name": "Education and (In)Equality",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specialization Electives Requirement",
+          "options": [
+            [
+              "||AMS 10",
+              "AMS 11",
+              "AMS 12",
+              "AMS 129",
+              "AMS 169",
+              "AMS 179",
+              "CA 60",
+              "CA 95",
+              "CA 172",
+              "CA 173",
+              "CA 175",
+              "CA 176",
+              "HUM 95",
+              "HUM 114",
+              "HUM 119",
+              "HUM 159",
+              "HUM 177A",
+              "HUM 177B",
+              "RELS 70",
+              "RELS 90",
+              "RELS 99",
+              "RELS 120",
+              "RELS 122",
+              "RELS 142",
+              "RELS 145",
+              "RELS 162",
+              "RELS 191",
+              "HUM 160"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "AMS 10",
+              "course_name": "Stories that Make America",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3B",
+                "US1"
+              ]
+            },
+            {
+              "course_id": "AMS 11",
+              "course_name": "Visions of Democracy",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4",
+                "US23"
+              ]
+            },
+            {
+              "course_id": "AMS 12",
+              "course_name": "Intro to US Popular Culture: Serious Fun!",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3A"
+              ]
+            },
+            {
+              "course_id": "AMS 129",
+              "course_name": "The U.S. in a Global Context",
+              "units": 3
+            },
+            {
+              "course_id": "AMS 169",
+              "course_name": "The American Dream",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            },
+            {
+              "course_id": "AMS 179",
+              "course_name": "Issues in US Popular Culture",
+              "units": 3
+            },
+            {
+              "course_id": "CA 60",
+              "course_name": "Creativity Matters",
+              "units": 3
+            },
+            {
+              "course_id": "CA 95",
+              "course_name": "Introduction to Queer Arts",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3A"
+              ]
+            },
+            {
+              "course_id": "CA 172",
+              "course_name": "The Arts in U.S. Society",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            },
+            {
+              "course_id": "CA 173",
+              "course_name": "Thinking About Contemporary World Arts",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "CA 175",
+              "course_name": "Seminar in Creative Process",
+              "units": 3
+            },
+            {
+              "course_id": "CA 176",
+              "course_name": "Creativity and Creative Leadership",
+              "units": 3
+            },
+            {
+              "course_id": "HUM 95",
+              "course_name": "Introduction to Digital Humanities",
+              "units": 3
+            },
+            {
+              "course_id": "HUM 114",
+              "course_name": "Legacy of Asia",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "HUM 119",
+              "course_name": "Myths, Heroes, and Global Cultures before 1500 CE",
+              "units": 3
+            },
+            {
+              "course_id": "HUM 159",
+              "course_name": "Nature and World Cultures",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "HUM 177A",
+              "course_name": "Advanced Honors in Integrated Science, Social Science, and Humanities",
+              "units": 6
+            },
+            {
+              "course_id": "HUM 177B",
+              "course_name": "Advanced Honors in Integrated Science, Social Science, and Humanities",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_2_5",
+                "GE_UD_AREA_4",
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "RELS 70",
+              "course_name": "Religious Worlds: Navigating Diversity",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3B"
+              ]
+            },
+            {
+              "course_id": "RELS 90",
+              "course_name": "Bible History and Literature",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_3B"
+              ]
+            },
+            {
+              "course_id": "RELS 99",
+              "course_name": "Death, Dying and Religions",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4"
+              ]
+            },
+            {
+              "course_id": "RELS 120",
+              "course_name": "Censors and Icons: Arts and Religion",
+              "units": 3
+            },
+            {
+              "course_id": "RELS 122",
+              "course_name": "Magic, Science and Religion",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "RELS 142",
+              "course_name": "Contemporary Buddhism and its Roots",
+              "units": 3
+            },
+            {
+              "course_id": "RELS 145",
+              "course_name": "Middle Eastern Traditions",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_3"
+              ]
+            },
+            {
+              "course_id": "RELS 162",
+              "course_name": "Religion and Political Controversy in the US",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            },
+            {
+              "course_id": "RELS 191",
+              "course_name": "Religion in America",
+              "units": 3,
+              "ge_areas": [
+                "GE_UD_AREA_4"
+              ]
+            },
+            {
+              "course_id": "HUM 160",
+              "course_name": "Any relevant HUM 160 course with advisor approval",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Advanced Writing Requirement",
+          "options": [
+            [
+              "||HUM 100W"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "HUM 100W",
+              "course_name": "Writing in the Humanities & Interdisciplinary Arts",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Field Study Requirement",
+          "options": [
+            [
+              "&&LSTP 85",
+              "LSTP 185"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "LSTP 85",
+              "course_name": "Fieldwork in the Humanities",
+              "units": 3
+            },
+            {
+              "course_id": "LSTP 185",
+              "course_name": "Field Experience in Humanities",
+              "units": 3
+            }
+          ]
+        },
+        {
+          "name": "Capstone Course Requirement",
+          "options": [
+            [
+              "||HUM 190"
+            ]
+          ],
+          "details": [
+            {
+              "course_id": "HUM 190",
+              "course_name": "Senior Seminar in Humanities",
+              "units": 3
+            }
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

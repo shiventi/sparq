@@ -1,0 +1,260 @@
+{
+  "output": {
+    "major_name": "Theatre Arts, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "TA 5",
+          "course_name": "Beginning Acting",
+          "units": 3
+        },
+        {
+          "course_id": "TA 55",
+          "course_name": "Intro to Design for the Performing Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "TA 11",
+          "course_name": "Dramaturgy and Dramatic Criticism",
+          "units": 3
+        },
+        {
+          "course_id": "TA 17",
+          "course_name": "Intermediate Acting",
+          "units": 3
+        },
+        {
+          "course_id": "TA 51A",
+          "course_name": "Stagecraft Fundamentals A",
+          "units": 3
+        },
+        {
+          "course_id": "TA 51B",
+          "course_name": "Stagecraft Fundamentals B",
+          "units": 3
+        },
+        {
+          "course_id": "TA 51C",
+          "course_name": "Stagecraft Fundamentals C",
+          "units": 3
+        },
+        {
+          "course_id": "TA 51D",
+          "course_name": "Stagecraft Fundamentals D",
+          "units": 3
+        },
+        {
+          "course_id": "TA 116",
+          "course_name": "Introduction to Stage Directing",
+          "units": 3
+        },
+        {
+          "course_id": "TA 128",
+          "course_name": "Introduction to Playwriting",
+          "units": 3
+        },
+        {
+          "course_id": "TA 120",
+          "course_name": "World Theatre I",
+          "units": 3
+        },
+        {
+          "course_id": "TA 121",
+          "course_name": "World Theatre II",
+          "units": 3
+        },
+        {
+          "course_id": "TA 151",
+          "course_name": "Lighting Design for Performing Arts",
+          "units": 3
+        },
+        {
+          "course_id": "TA 153",
+          "course_name": "Costume Design for Performing Arts",
+          "units": 3
+        },
+        {
+          "course_id": "TA 154",
+          "course_name": "Scenic Design for Performing Arts",
+          "units": 3
+        },
+        {
+          "course_id": "TA 170A",
+          "course_name": "Introduction to Acting and Directing for the Camera",
+          "units": 3
+        },
+        {
+          "course_id": "TA 198",
+          "course_name": "Internship",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Introductory Course Selection",
+          "options": [
+            [
+              "||TA 5",
+              "TA 55"
+            ]
+          ]
+        },
+        {
+          "name": "Stagecraft Fundamentals",
+          "options": [
+            [
+              "&&TA 51A",
+              "TA 51B",
+              "TA 51C",
+              "TA 51D"
+            ]
+          ]
+        },
+        {
+          "name": "Major Course Selection",
+          "options": [
+            [
+              "||TA 116",
+              "TA 128"
+            ]
+          ]
+        },
+        {
+          "name": "Design Course Selection",
+          "options": [
+            [
+              "||TA 151",
+              "TA 153",
+              "TA 154"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "TA 191",
+          "course_name": "Theatre Production Workshop",
+          "units": 3
+        },
+        {
+          "course_id": "TA 100W",
+          "course_name": "Writing Workshop: Theatre Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Lower Division College Requirement",
+        "courses": [
+          "ART 44HA",
+          "DSGN 44HA",
+          "ENGL 44HA",
+          "HUM 44HA",
+          "PHIL 44HA"
+        ]
+      },
+      {
+        "field_name": "Upper Division College Requirement",
+        "courses": [
+          "TA 10",
+          "TA 13",
+          "TA 48",
+          "TA 64",
+          "TA 91",
+          "TA 110",
+          "TA 113",
+          "TA 127",
+          "TA 129",
+          "TA 131",
+          "TA 148",
+          "TA 151",
+          "TA 153",
+          "TA 154",
+          "TA 167",
+          "TA 168",
+          "TA 170B",
+          "TA 180",
+          "TA 191",
+          "TA 199H"
+        ]
+      },
+      {
+        "field_name": "Required Participation in Department Play or Musical",
+        "courses": [
+          "TA 103",
+          "TA 112",
+          "TA 117",
+          "TA 131"
+        ]
+      },
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "TA 5",
+          "TA 10",
+          "TA 13",
+          "TA 48",
+          "TA 55",
+          "TA 64",
+          "TA 91",
+          "TA 100W",
+          "TA 103",
+          "TA 110",
+          "TA 113",
+          "TA 116",
+          "TA 117",
+          "TA 127",
+          "TA 128",
+          "TA 129",
+          "TA 131",
+          "TA 148",
+          "TA 151",
+          "TA 153",
+          "TA 154",
+          "TA 167",
+          "TA 168",
+          "TA 170B",
+          "TA 180",
+          "TA 191",
+          "TA 199H"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Theatre majors are required to take 9 units of upper-division courses that participate in a production at SJSU. Of those 9 units, 3 units need to be TA 191 (Production Workshop).",
+      "String: Choose 2 of the following courses (6 units): TA 103 Musical Theatre, TA 112 Rehearsal and Performance, TA 117 Practice in Acting or Directing, TA 131 Storytelling."
+    ],
+    "recommendations": [
+      "TA 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "output": {
+    "major_name": "Business Administration, Accounting Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: Areas 1A, 2, 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGL 100WB, COMM 100W, or LLD 100WB"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ECON 1A",
+          "course_name": "Principles of Economics: Macroeconomics",
+          "units": 3
+        },
+        {
+          "course_id": "ECON 1B",
+          "course_name": "Principles of Economics: Microeconomics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ENGL 2",
+          "course_name": "Critical Thinking and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "name": "Mathematics Requirement",
+          "options": [
+            [
+              "||MATH 70"
+            ],
+            [
+              "||MATH 30",
+              "MATH 31",
+              "MATH 32",
+              "MATH 71"
+            ]
+          ]
+        },
+        {
+          "name": "Writing in the Disciplines",
+          "options": [
+            [
+              "||ENGL 100WB",
+              "COMM 100W",
+              "LLD 100WB"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BUS1 120A",
+          "course_name": "Accounting Information Systems",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 121A",
+          "course_name": "Intermediate Accounting I",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 121B",
+          "course_name": "Intermediate Accounting II",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 122A",
+          "course_name": "Management Accounting and Control Systems",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 123A",
+          "course_name": "Taxation of Businesses and Investments",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 130",
+          "course_name": "Introduction to Marketing",
+          "units": 3
+        },
+        {
+          "course_id": "BUS5 140",
+          "course_name": "Fundamentals of Operations Management",
+          "units": 3
+        },
+        {
+          "course_id": "BUS3 160",
+          "course_name": "Fundamentals of Management and Organizational Behavior",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 170",
+          "course_name": "Fundamentals of Finance",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 190",
+          "course_name": "Fundamentals of Business Analytics",
+          "units": 3
+        },
+        {
+          "course_id": "BUS5 187",
+          "course_name": "Global Dimensions of Business",
+          "units": 3
+        },
+        {
+          "course_id": "BUS4 188",
+          "course_name": "Business Systems and Policy",
+          "units": 3
+        },
+        {
+          "course_id": "BUS3 189",
+          "course_name": "Strategic Management",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Non-Business Global Perspectives",
+        "courses": [
+          "GE UD Area 3"
+        ]
+      }
+    ],
+    "notes": [
+      "String: All Accounting foundation courses must be completed with a grade of 'C' or better.",
+      "String: A cumulative 2.0 GPA is required in all business classes.",
+      "String: 9 units of Required Electives must be completed from the specified list of courses."
+    ],
+    "recommendations": [
+      "BUS1 120B - Advanced AIS and IS Risk Assessment",
+      "BUS1 120D - Accounting Topics in IT Audit",
+      "BUS1 123C - Taxation of Individuals",
+      "BUS1 124 - Forensic Accounting",
+      "BUS1 126 - Advanced Accounting",
+      "BUS1 127A - Honors Practicum in Corporate Financial Management",
+      "BUS1 128 - Accounting for Nonprofit Organizations",
+      "BUS1 129A - Financial Auditing",
+      "BUS1 129B - Operational Auditing"
+    ]
+  }
+}

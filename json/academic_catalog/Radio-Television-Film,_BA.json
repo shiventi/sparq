@@ -1,0 +1,166 @@
+{
+  "output": {
+    "major_name": "Radio-Television-Film, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "TA 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            {
+              "group": [
+                "RTVF 10",
+                "RTVF 110",
+                "TA 100W"
+              ],
+              "details": [
+                {
+                  "course_id": "RTVF 10",
+                  "course_name": "The Art of Film",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "RTVF 110",
+                  "course_name": "Media and Culture",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "TA 100W",
+                  "course_name": "Writing Workshop: Theatre Arts",
+                  "units": 3,
+                  "ge_areas": [
+                    "WID"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "&&UD_HUM_ARTS_REQ"
+            ]
+          ]
+        },
+        {
+          "name": "Core Courses",
+          "options": [
+            [
+              "RTVF 20"
+            ],
+            [
+              "RTVF 30"
+            ],
+            [
+              "RTVF 31"
+            ],
+            [
+              "RTVF 80"
+            ],
+            [
+              "RTVF 82"
+            ],
+            [
+              "RTVF 120"
+            ],
+            [
+              "RTVF 130"
+            ],
+            [
+              "RTVF 160"
+            ],
+            [
+              "RTVF 183"
+            ],
+            [
+              "RTVF 185"
+            ],
+            [
+              "RTVF 198"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "||RTVF 21",
+              "RTVF 22",
+              "RTVF 23",
+              "RTVF 83",
+              "RTVF 111",
+              "RTVF 121",
+              "RTVF 122",
+              "RTVF 126",
+              "RTVF 127",
+              "RTVF 131A",
+              "RTVF 131B",
+              "RTVF 132A",
+              "RTVF 132B",
+              "RTVF 133",
+              "RTVF 134",
+              "RTVF 135",
+              "RTVF 136",
+              "RTVF 161",
+              "RTVF 163",
+              "RTVF 180S",
+              "RTVF 181"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4.",
+      "String: Core Lower Division GE: 25 (3 units may be satisfied by major coursework: Area 3A).",
+      "String: Upper Division GE: 6 (3 units may be satisfied by major coursework: UD Area 4).",
+      "String: Repeatable for credit up to 6 units: RTVF 160, RTVF 185, RTVF 198, RTVF 111, RTVF 121, RTVF 122, RTVF 135, RTVF 163."
+    ],
+    "recommendations": [
+      "TA 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "output": {
+    "major_name": "Nutritional Science, Food Management Concentration, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "13 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2, GE_AREA_4; 9 units may be satisfied with major coursework: GE_AREA_UD2or5, GE_AREA_UD3, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "NUFS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 66",
+          "course_name": "Human Physiology",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 30B",
+          "course_name": "Introductory Chemistry",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PH 67",
+          "course_name": "Introductory Health Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division Chemistry Sequence",
+          "options": [
+            [
+              "||CHEM 30A",
+              "CHEM 1A"
+            ],
+            [
+              "||CHEM 30B",
+              "CHEM 8"
+            ]
+          ]
+        },
+        {
+          "name": "Lower Division Statistics Requirement",
+          "options": [
+            [
+              "||STAT 95",
+              "PH 67",
+              "UNVS 15"
+            ]
+          ]
+        },
+        {
+          "name": "Language Elective",
+          "options": [
+            [
+              "||SPAN 1A",
+              "SPAN 4A"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "NUFS 8",
+          "course_name": "Nutrition for the Health Professions",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 20",
+          "course_name": "Sanitation and Environmental Issues in the Hospitality Industry",
+          "units": 2
+        },
+        {
+          "course_id": "NUFS 21",
+          "course_name": "Culinary Principles and Practice",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 31",
+          "course_name": "Professionalism in Nutrition, Food Science and Packaging",
+          "units": 1
+        },
+        {
+          "course_id": "NUFS 101A",
+          "course_name": "Food Science",
+          "units": 4
+        },
+        {
+          "course_id": "NUFS 103",
+          "course_name": "Food Processing and Packaging I",
+          "units": 2
+        },
+        {
+          "course_id": "NUFS 106A",
+          "course_name": "Human Nutrition in the Life Span",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 106B",
+          "course_name": "Research Methodology in Nutrition and Food Science",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 111",
+          "course_name": "Foodservice Production Management",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 134",
+          "course_name": "Multicultural Complementary and Alternative Medicine",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "NUFS 139",
+          "course_name": "Hunger and Environmental Nutrition",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD2or5"
+          ]
+        },
+        {
+          "course_id": "NUFS 144",
+          "course_name": "Food Culture: Consuming Passions",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "NUFS 151",
+          "course_name": "Food Microbiology",
+          "units": 2
+        },
+        {
+          "course_id": "NUFS 192",
+          "course_name": "Field Experience in Nutrition and Food Science and Packaging Technology",
+          "units": "1-6"
+        },
+        {
+          "course_id": "PKG 107",
+          "course_name": "Principles of Packaging",
+          "units": 3
+        },
+        {
+          "course_id": "BUS1 20N",
+          "course_name": "Survey of Accounting",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 10",
+          "course_name": "Basic Life Skills",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 22",
+          "course_name": "Catering and Beverage Management",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 25",
+          "course_name": "Internship in Foodservice Management",
+          "units": "1-2"
+        },
+        {
+          "course_id": "NUFS 104A",
+          "course_name": "Cultural Aspects of Food",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 113",
+          "course_name": "Foodservice Systems: Mgmt & Proc",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 114A",
+          "course_name": "Community Nutrition for Majors",
+          "units": 3
+        },
+        {
+          "course_id": "NUFS 190",
+          "course_name": "Nutrition Education and Counseling",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Major Electives",
+        "courses": [
+          "NUFS 103L",
+          "NUFS 105",
+          "NUFS 116",
+          "NUFS 117",
+          "NUFS 150",
+          "NUFS 194",
+          "PKG 169",
+          "SPAN 1A",
+          "SPAN 4A"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least 10 units from major electives by advisement.",
+      "String: Substitutions allowed for CHEM 30A with CHEM 1A and CHEM 30B with CHEM 8.",
+      "String: UNVS 15 may be used in lieu of the statistics course required by this major.",
+      "String: Total includes 3 units of University Electives."
+    ],
+    "recommendations": [
+      "NUFS 100W for GWAR"
+    ]
+  }
+}

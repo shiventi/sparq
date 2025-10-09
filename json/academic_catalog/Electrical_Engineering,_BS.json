@@ -1,0 +1,238 @@
+{
+  "output": {
+    "major_name": "Electrical Engineering, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHEM 1A",
+          "course_name": "General Chemistry",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 33LA",
+          "course_name": "Differential Equations and Linear Algebra",
+          "units": 3
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 52",
+          "course_name": "General Physics III: Waves, Light, Heat",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "EE 30",
+          "course_name": "Introduction to Programming Micro-Controllers for Electrical Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "EE 97",
+          "course_name": "Introductory Electrical Engineering Laboratory",
+          "units": 1
+        },
+        {
+          "course_id": "EE 98",
+          "course_name": "Introduction to Circuit Analysis",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 10",
+          "course_name": "Introduction to Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2or5"
+          ]
+        },
+        {
+          "course_id": "EE 102",
+          "course_name": "Probability and Statistics in Electrical",
+          "units": 3
+        },
+        {
+          "course_id": "EE 110",
+          "course_name": "Circuits and Systems",
+          "units": 3
+        },
+        {
+          "course_id": "EE 110L",
+          "course_name": "Continuous and Discrete Time Systems Lab",
+          "units": 1
+        },
+        {
+          "course_id": "EE 112",
+          "course_name": "Introduction to Signal Processing",
+          "units": 3
+        },
+        {
+          "course_id": "EE 118",
+          "course_name": "Digital Logic Circuit Design",
+          "units": 4
+        },
+        {
+          "course_id": "EE 120",
+          "course_name": "Microprocessor Based System Design",
+          "units": 4
+        },
+        {
+          "course_id": "EE 122",
+          "course_name": "Electronic Design I",
+          "units": 4
+        },
+        {
+          "course_id": "EE 124",
+          "course_name": "Electronic Design II",
+          "units": 4
+        },
+        {
+          "course_id": "EE 128",
+          "course_name": "Physical Electronics",
+          "units": 3
+        },
+        {
+          "course_id": "EE 132",
+          "course_name": "Theory of Automatic Controls",
+          "units": 3
+        },
+        {
+          "course_id": "EE 160",
+          "course_name": "Principles of Communication Systems",
+          "units": 3
+        },
+        {
+          "course_id": "EE 140",
+          "course_name": "Principles of Electromagnetic Fields",
+          "units": 3
+        },
+        {
+          "course_id": "EE 198A",
+          "course_name": "Senior Design Project I",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "EE 198B",
+          "course_name": "Senior Design Project II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "ENGR 195A",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "ENGR 195B",
+          "course_name": "Global and Social Issues in Engineering",
+          "units": 1,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "MATE 153",
+          "course_name": "Electronic, Optical, and Magnetic Properties of Materials",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: CMPE 30 taken at SJSU is also accepted, but courses equivalent to CMPE 30 taken at other colleges/universities are not accepted.",
+      "String: The 1-unit ENGR 195A and ENGR 195B courses must be concurrently enrolled with the required EE 198A and EE 198B courses, respectively."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

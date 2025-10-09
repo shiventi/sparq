@@ -1,0 +1,207 @@
+{
+  "output": {
+    "major_name": "Interdisciplinary Engineering, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_2_GE_AREA_5A_GE_AREA_5C_GE_AREA_3B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_4_UD_AREA_3_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 10",
+          "course_name": "The Living World",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENGL 1B",
+          "course_name": "Argument and Analysis",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 32",
+          "course_name": "Calculus III",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "PHYS 50",
+          "course_name": "General Physics I: Mechanics",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "PHYS 51",
+          "course_name": "General Physics II: Electricity and Magnetism",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Differential Equations or Discrete Math Requirement",
+          "options": [
+            [
+              "||MATH 33A",
+              "MATH 33LA"
+            ],
+            [
+              "&&MATH 42"
+            ]
+          ]
+        },
+        {
+          "name": "Programming Concepts Course",
+          "options": [
+            [
+              "||CMPE 30",
+              "CS 46A"
+            ]
+          ]
+        },
+        {
+          "name": "Mechanics Course",
+          "options": [
+            [
+              "||CE 95",
+              "MATE 25"
+            ]
+          ]
+        },
+        {
+          "name": "Programming/Data Structures Course",
+          "options": [
+            [
+              "||ENGR 120",
+              "CS 46B"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "BUS3 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_4"
+          ]
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "WID",
+            "GE_UD_AREA_2_OR_5"
+          ]
+        },
+        {
+          "course_id": "ENGR 102",
+          "course_name": "Renewable Energy Engineering",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 130",
+          "course_name": "Introduction to Intellectual Property for Engineers",
+          "units": 3
+        },
+        {
+          "course_id": "ENGR 199A",
+          "course_name": "Senior Design Project I",
+          "units": 1
+        },
+        {
+          "course_id": "ENGR 199B",
+          "course_name": "Senior Design Project II",
+          "units": 2
+        },
+        {
+          "course_id": "ISE 130",
+          "course_name": "Engineering Probability and Statistics",
+          "units": 3
+        },
+        {
+          "course_id": "ME 106",
+          "course_name": "Fundamentals of Mechatronics Engineering",
+          "units": 4
+        },
+        {
+          "course_id": "TECH 198",
+          "course_name": "Technology and Civilization",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: CHEM 1A may be used in lieu of CHEM 30A.",
+      "String: ENGL 1B or equivalent second semester composition course is required.",
+      "String: One course from MATH 33A or MATH 33LA must be completed, or MATH 42 if not fulfilling via major coursework.",
+      "String: Academic Breadth or Minor requires 12 units and must be approved by the advisor.",
+      "String: Technical Focus requires 19 units including a four-course sequence and 7 units of Technical Electives, all approved by the advisor."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

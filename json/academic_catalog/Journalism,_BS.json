@@ -1,0 +1,201 @@
+{
+  "output": {
+    "major_name": "Journalism, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "MCOM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Major Preparation",
+          "options": [
+            {
+              "course_id": "JOUR 50",
+              "course_name": "Navigating the News",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4"
+              ]
+            },
+            {
+              "course_id": "MCOM 63",
+              "course_name": "New Media",
+              "units": 3
+            },
+            {
+              "course_id": "MCOM 72",
+              "course_name": "Mass Communication and Society",
+              "units": 3
+            },
+            {
+              "course_id": "MCOM 100W",
+              "course_name": "Writing Workshop: Mass Communications",
+              "units": 3,
+              "ge_areas": [
+                "GE_AREA_4"
+              ]
+            },
+            {
+              "course_id": "MCOM 163",
+              "course_name": "Advanced New Media Technologies",
+              "units": 3
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "College of Humanities & the Arts Requirement",
+          "options": [
+            [
+              "&&ADV_COURSE1"
+            ]
+          ]
+        },
+        {
+          "name": "Core Courses",
+          "options": [
+            {
+              "course_id": "JOUR 61",
+              "course_name": "Writing for Print, Electronic and Online Media",
+              "units": 3
+            },
+            {
+              "course_id": "JOUR 95",
+              "course_name": "Beginning Digital News Photography",
+              "units": 3
+            },
+            {
+              "course_id": "JOUR 132",
+              "course_name": "Magazine Reporting, Print and Online",
+              "units": 3
+            },
+            {
+              "course_id": "JOUR 133",
+              "course_name": "Editing and News Management",
+              "units": 3
+            },
+            {
+              "course_id": "JOUR 150",
+              "course_name": "News Media Management",
+              "units": 3,
+              "prerequisites": [
+                "String: Student must be an Editor on a Student Media Publication (JOUR 140A, JOUR 140B, JOUR 140C, or JOUR 140D) to enroll in JOUR 150"
+              ]
+            },
+            {
+              "course_id": "MCOM 101",
+              "course_name": "Media Law and Ethics",
+              "units": 3
+            },
+            {
+              "course_id": "MCOM 104",
+              "course_name": "Introduction to Mass Communications Research",
+              "units": 3
+            },
+            {
+              "course_id": "MCOM 111",
+              "course_name": "Mass Communications Internship",
+              "units": 3,
+              "corequisites": [
+                "String: Student must be enrolled in MCOM 111 at the same time as their internships to receive credit"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mass Communications",
+          "options": [
+            [
+              "||MCOM 105",
+              "MCOM 106"
+            ]
+          ]
+        },
+        {
+          "name": "Media Production",
+          "options": [
+            [
+              "||JOUR 140A",
+              "JOUR 140B",
+              "JOUR 140C",
+              "JOUR 140D"
+            ],
+            [
+              "||JOUR 140A",
+              "JOUR 140B",
+              "JOUR 140C",
+              "JOUR 140D"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "||JOUR 130",
+              "JOUR 136",
+              "JOUR 140A",
+              "JOUR 140B",
+              "JOUR 140C",
+              "JOUR 140D",
+              "JOUR 150",
+              "JOUR 176A",
+              "JOUR 176B",
+              "MCOM 70",
+              "MCOM 105",
+              "MCOM 106",
+              "MCOM 107",
+              "MCOM 108",
+              "MCOM 139",
+              "MCOM 180",
+              "MCOM 180ITL",
+              "PR 195"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Academic focus or minor (optional) may consist of 15 units with at least 6 upper division units.",
+      "String: Academic focus will only appear on diploma or transcript if officially declared as a minor.",
+      "String: Media Production courses must be from different student media outlets.",
+      "String: JOUR 140A, JOUR 140B, JOUR 140C, and JOUR 140D are repeatable for credit."
+    ],
+    "recommendations": [
+      "MCOM 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "output": {
+    "major_name": "Social Science, Preparation for Teaching (Single Subject), BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "6 units from major coursework in GE Areas 3 and 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "Satisfied by major requirements in U.S. History and Government sequences"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HIST 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "HIST 1A",
+          "course_name": "World History to 1500",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "HIST 1B",
+          "course_name": "World History from 1500",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "HIST 99",
+          "course_name": "History Fundamentals",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "African American U.S. History & Government Sequence",
+          "options": [
+            {
+              "group": [
+                "||AFAM 2A",
+                "AFAM 2B"
+              ],
+              "details": [
+                {
+                  "course_id": "AFAM 2A",
+                  "course_name": "African Americans and the Development of America\u2019s History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "AFAM 2B",
+                  "course_name": "African Americans and the Development of America\u2019s History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4",
+                    "GE_AREA_US123"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Asian American U.S. History and Government Sequence",
+          "options": [
+            {
+              "group": [
+                "||AAS 33A",
+                "AAS 33B"
+              ],
+              "details": [
+                {
+                  "course_id": "AAS 33A",
+                  "course_name": "Asian Americans in U.S. History I",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "AAS 33B",
+                  "course_name": "Asian Americans in U.S. History II",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4",
+                    "GE_AREA_US123"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chicana and Chicano U.S. History and Government Sequence",
+          "options": [
+            {
+              "group": [
+                "||CCS 10A",
+                "CCS 10B"
+              ],
+              "details": [
+                {
+                  "course_id": "CCS 10A",
+                  "course_name": "Mexican Americans and the Development of U.S. History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "CCS 10B",
+                  "course_name": "Mexican Americans and the Development of U.S. History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4",
+                    "GE_AREA_US123"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "U.S. History and Government Sequence",
+          "options": [
+            {
+              "group": [
+                "||HIST 15",
+                "POLS 15"
+              ],
+              "details": [
+                {
+                  "course_id": "HIST 15",
+                  "course_name": "Essentials of U.S. History",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4",
+                    "GE_AREA_US1"
+                  ]
+                },
+                {
+                  "course_id": "POLS 15",
+                  "course_name": "Essentials of U.S. & California Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4",
+                    "GE_AREA_US23"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CCS 185",
+          "course_name": "Teaching in a Diverse Society",
+          "units": 3
+        },
+        {
+          "course_id": "ECON 109",
+          "course_name": "Analysis of Economic Issues for Teachers",
+          "units": 3
+        },
+        {
+          "course_id": "HIST 100W",
+          "course_name": "History Writers\u2019 Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "POLS 101",
+          "course_name": "American Government for Teachers",
+          "units": 3
+        },
+        {
+          "course_id": "SOCS 137",
+          "course_name": "California History for Teachers",
+          "units": 3
+        },
+        {
+          "course_id": "SOCS 138",
+          "course_name": "US History for Teachers",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "SOCS 139",
+          "course_name": "World History for Teachers",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "SOCS 195",
+          "course_name": "Social Science Teacher Preparation",
+          "units": 3
+        },
+        {
+          "course_id": "SOCI 177",
+          "course_name": "Sociology of Education",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Six Upper Division U.S. History Courses",
+        "courses": [
+          "String: 22-24 units of approved upper division U.S. History courses as determined by the Social Science Teacher Preparation Advisor"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete one course in each field.",
+      "String: Two courses must be pre-1750.",
+      "String: Exceptions for University Graduation Requirements, including exemptions and waivers, are approved for specific majors and on a case-by-case evaluation only."
+    ],
+    "recommendations": [
+      "Take elective courses in History",
+      "Pursue a minor in History"
+    ]
+  }
+}

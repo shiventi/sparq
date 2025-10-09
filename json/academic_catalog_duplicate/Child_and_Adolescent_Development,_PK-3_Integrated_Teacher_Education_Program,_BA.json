@@ -1,0 +1,117 @@
+{
+  "output": {
+    "major_name": "Child and Adolescent Development, PK-3 Integrated Teacher Education Program, BA",
+    "total_units": 124,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_2 and GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CHAD 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "PSYC 1",
+          "course_name": "Introduction to Psychology",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "CHAD 60",
+          "course_name": "Child Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 70",
+          "course_name": "Lifespan Development in a Global Context",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "CHAD 80",
+          "course_name": "Quantitative Analysis in Developmental Science",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "CHAD 101",
+          "course_name": "Research Methods in Developmental Science",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 161",
+          "course_name": "Administration of Early Childhood Programs",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 164",
+          "course_name": "Contemporary Parenting",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 165",
+          "course_name": "Risk and Resilience in a Community Context",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 168",
+          "course_name": "Social and Emotional Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 170",
+          "course_name": "Cognitive Development in Context",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 173",
+          "course_name": "Critical Issues in Infant/Toddler Development",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 152",
+          "course_name": "Foundations for Early Childhood Curriculum",
+          "units": 3
+        },
+        {
+          "course_id": "CHAD 195",
+          "course_name": "Senior Seminar in Child & Adolescent Development",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Freshmen and transfer students enter as ChAD BA Early Childhood track majors. Students apply for the ITEPB in the first semester of their junior year. Applicants must meet credential program standards and undergo screening for admission.",
+      "String: All courses required for the credential must be completed with a grade of C or higher, unless otherwise noted. The cumulative GPA for all credential courses must be 3.0 or higher."
+    ],
+    "recommendations": [
+      "CHAD 100W for GWAR",
+      "EDSE 102 for Upper Division GE",
+      "EDSE 124 for Upper Division GE"
+    ]
+  }
+}

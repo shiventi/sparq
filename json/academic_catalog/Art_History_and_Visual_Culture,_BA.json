@@ -1,0 +1,209 @@
+{
+  "output": {
+    "major_name": "Art History and Visual Culture, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units from major coursework in GE Area 3A; 9 units from major coursework in UD Areas 2/5, 3, 4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "May be satisfied by selecting applicable GE courses in Areas 3B and/or 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "name": "Lower Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "||ART 44HA",
+              "DSGN 44HA",
+              "ENGL 44HA",
+              "HUM 44HA",
+              "PHIL 44HA"
+            ]
+          ]
+        },
+        {
+          "name": "Core Lower Division Art History Survey Requirement",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "World Language or Art Foundation Sequence",
+          "options": [
+            [
+              "&&World Language Course",
+              "World Language Course"
+            ],
+            [
+              "&&ART 12",
+              "ART 13"
+            ],
+            [
+              "&&ART 12",
+              "ART 14"
+            ],
+            [
+              "&&ART 12",
+              "ART 24"
+            ],
+            [
+              "&&ART 13",
+              "ART 14"
+            ],
+            [
+              "&&ART 13",
+              "ART 24"
+            ],
+            [
+              "&&ART 14",
+              "ART 24"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Upper Division Humanities & the Arts College Requirement",
+          "options": [
+            [
+              "UD Course in H&A College (non-major)"
+            ]
+          ]
+        },
+        {
+          "name": "Graduation Writing Assessment Requirement",
+          "options": [
+            [
+              "ART 100W"
+            ]
+          ]
+        },
+        {
+          "name": "American Institutions UD GE Area 4 Requirement",
+          "options": [
+            [
+              "||CA 172",
+              "RELS 191",
+              "RTVF 110",
+              "URBP 101",
+              "WGSS 101"
+            ]
+          ]
+        },
+        {
+          "name": "Art History Methods Requirement",
+          "options": [
+            [
+              "ARTH 175"
+            ]
+          ]
+        },
+        {
+          "name": "Global Art UD GE Area 3 Requirement",
+          "options": [
+            [
+              "||ARTH 193A",
+              "ARTH 193B"
+            ]
+          ]
+        },
+        {
+          "name": "Critical Periods in Western Art Requirement",
+          "options": [
+            [
+              "||ARTH 187A",
+              "ARTH 190B"
+            ]
+          ]
+        },
+        {
+          "name": "Major Electives",
+          "options": [
+            [
+              "&&ARTH 150",
+              "ARTH 182A",
+              "ARTH 183D",
+              "ARTH 189B",
+              "ARTH 191B",
+              "ARTH 191C",
+              "ARTH 193A",
+              "ARTH 193B",
+              "ARTH 194A",
+              "ARTH 195"
+            ],
+            [
+              "&&ARTH 183A",
+              "ARTH 185",
+              "ARTH 187A",
+              "ARTH 187B",
+              "ARTH 187C",
+              "ARTH 189B"
+            ],
+            [
+              "&&ARTH 110",
+              "ARTH 126",
+              "ARTH 127",
+              "ARTH 160",
+              "ARTH 161",
+              "ARTH 162",
+              "ARTH 163",
+              "ARTH 176A",
+              "ARTH 190A",
+              "ARTH 190B",
+              "ARTH 190C",
+              "ARTH 190D",
+              "ARTH 191A",
+              "ARTH 192A",
+              "ARTH 192C"
+            ],
+            [
+              "&&ARTH 174A",
+              "ARTH 174B",
+              "ARTH 101"
+            ]
+          ]
+        },
+        {
+          "name": "Capstone Requirement",
+          "options": [
+            [
+              "||ARTH 199",
+              "ARTH 277"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course in each of four designated groups for Major Electives.",
+      "String: At least two additional courses must be selected from one of the four Major Elective groups.",
+      "String: One elective may be an art studio course."
+    ],
+    "recommendations": [
+      "ART 100W for GWAR"
+    ]
+  }
+}

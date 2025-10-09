@@ -1,0 +1,208 @@
+{
+"schema_purpose": "Define a standardized JSON structure for representing majors, requirements, and related course data to ensure consistency, machine readability, and predictability across all university programs.",
+"top_level_structure": {
+"major_name": "string (official program name, e.g., 'Computer Science, B.S.')",
+"total_units": "number (total required units, e.g., 120)",
+"university_requirements": "object (see section 3)",
+"major_requirements": "object (see section 4)",
+"field_requirements": "array (see section 5)",
+"notes": "array (see section 6)",
+"recommendations": "array (see section 7)"
+},
+"rules": {
+"major_name": {
+"type": "string",
+"description": "Official name from catalog",
+"rules": [
+"Use exact capitalization and punctuation",
+"Do not abbreviate or modify program titles"
+]
+},
+"total_units": {
+"type": "number",
+"description": "Total units required for the degree",
+"rules": ["Must be numeric", "No quotes or strings"]
+},
+"university_requirements": {
+"type": "object",
+"description": "Contains all university-level requirements",
+"structure": {
+"general_education": {
+"lower_division": "number",
+"upper_division": "number",
+"ge_overlap": "string"
+},
+"american_institutions": {
+"units": "string (range allowed, e.g., '0-6')",
+"overlap": "string"
+},
+"graduation_writing": {
+"units": "number",
+"recommendation": "string (course name)"
+},
+"physical_education": "number",
+"units_in_residence": "number",
+"upper_division_units": {
+"total": "number",
+"in_major": "number"
+}
+},
+"notes": [
+"Omit missing subsections entirely",
+"Maintain consistent nesting and key naming"
+]
+},
+"major_requirements": {
+"type": "object",
+"contains": ["lower_division", "optional_sequences", "upper_division"],
+"course_object_structure": {
+"course_id": "string (e.g., 'CS 46A')",
+"course_name": "string",
+"units": "number",
+"prerequisites": "array or string",
+"corequisites": "array or string",
+"ge_areas": "array of strings"
+},
+"rules": [
+"Include only applicable keys",
+"GE areas must use standardized naming: 'GE_AREA_X'"
+]
+},
+"optional_sequences": {
+"description": "Represents course choice or sequence options",
+"example": [
+["||HIST 1A", "HIST 1B"],
+["&&MATH 30", "MATH 31"]
+],
+"rules": [
+"Use '||' for OR (alternatives)",
+"Use '&&' for AND (both required)",
+"Each subarray represents one logical condition group"
+]
+},
+"field_requirements": {
+"type": "array",
+"structure": {
+"field_name": "string (e.g., 'World', 'United States')",
+"courses": "array of course IDs"
+},
+"rules": ["No embedded course objects, only IDs"]
+},
+"notes": {
+"type": "array of strings",
+"prefix": "Each entry must start with 'String:'",
+"example": [
+"String: Students must complete one course in each field.",
+"String: Two courses must be pre-1750."
+],
+"rules": ["Preserve punctuation and text exactly", "Omit empty arrays"]
+},
+"recommendations": {
+"type": "array of strings",
+"example": ["HIST 100W for GWAR"],
+"rules": ["Short and descriptive", "Exact course names or IDs only"]
+},
+"logical_encodings_and_special_tokens": {
+"and_or_rules": {
+"description": "Logical connections between courses",
+"examples": [
+["||MATH 30", "MATH 30X"],
+["&&PHYS 50", "MATH 31"]
+]
+},
+"non_course_prerequisites": {
+"type": "string",
+"format": "String: <requirement>",
+"example": "String: Demonstrated proficiency in C++ or Java."
+},
+"advanced_course_placeholder": {
+"example": [
+["&&ADV_COURSE1", "ADV_COURSE2", "ADV_COURSE3", "BUS2 130"]
+]
+},
+"standing_tokens": {
+"INSTRUCTOR_CONSENT": "allowed if the instructor consents",
+"UPPER_DIVISION_STANDING": "student must be upper division",
+"GRADUATE_STANDING": "student must be a graduate student"
+}
+},
+"ge_area_representation": {
+"rules": [
+"Prefix with 'GE_AREA_'",
+"For combos (e.g., GE + US123), join with underscore like 'GE_AREA_4_US123'",
+"All uppercase"
+]
+},
+"validation_checklist": {
+"checks": [
+"Valid JSON (no trailing commas or invalid types)",
+"Recommended field order: major_name, total_units, university_requirements, major_requirements, field_requirements, notes, recommendations",
+"No null values",
+"Consistent lowercase field names with underscores",
+"Exact course ID and name formatting",
+"Each JSON file is standalone"
+]
+}
+},
+"logical_grouping_examples": {
+"rule": "If two or more courses fulfill the same requirement (connected by 'or'), represent them as one logical group.",
+"correct_example": {
+"major_requirements": {
+"lower_division": [
+{
+"name": "Programming Introduction Requirement",
+"options": [
+["||CS 46A", "CS 46AX"]
+]
+}
+]
+}
+},
+"alternative_correct_example": {
+"optional_sequences": [
+{
+"name": "Intro to Programming Sequence",
+"options": [
+["||CS 46A", "CS 46AX"]
+]
+}
+]
+},
+"incorrect_example": [
+{
+"course_id": "CS 46A",
+"course_name": "Introduction to Programming",
+"units": 4
+},
+{
+"course_id": "CS 46AX",
+"course_name": "Introduction to Programming",
+"units": 4
+}
+],
+"explanation": "Listing them separately implies two separate requirements rather than alternatives."
+},
+"or_group_with_details": {
+"name": "Intro to Programming Requirement",
+"options": [
+{
+"group": ["||CS 46A", "CS 46AX"],
+"details": [
+{
+"course_id": "CS 46A",
+"course_name": "Introduction to Programming",
+"units": 4
+},
+{
+"course_id": "CS 46AX",
+"course_name": "Introduction to Programming",
+"units": 4
+}
+]
+}
+]
+},
+"parsing_implication": "By grouping alternative courses under ||, the recommendation engine can check completion of any one within that group instead of treating them as separate requirements.",
+"final_output_rule": "When generating, respond ONLY with raw JSON (no markdown, code blocks, or extra text). Output must be a valid JSON object.",
+"examples_notice": "All examples above are illustrative only — the generator must apply these formatting and logic rules to the entire dataset automatically for every course and major."
+}

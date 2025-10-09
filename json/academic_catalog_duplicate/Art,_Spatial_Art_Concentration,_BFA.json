@@ -1,0 +1,252 @@
+{
+  "output": {
+    "major_name": "Art, Spatial Art Concentration, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A, 3 units may be satisfied by major coursework: GE_UD_AREA_3"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_UD_AREA_3 or GE_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ART 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 12",
+          "course_name": "Two-Dimensional Design and Color Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 13",
+          "course_name": "Three-Dimensional Design Concepts",
+          "units": 3
+        },
+        {
+          "course_id": "ART 24",
+          "course_name": "Drawing I",
+          "units": 3
+        },
+        {
+          "course_id": "ART 46",
+          "course_name": "Introduction to Ceramics",
+          "units": 3
+        },
+        {
+          "course_id": "ART 68",
+          "course_name": "Beginning Sculpture: Object & Concept",
+          "units": 3
+        },
+        {
+          "course_id": "ART 74",
+          "course_name": "Introduction to Digital Media",
+          "units": 3
+        },
+        {
+          "course_id": "PHOT 40",
+          "course_name": "Beginning Photography",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Lower Division Art History",
+          "options": [
+            [
+              "||ARTH 70A",
+              "ARTH 70B",
+              "ARTH 70C"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ART 1",
+          "course_name": "Professional Preparation in Art",
+          "units": 1
+        },
+        {
+          "course_id": "ART 2",
+          "course_name": "The Artist in Contemporary Culture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 3",
+          "course_name": "Medium and Message",
+          "units": 3
+        },
+        {
+          "course_id": "ART 100W",
+          "course_name": "Writing Workshop: Fine Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "ARTH 193A",
+          "course_name": "Worlds of Art and Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ARTH 193B",
+          "course_name": "East Meets West in Art",
+          "units": 3,
+          "ge_areas": [
+            "GE_UD_AREA_3"
+          ]
+        },
+        {
+          "course_id": "ARTH 160",
+          "course_name": "Modern Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 161",
+          "course_name": "Contemporary Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 190C",
+          "course_name": "20th Century Art: from Dada to Pop",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 191A",
+          "course_name": "Issues in Contemporary Art",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 192A",
+          "course_name": "Modern Design",
+          "units": 3
+        },
+        {
+          "course_id": "ARTH 192C",
+          "course_name": "History of Interior Design",
+          "units": 3
+        },
+        {
+          "course_id": "ART 173",
+          "course_name": "Topics in Installation Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 47",
+          "course_name": "Introduction to Metalsmithing",
+          "units": 3
+        },
+        {
+          "course_id": "ART 133",
+          "course_name": "Topics in Ceramic Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 140",
+          "course_name": "Topics in Glass",
+          "units": 3
+        },
+        {
+          "course_id": "ART 168",
+          "course_name": "Topics in Woodworking",
+          "units": 3
+        },
+        {
+          "course_id": "ART 169",
+          "course_name": "Topics in Metal Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 170",
+          "course_name": "Topics in Fabricated Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 132",
+          "course_name": "Topics in Intermediate Ceramics",
+          "units": 3
+        },
+        {
+          "course_id": "ART 134",
+          "course_name": "Topics in Advanced Ceramics",
+          "units": 3
+        },
+        {
+          "course_id": "ART 135",
+          "course_name": "Topics in Moldmaking for Artists",
+          "units": 3
+        },
+        {
+          "course_id": "ART 137",
+          "course_name": "Figure Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "ART 141",
+          "course_name": "Topics in Advanced Glass",
+          "units": 3
+        },
+        {
+          "course_id": "ART 147",
+          "course_name": "Topics in Metalsmithing and Jewelry",
+          "units": 3
+        },
+        {
+          "course_id": "ART 149",
+          "course_name": "Topics in Jewelry and Small Sculpture",
+          "units": 3
+        },
+        {
+          "course_id": "ART 172",
+          "course_name": "Intermediate Sculpture: System/Structure",
+          "units": 3
+        },
+        {
+          "course_id": "ART 175",
+          "course_name": "Special Topics in Studio Art",
+          "units": 3
+        },
+        {
+          "course_id": "ART 180",
+          "course_name": "Individual Studies",
+          "units": 1
+        },
+        {
+          "course_id": "ART 198",
+          "course_name": "BFA Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "ART 199",
+          "course_name": "BFA Project",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Courses cannot be taken again if taken in another requirement area.",
+      "String: Complete two upper division courses from ART, ARTH, and/or PHOT. Courses cannot be taken again if taken in another requirement area."
+    ],
+    "recommendations": [
+      "ART 100W for GWAR"
+    ]
+  }
+}

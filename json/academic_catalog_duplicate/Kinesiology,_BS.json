@@ -1,0 +1,267 @@
+{
+  "output": {
+    "major_name": "Kinesiology, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "KIN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 65",
+          "course_name": "Human Anatomy",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 66",
+          "course_name": "Human Physiology",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "KIN 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "STAT 95",
+          "course_name": "Elementary Statistics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "KIN 66",
+          "course_name": "Thriving in Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 70",
+          "course_name": "Introduction to Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 155",
+          "course_name": "Exercise Physiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 158",
+          "course_name": "Biomechanics",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 175",
+          "course_name": "Measurement and Evaluation in Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 185",
+          "course_name": "Senior Seminar",
+          "units": 1
+        },
+        {
+          "course_id": "KIN 160",
+          "course_name": "History of Sport and Physical Education",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 161",
+          "course_name": "Philosophical Perspectives of Sport",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 164",
+          "course_name": "Sociocultural Perspectives",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 165",
+          "course_name": "Motor Development",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 166",
+          "course_name": "Motor Learning",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Exercise and Fitness Specialist",
+        "courses": [
+          "KIN 147",
+          "KIN 154B",
+          "KIN 157",
+          "KIN 162",
+          "KIN 187",
+          "KIN 198",
+          "KIN 151",
+          "KIN 152",
+          "KIN 153",
+          "KIN 167",
+          "KIN 168",
+          "KIN 176",
+          "KIN 145A",
+          "KIN 146",
+          "KIN 169",
+          "KIN 180",
+          "NUFS 8",
+          "NUFS 116",
+          "NUFS 123",
+          "PSYC 1",
+          "PSYC 110"
+        ]
+      },
+      {
+        "field_name": "Inclusive Physical Activity in Communities (IPAC)",
+        "courses": [
+          "EDSE 14A",
+          "KIN 107",
+          "KIN 108",
+          "KIN 153",
+          "KIN 156",
+          "KIN 159",
+          "KIN 174",
+          "KIN 187",
+          "KIN 167",
+          "KIN 168",
+          "KIN 176",
+          "KIN 198",
+          "ART 46",
+          "GERO 107",
+          "KIN 145A",
+          "KIN 146",
+          "KIN 162",
+          "KIN 169",
+          "KIN 180",
+          "NUFS 116",
+          "OCTH 190",
+          "PSYC 1",
+          "PSYC 110",
+          "STAT 95"
+        ]
+      },
+      {
+        "field_name": "Rehabilitation Science",
+        "courses": [
+          "CHEM 1A",
+          "CHEM 1B",
+          "PHYS 2A",
+          "PHYS 2B",
+          "KIN 147",
+          "KIN 157",
+          "KIN 198",
+          "KIN 165",
+          "KIN 166",
+          "KIN 176",
+          "KIN 187",
+          "BIOL 109",
+          "BIOL 129",
+          "PSYC 129",
+          "KIN 146",
+          "KIN 156",
+          "KIN 159",
+          "KIN 167",
+          "KIN 168",
+          "KIN 169",
+          "KIN 180",
+          "PSYC 1",
+          "PSYC 110",
+          "STAT 95"
+        ]
+      },
+      {
+        "field_name": "Sport Management and Culture",
+        "courses": [
+          "KIN 151",
+          "KIN 152",
+          "KIN 153",
+          "KIN 198",
+          "KIN 160",
+          "KIN 161",
+          "KIN 164",
+          "KIN 167",
+          "KIN 168",
+          "AAS 175",
+          "AFAM 155A",
+          "AFAM 155B",
+          "BUS3 160",
+          "CCS 130",
+          "KIN 111",
+          "KIN 146",
+          "KIN 169",
+          "KIN 176",
+          "PSYC 1",
+          "PSYC 154",
+          "SOCI 172",
+          "SOCI 175",
+          "WGSS 160"
+        ]
+      },
+      {
+        "field_name": "Individualized Studies",
+        "courses": [
+          "KIN 198"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must satisfy the specific degree requirements for their undergraduate major and fulfill University degree requirements.",
+      "String: Exceptions for University Graduation Requirements, including exemptions and waivers, are approved for specific majors and on a case-by-case evaluation only.",
+      "String: All specializations, except Sports Management and Culture, require both KIN 165 and KIN 166.",
+      "String: Physical Activity Courses: Four activity courses from at least four different movement areas (In addition to university graduation requirement).",
+      "String: Specializations are a cluster of courses used by departments for advising purposes. Specializations will not appear on transcripts or diplomas.",
+      "String: For IPAC specialization, SJSU Pre-OT students must have 4 of the 8 prerequisites completed before applying for either the Master of Science or OT Doctorate Program.",
+      "String: All SJSU OT prerequisite coursework must earn a B or better to count towards application to the program.",
+      "String: For Individualized Studies specialization, the program must be submitted at least 30 units prior to the student\u2019s anticipated graduation date."
+    ],
+    "recommendations": [
+      "STAT 95 and PSYC 1 are recommended for Exercise and Fitness Specialist specialization to fulfill GE areas B4 and D.",
+      "STAT 95 and PSYC 1 are recommended for Inclusive Physical Activity in Communities (IPAC) specialization to fulfill GE Area: 2 and GE Area: 4.",
+      "STAT 95 and PSYC 1 are recommended for Rehabilitation Science specialization to fulfill GE areas 2 and 4.",
+      "STAT 95 and PSYC 1 are recommended for Sport Management and Culture specialization to fulfill GE areas B4 and D."
+    ]
+  }
+}

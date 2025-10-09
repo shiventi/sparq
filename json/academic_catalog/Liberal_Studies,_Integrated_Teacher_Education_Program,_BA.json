@@ -1,0 +1,326 @@
+{
+  "output": {
+    "major_name": "Liberal Studies, Integrated Teacher Education Program, BA",
+    "total_units": 135,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_AREA_3_UD_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "CHAD 135",
+          "course_name": "Development of Language & Literacy in Children",
+          "units": 3
+        },
+        {
+          "course_id": "EDEL 108A",
+          "course_name": "Curriculum: Reading/Language Arts",
+          "units": 3
+        },
+        {
+          "course_id": "EDTE 262",
+          "course_name": "Classroom Issues in the Language/Literacy Development of L2 Learners",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 1A",
+          "course_name": "First Year Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1A"
+          ]
+        },
+        {
+          "course_id": "ENGL 2",
+          "course_name": "Critical Thinking and Writing",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "LSTP 10",
+          "course_name": "Chronicles of Education",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3B"
+          ]
+        },
+        {
+          "course_id": "LSTP 139",
+          "course_name": "Education and (In)Equality",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_4"
+          ]
+        },
+        {
+          "course_id": "SOCS 137",
+          "course_name": "California History for Teachers",
+          "units": 3
+        },
+        {
+          "course_id": "SOCS 139",
+          "course_name": "World History for Teachers",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_3"
+          ]
+        },
+        {
+          "course_id": "MATH 12",
+          "course_name": "Number Systems",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 105",
+          "course_name": "Concepts in Mathematics, Probability, Statistics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 106",
+          "course_name": "Intuitive Geometry",
+          "units": 3
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "ENVS 10",
+          "course_name": "Life on a Changing Planet",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5B"
+          ]
+        },
+        {
+          "course_id": "ENVS 158",
+          "course_name": "Environmental Education",
+          "units": 3
+        },
+        {
+          "course_id": "GEOL 103",
+          "course_name": "Earth Systems and the Environment",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD_2_5"
+          ]
+        },
+        {
+          "course_id": "PHYS 1",
+          "course_name": "Elementary Physics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_5A"
+          ]
+        },
+        {
+          "course_id": "CA 177",
+          "course_name": "Interdisciplinary Arts for Teaching",
+          "units": 3
+        },
+        {
+          "course_id": "MUSC 10B",
+          "course_name": "Introduction to Music",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "CHAD 149",
+          "course_name": "Child Health and Activity",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 100W",
+          "course_name": "Writing in the Humanities & Interdisciplinary Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        },
+        {
+          "course_id": "LSTP 85",
+          "course_name": "Fieldwork in the Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "LSTP 185",
+          "course_name": "Field Experience in Humanities",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "American Institutions Sequence",
+          "options": [
+            {
+              "group": [
+                "||AAS 33A",
+                "AAS 33B"
+              ],
+              "details": [
+                {
+                  "course_id": "AAS 33A",
+                  "course_name": "Asian Americans in U.S. History I",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "AAS 33B",
+                  "course_name": "Asian Americans in U.S. History II",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4_US123"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||CCS 10A",
+                "CCS 10B"
+              ],
+              "details": [
+                {
+                  "course_id": "CCS 10A",
+                  "course_name": "Mexican Americans and the Development of U.S. History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4"
+                  ]
+                },
+                {
+                  "course_id": "CCS 10B",
+                  "course_name": "Mexican Americans and the Development of U.S. History and Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4_US123"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||HIST 15",
+                "POLS 15"
+              ],
+              "details": [
+                {
+                  "course_id": "HIST 15",
+                  "course_name": "Essentials of U.S. History",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4_US1"
+                  ]
+                },
+                {
+                  "course_id": "POLS 15",
+                  "course_name": "Essentials of U.S. & California Government",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4_US23"
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                "||AMS 10",
+                "AMS 11"
+              ],
+              "details": [
+                {
+                  "course_id": "AMS 10",
+                  "course_name": "Stories that Make America",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3B_US1"
+                  ]
+                },
+                {
+                  "course_id": "AMS 11",
+                  "course_name": "Visions of Democracy",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_4_US23"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human Development Requirement",
+          "options": [
+            [
+              "||CHAD 60",
+              "CHAD 70"
+            ]
+          ]
+        },
+        {
+          "name": "Visual and Performing Arts Requirement",
+          "options": [
+            [
+              "||ART 138",
+              "ART 139"
+            ],
+            [
+              "||CA 70",
+              "CA 75"
+            ],
+            [
+              "||DANC 148",
+              "MUSC 185A"
+            ],
+            [
+              "||TA 131",
+              "TA 167"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: All courses required for the credential must be completed with a grade of C or higher, unless otherwise noted.",
+      "String: The cumulative GPA for all credential courses must be 3.0 or higher.",
+      "String: All freshmen and transfer students enter as Liberal Studies Teacher Preparation majors.",
+      "String: Students apply for the ITEP in the first semester of their junior year.",
+      "String: Applicants must meet credential program standards and undergo screening for admission."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

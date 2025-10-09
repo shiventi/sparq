@@ -1,0 +1,209 @@
+{
+  "output": {
+    "major_name": "Aviation, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "9 units may be satisfied by major coursework: GE_AREA_2, GE_AREA_5A, GE_AREA_5C, GE_AREA_UD2or5, GE_AREA_UD3, GE_AREA_UD4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "ENGR 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BUS1 20",
+          "course_name": "Financial Accounting",
+          "units": 3
+        },
+        {
+          "course_id": "BUS2 90",
+          "course_name": "Business Statistics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 71",
+          "course_name": "Calculus for Business and Aviation",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Physics Sequence",
+          "options": [
+            [
+              "||PHYS 2A",
+              "PHYS 2B"
+            ],
+            [
+              "||PHYS 50",
+              "PHYS 51"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "AVIA 78",
+          "course_name": "Introduction to Aviation Management",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 128",
+          "course_name": "Aviation Safety and Security",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 141",
+          "course_name": "Human Factors in Aviation",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 173",
+          "course_name": "Aviation Law",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 176",
+          "course_name": "Airline Operations and Management",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 190",
+          "course_name": "Senior Capstone Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "AVIA 198",
+          "course_name": "Aviation and Human Civilization",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "BUS3 186",
+          "course_name": "Professional and Business Ethics",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "ENGR 100W",
+          "course_name": "Engineering Reports",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID",
+            "GE_AREA_UD2or5"
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Flight Operations",
+        "courses": [
+          "AVIA 1",
+          "AVIA 31",
+          "AVIA 42",
+          "AVIA 43",
+          "AVIA 50",
+          "AVIA 68",
+          "AVIA 73",
+          "AVIA 91",
+          "AVIA 177",
+          "AVIA 178",
+          "AVIA 179",
+          "AVIA 193",
+          "AVIA 194"
+        ]
+      },
+      {
+        "field_name": "Professional Flight",
+        "courses": [
+          "AVIA 1",
+          "AVIA 2",
+          "AVIA 3",
+          "AVIA 31",
+          "AVIA 42",
+          "AVIA 43",
+          "AVIA 50",
+          "AVIA 62",
+          "AVIA 63",
+          "AVIA 68",
+          "AVIA 73",
+          "AVIA 91",
+          "AVIA 112",
+          "AVIA 113",
+          "AVIA 114",
+          "AVIA 193",
+          "AVIA 194"
+        ]
+      },
+      {
+        "field_name": "Aviation Management",
+        "courses": [
+          "AVIA 1",
+          "AVIA 31",
+          "AVIA 42",
+          "AVIA 43",
+          "AVIA 50",
+          "AVIA 68",
+          "AVIA 73",
+          "AVIA 177",
+          "AVIA 178",
+          "AVIA 179",
+          "BUS1 170",
+          "BUS5 146",
+          "ECON 1B"
+        ]
+      },
+      {
+        "field_name": "Minor in Business",
+        "courses": [
+          "BUS3 160",
+          "BUS3 150",
+          "BUS5 141",
+          "BUS5 145",
+          "BUS5 167",
+          "BUS5 181"
+        ]
+      },
+      {
+        "field_name": "Maintenance Management",
+        "courses": [
+          "BUS5 141",
+          "ECON 1B",
+          "ISE 155",
+          "TECH 145"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each field.",
+      "String: The Professional Flight option requires FAA pilot ratings and additional flight training costs not included in tuition.",
+      "String: Maintenance Management option requires completion of an AS-level FAA-approved maintenance program at an accredited community college prior to upper division coursework."
+    ],
+    "recommendations": [
+      "ENGR 100W for GWAR"
+    ]
+  }
+}

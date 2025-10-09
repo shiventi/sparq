@@ -1,0 +1,236 @@
+{
+  "output": {
+    "major_name": "Data Science, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "CS 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "MATH 30",
+          "course_name": "Calculus I",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 31",
+          "course_name": "Calculus II",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_2"
+          ]
+        },
+        {
+          "course_id": "MATH 39",
+          "course_name": "Linear Algebra I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 42",
+          "course_name": "Discrete Mathematics",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 161A",
+          "course_name": "Applied Probability and Statistics I",
+          "units": 3
+        },
+        {
+          "course_id": "MATH 167R",
+          "course_name": "Statistical Programming with R",
+          "units": 3
+        },
+        {
+          "course_id": "CS 100W",
+          "course_name": "Technical Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3"
+          ]
+        },
+        {
+          "course_id": "PHIL 133",
+          "course_name": "Ethics in Science",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3"
+          ]
+        },
+        {
+          "name": "Intro to Programming Requirement",
+          "options": [
+            {
+              "group": [
+                "||CS 46A",
+                "CS 46AX"
+              ],
+              "details": [
+                {
+                  "course_id": "CS 46A",
+                  "course_name": "Introduction to Programming",
+                  "units": 4
+                },
+                {
+                  "course_id": "CS 46AX",
+                  "course_name": "Introduction to Programming",
+                  "units": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "CS 46B",
+          "course_name": "Introduction to Data Structures",
+          "units": 4
+        }
+      ],
+      "upper_division": [
+        {
+          "name": "Core Major Requirements",
+          "options": [
+            {
+              "group": [
+                "||CS 22A",
+                "CS 122"
+              ],
+              "details": [
+                {
+                  "course_id": "CS 22A",
+                  "course_name": "Python for Everyone",
+                  "units": 3,
+                  "prerequisites": "String: Requires prior department approval."
+                },
+                {
+                  "course_id": "CS 122",
+                  "course_name": "Advanced Programming with Python",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "CS 131",
+          "course_name": "Processing Big Data - Tools and Techniques",
+          "units": 3
+        },
+        {
+          "course_id": "CS 133",
+          "course_name": "Introduction to Data Visualization",
+          "units": 3
+        },
+        {
+          "course_id": "CS 146",
+          "course_name": "Data Structures and Algorithms",
+          "units": 3
+        },
+        {
+          "course_id": "CS 156",
+          "course_name": "Introduction to Artificial Intelligence",
+          "units": 3
+        },
+        {
+          "course_id": "CS 157A",
+          "course_name": "Introduction to Database Management Systems",
+          "units": 3
+        },
+        {
+          "course_id": "CS 163",
+          "course_name": "Data Science Senior Project",
+          "units": 3
+        },
+        {
+          "course_id": "CS 171",
+          "course_name": "Introduction to Machine Learning",
+          "units": 3
+        }
+      ],
+      "major_electives": [
+        {
+          "name": "Major Elective Options",
+          "options": [
+            [
+              "||CS 22B",
+              "CS 47",
+              "CS 48",
+              "CS 49J",
+              "CS 85A",
+              "CS 116A",
+              "CS 122",
+              "CS 123A",
+              "CS 123B",
+              "CS 136",
+              "CS 151",
+              "CS 155",
+              "CS 157B",
+              "CS 157C",
+              "CS 158A",
+              "CS 166",
+              "CS 176"
+            ],
+            [
+              "||CS 180",
+              "CS 180H"
+            ],
+            [
+              "||CS 185C"
+            ],
+            [
+              "||CS 190",
+              "CS 190I"
+            ],
+            [
+              "||MATH 32",
+              "MATH 161B",
+              "MATH 161C",
+              "MATH 163",
+              "MATH 164"
+            ],
+            [
+              "||SSCI 101"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Domain Field Electives",
+        "courses": [
+          "String: Complete 9 units of major requirement courses of one particular major program (excluding BS - Computer Science, BS - Software Engineering, and BS - Information Science and Data Analytics) to gain domain expertise; requires prior department approval."
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must satisfy the specific degree requirements for their undergraduate major and fulfill University degree requirements.",
+      "String: Academic program total units with an average 2.0 GPA - 'C' or better.",
+      "String: 6 required units of American Institutions/US123 may be satisfied by selecting applicable GE courses in Areas 3B and/or 4.",
+      "String: 3 units may be satisfied by major coursework in Lower Division GE Area 2.",
+      "String: 3 units may be satisfied by major coursework in Upper Division GE Area 3."
+    ],
+    "recommendations": [
+      "CS 100W for GWAR"
+    ]
+  }
+}

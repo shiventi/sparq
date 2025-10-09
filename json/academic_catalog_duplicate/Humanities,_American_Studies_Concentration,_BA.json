@@ -1,0 +1,232 @@
+{
+  "output": {
+    "major_name": "Humanities, American Studies Concentration, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_1B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "HUM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Recommended Major Preparation",
+          "options": [
+            [
+              "||AMS 10",
+              "AMS 11",
+              "AMS 12"
+            ],
+            [
+              "||HUM 10",
+              "HUM 11",
+              "HUM 20",
+              "HUM 21"
+            ],
+            [
+              "||HIST 10A",
+              "HIST 10B"
+            ],
+            [
+              "||HIST 1A",
+              "HIST 1B"
+            ]
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "HUM 80",
+          "course_name": "Reading the World",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "HUM 95",
+          "course_name": "Introduction to Digital Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 101",
+          "course_name": "Introduction to Critical Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 160",
+          "course_name": "Special Topics in Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 190",
+          "course_name": "Senior Seminar in Humanities",
+          "units": 3
+        },
+        {
+          "course_id": "AMS 129",
+          "course_name": "The U.S. in a Global Context",
+          "units": 3
+        },
+        {
+          "course_id": "AMS 159",
+          "course_name": "Nature and World Cultures",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "CA 173",
+          "course_name": "Thinking About Contemporary World Arts",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "HUM 119",
+          "course_name": "Myths, Heroes, and Global Cultures before 1500 CE",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 128",
+          "course_name": "Global Humanities in the Modern Era",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "RELS 120",
+          "course_name": "Censors and Icons: Arts and Religion",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Values and Ideas",
+        "courses": [
+          "AAS 185",
+          "JS 132",
+          "HIST 173",
+          "PHIL 112",
+          "POLS 121C",
+          "POLS 163",
+          "RELS 162",
+          "RELS 191"
+        ]
+      },
+      {
+        "field_name": "Arts & Popular Culture",
+        "courses": [
+          "AFAM 102",
+          "AFAM 161",
+          "ARTH 182A",
+          "COMM 169I",
+          "ENGL 162",
+          "ENGL 163",
+          "ENGL 168",
+          "MUSC 120",
+          "TA 103"
+        ]
+      },
+      {
+        "field_name": "Economics, History, Politics and Society",
+        "courses": [
+          "AFAM 159",
+          "ENVS 135",
+          "GEOG 140",
+          "HIST 173",
+          "HIST 174",
+          "HIST 175",
+          "HIST 176",
+          "HIST 177",
+          "HIST 178",
+          "HIST 179",
+          "HIST 181",
+          "POLS 154"
+        ]
+      },
+      {
+        "field_name": "Gender, Family and Sexuality",
+        "courses": [
+          "AFAM 125",
+          "AFAM 152",
+          "HIST 188",
+          "LING 129",
+          "CCS 160",
+          "SOCI 172",
+          "WGSS 160"
+        ]
+      },
+      {
+        "field_name": "Race, Ethnicity and Immigration",
+        "courses": [
+          "AAS 125",
+          "AAS 175",
+          "AFAM 112",
+          "ANTH 164",
+          "COMM 172F",
+          "ENGL 165",
+          "ENGL 169",
+          "CCS 130",
+          "CCS 175",
+          "SOCI 160",
+          "SOCI 162"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each field.",
+      "String: The Department highly recommends majors complete one year of college level foreign language or equivalent related to chosen area (0-10 units)."
+    ],
+    "recommendations": [
+      "HUM 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "output": {
+    "major_name": "Communication Studies, BA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4_UD_3_UD_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "COMM 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "COMM 10",
+          "course_name": "Communication and Human Relationships",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "COMM 20",
+          "course_name": "Public Speaking",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1C"
+          ]
+        },
+        {
+          "course_id": "COMM 20EL",
+          "course_name": "Public Speaking for English Language Learners",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1C"
+          ]
+        },
+        {
+          "course_id": "COMM 21",
+          "course_name": "Performing Culture and Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "COMM 40",
+          "course_name": "Argumentation and Advocacy",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1C"
+          ]
+        },
+        {
+          "course_id": "COMM 41",
+          "course_name": "Critical Decision Making",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "COMM 45",
+          "course_name": "Media and Culture",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "COMM 74",
+          "course_name": "Intercultural Communication and Critical Thinking",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_1B"
+          ]
+        },
+        {
+          "course_id": "COMM 74Q",
+          "course_name": "Fundamentals of Intercultural Communication",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "COMM 101C",
+          "course_name": "Junior Seminar: Theorizing Communication",
+          "units": 4
+        },
+        {
+          "course_id": "COMM 198",
+          "course_name": "Applied Activity in Communication",
+          "units": 2
+        },
+        {
+          "course_id": "COMM 199C",
+          "course_name": "Senior Seminar: Synthesis & Application",
+          "units": 4
+        },
+        {
+          "course_id": "COMM 100W",
+          "course_name": "Writing Workshop: Writing for Influence",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "COMM 157SL",
+          "course_name": "Community Action/Community Service",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "COMM 168A",
+          "course_name": "Climate Action and Leadership I",
+          "units": 6
+        },
+        {
+          "course_id": "COMM 168B",
+          "course_name": "Climate Action and Leadership II",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_2",
+            "GE_AREA_5"
+          ]
+        },
+        {
+          "course_id": "COMM 174",
+          "course_name": "Intercultural Comm and Structural Inequalities",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_4"
+          ]
+        },
+        {
+          "course_id": "COMM 179",
+          "course_name": "Global Media and Resistance",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3"
+          ]
+        }
+      ],
+      "optional_sequences": [
+        {
+          "name": "Foundations Courses",
+          "options": [
+            [
+              "||COMM 110F",
+              "COMM 117F",
+              "COMM 122F",
+              "COMM 126F",
+              "COMM 130F",
+              "COMM 132F",
+              "COMM 133F",
+              "COMM 144F",
+              "COMM 146F",
+              "COMM 149F",
+              "COMM 160F",
+              "COMM 161F",
+              "COMM 164F",
+              "COMM 170F",
+              "COMM 172F",
+              "COMM 173F",
+              "COMM 175F",
+              "COMM 178F",
+              "COMM 181F",
+              "COMM 185F"
+            ]
+          ]
+        },
+        {
+          "name": "Inquiry Courses",
+          "options": [
+            [
+              "||COMM 119I",
+              "COMM 123I",
+              "COMM 145I",
+              "COMM 150I",
+              "COMM 151I",
+              "COMM 152I",
+              "COMM 153I",
+              "COMM 154I",
+              "COMM 155I",
+              "COMM 156I",
+              "COMM 169I",
+              "COMM 186I"
+            ]
+          ]
+        },
+        {
+          "name": "Practice Courses",
+          "options": [
+            [
+              "||COMM 105P",
+              "COMM 111P",
+              "COMM 113P",
+              "COMM 114P",
+              "COMM 115P",
+              "COMM 116P",
+              "COMM 120P",
+              "COMM 121P",
+              "COMM 124P",
+              "COMM 125P",
+              "COMM 131P",
+              "COMM 140P",
+              "COMM 141P",
+              "COMM 147P",
+              "COMM 165P",
+              "COMM 176P",
+              "COMM 182P",
+              "COMM 187P"
+            ]
+          ]
+        },
+        {
+          "name": "Additional Major Courses",
+          "options": [
+            [
+              "||COMM 110F",
+              "COMM 117F",
+              "COMM 122F",
+              "COMM 126F",
+              "COMM 130F",
+              "COMM 132F",
+              "COMM 133F",
+              "COMM 144F",
+              "COMM 146F",
+              "COMM 149F",
+              "COMM 160F",
+              "COMM 161F",
+              "COMM 164F",
+              "COMM 170F",
+              "COMM 172F",
+              "COMM 173F",
+              "COMM 175F",
+              "COMM 178F",
+              "COMM 181F",
+              "COMM 185F",
+              "COMM 119I",
+              "COMM 123I",
+              "COMM 145I",
+              "COMM 150I",
+              "COMM 151I",
+              "COMM 152I",
+              "COMM 153I",
+              "COMM 154I",
+              "COMM 155I",
+              "COMM 156I",
+              "COMM 169I",
+              "COMM 186I",
+              "COMM 105P",
+              "COMM 111P",
+              "COMM 113P",
+              "COMM 114P",
+              "COMM 115P",
+              "COMM 116P",
+              "COMM 120P",
+              "COMM 121P",
+              "COMM 124P",
+              "COMM 125P",
+              "COMM 131P",
+              "COMM 140P",
+              "COMM 141P",
+              "COMM 147P",
+              "COMM 165P",
+              "COMM 176P",
+              "COMM 182P",
+              "COMM 187P",
+              "COMM 10",
+              "COMM 20",
+              "COMM 20EL",
+              "COMM 21",
+              "COMM 40",
+              "COMM 41",
+              "COMM 45",
+              "COMM 74",
+              "COMM 74Q"
+            ]
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: For the BA in Communication Studies only 6 units of CR/NC coursework will be accepted.",
+      "String: COMM 198, a required course, counts as 2 units of CR/NC coursework.",
+      "String: Up to 6 units of SJSU Studies COMM Courses may count toward the major. Must take both COMM 168A and COMM 168B to satisfy the SJSU Studies requirement.",
+      "String: Up to 4 units of variable unit courses may count toward the major.",
+      "String: No more than 1 unit of COMM 80 and COMM 91J may count toward the major.",
+      "String: No more than 3 units of Individual Studies, Directed Reading, or Forensics may count toward the major."
+    ],
+    "recommendations": [
+      "COMM 100W for GWAR"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "output": {
+    "major_name": "Kinesiology, Preparation for Teaching, BS",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "10 units may be satisfied by major coursework: GE_AREA_5A, GE_AREA_5B, GE_AREA_5C, GE_AREA_2"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE_AREA_3B or GE_AREA_4 or GE_AREA_UD3 or GE_AREA_UD4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "KIN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "BIOL 65",
+          "course_name": "Human Anatomy",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "BIOL 66",
+          "course_name": "Human Physiology",
+          "units": 5,
+          "ge_areas": [
+            "GE_AREA_5B",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "CHEM 30A",
+          "course_name": "Introductory Chemistry",
+          "units": 4,
+          "ge_areas": [
+            "GE_AREA_5A",
+            "GE_AREA_5C"
+          ]
+        },
+        {
+          "course_id": "KIN 100W",
+          "course_name": "Writing Workshop",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_WID"
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "KIN 66",
+          "course_name": "Thriving in Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 70",
+          "course_name": "Introduction to Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 155",
+          "course_name": "Exercise Physiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 158",
+          "course_name": "Biomechanics",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 175",
+          "course_name": "Measurement and Evaluation in Kinesiology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 185",
+          "course_name": "Senior Seminar",
+          "units": 1
+        },
+        {
+          "course_id": "KIN 160",
+          "course_name": "History of Sport and Physical Education",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 161",
+          "course_name": "Philosophical Perspectives of Sport",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 164",
+          "course_name": "Sociocultural Perspectives",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 165",
+          "course_name": "Motor Development",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 166",
+          "course_name": "Motor Learning",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 105",
+          "course_name": "Water Safety Instructor\u2019s Course",
+          "units": 2
+        },
+        {
+          "course_id": "KIN 107",
+          "course_name": "Adapted Aquatics",
+          "units": 2
+        },
+        {
+          "course_id": "KIN 108",
+          "course_name": "Adapted Physical Activity for Young Adults with Disabilities",
+          "units": 2
+        },
+        {
+          "course_id": "KIN 156",
+          "course_name": "Introduction to Adapted Physical Activity",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 159",
+          "course_name": "Sport and Adapted Activities",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 172",
+          "course_name": "Elementary School Programs, K-6",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 173",
+          "course_name": "Introduction to Teaching Physical Education and Non-Traditional Sports",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 174",
+          "course_name": "Assessment of Psychomotor Function",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 178",
+          "course_name": "Management Practices for Physical Education Teachers",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 179",
+          "course_name": "Design and Assessment of Movement Experiences",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 167",
+          "course_name": "Sports Psychology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 168",
+          "course_name": "Psychology of Coaching",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 176",
+          "course_name": "Exercise Psychology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 111",
+          "course_name": "Sport & Movement in a Global Context",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD3"
+          ]
+        },
+        {
+          "course_id": "KIN 146",
+          "course_name": "Introduction to Exercise Technology",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 151",
+          "course_name": "Sports and Fitness Marketing",
+          "units": 3
+        },
+        {
+          "course_id": "KIN 163",
+          "course_name": "Science of Physical Fitness and Nutrition",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD2",
+            "GE_AREA_UD5"
+          ]
+        },
+        {
+          "course_id": "KIN 169",
+          "course_name": "Diversity, Stress and Health",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_UD4"
+          ]
+        },
+        {
+          "course_id": "KIN 180",
+          "course_name": "Independent Study",
+          "units": "1-6"
+        },
+        {
+          "course_id": "KNED 339",
+          "course_name": "Instructional Materials and Procedures in Physical Education",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: BIOL 65O may also be used to meet the Human Anatomy requirement. This course does not include a human cadaver lab.",
+      "String: KIN 105 has an age requirement, minimum of 18 years.",
+      "String: KIN 172 is offered spring only.",
+      "String: KIN 173 is offered fall only.",
+      "String: KIN 178 is offered fall only.",
+      "String: KIN 179 is offered spring only.",
+      "String: KIN 151 is offered fall only.",
+      "String: Complete four activity courses from at least four different movement areas in addition to university graduation requirements.",
+      "String: Complete one course from KIN 160, KIN 161, or KIN 164.",
+      "String: Complete one course from KIN 165 or KIN 166.",
+      "String: Complete the motor course not taken in Major Core Courses (either KIN 165 or KIN 166).",
+      "String: Complete one psychology course from KIN 167, KIN 168, or KIN 176.",
+      "String: Complete 3 units in consultation with Department Advisor for the Guided Elective requirement."
+    ],
+    "recommendations": [
+      "KIN 100W for GWAR"
+    ]
+  }
+}

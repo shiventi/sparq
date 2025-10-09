@@ -1,0 +1,299 @@
+{
+  "output": {
+    "major_name": "Interior Design, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "GE_AREA_3A_GE_AREA_1B"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "GE_AREA_3B_GE_AREA_4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 2,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 18
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ARTH 72",
+          "course_name": "Design in Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "DSGN 100W",
+          "course_name": "Writing Workshop: Design",
+          "units": 3,
+          "ge_areas": [
+            "WID"
+          ]
+        },
+        {
+          "course_id": "DSIT 10",
+          "course_name": "Sketching, Drawing + Modeling",
+          "units": 3
+        },
+        {
+          "name": "Art History Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 70A",
+                "ARTH 70B",
+                "ARTH 70C"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 70A",
+                  "course_name": "Art History, Prehistoric to Medieval",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "ARTH 70B",
+                  "course_name": "Art History, Renaissance to Modern",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                },
+                {
+                  "course_id": "ARTH 70C",
+                  "course_name": "Arts of Asia",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_3A"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "course_id": "DSIT 5",
+          "course_name": "Introduction of Interior Design and Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 29",
+          "course_name": "Design Process",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 33",
+          "course_name": "Architectural Presentation",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 34",
+          "course_name": "Interior Architecture Foundation Studio",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 83",
+          "course_name": "Visual Communication I",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 102",
+          "course_name": "Computer Graphics for Interior Architecture",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 103",
+          "course_name": "Interior Architecture Conceptual Design Studio",
+          "units": 3
+        },
+        {
+          "name": "Critical Thinking Requirement",
+          "options": [
+            {
+              "group": [
+                "||ENVS 1",
+                "PHIL 57"
+              ],
+              "details": [
+                {
+                  "course_id": "ENVS 1",
+                  "course_name": "Introduction to Environmental Issues",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_1B"
+                  ]
+                },
+                {
+                  "course_id": "PHIL 57",
+                  "course_name": "Logic and Critical Reasoning",
+                  "units": 3,
+                  "ge_areas": [
+                    "GE_AREA_1B"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "DSIT 100",
+          "course_name": "Building Codes",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 101",
+          "course_name": "Architectural Systems and Materials + Adv Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 104",
+          "course_name": "Interior Architecture Space Planning Studio",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 105",
+          "course_name": "Interior Architecture Advanced Design Studio",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 106",
+          "course_name": "Architectural Project Materials",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 110",
+          "course_name": "Capstone Thesis Studio",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 111",
+          "course_name": "Interior Architecture Seminar",
+          "units": 3
+        },
+        {
+          "course_id": "DSIT 112",
+          "course_name": "Professional Practice of Interior Archit",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 127",
+          "course_name": "Internship",
+          "units": 4
+        },
+        {
+          "name": "Modern or Contemporary Architecture Requirement",
+          "options": [
+            {
+              "group": [
+                "||ARTH 160",
+                "ARTH 161"
+              ],
+              "details": [
+                {
+                  "course_id": "ARTH 160",
+                  "course_name": "Modern Architecture",
+                  "units": 3
+                },
+                {
+                  "course_id": "ARTH 161",
+                  "course_name": "Contemporary Architecture",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Two Courses From Elective Options",
+          "options": [
+            {
+              "group": [
+                "||ART 168",
+                "ART 173",
+                "DSIT 107",
+                "DSIT 108"
+              ],
+              "details": [
+                {
+                  "course_id": "ART 168",
+                  "course_name": "Topics in Woodworking",
+                  "units": 3
+                },
+                {
+                  "course_id": "ART 173",
+                  "course_name": "Topics in Installation Art",
+                  "units": 3
+                },
+                {
+                  "course_id": "DSIT 107",
+                  "course_name": "Furniture Design",
+                  "units": 3
+                },
+                {
+                  "course_id": "DSIT 108",
+                  "course_name": "Architectural Lighting Design",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Object Design Requirement",
+          "options": [
+            {
+              "group": [
+                "||ART 147",
+                "ART 193",
+                "DSIT 109"
+              ],
+              "details": [
+                {
+                  "course_id": "ART 147",
+                  "course_name": "Topics in Metalsmithing and Jewelry",
+                  "units": 3
+                },
+                {
+                  "course_id": "ART 193",
+                  "course_name": "Digital Materials",
+                  "units": 3
+                },
+                {
+                  "course_id": "DSIT 109",
+                  "course_name": "Object Design for Interiors",
+                  "units": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "field_requirements": [],
+    "notes": [
+      "String: Students must complete one course from the College of Humanities & the Arts Lower Division requirement (44HA courses).",
+      "String: Students must complete one upper division course from the College of Humanities & the Arts in a discipline other than their major.",
+      "String: Internship requires 4 units.",
+      "String: Two courses must be selected from the list of woodworking, installation art, furniture design, or lighting design options.",
+      "String: One course must be selected from metalsmithing, digital materials, or object design for interiors."
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}

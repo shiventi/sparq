@@ -1,0 +1,259 @@
+{
+  "output": {
+    "major_name": "Animation & Illustration, BFA",
+    "total_units": 120,
+    "university_requirements": {
+      "general_education": {
+        "lower_division": 34,
+        "upper_division": 9,
+        "ge_overlap": "3 units may be satisfied by major coursework: GE_AREA_3A"
+      },
+      "american_institutions": {
+        "units": "0-6",
+        "overlap": "may be satisfied in GE Areas 3B, 4, UD 3, UD 4"
+      },
+      "graduation_writing": {
+        "units": 3,
+        "recommendation": "DSGN 100W"
+      },
+      "physical_education": 0,
+      "units_in_residence": 30,
+      "upper_division_units": {
+        "total": 40,
+        "in_major": 12
+      }
+    },
+    "major_requirements": {
+      "lower_division": [
+        {
+          "course_id": "ART 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "DSGN 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ENGL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "HUM 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "PHIL 44HA",
+          "course_name": "Design Your Life, Design Your Semester, Design Your World",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 11",
+          "course_name": "Illustration Fundamentals I",
+          "units": 3
+        },
+        {
+          "course_id": "TA 5",
+          "course_name": "Beginning Acting",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 72",
+          "course_name": "Design in Society",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70A",
+          "course_name": "Art History, Prehistoric to Medieval",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70B",
+          "course_name": "Art History, Renaissance to Modern",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ARTH 70C",
+          "course_name": "Arts of Asia",
+          "units": 3,
+          "ge_areas": [
+            "GE_AREA_3A"
+          ]
+        },
+        {
+          "course_id": "ANI 10",
+          "course_name": "Light and Optics",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 13",
+          "course_name": "Drawing for Animation/Illustration I",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 15",
+          "course_name": "Visual Storytelling",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 21",
+          "course_name": "Color Principles for Screen Arts",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 31",
+          "course_name": "2D Animation I",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 41",
+          "course_name": "Introduction to 3D Modeling",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 61",
+          "course_name": "Introduction to 3D Animation",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 71",
+          "course_name": "Visual Principles",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 16",
+          "course_name": "Drawing for Animation/Illustration II",
+          "units": 3
+        }
+      ],
+      "upper_division": [
+        {
+          "course_id": "ANI 22",
+          "course_name": "Illustration Fundamentals II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 23",
+          "course_name": "Illustration Fundamentals III",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 32",
+          "course_name": "2D Animation II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 132",
+          "course_name": "2D Animation III",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 133",
+          "course_name": "Animation Production - Storyboarding",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 161",
+          "course_name": "Digital Animation I",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 162",
+          "course_name": "Digital Animation II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 134",
+          "course_name": "Animation Production - Storyboarding II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 175",
+          "course_name": "Professional Practices in Entertainment Design",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 123",
+          "course_name": "Visual Development I",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 141",
+          "course_name": "Digital Modeling I",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 124",
+          "course_name": "Visual Development II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 179",
+          "course_name": "Special Topics in Animation/Illustration",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 142",
+          "course_name": "Digital Modeling II",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 198",
+          "course_name": "Senior Seminar Animation/Illustration",
+          "units": 3
+        },
+        {
+          "course_id": "ANI 199",
+          "course_name": "Senior Project Animation/Illustration",
+          "units": 3
+        }
+      ]
+    },
+    "field_requirements": [
+      {
+        "field_name": "Animation and Story",
+        "courses": [
+          "ANI 133",
+          "ANI 161",
+          "ANI 162",
+          "ANI 134",
+          "ANI 175"
+        ]
+      },
+      {
+        "field_name": "Visual Development and Modeling",
+        "courses": [
+          "ANI 123",
+          "ANI 141",
+          "ANI 124",
+          "ANI 179",
+          "ANI 142",
+          "ANI 175"
+        ]
+      }
+    ],
+    "notes": [
+      "String: Students must complete at least one course from each specialization area.",
+      "String: Specializations are a cluster of courses used by departments for advising purposes. Specializations will not appear on transcripts or diplomas.",
+      "String: Please see advisor for more details about specialization requirements."
+    ],
+    "recommendations": [
+      "DSGN 100W for GWAR"
+    ]
+  }
+}
