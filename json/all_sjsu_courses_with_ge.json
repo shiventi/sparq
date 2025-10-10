@@ -15884,7 +15884,7 @@
     "course_name": "First Year Writing",
     "units": 3,
     "ge_areas": [
-      "1A"
+      "GE_AREA_1A"
     ],
     "prerequisites": [
       [
@@ -15907,7 +15907,7 @@
     "course_name": "First-Year Writing: Stretch English II",
     "units": 3,
     "ge_areas": [
-      "1A"
+      "GE_AREA_1A"
     ],
     "prerequisites": [
       [
@@ -15920,7 +15920,7 @@
     "course_name": "Argument and Analysis",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -15934,7 +15934,7 @@
     "course_name": "Critical Thinking and Writing",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -15947,7 +15947,7 @@
     "course_name": "Great Works of Literature",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -15955,7 +15955,7 @@
     "course_name": "Introduction to Comics",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -15963,7 +15963,7 @@
     "course_name": "Mystery and Detective Fiction",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -15971,7 +15971,7 @@
     "course_name": "Fantasy and Science Fiction",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -15979,7 +15979,7 @@
     "course_name": "Literature and the Environment",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -15987,7 +15987,7 @@
     "course_name": "Contemporary World Fiction",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -16030,7 +16030,7 @@
     "course_name": "Creative Writing",
     "units": 3,
     "ge_areas": [
-      "3A"
+      "GE_AREA_3A"
     ]
   },
   {
@@ -16038,7 +16038,7 @@
     "course_name": "Introduction to Shakespeare’s Drama",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ]
   },
   {
@@ -16798,7 +16798,7 @@
     "course_name": "Science of High Technology",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ]
   },
   {
@@ -16822,7 +16822,7 @@
     "course_name": "The Digital World and Society",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ]
   },
   {
@@ -17218,7 +17218,7 @@
     "course_name": "Introduction to Environmental Issues",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -17231,7 +17231,7 @@
     "course_name": "Life on a Changing Planet",
     "units": 3,
     "ge_areas": [
-      "5B"
+      "GE_AREA_5B"
     ]
   },
   {
@@ -17923,7 +17923,7 @@
     "course_name": "Mathematical Reasoning",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -17942,7 +17942,7 @@
     "course_name": "Mathematics and Logic for General Education",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -17975,7 +17975,7 @@
     "course_name": "Mathematics in Art and Music",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -17994,7 +17994,7 @@
     "course_name": "Probability, Data Science, Ethics, and You",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -18013,7 +18013,7 @@
     "course_name": "Mathematics in Politics",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -18032,7 +18032,7 @@
     "course_name": "Statway: Statistics-Concepts & Methods",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "notes": [
       "Early Start students only",
@@ -18044,7 +18044,7 @@
     "course_name": "College Algebra",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -18061,7 +18061,7 @@
     "course_name": "Precalculus",
     "units": 5,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -18087,7 +18087,7 @@
     "course_name": "Quantitative Reasoning in Linguistic Diversity",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -18142,7 +18142,7 @@
     "course_name": "From Chinese Traditions to Multicultural Paradigms: Martial Arts Films around the World",
     "units": 3,
     "ge_areas": [
-      "3A"
+      "GE_AREA_3A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -18239,7 +18239,7 @@
     "course_name": "Elementary French",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -18248,7 +18248,7 @@
     "course_name": "Elementary French",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -18263,7 +18263,7 @@
     "course_name": "Intermediate French: Reading",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -18279,7 +18279,7 @@
     "course_name": "Intermediate French: Writing",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -18885,7 +18885,7 @@
     "course_name": "Physical Geography",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -18909,7 +18909,7 @@
     "course_name": "Cultural Geography",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -18921,7 +18921,7 @@
     "course_name": "World Regional Geography",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -19361,8 +19361,8 @@
     "course_name": "General Geology",
     "units": 4,
     "ge_areas": [
-      "5A",
-      "5C"
+      "GE_AREA_5A",
+      "GE_AREA_5C"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19389,7 +19389,7 @@
     "course_name": "Planet Earth",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19401,7 +19401,7 @@
     "course_name": "Earth Systems Lab",
     "units": 1,
     "ge_areas": [
-      "5C"
+      "GE_AREA_5C"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19413,7 +19413,7 @@
     "course_name": "Earth Science for Sustainability",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19427,7 +19427,7 @@
     "course_name": "Geology of California",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19439,8 +19439,8 @@
     "course_name": "Earth, Time and Life",
     "units": 4,
     "ge_areas": [
-      "5A",
-      "5C"
+      "GE_AREA_5A",
+      "GE_AREA_5C"
     ],
     "grading": "Letter Graded"
   },
@@ -19449,7 +19449,7 @@
     "course_name": "The Age of the Dinosaurs",
     "units": 3,
     "ge_areas": [
-      "5B"
+      "GE_AREA_5B"
     ],
     "grading": "Letter Graded"
   },
@@ -19458,8 +19458,8 @@
     "course_name": "Earth Disasters",
     "units": 4,
     "ge_areas": [
-      "5A",
-      "5C"
+      "GE_AREA_5A",
+      "GE_AREA_5C"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19898,7 +19898,7 @@
     "course_name": "Field Studies in Natural History",
     "units": "||1-2",
     "ge_areas": [
-      "5C"
+      "GE_AREA_5C"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -19963,7 +19963,7 @@
     "course_name": "Elementary German",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -19972,7 +19972,7 @@
     "course_name": "Elementary German",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -19987,7 +19987,7 @@
     "course_name": "Intermediate German",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -20003,7 +20003,7 @@
     "course_name": "Intermediate German",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -20043,7 +20043,7 @@
     "course_name": "Death, Dying and Religions",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -20195,7 +20195,7 @@
     "course_name": "Introduction to Global Studies",
     "units": 3,
     "ge_areas": [
-      "5B"
+      "GE_AREA_5B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -20398,7 +20398,7 @@
     "course_name": "Elementary Hebrew",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -20411,7 +20411,7 @@
     "course_name": "Elementary Hebrew",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -20536,7 +20536,7 @@
     "course_name": "World History to 1500",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -20545,7 +20545,7 @@
     "course_name": "World History from 1500",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -20554,7 +20554,7 @@
     "course_name": "Western Civilization",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -20563,7 +20563,7 @@
     "course_name": "Western Civilization",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -20572,7 +20572,7 @@
     "course_name": "Essentials of U.S. History",
     "units": 3,
     "ge_areas": [
-      "4",
+      "GE_AREA_4",
       "US1"
     ],
     "grading": "Letter Graded"
@@ -20600,7 +20600,7 @@
     "course_name": "Historical Process: Understanding Historical Reasoning",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -21614,7 +21614,7 @@
     "course_name": "Honors Global Oral and Rhetorical Cultures",
     "units": 3,
     "ge_areas": [
-      "1C"
+      "GE_AREA_1C"
     ],
     "prerequisites": [
       [
@@ -21629,7 +21629,7 @@
     "course_name": "Honors Critical Thinking across Global Cultures",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -21643,7 +21643,7 @@
     "course_name": "Honors Global Material Cultures",
     "units": 3,
     "ge_areas": [
-      "3A"
+      "GE_AREA_3A"
     ],
     "prerequisites": [
       [
@@ -21658,7 +21658,7 @@
     "course_name": "Honors Reading Difference across Global Cultures",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -21682,7 +21682,7 @@
     "course_name": "Reading the World",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -21696,7 +21696,7 @@
     "course_name": "Bible History and Literature",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -21721,7 +21721,7 @@
     "course_name": "Death, Dying and Religions",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -22785,7 +22785,7 @@
     "course_name": "Elementary Italian",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -22794,7 +22794,7 @@
     "course_name": "Elementary Italian",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -22827,7 +22827,7 @@
     "course_name": "Navigating the News",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -23092,7 +23092,7 @@
     "course_name": "Elementary Japanese",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -23101,7 +23101,7 @@
     "course_name": "Elementary Japanese",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -23115,7 +23115,7 @@
     "course_name": "Intermediate Japanese",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -23131,7 +23131,7 @@
     "course_name": "Intermediate Japanese",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -23371,7 +23371,7 @@
     "course_name": "Elementary Hebrew",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -23384,7 +23384,7 @@
     "course_name": "Elementary Hebrew",
     "units": 4,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "prerequisites": [
       [
@@ -23437,7 +23437,7 @@
     "course_name": "Bible History and Literature",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -24675,7 +24675,7 @@
     "course_name": "Visual Representations of Sport in Popular Culture",
     "units": 3,
     "ge_areas": [
-      "3A"
+      "GE_AREA_3A"
     ],
     "grading": "Letter Graded"
   },
@@ -25595,7 +25595,7 @@
     "course_name": "Nature of Language",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -25604,7 +25604,7 @@
     "course_name": "Critical Thinking and Language",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -25627,8 +25627,8 @@
     "course_name": "Language Variation in Space, Time, & Culture",
     "units": 3,
     "ge_areas": [
-      "1B",
-      "4"
+      "GE_AREA_1B",
+      "GE_AREA_4"
     ],
     "prerequisites": [
       [
@@ -25642,7 +25642,7 @@
     "course_name": "Languages of the World",
     "units": 3,
     "ge_areas": [
-      "4"
+      "GE_AREA_4"
     ],
     "grading": "Letter Graded"
   },
@@ -25651,7 +25651,7 @@
     "course_name": "Quantitative Reasoning in Linguistic Diversity",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26033,7 +26033,7 @@
     "course_name": "Chronicles of Education",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded"
   },
@@ -26557,7 +26557,7 @@
     "course_name": "Mathematics for General Education",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26573,7 +26573,7 @@
     "course_name": "Mathematics in Art and Music",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -26589,7 +26589,7 @@
     "course_name": "Probability, Data Science, Ethics, and You",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -26605,7 +26605,7 @@
     "course_name": "Mathematics in Politics",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -26624,7 +26624,7 @@
     "course_name": "Number Systems",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26652,7 +26652,7 @@
     "course_name": "Statway: Statistics-Concepts & Methods",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -26665,7 +26665,7 @@
     "course_name": "College Algebra",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "corequisites": [
       [
@@ -26732,7 +26732,7 @@
     "course_name": "Precalculus",
     "units": 5,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26758,7 +26758,7 @@
     "course_name": "Calculus I",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26805,7 +26805,7 @@
     "course_name": "Calculus II",
     "units": 4,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26847,7 +26847,7 @@
     "course_name": "Calculus III",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -26991,7 +26991,7 @@
     "course_name": "Mathematics for Business",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -27035,7 +27035,7 @@
     "course_name": "Calculus for Business and Aviation",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [
@@ -28000,7 +28000,7 @@
     "course_name": "Bible History and Literature",
     "units": 3,
     "ge_areas": [
-      "3B"
+      "GE_AREA_3B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -28867,7 +28867,7 @@
     "course_name": "Weather and Climate",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -28879,7 +28879,7 @@
     "course_name": "Global Warming: Science and Solutions",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -29525,8 +29525,8 @@
     "course_name": "General Bacteriology",
     "units": 5,
     "ge_areas": [
-      "5B",
-      "5C"
+      "GE_AREA_5B",
+      "GE_AREA_5C"
     ],
     "prerequisites": [
       [
@@ -33212,7 +33212,7 @@
     "course_name": "Physical Science of Food",
     "units": 3,
     "ge_areas": [
-      "5A"
+      "GE_AREA_5A"
     ],
     "grading": "Letter Graded"
   },
@@ -33267,7 +33267,7 @@
     "course_name": "Science, Physiology, and Nutrition",
     "units": 3,
     "ge_areas": [
-      "5B"
+      "GE_AREA_5B"
     ],
     "grading": "Letter Graded",
     "notes": [
@@ -33343,7 +33343,7 @@
     "course_name": "Debunking Nutrition Misinformation",
     "units": 3,
     "ge_areas": [
-      "1B"
+      "GE_AREA_1B"
     ],
     "prerequisites": [
       [
@@ -33357,7 +33357,7 @@
     "course_name": "Quantitative Reasoning in Human Nutrition",
     "units": 3,
     "ge_areas": [
-      "2"
+      "GE_AREA_2"
     ],
     "prerequisites": [
       [

@@ -1,30 +1,35 @@
 # sparq Progress
 
-# OCT 8, 2025
+## OCT 9, 2025
+- Added Docker configuration (Dockerfile, docker-compose.yml, .dockerignore) for containerized deployment
+- Fixed requirements.txt by removing built-in modules (json, re) that don't need installation
+- Created an initial course recommendation engine inside app.py
+
+## OCT 8, 2025
 - Cleaned up notes.txt to remove duplicates
 - Added academic_catalog.py to generate the JSON version of academic catalogs
 - Created academic_catalog_prompt.txt which has the AI prompt instruction
 - Made academic_catalog.json which has a list of majors that have an academic catalog
 - Wrote future.md for future plans as simple bullet points
 
-# OCT 7, 2025
+## OCT 7, 2025
 - Finished adding all courses to all_sjsu_courses_with_ge.json
 - Finished adding all pre-req codes to notes.txt
 
-# OCT 6, 2025
+## OCT 6, 2025
 - Added even more courses to all_sjsu_courses_with_ge.json
 - Added more pre-req codes to notes.txt
 
-# OCT 3, 2025
+## OCT 3, 2025
 - Added even more courses to all_sjsu_courses_with_ge.json
 - Added more pre-req codes to notes.txt
 
-# OCT 2, 2025
+## OCT 2, 2025
 - Added even more courses to all_sjsu_courses_with_ge.json
 - Added more pre-req codes to notes.txt
 
 
-# OCT 1, 2025
+## OCT 1, 2025
 - Added more courses to all_sjsu_courses_with_ge.json
 - Added more pre-req codes to notes.txt
 

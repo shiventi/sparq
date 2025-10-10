@@ -1285,7 +1285,6 @@ PREREQUISITES:
     - WOMENS_STUDIES_MINOR_EMPHASIS --> student has minor or emphasis in women’s studies
 
 
-
 NOMENCLATURE:
 - || --> or
 - && --> and
