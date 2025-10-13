@@ -1,27 +1,34 @@
 # sparq
 
-**Helping SJSU students plan their classes, one step at a time.**
+**Plan your SJSU degree with ease.**
 
-sparq is a work-in-progress web app/API designed to make planning your SJSU courses easier. By combining AP scores, community college courses, and SJSU course offerings, sparq aims to suggest the most efficient path toward graduation.
+sparq helps SJSU students plan their classes, track progress, and find the fastest path to graduation. It combines AP scores, community college courses, and SJSU offerings to recommend the best next steps.
 
-> ⚠️ **Work in Progress:** Right now, the backend is being built in Python, focusing on collecting and organizing data. The web interface and full API are not ready yet.
+## API & PyPI Package
 
----
+sparq now provides a Python API for degree planning and course recommendations. Install the package from PyPI:
 
-## Current Progress
-- JSON dataset of all AP courses and the SJSU courses they satisfy.
-- JSON dataset of community colleges and their course articulations to SJSU.
-- List of SJSU majors and corresponding roadmaps for planning.
-- Scrapers for course data and articulation tables are under development.
+[![PyPI version](https://img.shields.io/pypi/v/sparq.svg)](https://pypi.org/project/sparq)
 
----
+```bash
+pip install sparq
+```
 
-## Planned Features
-- Suggest next courses based on completed AP, community college, or SJSU courses.
-- Visualize a roadmap toward degree completion.
-- Provide an API for easy integration with web or mobile frontends.
+Example usage:
+```python
+from sparq import Sparq
+client = Sparq(api_key="YOUR_API_KEY")
+plan = client.plan(major="Computer Science", units_per_semester=15)
+print(plan)
+```
 
----
+## Features
+- Degree planning API for SJSU students
+- User authentication and API key management
+- Usage tracking and statistics
+- Email verification (Brevo integration)
+- JSON datasets for AP, community college, and SJSU courses
+- Scrapers for course and articulation data
 
 ## Getting Started (For Developers)
 You can explore the data and scrapers locally. Python is the only backend requirement so far.
