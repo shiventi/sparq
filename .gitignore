@@ -58,3 +58,6 @@ temp/
 # Documentation (personal notes)
 docs/code_explanation.md
 docs/quick_reference.md
+
+#symlink
+setup_symlinks.sh

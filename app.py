@@ -64,6 +64,16 @@ def parse_units(units: Any) -> float:
 		return 0.0
 
 
+def extract_course_number(code: str) -> Optional[int]:
+	match = re.search(r"\d+", code)
+	if not match:
+		return None
+	try:
+		return int(match.group(0))
+	except ValueError:
+		return None
+
+
 PASSING_GRADES = {"A", "A-", "B+", "B", "B-", "C+", "C", "C-", "CR", "P", "S"}
 
 
@@ -689,6 +699,16 @@ def build_requirements(roadmap: Sequence[Dict[str, Any]]) -> List[Requirement]:
 			alternatives = []
 			requirement_type = "milestone"
 
+		if requirement_type == "milestone":
+			name_lower = display_name.lower()
+			if "physical education" in name_lower:
+				requirement_type = "activity"
+			elif name_lower.startswith("ge upper division") or name_lower.startswith("upper division ge"):
+				ge_tag = re.sub(r"[^A-Z0-9]+", "_", display_name.upper()).strip("_")
+				if ge_tag:
+					ge_areas = [ge_tag]
+				requirement_type = "ge"
+
 		# Avoid duplicating the same GE requirement multiple times
 		unique_key = (
 			requirement_type,
@@ -851,6 +871,15 @@ def evaluate_requirement(
 		)
 		return result
 
+	if requirement.requirement_type == "activity":
+		result.update(
+			{
+				"type": "activity",
+				"detail": requirement.display_name,
+			}
+		)
+		return result
+
 	# Milestones or other requirements
 	result.update(
 		{
@@ -916,6 +945,7 @@ def _prerequisites_satisfied(
 		option_groups = group.course_option_groups()
 		if not option_groups:
 			continue
+
 		def _options_to_slugs(options: List[str]) -> List[str]:
 			slugs: List[str] = []
 			for option in options:
@@ -930,24 +960,31 @@ def _prerequisites_satisfied(
 			len(option_groups) > 1 or (option_groups and len(option_groups[0]) > 1)
 		):
 			effective_kind = "ANY"
+
+		group_references_program = False
+
 		if effective_kind == "ANY":
+			references_program = False
 			satisfied = False
 			for options in option_groups:
 				slugs = _options_to_slugs(options)
 				if not slugs:
 					continue
+				if any(slug in required_slugs for slug in slugs):
+					references_program = True
 				if any(slug in completed for slug in slugs):
 					satisfied = True
 					break
-			if not satisfied:
+			if references_program and not satisfied:
 				return False
 		else:  # ALL or SINGLE
 			for options in option_groups:
 				slugs = _options_to_slugs(options)
 				if not slugs:
 					continue
-				if not any(slug in completed for slug in slugs):
-					return False
+				if any(slug in required_slugs for slug in slugs):
+					if not any(slug in completed for slug in slugs):
+						return False
 	return True
 
 
@@ -958,10 +995,40 @@ def plan_semesters(
 	datastore: DataStore,
 ) -> Tuple[List[Dict[str, Any]], float]:
 	units_per_semester = float(student_profile.get("units_per_semester") or 15)
+	max_semester_units = units_per_semester
 
 	def slug_to_display(slug: str) -> str:
 		info = datastore.course_catalog.get(slug)
 		return info.code if info else slug.replace("_", " ")
+
+	def earliest_semester_index(req: Requirement) -> int:
+		if req.year and req.year > 0:
+			year_index = req.year - 1
+		else:
+			year_index = 0
+		term_index = req.term_order if req.term_order is not None else 0
+		if term_index >= 99:
+			term_index = 0
+		if term_index > 1:
+			term_index = 1
+		return max(0, year_index * 2 + term_index)
+
+	def can_take_in_semester(req: Requirement, semester_idx: int) -> bool:
+		roadmap_index = earliest_semester_index(req)
+		if semester_idx >= roadmap_index:
+			return True
+		# Allow earlier scheduling when prerequisites are already satisfied by prior credit
+		if req.requirement_type == "course":
+			for slug in req.all_course_slugs():
+				if slug in completed_prior:
+					return False
+				if _prerequisites_satisfied(slug, completed_prior, required_slugs, datastore):
+					return True
+			return False
+		# GE, activities, and electives can be pulled forward if needed
+		if req.requirement_type in {"ge", "activity", "elective"}:
+			return True
+		return False
 
 	pending_courses = [
 		req
@@ -982,14 +1049,67 @@ def plan_semesters(
 		for req in requirements
 		if req.requirement_type == "elective"
 	]
+	pending_activities = [
+		req
+		for req in requirements
+		if req.requirement_type == "activity"
+	]
 
-	pending_courses.sort(key=lambda req: (req.year or 99, req.term_order or 99, req.order_index))
-	pending_ge.sort(key=lambda req: (req.year or 99, req.term_order or 99, req.order_index))
+	def slug_is_upper_division(slug: str) -> bool:
+		info = datastore.course_catalog.get(slug)
+		if info and info.code:
+			number = extract_course_number(info.code)
+			if number is not None:
+				return number >= 100
+		# Fallback: parse from slug token
+		parts = slug.split("_")
+		if len(parts) > 1:
+			number = extract_course_number(parts[1]) if parts[1] else None
+			if number is not None:
+				return number >= 100
+		return False
+
+	def requirement_is_upper_division(req: Requirement) -> bool:
+		for slug in req.all_course_slugs():
+			if slug_is_upper_division(slug):
+				return True
+		return False
+
+	def requirement_is_upper_division_ge(req: Requirement) -> bool:
+		"""Check if a GE requirement is upper-division"""
+		name_lower = req.display_name.lower()
+		return "upper division" in name_lower or "upper-division" in name_lower
+
+	pending_courses.sort(
+		key=lambda req: (
+			requirement_is_upper_division(req),
+			req.year or 99,
+			req.term_order or 99,
+			req.order_index,
+		)
+	)
+	# Sort GE with lower-division first, then upper-division
+	pending_ge.sort(key=lambda req: (
+		requirement_is_upper_division_ge(req),
+		req.year or 99,
+		req.term_order or 99,
+		req.order_index
+	))
 	pending_electives.sort(key=lambda req: (req.year or 99, req.term_order or 99, req.order_index))
+	pending_activities.sort(key=lambda req: (req.year or 99, req.term_order or 99, req.order_index))
 
 	total_units = sum(_requirement_units(req, datastore) for req in pending_courses)
 	total_units += sum(_requirement_units(req, datastore) for req in pending_ge)
 	total_units += sum(_requirement_units(req, datastore) for req in pending_electives)
+	total_units += sum(_requirement_units(req, datastore) for req in pending_activities)
+	initial_total_units = total_units
+	completed_unit_total = sum((comp.units or 0.0) for comp in record.completed_courses.values())
+	for slug in record.in_progress_courses:
+		info = datastore.course_catalog.get(slug)
+		if info and info.units:
+			completed_unit_total += info.units
+	scheduled_unit_total = 0.0
+	MIN_UPPER_DIVISION_UNITS = 60.0
 
 	completed_prior: Set[str] = set(record.completed_courses.keys()) | set(record.in_progress_courses)
 	required_slugs: Set[str] = set()
@@ -1000,7 +1120,22 @@ def plan_semesters(
 	plan: List[Dict[str, Any]] = []
 	semester_index = 0
 
-	while pending_courses or pending_ge or pending_electives:
+	def lower_division_requirements_remaining() -> bool:
+		for req in pending_courses:
+			for slug in req.all_course_slugs():
+				if not slug_is_upper_division(slug):
+					return True
+		return bool(pending_ge or pending_activities)
+
+	def can_schedule_upper_division(slug: str) -> bool:
+		if not slug_is_upper_division(slug):
+			return True
+		current_total = completed_unit_total + scheduled_unit_total
+		if current_total >= MIN_UPPER_DIVISION_UNITS:
+			return True
+		return not lower_division_requirements_remaining()
+
+	while pending_courses or pending_ge or pending_electives or pending_activities:
 		term_label = f"Semester {semester_index + 1}"
 		term_units = 0.0
 		term_courses: List[Dict[str, Any]] = []
@@ -1010,6 +1145,8 @@ def plan_semesters(
 		# If we have many blocked courses, we should save electives for later
 		blocked_courses = 0
 		for req in pending_courses:
+			if not can_take_in_semester(req, semester_index):
+				continue
 			available_slug = None
 			for slug in req.all_course_slugs():
 				if slug not in completed_prior:
@@ -1018,21 +1155,50 @@ def plan_semesters(
 			if available_slug and not _prerequisites_satisfied(available_slug, completed_prior, required_slugs, datastore):
 				blocked_courses += 1
 		
-		# Estimate minimum semesters needed for blocked courses
-		# Reserve electives if we'll need them to fill future semesters
-		reserve_electives = blocked_courses > 0 and len(pending_electives) > 0
-
 		# Schedule courses with satisfied prerequisites, filling semester to capacity
 		# Keep trying to add courses, GE, and electives until we reach capacity or run out
+		# PRIORITIZE lower-division GE courses early
 		made_progress = True
-		while made_progress and term_units < units_per_semester - 0.5:
+		while made_progress and term_units < max_semester_units - 0.5:
 			made_progress = False
 			
-			# Try to add ANY course with satisfied prerequisites
-			# Keep looping through ALL pending courses each iteration
-			for req in list(pending_courses):
-				if term_units >= units_per_semester - 0.5:
+			# FIRST: Try to add lower-division GE courses (these should be done early)
+			for ge_req in list(pending_ge):
+				if term_units >= max_semester_units - 0.5:
 					break
+				if not can_take_in_semester(ge_req, semester_index):
+					continue
+				# Only schedule lower-division GE in this phase
+				if requirement_is_upper_division_ge(ge_req):
+					continue
+				ge_units = _requirement_units(ge_req, datastore)
+				if term_units + ge_units <= max_semester_units:
+					pending_ge.remove(ge_req)
+					term_courses.append(
+						{
+							"course": ge_req.display_name,
+							"title": "Select approved GE course",
+							"units": ge_units,
+							"type": "ge",
+							"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
+							if ge_req.ge_areas
+							else [],
+						}
+					)
+					term_units += ge_units
+					scheduled_unit_total += ge_units
+					total_units -= ge_units
+					made_progress = True
+			
+			# SECOND: Try to add lower-division courses with satisfied prerequisites
+			for req in list(pending_courses):
+				if not can_take_in_semester(req, semester_index):
+					continue
+				if term_units >= max_semester_units - 0.5:
+					break
+				# Prioritize lower-division courses in early semesters
+				if requirement_is_upper_division(req) and lower_division_requirements_remaining():
+					continue
 				available_slug = None
 				for slug in req.all_course_slugs():
 					if slug not in completed_prior and slug not in term_completed:
@@ -1042,9 +1208,11 @@ def plan_semesters(
 					continue
 				if not _prerequisites_satisfied(available_slug, completed_prior, required_slugs, datastore):
 					continue
+				if not can_schedule_upper_division(available_slug):
+					continue
 				info = datastore.course_catalog.get(available_slug)
 				course_units = info.units if info and info.units else max(req.units, 3.0)
-				if term_units + course_units > units_per_semester + 0.99:
+				if term_units + course_units > max_semester_units:
 					continue
 				entry = {
 					"course": info.code if info else slug_to_display(available_slug),
@@ -1058,38 +1226,98 @@ def plan_semesters(
 					]
 				term_courses.append(entry)
 				term_units += course_units
+				scheduled_unit_total += course_units
+				total_units -= course_units
 				term_completed.add(available_slug)
 				pending_courses.remove(req)
 				made_progress = True
-				# Don't break - keep checking for more courses that can fit
 			
-			# After trying all courses, try to fill remaining space with GE
-			if term_units < units_per_semester - 0.5 and pending_ge:
-				ge_req = pending_ge[0]
-				ge_units = _requirement_units(ge_req, datastore)
-				if term_units + ge_units <= units_per_semester + 0.99:
-					pending_ge.pop(0)
-					term_courses.append(
-						{
-							"course": ge_req.display_name,
-							"title": "Select approved GE course",
-							"units": ge_units,
-							"type": "ge",
-							"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
-							if ge_req.ge_areas
-							else [],
-						}
-					)
-					term_units += ge_units
+			# THIRD: Now try upper-division GE if we have space and met the 60-unit threshold
+			current_total = completed_unit_total + scheduled_unit_total
+			if current_total >= MIN_UPPER_DIVISION_UNITS:
+				for ge_req in list(pending_ge):
+					if term_units >= max_semester_units - 0.5:
+						break
+					if not can_take_in_semester(ge_req, semester_index):
+						continue
+					# Only upper-division GE in this phase
+					if not requirement_is_upper_division_ge(ge_req):
+						continue
+					ge_units = _requirement_units(ge_req, datastore)
+					if term_units + ge_units <= max_semester_units:
+						pending_ge.remove(ge_req)
+						term_courses.append(
+							{
+								"course": ge_req.display_name,
+								"title": "Select approved GE course",
+								"units": ge_units,
+								"type": "ge",
+								"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
+								if ge_req.ge_areas
+								else [],
+							}
+						)
+						term_units += ge_units
+						scheduled_unit_total += ge_units
+						total_units -= ge_units
+						made_progress = True
+
+			# Schedule short activity requirements (e.g., Physical Education)
+			# Loop through ALL activities to pack the semester
+			for activity_req in list(pending_activities):
+				if term_units >= max_semester_units - 0.5:
+					break
+				if not can_take_in_semester(activity_req, semester_index):
+					continue
+				activity_units = _requirement_units(activity_req, datastore)
+				if term_units + activity_units <= max_semester_units:
+					pending_activities.remove(activity_req)
+					entry = {
+						"course": activity_req.display_name,
+						"title": activity_req.display_name,
+						"units": activity_units,
+						"type": "activity",
+					}
+					term_courses.append(entry)
+					term_units += activity_units
+					scheduled_unit_total += activity_units
+					total_units -= activity_units
 					made_progress = True
 			
 			# After trying courses and GE, try electives if we still have space
-			# Use electives to fill the semester - don't create light semesters if we can avoid it
-			if term_units < units_per_semester - 0.5 and pending_electives:
-				elective_req = pending_electives[0]
+			# Loop through ALL electives to pack the semester - don't create light semesters if we can avoid it
+			# But leave room for blocked required courses AND don't over-schedule electives
+			electives_target = max_semester_units
+			blocked_required_count = sum(1 for req in pending_courses 
+				if not any(_prerequisites_satisfied(slug, completed_prior, required_slugs, datastore) 
+					for slug in req.all_course_slugs() if slug not in completed_prior))
+			
+			# Calculate how many electives we should schedule this semester
+			# Strategy: distribute electives evenly across remaining semesters
+			remaining_elective_units = sum(_requirement_units(req, datastore) for req in pending_electives)
+			remaining_required_units = sum(_requirement_units(req, datastore) for req in pending_courses)
+			total_remaining = remaining_elective_units + remaining_required_units + sum(_requirement_units(req, datastore) for req in pending_ge) + sum(_requirement_units(req, datastore) for req in pending_activities)
+			
+			if total_remaining > 0 and remaining_elective_units > 0:
+				# Estimate semesters needed
+				semesters_ahead = max(1, math.ceil(total_remaining / max_semester_units))
+				electives_per_semester = remaining_elective_units / semesters_ahead
+				electives_this_semester = min(remaining_elective_units, max(electives_per_semester, 3))
+				electives_target = min(max_semester_units, term_units + electives_this_semester)
+			
+			if blocked_required_count > 0:
+				# Leave extra room for blocked courses
+				reserve_units = min(blocked_required_count * 3, 6)
+				electives_target = min(electives_target, max(12, max_semester_units - reserve_units))
+			
+			for elective_req in list(pending_electives):
+				if term_units >= electives_target - 0.5:
+					break
+				if not can_take_in_semester(elective_req, semester_index):
+					continue
 				elective_units = _requirement_units(elective_req, datastore)
-				if term_units + elective_units <= units_per_semester + 0.99:
-					pending_electives.pop(0)
+				if term_units + elective_units <= electives_target:
+					pending_electives.remove(elective_req)
 					term_courses.append(
 						{
 							"course": elective_req.display_name,
@@ -1100,68 +1328,111 @@ def plan_semesters(
 						}
 					)
 					term_units += elective_units
+					scheduled_unit_total += elective_units
+					total_units -= elective_units
 					made_progress = True
 
-		# If we have a very light semester (< 10 units) and there are pending courses,
-		# try to add courses even if prerequisites might not be satisfied
-		# This prevents creating many 3-6 unit semesters
-		if term_courses and term_units < 10 and pending_courses:
-			while term_units < units_per_semester - 0.5 and pending_courses:
-				fallback = pending_courses[0]
+		# If we have space remaining in the semester, try to add blocked courses with prerequisite notes
+		# This prevents creating many small semesters at the end
+		if term_courses and term_units < max_semester_units - 0.5 and pending_courses:
+			for idx in range(len(pending_courses) - 1, -1, -1):  # Work backwards to try blocked courses
+				if term_units >= max_semester_units - 0.5:
+					break
+					
+				fallback = pending_courses[idx]
+				if not can_take_in_semester(fallback, semester_index):
+					continue
+					
 				fallback_slug = None
 				for slug in fallback.all_course_slugs():
 					if slug not in completed_prior and slug not in term_completed:
 						fallback_slug = slug
 						break
 				if not fallback_slug:
-					pending_courses.pop(0)
 					continue
 				
 				# Check if prerequisites are satisfied (if not, we'll add a note)
 				prereqs_ok = _prerequisites_satisfied(fallback_slug, completed_prior, required_slugs, datastore)
 				
+				# If prereqs are satisfied, this should have been scheduled in main loop - skip it
+				if prereqs_ok:
+					continue
+				
 				info = datastore.course_catalog.get(fallback_slug) if fallback_slug else None
 				course_units = info.units if info and info.units else max(fallback.units, 3.0)
 				
-				# Check if adding this would overfill
-				if term_units + course_units > units_per_semester + 0.99:
-					# Try next course
-					break
+				if not can_schedule_upper_division(fallback_slug):
+					continue
 				
-				pending_courses.pop(0)
+				# Check if adding this would overfill
+				if term_units + course_units > max_semester_units:
+					continue
+				
+				pending_courses.pop(idx)
 				entry = {
 					"course": info.code if info else slug_to_display(fallback_slug),
 					"title": info.name if info else fallback.display_name,
 					"units": course_units,
 					"type": "course",
+					"note": "Prerequisite data missing; verify with advisor.",
 				}
-				if not prereqs_ok:
-					entry["note"] = "Prerequisite data missing; verify with advisor."
 				if fallback.alternatives:
 					entry["alternatives"] = [
 						slug_to_display(alt) for alt in fallback.alternatives if alt != fallback_slug
 					]
 				term_courses.append(entry)
 				term_units += course_units
+				scheduled_unit_total += course_units
+				total_units -= course_units
 				if fallback_slug:
 					term_completed.add(fallback_slug)
+
+		while term_units < max_semester_units - 0.5 and pending_activities:
+			activity_req = None
+			for candidate in pending_activities:
+				if can_take_in_semester(candidate, semester_index):
+					activity_req = candidate
+					break
+			if not activity_req:
+				break
+			activity_units = _requirement_units(activity_req, datastore)
+			if term_units + activity_units > max_semester_units:
+				break
+			pending_activities.remove(activity_req)
+			term_courses.append(
+				{
+					"course": activity_req.display_name,
+					"title": activity_req.display_name,
+					"units": activity_units,
+					"type": "activity",
+				}
+			)
+			term_units += activity_units
+			scheduled_unit_total += activity_units
+			total_units -= activity_units
 
 		if not term_courses:
 			# Deadlock: schedule pending courses ignoring prerequisites
 			# Try to fill the semester with multiple deadlocked courses + electives
 			# instead of creating many 3-unit semesters
-			while term_units < units_per_semester - 0.5 and pending_courses:
-				fallback = pending_courses.pop(0)
+			added_any = False
+			while term_units < max_semester_units - 0.5 and pending_courses:
+				fallback = pending_courses[0]
+				if not can_take_in_semester(fallback, semester_index):
+					break
 				fallback_slug = None
 				for slug in fallback.all_course_slugs():
 					if slug not in completed_prior and slug not in term_completed:
 						fallback_slug = slug
 						break
+				if fallback_slug and not can_schedule_upper_division(fallback_slug):
+					break
+				fallback = pending_courses.pop(0)
 				info = datastore.course_catalog.get(fallback_slug) if fallback_slug else None
 				course_units = info.units if info and info.units else max(fallback.units, 3.0)
 				
 				# Check if adding this would overfill
-				if term_units + course_units > units_per_semester + 0.99:
+				if term_units + course_units > max_semester_units:
 					# Put it back for next semester
 					pending_courses.insert(0, fallback)
 					break
@@ -1179,14 +1450,19 @@ def plan_semesters(
 					]
 				term_courses.append(entry)
 				term_units += course_units
+				scheduled_unit_total += course_units
+				total_units -= course_units
 				if fallback_slug:
 					term_completed.add(fallback_slug)
+				added_any = True
 			
 			# After adding deadlocked courses, fill up the semester with GE/electives
-			while term_units < units_per_semester - 0.5 and pending_ge:
+			while term_units < max_semester_units - 0.5 and pending_ge:
 				ge_req = pending_ge[0]
+				if not can_take_in_semester(ge_req, semester_index):
+					break
 				ge_units = _requirement_units(ge_req, datastore)
-				if term_units + ge_units > units_per_semester + 0.99:
+				if term_units + ge_units > max_semester_units:
 					break
 				pending_ge.pop(0)
 				term_courses.append(
@@ -1201,11 +1477,35 @@ def plan_semesters(
 					}
 				)
 				term_units += ge_units
+				scheduled_unit_total += ge_units
+				total_units -= ge_units
+
+			while term_units < max_semester_units - 0.5 and pending_activities:
+				activity_req = pending_activities[0]
+				if not can_take_in_semester(activity_req, semester_index):
+					break
+				activity_units = _requirement_units(activity_req, datastore)
+				if term_units + activity_units > max_semester_units:
+					break
+				pending_activities.pop(0)
+				term_courses.append(
+					{
+						"course": activity_req.display_name,
+						"title": activity_req.display_name,
+						"units": activity_units,
+						"type": "activity",
+					}
+				)
+				term_units += activity_units
+				scheduled_unit_total += activity_units
+				total_units -= activity_units
 			
-			while term_units < units_per_semester - 0.5 and pending_electives:
+			while term_units < max_semester_units - 0.5 and pending_electives:
 				elective_req = pending_electives[0]
+				if not can_take_in_semester(elective_req, semester_index):
+					break
 				elective_units = _requirement_units(elective_req, datastore)
-				if term_units + elective_units > units_per_semester + 0.99:
+				if term_units + elective_units > max_semester_units:
 					break
 				pending_electives.pop(0)
 				term_courses.append(
@@ -1218,13 +1518,21 @@ def plan_semesters(
 					}
 				)
 				term_units += elective_units
+				scheduled_unit_total += elective_units
+				total_units -= elective_units
 			
 			# If still no courses (only GE/electives left), handle those
 			if not term_courses:
 				if pending_ge:
-					while term_units < units_per_semester - 0.5 and pending_ge:
-						ge_req = pending_ge.pop(0)
+					while term_units < max_semester_units - 0.5 and pending_ge:
+						ge_req = pending_ge[0]
+						if not can_take_in_semester(ge_req, semester_index):
+							break
+						pending_ge.pop(0)
 						ge_units = _requirement_units(ge_req, datastore)
+						if term_units + ge_units > max_semester_units:
+							pending_ge.insert(0, ge_req)
+							break
 						term_courses.append(
 							{
 								"course": ge_req.display_name,
@@ -1237,10 +1545,39 @@ def plan_semesters(
 							}
 						)
 						term_units += ge_units
+						scheduled_unit_total += ge_units
+						total_units -= ge_units
+				elif pending_activities:
+					while term_units < max_semester_units - 0.5 and pending_activities:
+						activity_req = pending_activities[0]
+						if not can_take_in_semester(activity_req, semester_index):
+							break
+						pending_activities.pop(0)
+						activity_units = _requirement_units(activity_req, datastore)
+						if term_units + activity_units > max_semester_units:
+							pending_activities.insert(0, activity_req)
+							break
+						term_courses.append(
+							{
+								"course": activity_req.display_name,
+								"title": activity_req.display_name,
+								"units": activity_units,
+								"type": "activity",
+							}
+						)
+						term_units += activity_units
+						scheduled_unit_total += activity_units
+						total_units -= activity_units
 				elif pending_electives:
-					while term_units < units_per_semester - 0.5 and pending_electives:
-						elective_req = pending_electives.pop(0)
+					while term_units < max_semester_units - 0.5 and pending_electives:
+						elective_req = pending_electives[0]
+						if not can_take_in_semester(elective_req, semester_index):
+							break
+						pending_electives.pop(0)
 						elective_units = _requirement_units(elective_req, datastore)
+						if term_units + elective_units > max_semester_units:
+							pending_electives.insert(0, elective_req)
+							break
 						term_courses.append(
 							{
 								"course": elective_req.display_name,
@@ -1251,6 +1588,13 @@ def plan_semesters(
 							}
 						)
 						term_units += elective_units
+						scheduled_unit_total += elective_units
+						total_units -= elective_units
+
+		if not term_courses:
+			# Nothing could be scheduled this term; advance to next semester without adding an empty term
+			semester_index += 1
+			continue
 
 		plan.append(
 			{
@@ -1262,7 +1606,48 @@ def plan_semesters(
 		semester_index += 1
 		completed_prior.update(term_completed)
 
-	estimated_semesters = math.ceil(total_units / units_per_semester) if units_per_semester else len(plan)
+	# Consolidate light semesters at the end - move courses from underloaded semesters into earlier ones
+	if plan and units_per_semester:
+		min_reasonable_load = min(12, units_per_semester * 0.75)  # At least 12 units or 75% of target
+		
+		# Work backwards through the plan
+		for i in range(len(plan) - 1, 0, -1):  # Start from last semester, go backwards (but not semester 0)
+			current_sem = plan[i]
+			if current_sem['total_units'] >= min_reasonable_load:
+				continue  # This semester is fine
+			
+			# Try to move courses from this light semester into earlier semesters
+			courses_to_redistribute = current_sem['courses'][:]
+			current_sem['courses'] = []
+			current_sem['total_units'] = 0
+			
+			for course in courses_to_redistribute:
+				placed = False
+				# Try to place in earlier semesters
+				for j in range(i):
+					target_sem = plan[j]
+					if target_sem['total_units'] + course['units'] <= max_semester_units:
+						target_sem['courses'].append(course)
+						target_sem['total_units'] = round(target_sem['total_units'] + course['units'], 1)
+						placed = True
+						break
+				
+				# If we couldn't place it earlier, keep it here
+				if not placed:
+					current_sem['courses'].append(course)
+					current_sem['total_units'] = round(current_sem['total_units'] + course['units'], 1)
+		
+		# Remove any empty semesters
+		plan = [sem for sem in plan if sem['courses']]
+		
+		# Renumber semesters after consolidation
+		for idx, sem in enumerate(plan):
+			sem['term'] = f"Semester {idx + 1}"
+
+	if units_per_semester:
+		estimated_semesters = max(len(plan), math.ceil(initial_total_units / units_per_semester))
+	else:
+		estimated_semesters = len(plan)
 	return plan, int(estimated_semesters)
 
 
@@ -1577,11 +1962,49 @@ def recommendation_engine(
 		if req.requirement_type == "ge"
 		and any(area not in record.fulfilled_ge for area in req.ge_areas)
 	)
+	units_remaining += sum(
+		_requirement_units(req, datastore)
+		for req in requirements
+		if req.requirement_type == "activity"
+	)
+
+	plan_total_units = sum(term.get("total_units", 0.0) for term in plan)
+	plan_length = len(plan)
+	acceleration: Optional[Dict[str, Any]] = None
+	units_per_semester = float(student_profile.get("units_per_semester") or 15)
+	if plan_length > 1:
+		required_load = math.ceil(plan_total_units / (plan_length - 1))
+		if required_load > units_per_semester and required_load <= 16:
+			acceleration = {
+				"target_units": required_load,
+				"new_term_count": plan_length - 1,
+			}
+	
+	clarifications: List[str] = []
+	low_load_term = next((term for term in plan if term.get("total_units", 0) < 12), None)
+	if low_load_term:
+		clarifications.append(
+			f"{low_load_term.get('term')} is under 12 units. Confirm financial aid, housing, or any additional requirements."
+		)
+	if any(course.get("type") == "elective" for term in plan for course in term.get("courses", [])):
+		clarifications.append("Elective placeholders need advisor-approved course selections.")
+	if any(course.get("type") == "ge" for term in plan for course in term.get("courses", [])):
+		clarifications.append("Verify GE selections satisfy SJSU-approved Area lists and any double-counting rules.")
+
+	notes: List[str] = []
+	if acceleration and plan_length:
+		notes.append(
+			f"If you can take {acceleration['target_units']} units per semester, you could finish in {acceleration['new_term_count']} semesters (instead of {plan_length})."
+		)
+	notes.extend(clarifications)
 
 	summary = {
 		"fulfilled": fulfilled,
 		"remaining": remaining,
 		"units_remaining": round(units_remaining, 1),
+		"acceleration": acceleration,
+		"clarifications": clarifications,
+		"notes": notes,
 	}
 	
 	# Generate validation report
@@ -1708,46 +2131,36 @@ def render_report(summary: Dict[str, Any], plan: List[Dict[str, Any]], semesters
 					lines.append(f"      Note: {course['note']}")
 			lines.append("")
 
+	notes = summary.get("notes") or []
+	if notes:
+		lines.append("Notes:")
+		for note in notes:
+			lines.append(f"- {note}")
+		lines.append("")
+
 	return "\n".join(line for line in lines if line is not None)
 
 
 if __name__ == "__main__":
 	sample_student = {
 		"major": "Data Science",
-		"cc_courses": [
-			{"code": "COMSC 075", "title": "Computer Science I", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "COMSC 076", "title": "Computer Science II", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "COMS 020", "title": "Oral Communication", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "ART 096", "title": "History of Asian Art", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "COMS 035", "title": "Intercultural Communication", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "PSYCH 001", "title": "General Psychology", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "PHIL 060", "title": "Logic and Critical Thinking", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "PHIL 010", "title": "Introduction to Philosophy", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "PHIL 065", "title": "Introduction to Ethics", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "COMSC 080", "title": "Discrete Structures", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "HIST 017A", "title": "History of the United States", "grade": "A", "institution": "Evergreen Valley College"},
-			{"code": "ENGL 001A", "title": "English Composition", "grade": "A", "institution": "San Jose City College"},
-		],
-		"ap_exams": [
-			{"test": "Calculus AB", "score": 5},
-			{"test": "Calculus BC", "score": 4},
-			{"test": "World History", "score": 4},
-			{"test": "Physics C, Mechanics", "score": 4},
-		],
-		"sjsu_courses": [
-			{"code": "MATH 32", "title": "Calculus III", "status": "In Progress", "term": "Fall 2025"},
-			{"code": "CS 49J", "title": "Programming in Java", "status": "In Progress", "term": "Fall 2025"},
-			{"code": "NUFS 16", "title": "Nutrition", "status": "In Progress", "term": "Fall 2025"},
-			{"code": "METR 10", "title": "Weather and Climate", "status": "In Progress", "term": "Fall 2025"},
-		],
+		
 		"units_per_semester": 15,
 	}
 
 	summary, plan, semesters = recommendation_engine(sample_student)
-	report = render_report(summary, plan, semesters)
-	print(report)
 	
-	# Print validation report
-	# if 'validation_report' in summary:
-	# 	print("\n" + summary['validation_report'])
+	# Create JSON output
+	output = {
+		"major": sample_student["major"],
+		"units_remaining": summary["units_remaining"],
+		"estimated_semesters": semesters,
+		"fulfilled_requirements": summary["fulfilled"],
+		"remaining_requirements": summary["remaining"],
+		"semester_plan": plan,
+		"notes": summary.get("notes", []),
+	}
+	
+	# Print JSON
+	print(json.dumps(output, indent=2))
 

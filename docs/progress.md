@@ -1,5 +1,35 @@
 # sparq Progress
 
+## OCT 12, 2025
+- Developed the sparq CLI (`pip install sparq`) for easy API interaction. [https://pypi.org/project/sparq]
+- Added user authentication and email verification (code sent to email).
+- Implemented per-user rate limiting for API calls.
+- API key management: register, verify, recover, and usage tracking.
+- Usage logs and statistics for each user.
+- Brevo integration for sending verification emails.
+
+- Example setup  
+```bash
+pip install sparq
+sparq auth
+```
+- Example usage
+```python
+from sparq import Sparq
+client = Sparq(api_key="")
+plan = client.plan(major="Computer Science", units_per_semester=15)
+print(plan)
+```
+
+## OCT 11, 2025
+- Fixed app.py to make sure it outputs correctly
+- Degree planning endpoint for SJSU students.
+
+## OCT 10, 2025
+- Hardened the semester planner to respect roadmap sequencing and prerequisite chains across all majors
+- Updated prerequisite evaluation to ignore placement-only tokens while still enforcing real course dependencies
+- Regenerated baseline plans (quick.py) to confirm capstone courses like CS 163 now appear in the final semester
+
 ## OCT 9, 2025
 - Added Docker configuration (Dockerfile, docker-compose.yml, .dockerignore) for containerized deployment
 - Fixed requirements.txt by removing built-in modules (json, re) that don't need installation
