@@ -24,11 +24,9 @@ print(plan)
 
 ## Features
 - Degree planning API for SJSU students
+- User key recovery
 - User authentication and API key management
 - Usage tracking and statistics
-- Email verification (Brevo integration)
-- JSON datasets for AP, community college, and SJSU courses
-- Scrapers for course and articulation data
 
 ## Getting Started (For Developers)
 You can explore the data and scrapers locally. Python is the only backend requirement so far.
