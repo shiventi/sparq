@@ -301,6 +301,7 @@ class DataStore:
 		self.major_index = self._build_major_index()
 		self._roadmap_cache: Dict[str, List[Dict[str, Any]]] = {}
 		self._cc_cache: Dict[str, Dict[str, Any]] = {}
+		self._academic_catalog_cache: Dict[str, Dict[str, Any]] = {}
 
 	def _load_course_catalog(self) -> Dict[str, CourseInfo]:
 		catalog_path = self.data_dir / "all_sjsu_courses_with_ge.json"
@@ -433,6 +434,23 @@ class DataStore:
 			return None
 		data = _read_json(path)
 		self._cc_cache[key] = data
+		return data
+
+	def load_academic_catalog(self, major_name: str) -> Optional[Dict[str, Any]]:
+		"""Load the academic catalog JSON for a specific major"""
+		if not major_name:
+			return None
+		metadata = self.resolve_major(major_name)
+		if not metadata:
+			return None
+		slug = metadata["slug"]
+		if slug in self._academic_catalog_cache:
+			return self._academic_catalog_cache[slug]
+		catalog_path = self.data_dir / "academic_catalog" / slug
+		if not catalog_path.exists():
+			return None
+		data = _read_json(catalog_path)
+		self._academic_catalog_cache[slug] = data
 		return data
 
 
@@ -744,6 +762,7 @@ def evaluate_requirement(
 	requirement: Requirement,
 	record: StudentRecord,
 	datastore: DataStore,
+	academic_catalog: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
 	result: Dict[str, Any] = {
 		"identifier": requirement.identifier,
@@ -760,6 +779,68 @@ def evaluate_requirement(
 	def _slug_to_display(slug: str) -> str:
 		info = datastore.course_catalog.get(slug)
 		return info.code if info else slug.replace("_", " ")
+	
+	def _get_major_specific_courses(requirement_name: str) -> Optional[List[str]]:
+		"""Extract major-specific course options from academic catalog"""
+		if not academic_catalog:
+			return None
+		
+		catalog_data = academic_catalog.get("output", {})
+		req_key = normalize_key(requirement_name)
+		
+		# Check optional_sequences (like Science Electives)
+		optional_sequences = catalog_data.get("major_requirements", {}).get("optional_sequences", [])
+		for seq in optional_sequences:
+			seq_name = seq.get("name", "")
+			seq_key = normalize_key(seq_name)
+			
+			# Direct match
+			if seq_key == req_key:
+				courses = []
+				for option_group in seq.get("options", []):
+					for option in option_group:
+						course_code = option.lstrip("|&").strip()
+						if course_code and course_code != "NONE":
+							courses.append(course_code)
+				if courses:
+					return courses
+			
+			# Special case: GE Area 5B/5C maps to Science Electives
+			# Only match if requirement explicitly mentions 5b or 5c or is just "science"
+			if "science" in seq_key and ("5b" in req_key or "5c" in req_key):
+				courses = []
+				for option_group in seq.get("options", []):
+					for option in option_group:
+						course_code = option.lstrip("|&").strip()
+						if course_code and course_code != "NONE":
+							courses.append(course_code)
+				if courses:
+					return courses
+		
+		# Check field_requirements (like Major Electives)
+		field_requirements = catalog_data.get("field_requirements", [])
+		for field in field_requirements:
+			field_name = field.get("field_name", "")
+			field_key = normalize_key(field_name)
+			
+			# For electives, check if the field name matches
+			# "Computer Science Elective" should match "Major Electives" if it contains CS courses
+			if field_key == req_key:
+				courses = field.get("courses", [])
+				if courses:
+					return courses
+			
+			# Fuzzy match: "Computer Science Elective" or "Upper Division Computer Science Elective" 
+			# should match field that has "Major Electives" and contains CS courses
+			if "elective" in req_key and "elective" in field_key:
+				courses = field.get("courses", [])
+				# Check if this is a CS major electives field (has CS courses)
+				if courses and any(c.startswith("CS ") for c in courses[:5] if isinstance(c, str)):
+					# Only match if requirement mentions "computer" or "cs" or is generic "elective"
+					if "computer" in req_key or "cs" in req_key or req_key == "elective":
+						return courses
+		
+		return None
 
 	if requirement.requirement_type == "course":
 		course_slugs = requirement.all_course_slugs()
@@ -856,19 +937,39 @@ def evaluate_requirement(
 				}
 			)
 		else:
-			ge_entry = requirement.ge_areas[0] if requirement.ge_areas else None
-			ge_info = datastore.ge_catalog.get(ge_entry) if ge_entry else None
-			if ge_info:
-				result["suggested_courses"] = ge_info.get("courses", [])
-				result.setdefault("units", ge_info.get("units", requirement.units))
+			# First try to get major-specific courses
+			major_courses = _get_major_specific_courses(requirement.display_name)
+			if major_courses:
+				result["suggested_courses"] = major_courses
+			else:
+				# Fall back to generic GE catalog
+				ge_entry = requirement.ge_areas[0] if requirement.ge_areas else None
+				ge_info = datastore.ge_catalog.get(ge_entry) if ge_entry else None
+				if ge_info:
+					result["suggested_courses"] = ge_info.get("courses", [])
+			result.setdefault("units", requirement.units or 3.0)
+			if requirement.ge_areas:
+				ge_info = datastore.ge_catalog.get(requirement.ge_areas[0])
+				if ge_info:
+					result.setdefault("units", ge_info.get("units", requirement.units))
 		return result
 
 	if requirement.requirement_type == "elective":
-		result.update(
-			{
-				"detail": "Work with advisor to choose an appropriate elective.",
-			}
-		)
+		# Check if there are major-specific elective courses
+		major_courses = _get_major_specific_courses(requirement.display_name)
+		if major_courses:
+			result.update(
+				{
+					"detail": "Work with advisor to choose an appropriate elective.",
+					"suggested_courses": major_courses,
+				}
+			)
+		else:
+			result.update(
+				{
+					"detail": "Work with advisor to choose an appropriate elective.",
+				}
+			)
 		return result
 
 	if requirement.requirement_type == "activity":
@@ -897,12 +998,15 @@ def analyze_requirements(
 	roadmap = datastore.load_roadmap(student_profile.get("major", ""))
 	requirements = build_requirements(roadmap)
 	record = build_student_record(student_profile, datastore)
+	
+	# Load academic catalog for major-specific course suggestions
+	academic_catalog = datastore.load_academic_catalog(student_profile.get("major", ""))
 
 	fulfilled: List[Dict[str, Any]] = []
 	remaining: List[Dict[str, Any]] = []
 
 	for requirement in requirements:
-		status = evaluate_requirement(requirement, record, datastore)
+		status = evaluate_requirement(requirement, record, datastore, academic_catalog)
 		if status["status"] == "fulfilled":
 			fulfilled.append(status)
 		elif status["status"] == "in_progress":
@@ -993,9 +1097,72 @@ def plan_semesters(
 	record: StudentRecord,
 	requirements: List[Requirement],
 	datastore: DataStore,
+	academic_catalog: Optional[Dict[str, Any]] = None,
 ) -> Tuple[List[Dict[str, Any]], float]:
 	units_per_semester = float(student_profile.get("units_per_semester") or 15)
 	max_semester_units = units_per_semester
+	
+	def get_major_specific_courses(requirement_name: str) -> Optional[List[str]]:
+		"""Extract major-specific course options from academic catalog"""
+		if not academic_catalog:
+			return None
+		
+		catalog_data = academic_catalog.get("output", {})
+		req_key = normalize_key(requirement_name)
+		
+		# Check optional_sequences (like Science Electives)
+		optional_sequences = catalog_data.get("major_requirements", {}).get("optional_sequences", [])
+		for seq in optional_sequences:
+			seq_name = seq.get("name", "")
+			seq_key = normalize_key(seq_name)
+			
+			# Direct match
+			if seq_key == req_key:
+				courses = []
+				for option_group in seq.get("options", []):
+					for option in option_group:
+						course_code = option.lstrip("|&").strip()
+						if course_code and course_code != "NONE":
+							courses.append(course_code)
+				if courses:
+					return courses
+			
+			# Special case: GE Area 5B/5C maps to Science Electives
+			# Only match if requirement explicitly mentions 5b or 5c or is just "science"
+			if "science" in seq_key and ("5b" in req_key or "5c" in req_key):
+				courses = []
+				for option_group in seq.get("options", []):
+					for option in option_group:
+						course_code = option.lstrip("|&").strip()
+						if course_code and course_code != "NONE":
+							courses.append(course_code)
+				if courses:
+					return courses
+		
+		# Check field_requirements (like Major Electives)
+		field_requirements = catalog_data.get("field_requirements", [])
+		for field in field_requirements:
+			field_name = field.get("field_name", "")
+			field_key = normalize_key(field_name)
+			
+			# For electives, check if the field name matches
+			# "Computer Science Elective" should match "Major Electives" if it contains CS courses
+			if field_key == req_key:
+				courses = field.get("courses", [])
+				if courses:
+					return courses
+			
+			# Fuzzy match: "Computer Science Elective" or "Upper Division Computer Science Elective" 
+			# should match field that has "Major Electives" and contains CS courses
+			if "elective" in req_key and "elective" in field_key:
+				courses = field.get("courses", [])
+				# Check if this is a CS major electives field (has CS courses)
+				if courses and any(c.startswith("CS ") for c in courses[:5] if isinstance(c, str)):
+					# Only match if requirement mentions "computer" or "cs" or is generic "elective"
+					if "computer" in req_key or "cs" in req_key or req_key == "elective":
+						return courses
+		
+		return None
 
 	def slug_to_display(slug: str) -> str:
 		info = datastore.course_catalog.get(slug)
@@ -1174,15 +1341,17 @@ def plan_semesters(
 				ge_units = _requirement_units(ge_req, datastore)
 				if term_units + ge_units <= max_semester_units:
 					pending_ge.remove(ge_req)
+					# Get major-specific courses or fall back to GE catalog
+					suggested = get_major_specific_courses(ge_req.display_name)
+					if not suggested and ge_req.ge_areas:
+						suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 					term_courses.append(
 						{
 							"course": ge_req.display_name,
 							"title": "Select approved GE course",
 							"units": ge_units,
 							"type": "ge",
-							"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
-							if ge_req.ge_areas
-							else [],
+							"suggested_courses": suggested or [],
 						}
 					)
 					term_units += ge_units
@@ -1246,15 +1415,17 @@ def plan_semesters(
 					ge_units = _requirement_units(ge_req, datastore)
 					if term_units + ge_units <= max_semester_units:
 						pending_ge.remove(ge_req)
+						# Get major-specific courses or fall back to GE catalog
+						suggested = get_major_specific_courses(ge_req.display_name)
+						if not suggested and ge_req.ge_areas:
+							suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 						term_courses.append(
 							{
 								"course": ge_req.display_name,
 								"title": "Select approved GE course",
 								"units": ge_units,
 								"type": "ge",
-								"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
-								if ge_req.ge_areas
-								else [],
+								"suggested_courses": suggested or [],
 							}
 						)
 						term_units += ge_units
@@ -1318,15 +1489,18 @@ def plan_semesters(
 				elective_units = _requirement_units(elective_req, datastore)
 				if term_units + elective_units <= electives_target:
 					pending_electives.remove(elective_req)
-					term_courses.append(
-						{
-							"course": elective_req.display_name,
-							"title": elective_req.display_name,
-							"units": elective_units,
-							"type": "elective",
-							"detail": "Work with advisor to choose an appropriate elective.",
-						}
-					)
+					# Get major-specific elective courses
+					suggested = get_major_specific_courses(elective_req.display_name)
+					elective_entry = {
+						"course": elective_req.display_name,
+						"title": elective_req.display_name,
+						"units": elective_units,
+						"type": "elective",
+						"detail": "Work with advisor to choose an appropriate elective.",
+					}
+					if suggested:
+						elective_entry["suggested_courses"] = suggested
+					term_courses.append(elective_entry)
 					term_units += elective_units
 					scheduled_unit_total += elective_units
 					total_units -= elective_units
@@ -1465,15 +1639,17 @@ def plan_semesters(
 				if term_units + ge_units > max_semester_units:
 					break
 				pending_ge.pop(0)
+				# Get major-specific courses or fall back to GE catalog
+				suggested = get_major_specific_courses(ge_req.display_name)
+				if not suggested and ge_req.ge_areas:
+					suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 				term_courses.append(
 					{
 						"course": ge_req.display_name,
 						"title": "Select approved GE course",
 						"units": ge_units,
 						"type": "ge",
-						"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
-						if ge_req.ge_areas
-						else [],
+						"suggested_courses": suggested or [],
 					}
 				)
 				term_units += ge_units
@@ -1508,15 +1684,18 @@ def plan_semesters(
 				if term_units + elective_units > max_semester_units:
 					break
 				pending_electives.pop(0)
-				term_courses.append(
-					{
-						"course": elective_req.display_name,
-						"title": elective_req.display_name,
-						"units": elective_units,
-						"type": "elective",
-						"detail": "Work with advisor to choose an appropriate elective.",
-					}
-				)
+				# Get major-specific elective courses
+				suggested = get_major_specific_courses(elective_req.display_name)
+				elective_entry = {
+					"course": elective_req.display_name,
+					"title": elective_req.display_name,
+					"units": elective_units,
+					"type": "elective",
+					"detail": "Work with advisor to choose an appropriate elective.",
+				}
+				if suggested:
+					elective_entry["suggested_courses"] = suggested
+				term_courses.append(elective_entry)
 				term_units += elective_units
 				scheduled_unit_total += elective_units
 				total_units -= elective_units
@@ -1533,15 +1712,17 @@ def plan_semesters(
 						if term_units + ge_units > max_semester_units:
 							pending_ge.insert(0, ge_req)
 							break
+						# Get major-specific courses or fall back to GE catalog
+						suggested = get_major_specific_courses(ge_req.display_name)
+						if not suggested and ge_req.ge_areas:
+							suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 						term_courses.append(
 							{
 								"course": ge_req.display_name,
 								"title": "Select approved GE course",
 								"units": ge_units,
 								"type": "ge",
-								"suggested_courses": datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses")
-								if ge_req.ge_areas
-								else [],
+								"suggested_courses": suggested or [],
 							}
 						)
 						term_units += ge_units
@@ -1578,15 +1759,18 @@ def plan_semesters(
 						if term_units + elective_units > max_semester_units:
 							pending_electives.insert(0, elective_req)
 							break
-						term_courses.append(
-							{
-								"course": elective_req.display_name,
-								"title": elective_req.display_name,
-								"units": elective_units,
-								"type": "elective",
-								"detail": "Work with advisor to choose an appropriate elective.",
-							}
-						)
+						# Get major-specific elective courses
+						suggested = get_major_specific_courses(elective_req.display_name)
+						elective_entry = {
+							"course": elective_req.display_name,
+							"title": elective_req.display_name,
+							"units": elective_units,
+							"type": "elective",
+							"detail": "Work with advisor to choose an appropriate elective.",
+						}
+						if suggested:
+							elective_entry["suggested_courses"] = suggested
+						term_courses.append(elective_entry)
 						term_units += elective_units
 						scheduled_unit_total += elective_units
 						total_units -= elective_units
@@ -1946,7 +2130,11 @@ def recommendation_engine(
 ) -> Tuple[Dict[str, Any], List[Dict[str, Any]], int]:
 	datastore = datastore or DataStore()
 	record, fulfilled, remaining, requirements = analyze_requirements(student_profile, datastore)
-	plan, semesters = plan_semesters(student_profile, record, requirements, datastore)
+	
+	# Load academic catalog for major-specific course suggestions
+	academic_catalog = datastore.load_academic_catalog(student_profile.get("major", ""))
+	
+	plan, semesters = plan_semesters(student_profile, record, requirements, datastore, academic_catalog)
 
 	units_remaining = sum(
 		_requirement_units(req, datastore)
@@ -2143,7 +2331,7 @@ def render_report(summary: Dict[str, Any], plan: List[Dict[str, Any]], semesters
 
 if __name__ == "__main__":
 	sample_student = {
-		"major": "Data Science",
+		"major": "Computer Science",
 		
 		"units_per_semester": 15,
 	}

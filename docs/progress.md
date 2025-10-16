@@ -1,5 +1,21 @@
 # sparq Progress
 
+## OCT 15, 2025
+- Fixed app.py Science Course recomendations
+- Made events.py print a proper json with important info
+- Added the events endpoint to the api
+Example usage
+```python
+from sparq import Sparq
+
+client = Sparq(api_key="")  # Auto-loads API key from ~/.sparq/config.txt or set manually
+events = client.events()
+print(events)
+```
+
+## OCT 13, 2025
+- Created events.py which finds local events going on at SJSU
+
 ## OCT 12, 2025
 - Developed the sparq CLI (`pip install sparq`) for easy API interaction. [https://pypi.org/project/sparq]
 - Added user authentication and email verification (code sent to email).
