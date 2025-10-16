@@ -43,6 +43,15 @@ plan = client.plan(major="Computer Science", units_per_semester=15)
 print(plan)
 ```
 
+Added SJSU events as well:
+```python
+from sparq import Sparq
+
+client = Sparq(api_key="")  # Auto-loads API key from ~/.sparq/config.txt or set manually
+events = client.events()
+print(events)
+```
+
 ### Key Recovery
 
 If you lose your API key, recover it with:
