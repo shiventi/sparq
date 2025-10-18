@@ -4,85 +4,45 @@
 
 sparq helps SJSU students plan their classes, track progress, and find the fastest path to graduation. It combines AP scores, community college courses, and SJSU offerings to recommend the best next steps.
 
-
-## API & PyPI Package
-
 sparq provides a Python API and CLI for degree planning and course recommendations. Install the package from PyPI:
+## Quick API Usage
 
-[![PyPI version](https://img.shields.io/pypi/v/sparq.svg)](https://pypi.org/project/sparq)
+Install:
 
 ```bash
 pip install sparq
 ```
 
-### Authentication & API Key Management
-
-To use the API, you need to authenticate and get your API key:
+Authenticate:
 
 ```bash
 sparq auth
 ```
 
-This command will prompt you for your email and send a 6-digit verification code to that email. Enter the code to complete authentication. Your API key will be saved locally on your device.
-
-Once authenticated, you can use the Python API:
+Example:
 
 ```python
 from sparq import Sparq
-client = Sparq()  # Uses locally saved API key
-plan = client.plan(major="Computer Science", units_per_semester=15)
+client = Sparq()  # API key auto-loaded
+plan = client.plan(
+	major="Computer Science",
+	cc_courses=[{"code": "COMSC 075", "title": "Computer Science I", "grade": "A", "institution": "Evergreen Valley College"}],
+	units_per_semester=15,
+	schedule_preferences={"avoid_hours": ["8:00 AM", "8:00 PM"]}
+)
 print(plan)
 ```
 
-Or, you can provide the API key directly:
+Other commands:
 
-```python
-from sparq import Sparq
-client = Sparq(api_key="YOUR_API_KEY")
-plan = client.plan(major="Computer Science", units_per_semester=15)
-print(plan)
-```
+- `sparq usage` — View API usage
+- `sparq recover` — Recover lost API key
 
-Added SJSU events as well:
-```python
-from sparq import Sparq
+Features:
+- Automated degree planning for SJSU
+- Transfer credit support (CC, AP)
+- Usage tracking & key recovery
 
-client = Sparq(api_key="")  # Auto-loads API key from ~/.sparq/config.txt or set manually
-events = client.events()
-print(events)
-```
+For more, see `docs/documentation.md` or visit:
 
-### Key Recovery
-
-If you lose your API key, recover it with:
-
-```bash
-sparq recover
-```
-
-This will ask for your email, send a 6-digit verification code, and show your API key (which will also be saved locally).
-
-### Usage Tracking
-
-To view your API usage and call history:
-
-```bash
-sparq usage
-```
-
-This shows how many times you've called the API and a brief history of your calls.
-
-
-## Features
-- Degree planning API for SJSU students
-- User authentication and email verification
-- API key management and recovery
-- Usage tracking and statistics
-
-## Getting Started (For Developers)
-You can explore the data and scrapers locally. Python is the only backend requirement so far.
-
-```bash
-git clone https://github.com/shiventi/sparq.git
-cd sparq
-pip install -r requirements.txt
+https://github.com/shiventi/sparq/blob/main/docs/documentation.md

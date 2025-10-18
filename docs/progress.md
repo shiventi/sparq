@@ -1,5 +1,13 @@
 # sparq Progress
 
+## OCT 17, 2025
+- Created all_class_schedule_to_json.js
+- Generated schedule.json which creates the json schedule
+- Updated app.py to returns json of courses you can take with professor, timings etc
+- Updated quick.py to reflect app.py changes
+- Added documentation.md to create a simple documentation for usage.
+- Reformed readme.md to make it more readable
+
 ## OCT 15, 2025
 - Fixed app.py Science Course recomendations
 - Made events.py print a proper json with important info

@@ -3,7 +3,10 @@ from __future__ import annotations
 import json
 import math
 import re
+import argparse
+import sys
 from dataclasses import dataclass, field
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 
@@ -236,6 +239,83 @@ class Completion:
 	ge_areas: List[str] = field(default_factory=list)
 
 
+DAY_ORDER = ["M", "T", "W", "R", "F", "S", "U"]
+
+
+def _parse_time_component(component: str) -> Optional[int]:
+	component = (component or "").strip()
+	if not component or component.upper() in {"TBA", "ARR", "ONLINE"}:
+		return None
+	component_clean = component.replace(" ", "").upper()
+	formats = ["%I:%M%p", "%I%p", "%H:%M", "%H%M"]
+	for fmt in formats:
+		try:
+			dt = datetime.strptime(component_clean, fmt)
+			return dt.hour * 60 + dt.minute
+		except ValueError:
+			continue
+	return None
+
+
+def _parse_time_range(time_string: str) -> Tuple[Optional[int], Optional[int]]:
+	time_string = (time_string or "").strip()
+	if not time_string or time_string.upper() in {"TBA", "ARR", "ONLINE"}:
+		return None, None
+	if "-" not in time_string:
+		minutes = _parse_time_component(time_string)
+		return minutes, None
+	start_str, end_str = time_string.split("-", 1)
+	return _parse_time_component(start_str), _parse_time_component(end_str)
+
+
+def _parse_days(days_string: str) -> List[str]:
+	days_string = (days_string or "").strip().upper()
+	if not days_string or days_string in {"TBA", "ARR", "ONLINE"}:
+		return []
+	results: List[str] = []
+	for char in days_string:
+		if char in DAY_ORDER and (not results or results[-1] != char):
+			results.append(char)
+	return results
+
+
+@dataclass
+class ScheduleSection:
+	course_slug: str
+	course_code: str
+	section: str
+	class_number: str
+	instruction_mode: str
+	title: str
+	satisfies: str
+	units: float
+	section_type: str
+	day_pattern: str
+	day_set: Set[str]
+	start_minutes: Optional[int]
+	end_minutes: Optional[int]
+	time_string: str
+	instructor: str
+	location: str
+	dates: str
+	open_seats: Optional[int]
+	notes: str
+
+	def to_plan_dict(self) -> Dict[str, Any]:
+		return {
+			"section": self.section,
+			"class_number": self.class_number,
+			"instruction_mode": self.instruction_mode,
+			"instructor": self.instructor,
+			"days": self.day_pattern,
+			"times": self.time_string,
+			"location": self.location,
+			"dates": self.dates,
+			"open_seats": self.open_seats,
+			"notes": self.notes,
+		}
+
+
 SEMESTER_ORDER = {"Fall": 0, "Spring": 1, "Summer": 2, "Winter": 3}
 
 
@@ -302,6 +382,7 @@ class DataStore:
 		self._roadmap_cache: Dict[str, List[Dict[str, Any]]] = {}
 		self._cc_cache: Dict[str, Dict[str, Any]] = {}
 		self._academic_catalog_cache: Dict[str, Dict[str, Any]] = {}
+		self.schedule_index = self._load_schedule()
 
 	def _load_course_catalog(self) -> Dict[str, CourseInfo]:
 		catalog_path = self.data_dir / "all_sjsu_courses_with_ge.json"
@@ -452,6 +533,409 @@ class DataStore:
 		data = _read_json(catalog_path)
 		self._academic_catalog_cache[slug] = data
 		return data
+
+	def _load_schedule(self) -> Dict[str, List[ScheduleSection]]:
+		schedule_path = self.data_dir / "schedule.json"
+		if not schedule_path.exists():
+			return {}
+		entries = _read_json(schedule_path)
+		index: Dict[str, List[ScheduleSection]] = {}
+		for entry in entries or []:
+			section_name = (entry.get("Section") or "").strip()
+			if not section_name:
+				continue
+			course_part = section_name.split("(", 1)[0].strip()
+			if not course_part:
+				continue
+			course_code = normalize_course_code(course_part)
+			course_slug = course_code_to_slug(course_code)
+			if not course_slug:
+				continue
+			class_number = (entry.get("Class Number") or "").strip()
+			instruction_mode = (entry.get("Mode of Instruction") or "").strip()
+			title = (entry.get("Course Title") or "").strip()
+			satisfies = (entry.get("Satisfies") or "").strip()
+			units = parse_units(entry.get("Units"))
+			section_type = (entry.get("Type") or "").strip()
+			days_string = (entry.get("Days") or "").strip()
+			days_list = _parse_days(days_string)
+			day_pattern = "".join(days_list)
+			start_minutes, end_minutes = _parse_time_range(entry.get("Times"))
+			time_string = (entry.get("Times") or "").strip()
+			instructor = (entry.get("Instructor") or "").strip()
+			location = (entry.get("Location") or "").strip()
+			dates = (entry.get("Dates") or "").strip()
+			notes = (entry.get("Notes") or "").strip()
+			open_seats_raw = entry.get("Open Seats")
+			open_seats: Optional[int]
+			try:
+				open_seats = int(open_seats_raw)
+			except (TypeError, ValueError):
+				open_seats = None
+			section = ScheduleSection(
+				course_slug=course_slug,
+				course_code=course_code,
+				section=section_name,
+				class_number=class_number,
+				instruction_mode=instruction_mode,
+				title=title,
+				satisfies=satisfies,
+				units=units,
+				section_type=section_type,
+				day_pattern=day_pattern,
+				day_set=set(days_list),
+				start_minutes=start_minutes,
+				end_minutes=end_minutes,
+				time_string=time_string,
+				instructor=instructor,
+				location=location,
+				dates=dates,
+				open_seats=open_seats,
+				notes=notes,
+			)
+			index.setdefault(course_slug, []).append(section)
+		return index
+
+	def get_schedule_sections(self, course_slug: str) -> List[ScheduleSection]:
+		return self.schedule_index.get(course_slug, [])
+
+
+def _parse_time_setting(value: Any) -> Optional[int]:
+	if value is None:
+		return None
+	if isinstance(value, (int, float)):
+		# Treat values <= 24 as hours, otherwise assume minutes
+		if 0 <= value <= 24:
+			return int(round(value * 60))
+		return int(round(value))
+	value_str = str(value).strip()
+	if not value_str:
+		return None
+	value_upper = value_str.upper()
+	if any(suffix in value_upper for suffix in ("AM", "PM")):
+		return _parse_time_component(value_upper)
+	if ":" in value_str:
+		for fmt in ("%H:%M", "%I:%M"):
+			try:
+				dt = datetime.strptime(value_str, fmt)
+				return dt.hour * 60 + dt.minute
+			except ValueError:
+				continue
+	# Fallback: treat numeric value as hour in 24h format
+	try:
+		float_val = float(value_str)
+		if 0 <= float_val <= 24:
+			return int(round(float_val * 60))
+		return int(round(float_val))
+	except ValueError:
+		return _parse_time_component(value_str)
+
+
+def _normalize_pattern_values(values: Optional[Iterable[Any]]) -> Set[str]:
+	results: Set[str] = set()
+	if not values:
+		return results
+	for value in values:
+		if value is None:
+			continue
+		pattern = str(value).strip().upper().replace(" ", "")
+		if pattern:
+			results.add(pattern)
+	return results
+
+
+def _normalize_pattern_list(values: Optional[Iterable[Any]]) -> List[str]:
+	return sorted(_normalize_pattern_values(values))
+
+
+def _normalize_day_values(values: Optional[Iterable[Any]]) -> Set[str]:
+	results: Set[str] = set()
+	if not values:
+		return results
+	for value in values:
+		if value is None:
+			continue
+		for char in str(value).upper().strip():
+			if char in DAY_ORDER:
+				results.add(char)
+	return results
+
+
+def _convert_course_mapping(mapping: Optional[Dict[str, Any]]) -> Dict[str, List[str]]:
+	results: Dict[str, List[str]] = {}
+	if not mapping:
+		return results
+	for raw_key, raw_value in mapping.items():
+		key_str = str(raw_key or "").strip()
+		if not key_str:
+			continue
+		if key_str.lower() in {"*", "all", "any"}:
+			slug = "__global__"
+		else:
+			normalized_code = normalize_course_code(key_str.replace("_", " "))
+			if not normalized_code:
+				continue
+			slug = course_code_to_slug(normalized_code)
+		if not slug:
+			continue
+		if isinstance(raw_value, (list, tuple, set)):
+			names = [str(name).strip() for name in raw_value if str(name or "").strip()]
+		else:
+			names = [str(raw_value).strip()] if str(raw_value or "").strip() else []
+		if names:
+			results[slug] = names
+	return results
+
+
+def _parse_instructor_ratings(mapping: Optional[Dict[str, Any]]) -> Dict[str, float]:
+	results: Dict[str, float] = {}
+	if not mapping:
+		return results
+	for instructor, rating in mapping.items():
+		name = str(instructor or "").strip()
+		if not name:
+			continue
+		try:
+			results[name] = float(rating)
+		except (TypeError, ValueError):
+			continue
+	return results
+
+
+def _parse_schedule_preferences(raw: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+	preferences_raw = raw or {}
+	enabled = preferences_raw.get("enabled", True)
+	earliest_start = _parse_time_setting(
+		preferences_raw.get("earliest_start")
+		or preferences_raw.get("earliest_start_time")
+		or preferences_raw.get("no_earlier_than")
+	)
+	if preferences_raw.get("no_8am") or preferences_raw.get("no_8am_classes"):
+		earliest_start = max(earliest_start or 0, 9 * 60)
+	latest_end = _parse_time_setting(
+		preferences_raw.get("latest_end")
+		or preferences_raw.get("latest_end_time")
+		or preferences_raw.get("no_later_than")
+	)
+	required_day_patterns = _normalize_pattern_values(preferences_raw.get("required_day_patterns"))
+	allowed_day_patterns = _normalize_pattern_values(preferences_raw.get("allowed_day_patterns"))
+	avoid_day_patterns = _normalize_pattern_values(preferences_raw.get("avoid_day_patterns"))
+	preferred_day_patterns = _normalize_pattern_list(preferences_raw.get("preferred_day_patterns"))
+	required_days = _normalize_day_values(preferences_raw.get("required_days"))
+	preferred_days = _normalize_day_values(preferences_raw.get("preferred_days"))
+	avoid_days = _normalize_day_values(preferences_raw.get("avoid_days"))
+	only_days = _normalize_day_values(preferences_raw.get("only_days"))
+	allowed_instruction_modes = {str(mode).strip().lower() for mode in preferences_raw.get("allowed_instruction_modes", []) if str(mode or "").strip()}
+	avoid_instruction_modes = {str(mode).strip().lower() for mode in preferences_raw.get("avoid_instruction_modes", []) if str(mode or "").strip()}
+	allowed_section_types = {str(kind).strip().lower() for kind in preferences_raw.get("allowed_section_types", []) if str(kind or "").strip()}
+	avoid_section_types = {str(kind).strip().lower() for kind in preferences_raw.get("avoid_section_types", []) if str(kind or "").strip()}
+	preferred_instructors_map = _convert_course_mapping(preferences_raw.get("preferred_instructors"))
+	global_preferred = preferred_instructors_map.pop("__global__", [])
+	avoid_instructors_map = _convert_course_mapping(preferences_raw.get("avoid_instructors"))
+	global_avoid = avoid_instructors_map.pop("__global__", [])
+	instructor_ratings = _parse_instructor_ratings(preferences_raw.get("instructor_ratings"))
+	prefer_open_sections = bool(preferences_raw.get("prefer_open_sections", True))
+	return {
+		"enabled": enabled,
+		"earliest_start": earliest_start,
+		"latest_end": latest_end,
+		"required_day_patterns": required_day_patterns,
+		"allowed_day_patterns": allowed_day_patterns,
+		"avoid_day_patterns": avoid_day_patterns,
+		"preferred_day_patterns": preferred_day_patterns,
+		"required_days": required_days,
+		"preferred_days": preferred_days,
+		"avoid_days": avoid_days,
+		"only_days": only_days,
+		"allowed_instruction_modes": allowed_instruction_modes,
+		"avoid_instruction_modes": avoid_instruction_modes,
+		"allowed_section_types": allowed_section_types,
+		"avoid_section_types": avoid_section_types,
+		"preferred_instructors": preferred_instructors_map,
+		"global_preferred_instructors": global_preferred,
+		"avoid_instructors": avoid_instructors_map,
+		"global_avoid_instructors": global_avoid,
+		"instructor_ratings": instructor_ratings,
+		"prefer_open_sections": prefer_open_sections,
+	}
+
+
+def _section_matches_filters(section: ScheduleSection, preferences: Dict[str, Any]) -> bool:
+	if preferences["only_days"] and section.day_set:
+		if not section.day_set.issubset(preferences["only_days"]):
+			return False
+	if preferences["required_days"] and section.day_set:
+		if not preferences["required_days"].issubset(section.day_set):
+			return False
+	if preferences["required_day_patterns"]:
+		if section.day_pattern not in preferences["required_day_patterns"]:
+			return False
+	if preferences["allowed_day_patterns"]:
+		if section.day_pattern and section.day_pattern not in preferences["allowed_day_patterns"]:
+			return False
+	if preferences["avoid_day_patterns"] and section.day_pattern in preferences["avoid_day_patterns"]:
+		return False
+	if preferences["avoid_days"] and section.day_set and (section.day_set & preferences["avoid_days"]):
+		return False
+	earliest_start = preferences["earliest_start"]
+	if earliest_start is not None and section.start_minutes is not None:
+		if section.start_minutes < earliest_start:
+			return False
+	latest_end = preferences["latest_end"]
+	if latest_end is not None and section.end_minutes is not None:
+		if section.end_minutes > latest_end:
+			return False
+	allowed_instruction_modes = preferences["allowed_instruction_modes"]
+	if allowed_instruction_modes:
+		mode = section.instruction_mode.strip().lower()
+		if mode and mode not in allowed_instruction_modes:
+			return False
+	avoid_instruction_modes = preferences["avoid_instruction_modes"]
+	if avoid_instruction_modes:
+		mode = section.instruction_mode.strip().lower()
+		if mode and mode in avoid_instruction_modes:
+			return False
+	allowed_section_types = preferences["allowed_section_types"]
+	if allowed_section_types:
+		kind = section.section_type.strip().lower()
+		if kind and kind not in allowed_section_types:
+			return False
+	avoid_section_types = preferences["avoid_section_types"]
+	if avoid_section_types:
+		kind = section.section_type.strip().lower()
+		if kind and kind in avoid_section_types:
+			return False
+	return True
+
+
+def _instructor_preference_score(instructor: str, preferred_list: List[str]) -> float:
+	if not instructor or not preferred_list:
+		return 0.0
+	for index, name in enumerate(preferred_list):
+		if instructor.lower() == name.lower():
+			return 100.0 - index * 5.0
+	return 0.0
+
+
+
+def _score_section(section: ScheduleSection, preferences: Dict[str, Any], course_slug: str) -> float:
+	score = 0.0
+	preferred_map: Dict[str, List[str]] = preferences["preferred_instructors"]
+	avoid_map: Dict[str, List[str]] = preferences["avoid_instructors"]
+	course_pref = preferred_map.get(course_slug, []) or []
+	global_pref = preferences["global_preferred_instructors"]
+	preferred_list = course_pref + [name for name in global_pref if name not in course_pref]
+	course_avoid = avoid_map.get(course_slug, []) or []
+	global_avoid = preferences["global_avoid_instructors"]
+	avoid_list = course_avoid + [name for name in global_avoid if name not in course_avoid]
+	score += _instructor_preference_score(section.instructor, preferred_list)
+	if section.instructor and avoid_list:
+		for name in avoid_list:
+			if section.instructor.lower() == name.lower():
+				score -= 100.0
+				break
+	instructor_ratings = preferences["instructor_ratings"]
+	score += instructor_ratings.get(section.instructor, 0.0) * 10.0
+	if preferences["preferred_day_patterns"] and section.day_pattern in preferences["preferred_day_patterns"]:
+		score += 5.0
+	if preferences["preferred_days"] and section.day_set:
+		shared = len(section.day_set & preferences["preferred_days"])
+		score += shared * 1.5
+	if preferences["prefer_open_sections"] and section.open_seats is not None:
+		score += min(section.open_seats, 15) * 0.4
+	# Light preference toward mid-day classes if no specific preference supplied
+	if section.start_minutes is not None:
+		score -= abs(section.start_minutes - (12 * 60)) / 60.0
+	return score
+
+
+def _sections_conflict(a: ScheduleSection, b: ScheduleSection) -> bool:
+	if not a.day_set or not b.day_set:
+		return False
+	if not a.day_set.intersection(b.day_set):
+		return False
+	if a.start_minutes is None or b.start_minutes is None:
+		return False
+	end_a = a.end_minutes if a.end_minutes is not None else a.start_minutes
+	end_b = b.end_minutes if b.end_minutes is not None else b.start_minutes
+	return a.start_minutes < end_b and b.start_minutes < end_a
+
+
+def _select_section_for_course(
+	course_slug: str,
+	sections: List[ScheduleSection],
+	assigned_sections: List[ScheduleSection],
+	preferences: Dict[str, Any],
+) -> Tuple[Optional[ScheduleSection], Optional[float], str]:
+	filtered = [section for section in sections if _section_matches_filters(section, preferences)]
+	if not filtered:
+		return None, None, "unavailable"
+	scored: List[Tuple[float, ScheduleSection]] = []
+	for section in filtered:
+		if any(_sections_conflict(section, existing) for existing in assigned_sections):
+			continue
+		score = _score_section(section, preferences, course_slug)
+		scored.append((score, section))
+	if not scored:
+		return None, None, "conflict"
+	scored.sort(key=lambda item: (item[0], (item[1].open_seats or -1)), reverse=True)
+	best_score, best_section = scored[0]
+	return best_section, best_score, "matched"
+
+
+def assign_sections_to_plan(
+	plan: List[Dict[str, Any]],
+	student_profile: Dict[str, Any],
+	datastore: DataStore,
+) -> List[str]:
+	preferences = _parse_schedule_preferences(student_profile.get("schedule_preferences"))
+	if not preferences.get("enabled", True):
+		return []
+	if not datastore.schedule_index:
+		return ["Schedule data unavailable; could not match course sections."]
+	warnings: List[str] = []
+	for term in plan:
+		assigned_sections: List[ScheduleSection] = []
+		for course_entry in term.get("courses", []):
+			if course_entry.get("type") != "course":
+				continue
+			course_code = course_entry.get("course")
+			if not course_code:
+				continue
+			normalized_code = normalize_course_code(course_code)
+			course_slug = course_code_to_slug(normalized_code)
+			if not course_slug:
+				continue
+			sections = datastore.get_schedule_sections(course_slug)
+			if not sections:
+				message = f"No scheduled sections found for {course_code}."
+				warnings.append(message)
+				course_entry["section_selection"] = {
+					"status": "unavailable",
+					"message": message,
+				}
+				continue
+			selected, score, status = _select_section_for_course(course_slug, sections, assigned_sections, preferences)
+			if selected is None:
+				if status == "conflict":
+					message = f"No available section for {course_code} without time conflicts given preferences."
+				else:
+					message = f"No sections met the filters for {course_code}."
+				warnings.append(message)
+				course_entry["section_selection"] = {
+					"status": status,
+					"message": message,
+				}
+				continue
+			assigned_sections.append(selected)
+			selected_dict = selected.to_plan_dict()
+			if score is not None:
+				selected_dict["score"] = round(score, 2)
+			course_entry["section_selection"] = {
+				"status": status,
+				"section": selected_dict,
+			}
+	return warnings
 
 
 def build_student_record(student_profile: Dict[str, Any], datastore: DataStore) -> StudentRecord:
@@ -2135,6 +2619,7 @@ def recommendation_engine(
 	academic_catalog = datastore.load_academic_catalog(student_profile.get("major", ""))
 	
 	plan, semesters = plan_semesters(student_profile, record, requirements, datastore, academic_catalog)
+	schedule_warnings = assign_sections_to_plan(plan, student_profile, datastore)
 
 	units_remaining = sum(
 		_requirement_units(req, datastore)
@@ -2178,6 +2663,8 @@ def recommendation_engine(
 		clarifications.append("Elective placeholders need advisor-approved course selections.")
 	if any(course.get("type") == "ge" for term in plan for course in term.get("courses", [])):
 		clarifications.append("Verify GE selections satisfy SJSU-approved Area lists and any double-counting rules.")
+	if schedule_warnings:
+		clarifications.extend(schedule_warnings)
 
 	notes: List[str] = []
 	if acceleration and plan_length:
@@ -2193,6 +2680,7 @@ def recommendation_engine(
 		"acceleration": acceleration,
 		"clarifications": clarifications,
 		"notes": notes,
+		"schedule_warnings": schedule_warnings,
 	}
 	
 	# Generate validation report
@@ -2315,6 +2803,31 @@ def render_report(summary: Dict[str, Any], plan: List[Dict[str, Any]], semesters
 					lines.append(f"      Alternatives: {', '.join(course['alternatives'])}")
 				if course.get("suggested_courses"):
 					lines.append(f"      Suggested: {_clean_suggested_courses(course['suggested_courses'])}")
+				selection = course.get("section_selection") or {}
+				section_details = selection.get("section") if isinstance(selection, dict) else None
+				if section_details:
+					description_parts = []
+					section_label = section_details.get("section") or section_details.get("class_number")
+					if section_label:
+						description_parts.append(str(section_label))
+					instructor = section_details.get("instructor")
+					if instructor:
+						description_parts.append(f"with {instructor}")
+					days = section_details.get("days") or ""
+					times = section_details.get("times") or ""
+					when = " ".join(part for part in [days, times] if part)
+					if when:
+						description_parts.append(f"({when})")
+					location = section_details.get("location")
+					if location:
+						description_parts.append(f"@ {location}")
+					lines.append(f"      Section: {' '.join(description_parts)}")
+					if section_details.get("open_seats") is not None:
+						lines.append(f"      Open Seats: {section_details['open_seats']}")
+					if section_details.get("score") is not None:
+						lines.append(f"      Fit Score: {section_details['score']}")
+				if isinstance(selection, dict) and selection.get("message"):
+					lines.append(f"      Section note: {selection['message']}")
 				if course.get("note"):
 					lines.append(f"      Note: {course['note']}")
 			lines.append("")
@@ -2330,25 +2843,35 @@ def render_report(summary: Dict[str, Any], plan: List[Dict[str, Any]], semesters
 
 
 if __name__ == "__main__":
-	sample_student = {
-		"major": "Computer Science",
-		
-		"units_per_semester": 15,
-	}
+	parser = argparse.ArgumentParser(description="Generate a SPARQ plan as JSON.")
+	parser.add_argument("--input", "-i", type=Path, help="Path to a student profile JSON file. Defaults to stdin.")
+	parser.add_argument("--output", "-o", type=Path, help="Optional path to write the resulting JSON.")
+	args = parser.parse_args()
 
-	summary, plan, semesters = recommendation_engine(sample_student)
-	
-	# Create JSON output
+	def _load_profile(path: Optional[Path]) -> Dict[str, Any]:
+		if path:
+			with path.open("r", encoding="utf-8") as handle:
+				return json.load(handle)
+		if sys.stdin.isatty():
+			parser.error("No input provided. Supply JSON via stdin or --input.")
+		return json.load(sys.stdin)
+
+	profile = _load_profile(args.input)
+	summary, plan, semesters = recommendation_engine(profile)
+
 	output = {
-		"major": sample_student["major"],
-		"units_remaining": summary["units_remaining"],
+		"major": profile.get("major"),
+		"units_remaining": summary.get("units_remaining"),
 		"estimated_semesters": semesters,
-		"fulfilled_requirements": summary["fulfilled"],
-		"remaining_requirements": summary["remaining"],
+		"fulfilled_requirements": summary.get("fulfilled"),
+		"remaining_requirements": summary.get("remaining"),
 		"semester_plan": plan,
 		"notes": summary.get("notes", []),
 	}
-	
-	# Print JSON
-	print(json.dumps(output, indent=2))
+
+	if args.output:
+		args.output.write_text(json.dumps(output, indent=2), encoding="utf-8")
+	else:
+		json.dump(output, sys.stdout, indent=2)
+		sys.stdout.write("\n")
 
