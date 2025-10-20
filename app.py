@@ -424,11 +424,26 @@ class DataStore:
 				area_list = []
 			for area in area_list:
 				key = area.upper()
-				catalog[key] = {
-					"title": entry.get("title", area),
-					"courses": entry.get("course", []),
-					"units": parse_units(entry.get("units", 0)),
-				}
+				courses = entry.get("course", [])
+				# Flatten courses if they're nested lists
+				flat_courses = []
+				for course in courses:
+					if isinstance(course, list):
+						flat_courses.extend(course)
+					else:
+						flat_courses.append(course)
+				
+				# Merge courses if area already exists
+				if key in catalog:
+					existing_set = set(catalog[key]["courses"])
+					new_set = set(flat_courses)
+					catalog[key]["courses"] = list(existing_set | new_set)
+				else:
+					catalog[key] = {
+						"title": entry.get("title", area),
+						"courses": flat_courses,
+						"units": parse_units(entry.get("units", 0)),
+					}
 		return catalog
 
 	def _load_ap_catalog(self) -> Dict[str, Dict[str, Any]]:
@@ -1130,6 +1145,18 @@ def _parse_requirement_tokens(name: Any) -> Tuple[List[str], List[str]]:
 		combined = str(name)
 	upper = combined.upper()
 	ge_matches = re.findall(r"GE_AREA_[A-Z0-9]+", upper)
+	
+	# Special handling for "GE_Area_XY_and_ZW" patterns
+	# Example: "GE_Area_5B_and_5C" should match both 5B and 5C
+	and_pattern = re.search(r"GE_AREA_(\d[A-Z]?)_AND_(\d[A-Z]?)", upper)
+	if and_pattern:
+		area1 = f"GE_AREA_{and_pattern.group(1)}"
+		area2 = f"GE_AREA_{and_pattern.group(2)}"
+		if area1 not in ge_matches:
+			ge_matches.append(area1)
+		if area2 not in ge_matches:
+			ge_matches.append(area2)
+	
 	ai_matches_raw = re.findall(r"US[_A-Z0-9]+", upper)
 	ai_matches: List[str] = []
 	for match in ai_matches_raw:
@@ -1242,6 +1269,42 @@ def build_requirements(roadmap: Sequence[Dict[str, Any]]) -> List[Requirement]:
 	return requirements
 
 
+def deduplicate_ge_requirements(
+	requirements: List[Requirement],
+	datastore: DataStore,
+) -> List[Requirement]:
+	"""Remove GE requirements that are already satisfied by specific course requirements in the roadmap"""
+	# Build a map of which GE areas are satisfied by course requirements
+	ge_areas_from_courses: Dict[str, List[str]] = {}  # ge_area -> list of course_slugs that satisfy it
+	
+	for req in requirements:
+		if req.requirement_type == "course":
+			for slug in req.all_course_slugs():
+				course_info = datastore.course_catalog.get(slug)
+				if course_info and course_info.ge_areas:
+					for ge_area in course_info.ge_areas:
+						if ge_area not in ge_areas_from_courses:
+							ge_areas_from_courses[ge_area] = []
+						ge_areas_from_courses[ge_area].append(slug)
+	
+	# Now filter out GE requirements that are redundant
+	filtered_requirements = []
+	for req in requirements:
+		if req.requirement_type == "ge" and req.ge_areas:
+			# Check if all this requirement's GE areas are satisfied by course requirements
+			all_satisfied = True
+			for ge_area in req.ge_areas:
+				if ge_area not in ge_areas_from_courses:
+					all_satisfied = False
+					break
+			if all_satisfied:
+				# This GE requirement is redundant, skip it
+				continue
+		filtered_requirements.append(req)
+	
+	return filtered_requirements
+
+
 def evaluate_requirement(
 	requirement: Requirement,
 	record: StudentRecord,
@@ -1280,18 +1343,6 @@ def evaluate_requirement(
 			
 			# Direct match
 			if seq_key == req_key:
-				courses = []
-				for option_group in seq.get("options", []):
-					for option in option_group:
-						course_code = option.lstrip("|&").strip()
-						if course_code and course_code != "NONE":
-							courses.append(course_code)
-				if courses:
-					return courses
-			
-			# Special case: GE Area 5B/5C maps to Science Electives
-			# Only match if requirement explicitly mentions 5b or 5c or is just "science"
-			if "science" in seq_key and ("5b" in req_key or "5c" in req_key):
 				courses = []
 				for option_group in seq.get("options", []):
 					for option in option_group:
@@ -1427,10 +1478,39 @@ def evaluate_requirement(
 				result["suggested_courses"] = major_courses
 			else:
 				# Fall back to generic GE catalog
-				ge_entry = requirement.ge_areas[0] if requirement.ge_areas else None
-				ge_info = datastore.ge_catalog.get(ge_entry) if ge_entry else None
-				if ge_info:
-					result["suggested_courses"] = ge_info.get("courses", [])
+				if requirement.ge_areas:
+					req_lower = requirement.display_name.lower()
+					# Special handling for Science Electives with lab requirement
+					# If this is a "5B and 5C" or "5C" requirement with Science keyword,
+					# show all major's Science Electives that have lab (5C), not just life science (5B)
+					if ("5b" in req_lower and "5c" in req_lower) or ("science" in req_lower and "5c" in req_lower):
+						major_courses = _get_major_specific_courses("Science Electives")
+						if major_courses:
+							# Filter Science Electives to only those with lab component (Area 5C)
+							area_5c_courses = set(datastore.ge_catalog.get("GE_AREA_5C", {}).get("courses", []))
+							if area_5c_courses:
+								cleaned_major = [m.lstrip("|&").strip() for m in major_courses]
+								suggested = [
+									m for m in cleaned_major
+									if any(normalize_course_code(m) == normalize_course_code(c) for c in area_5c_courses)
+								]
+								result["suggested_courses"] = suggested
+					
+					# If no special handling or no results, use standard GE intersection
+					if "suggested_courses" not in result:
+						if len(requirement.ge_areas) > 1:
+							candidate_sets = []
+							for area in requirement.ge_areas:
+								area_courses = set(datastore.ge_catalog.get(area, {}).get("courses", []))
+								if area_courses:
+									candidate_sets.append(area_courses)
+							if candidate_sets:
+								suggested = list(candidate_sets[0].intersection(*candidate_sets[1:]))
+								result["suggested_courses"] = suggested
+						else:
+							ge_info = datastore.ge_catalog.get(requirement.ge_areas[0])
+							if ge_info:
+								result["suggested_courses"] = ge_info.get("courses", [])
 			result.setdefault("units", requirement.units or 3.0)
 			if requirement.ge_areas:
 				ge_info = datastore.ge_catalog.get(requirement.ge_areas[0])
@@ -1481,6 +1561,8 @@ def analyze_requirements(
 ) -> Tuple[StudentRecord, List[Dict[str, Any]], List[Dict[str, Any]], List[Requirement]]:
 	roadmap = datastore.load_roadmap(student_profile.get("major", ""))
 	requirements = build_requirements(roadmap)
+	# Remove duplicate GE requirements that are satisfied by specific course requirements
+	requirements = deduplicate_ge_requirements(requirements, datastore)
 	record = build_student_record(student_profile, datastore)
 	
 	# Load academic catalog for major-specific course suggestions
@@ -1602,18 +1684,6 @@ def plan_semesters(
 			
 			# Direct match
 			if seq_key == req_key:
-				courses = []
-				for option_group in seq.get("options", []):
-					for option in option_group:
-						course_code = option.lstrip("|&").strip()
-						if course_code and course_code != "NONE":
-							courses.append(course_code)
-				if courses:
-					return courses
-			
-			# Special case: GE Area 5B/5C maps to Science Electives
-			# Only match if requirement explicitly mentions 5b or 5c or is just "science"
-			if "science" in seq_key and ("5b" in req_key or "5c" in req_key):
 				courses = []
 				for option_group in seq.get("options", []):
 					for option in option_group:
@@ -1828,7 +1898,39 @@ def plan_semesters(
 					# Get major-specific courses or fall back to GE catalog
 					suggested = get_major_specific_courses(ge_req.display_name)
 					if not suggested and ge_req.ge_areas:
-						suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
+						req_lower = ge_req.display_name.lower()
+						# Special handling for Science Electives with lab requirement
+						# If this is a "5B and 5C" or "5C" requirement with Science keyword,
+						# show all major's Science Electives that have lab (5C), not just life science (5B)
+						if ("5b" in req_lower and "5c" in req_lower) or ("science" in req_lower and "5c" in req_lower):
+							major_courses = get_major_specific_courses("Science Electives")
+							if major_courses:
+								# Filter Science Electives to only those with lab component (Area 5C)
+								area_5c_courses = set(datastore.ge_catalog.get("GE_AREA_5C", {}).get("courses", []))
+								if area_5c_courses:
+									cleaned_major = [m.lstrip("|&").strip() for m in major_courses]
+									# Find matching courses and keep the GE catalog format (with underscores)
+									suggested = []
+									for m in cleaned_major:
+										for c in area_5c_courses:
+											if normalize_course_code(m) == normalize_course_code(c):
+												suggested.append(c.lstrip("|&").strip())
+												break
+						
+						# If no special handling or no results, use standard GE intersection
+						if not suggested:
+							if len(ge_req.ge_areas) > 1:
+								# Look for courses that appear in all required GE areas
+								candidate_sets = []
+								for area in ge_req.ge_areas:
+									area_courses = set(datastore.ge_catalog.get(area, {}).get("courses", []))
+									if area_courses:
+										candidate_sets.append(area_courses)
+								if candidate_sets:
+									# Intersection of all sets
+									suggested = list(candidate_sets[0].intersection(*candidate_sets[1:]))
+							else:
+								suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 					term_courses.append(
 						{
 							"course": ge_req.display_name,
@@ -1884,6 +1986,16 @@ def plan_semesters(
 				term_completed.add(available_slug)
 				pending_courses.remove(req)
 				made_progress = True
+				
+				# Check if this course satisfies any pending GE requirements
+				if info and info.ge_areas:
+					for ge_req in list(pending_ge):
+						# Check if any of the course's GE areas match this requirement's GE areas
+						if any(course_ge in ge_req.ge_areas for course_ge in info.ge_areas):
+							# This course satisfies this GE requirement, remove it
+							pending_ge.remove(ge_req)
+							ge_units = _requirement_units(ge_req, datastore)
+							total_units -= ge_units
 			
 			# THIRD: Now try upper-division GE if we have space and met the 60-unit threshold
 			current_total = completed_unit_total + scheduled_unit_total
@@ -1902,7 +2014,39 @@ def plan_semesters(
 						# Get major-specific courses or fall back to GE catalog
 						suggested = get_major_specific_courses(ge_req.display_name)
 						if not suggested and ge_req.ge_areas:
-							suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
+							req_lower = ge_req.display_name.lower()
+							# Special handling for Science Electives with lab requirement
+							# If this is a "5B and 5C" or "5C" requirement with Science keyword,
+							# show all major's Science Electives that have lab (5C), not just life science (5B)
+							if ("5b" in req_lower and "5c" in req_lower) or ("science" in req_lower and "5c" in req_lower):
+								major_courses = get_major_specific_courses("Science Electives")
+								if major_courses:
+									# Filter Science Electives to only those with lab component (Area 5C)
+									area_5c_courses = set(datastore.ge_catalog.get("GE_AREA_5C", {}).get("courses", []))
+									if area_5c_courses:
+										cleaned_major = [m.lstrip("|&").strip() for m in major_courses]
+										# Find matching courses and keep the GE catalog format (with underscores)
+										suggested = []
+										for m in cleaned_major:
+											for c in area_5c_courses:
+												if normalize_course_code(m) == normalize_course_code(c):
+													suggested.append(c.lstrip("|&").strip())
+													break
+							
+							# If no special handling or no results, use standard GE intersection
+							if not suggested:
+								if len(ge_req.ge_areas) > 1:
+									# Look for courses that appear in all required GE areas
+									candidate_sets = []
+									for area in ge_req.ge_areas:
+										area_courses = set(datastore.ge_catalog.get(area, {}).get("courses", []))
+										if area_courses:
+											candidate_sets.append(area_courses)
+									if candidate_sets:
+										# Intersection of all sets
+										suggested = list(candidate_sets[0].intersection(*candidate_sets[1:]))
+								else:
+									suggested = datastore.ge_catalog.get(ge_req.ge_areas[0], {}).get("courses", [])
 						term_courses.append(
 							{
 								"course": ge_req.display_name,

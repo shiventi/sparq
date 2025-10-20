@@ -29,9 +29,18 @@ AVAILABLE_SCHEDULE_PREFERENCES: Dict[str, str] = {
 }
 
 
-def _format_section_details(selection: Dict[str, Any]) -> str:
+def _format_section_details(selection: Dict[str, Any], course: Dict[str, Any]) -> str:
     if selection.get("status") != "matched" or not selection.get("section"):
-        return selection.get("message", "No matching section found.")
+        message = selection.get("message", "No matching section found.")
+        # Show suggested courses if available
+        suggested = course.get("suggested_courses", [])
+        if suggested:
+            # Format suggested courses nicely
+            course_list = ", ".join(suggested[:5])
+            if len(suggested) > 5:
+                course_list += ", ..."
+            return f"{message} | Try: {course_list}"
+        return message
     section = selection["section"]
     parts = []
     label = section.get("section") or section.get("class_number")
@@ -78,10 +87,30 @@ def print_schedule_overview(plan: Iterable[Dict[str, Any]]) -> None:
             info = f"{course_code}" if course_code == title or not title else f"{course_code} – {title}"
             units = course.get("units")
             print(f"  • {info} ({units} units)")
+            
+            # Show suggested courses for GE requirements and electives
+            if course.get("type") in ("ge", "elective"):
+                suggested = course.get("suggested_courses", [])
+                if suggested:
+                    # Clean up course codes (remove leading || or &&)
+                    cleaned = [c.lstrip("|&").strip() for c in suggested]
+                    course_list = ", ".join(cleaned[:5])
+                    if len(cleaned) > 5:
+                        course_list += ", ..."
+                    print(f"      Options: {course_list}")
+                continue
+            
             if course.get("type") != "course":
                 continue
+            
+            # Show alternatives if available
+            alternatives = course.get("alternatives")
+            if alternatives:
+                alt_list = ", ".join(alternatives)
+                print(f"      Alternatives: {alt_list}")
+            
             selection = course.get("section_selection") or {}
-            detail = _format_section_details(selection)
+            detail = _format_section_details(selection, course)
             print(f"      {detail}")
         print("")
 

@@ -1,5 +1,9 @@
 # sparq Progress
 
+## OCT 19, 2025
+- Changed the sparq-api underlying infrastructure to update the class schedule every hour due to changing seats during class selection periods
+- Test scripts for the sparq-api
+
 ## OCT 17, 2025
 - Created all_class_schedule_to_json.js
 - Generated schedule.json which creates the json schedule
