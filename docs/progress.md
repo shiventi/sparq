@@ -1,5 +1,17 @@
 # sparq Progress
 
+## OCT 20 - NOV 6, 2025
+- Made many big improvements to the recommendation engine to improve course suggestions and degree planning accuracy.
+- Enhanced prerequisite checking to ensure students meet all course requirements before enrollment.
+- Improved scheduling preferences to better accommodate student needs, such as avoiding early morning classes.
+- Updated the API to reflect these changes, ensuring users receive the most accurate and personalized recommendations.
+- Created the website backend using Django and set up the frontend using Next.js, React, and Tailwind CSS.
+- Integrated the backend API with the frontend to allow users to plan their degrees directly on the website.
+- Added planning feature to the website to allow users to generate degree plans + course search to learn more about classes.
+- Added events page to show local SJSU events.
+- Deployed the website on Vercel: [sjsu.vercel.app](https://sjsu.vercel.app)
+- Updated documentation and readme files to guide users on using the new features and website.
+
 ## OCT 19, 2025
 - Changed the sparq-api underlying infrastructure to update the class schedule every hour due to changing seats during class selection periods
 - Test scripts for the sparq-api

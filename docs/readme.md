@@ -1,3 +1,10 @@
+**Please visit [sjsu.vercel.app](https://sjsu.vercel.app) to test sparq!**
+
+Inside the website, you can:
+- Plan your classes
+- Search for classes
+- View the events list
+
 # sparq
 
 **Plan your SJSU degree with ease.**
@@ -37,12 +44,15 @@ Other commands:
 
 - `sparq usage` — View API usage
 - `sparq recover` — Recover lost API key
+- `sparq classes` — List available SJSU classes
 
 Features:
 - Automated degree planning for SJSU
 - Transfer credit support (CC, AP)
 - Usage tracking & key recovery
 
-For more, see `docs/documentation.md` or visit:
 
+---
+
+For more, see `docs/documentation.md` or visit:
 https://github.com/shiventi/sparq/blob/main/docs/documentation.md
