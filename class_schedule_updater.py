@@ -57,7 +57,7 @@ driver = webdriver.Chrome(service=service, options=options)
 
 try:
     # Open the URL need to change url every semester
-    driver.get("https://www.sjsu.edu/classes/schedules/fall-2025.php")
+    driver.get("https://www.sjsu.edu/classes/schedules/fall-2026.php")
     
     # Wait for the page to load
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
