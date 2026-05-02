@@ -1,4 +1,4 @@
-**Please visit [sjsu.vercel.app](https://sjsu.vercel.app) to test sparq!**
+**Please visit [sjsu.vercel.app](https://sparq.page) to test sparq!**
 
 Inside the website, you can:
 - Plan your classes
